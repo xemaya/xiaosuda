@@ -1,0 +1,226 @@
+{
+  "project_id": "p_c25a69a144ae4b13",
+  "board_version": "v_a33652f9217b421a",
+  "setting_version": "v_832e226ade494d98",
+  "recipe": "recipes/plush-dialogue-v14 (H3 Ref2VA, 4 steps, euler/beta, 768x1376, CFR24)",
+  "status": "user_accepted",
+  "note": "全部 20 段都是直接剪接：本工程 22 帧续接会把上一段末尾当上下文放进本段开头（接缝差 42–51，S1E04 同期 3.7）并截掉段末约 0.9 秒语音，因此本集一律直接剪。",
+  "shots": {
+    "S01": {
+      "job_id": "j_3238f98dca8740b3",
+      "take_asset": "a_68fefbec24de4ec2",
+      "frames": 95,
+      "dialogue_ids": [
+        "d1"
+      ],
+      "continuity": "cut"
+    },
+    "S02": {
+      "job_id": "j_9bf573aa4cbc4c7e",
+      "take_asset": "a_60f8e645ec434b1f",
+      "frames": 202,
+      "dialogue_ids": [
+        "d2",
+        "d3"
+      ],
+      "continuity": "cut"
+    },
+    "S03": {
+      "job_id": "j_dbd67bb26f624ed4",
+      "take_asset": "a_3dfe6d38ba974ee8",
+      "frames": 194,
+      "dialogue_ids": [
+        "d4",
+        "d5"
+      ],
+      "continuity": "cut"
+    },
+    "S04": {
+      "job_id": "j_2babd3af108a41de",
+      "take_asset": "a_b34e55867d074cf8",
+      "frames": 185,
+      "dialogue_ids": [
+        "d6",
+        "d7"
+      ],
+      "continuity": "cut"
+    },
+    "S05": {
+      "job_id": "j_9242581c39a94c86",
+      "take_asset": "a_b4e2cb3d0699490a",
+      "frames": 214,
+      "dialogue_ids": [
+        "d8",
+        "d9"
+      ],
+      "continuity": "cut"
+    },
+    "S06": {
+      "job_id": "j_d16f1b8a2ea54243",
+      "take_asset": "a_40c753c1da15403c",
+      "frames": 182,
+      "dialogue_ids": [
+        "d10",
+        "d11",
+        "d12"
+      ],
+      "continuity": "cut"
+    },
+    "S07": {
+      "job_id": "j_a486b7c9fa324782",
+      "take_asset": "a_87a787822ab44079",
+      "frames": 154,
+      "dialogue_ids": [
+        "d13",
+        "d14"
+      ],
+      "continuity": "cut"
+    },
+    "S08": {
+      "job_id": "j_132b14121e1d4d66",
+      "take_asset": "a_abee97c10d1f403a",
+      "frames": 229,
+      "dialogue_ids": [
+        "d15",
+        "d16"
+      ],
+      "continuity": "cut"
+    },
+    "S09": {
+      "job_id": "j_a66457ae8c75450d",
+      "take_asset": "a_594f7c98d3b44c94",
+      "frames": 140,
+      "dialogue_ids": [
+        "d17",
+        "d18"
+      ],
+      "continuity": "cut"
+    },
+    "S10": {
+      "job_id": "j_3020231cff8f4998",
+      "take_asset": "a_1407235a15aa44bc",
+      "frames": 161,
+      "dialogue_ids": [
+        "d19",
+        "d20"
+      ],
+      "continuity": "cut"
+    },
+    "S11": {
+      "job_id": "j_ace1f103230142e6",
+      "take_asset": "a_8394cd4eea9040e8",
+      "frames": 175,
+      "dialogue_ids": [
+        "d21",
+        "d22"
+      ],
+      "continuity": "cut"
+    },
+    "S12": {
+      "job_id": "j_c0f05665a96c4d8e",
+      "take_asset": "a_1fed6a3ad8134aea",
+      "frames": 194,
+      "dialogue_ids": [
+        "d23",
+        "d24"
+      ],
+      "continuity": "cut"
+    },
+    "S13": {
+      "job_id": "j_7b6a440028424b75",
+      "take_asset": "a_c81c6dc0da1e42a7",
+      "frames": 157,
+      "dialogue_ids": [
+        "d25",
+        "d26"
+      ],
+      "continuity": "cut"
+    },
+    "S14": {
+      "job_id": "j_48407857c7d34ac2",
+      "take_asset": "a_4cceb959d5aa4648",
+      "frames": 220,
+      "dialogue_ids": [
+        "d27",
+        "d28"
+      ],
+      "continuity": "cut"
+    },
+    "S15": {
+      "job_id": "j_349ff02e35124c27",
+      "take_asset": "a_abcaf4b891454ce6",
+      "frames": 137,
+      "dialogue_ids": [
+        "d29",
+        "d30"
+      ],
+      "continuity": "cut"
+    },
+    "S16": {
+      "job_id": "j_5c2cefaeecf240f6",
+      "take_asset": "a_0fcc7333377740ae",
+      "frames": 217,
+      "dialogue_ids": [
+        "d31",
+        "d32",
+        "d33"
+      ],
+      "continuity": "cut"
+    },
+    "S17": {
+      "job_id": "j_d6e2d3088dba45f5",
+      "take_asset": "a_db9147aa34434647",
+      "frames": 141,
+      "dialogue_ids": [
+        "d34",
+        "d35"
+      ],
+      "continuity": "cut"
+    },
+    "S18": {
+      "job_id": "j_af7741f4ecb842bd",
+      "take_asset": "a_c42a3a3bf46b4d8b",
+      "frames": 188,
+      "dialogue_ids": [
+        "d36",
+        "d37"
+      ],
+      "continuity": "cut"
+    },
+    "S19": {
+      "job_id": "j_7bbe667919a544d2",
+      "take_asset": "a_20e0e402e66044b4",
+      "frames": 165,
+      "dialogue_ids": [
+        "d38",
+        "d39"
+      ],
+      "continuity": "cut"
+    },
+    "S20": {
+      "job_id": "j_cc21c3bb8639460e",
+      "take_asset": "a_4570bf7636cf4ef5",
+      "frames": 97,
+      "dialogue_ids": [
+        "d40"
+      ],
+      "continuity": "cut"
+    }
+  },
+  "assembly": {
+    "job_id": "j_e8ddf355e7854831",
+    "clean_asset": "a_947191f88a2e49af",
+    "bgm_asset": "a_53445b374a854542",
+    "frames": 3495,
+    "seconds": 145.625,
+    "peak_dbfs": -8.04,
+    "music_relative_db": -20.4,
+    "sha256": "fae10af8b04610ae17e98a48b888f1ca687c5213ad6af7e239e279ea49aad160",
+    "path": "jobs/1018-s1e05-sharing-v1/final/hi-soda-s1e05-soft-bgm.mp4",
+    "human_acceptance": "approved",
+    "approval_quote": "通过，归档",
+    "release": "releases/s1e05/current.json",
+    "recipe": "recipes/s1e05-sharing-v1/README.md",
+    "workbench_final_asset": "a_53445b374a854542"
+  }
+}

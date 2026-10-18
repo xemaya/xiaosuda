@@ -1,0 +1,53 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 768
+PlayResY: 1376
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Alibaba PuHuiTi,38,&H00FFFFFF,&H00FFFFFF,&H50000000,&H90000000,0,0,0,0,100,100,0,0,1,1.6,0.5,2,64,64,121,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.40,0:00:03.59,Default,,0,0,0,,Look, everyone!\NI brought my favorite red ball!\N{\fs34}大家快看！我带来了我最喜欢的红色小球！
+Dialogue: 0,0:00:04.36,0:00:08.62,Default,,0,0,0,,Wow! It’s so pretty!\NCan I play with it, please?\N{\fs34}哇！它真漂亮！我可以玩一下吗？
+Dialogue: 0,0:00:08.97,0:00:11.99,Default,,0,0,0,,Of course, Jacky! Here you go!\N{\fs34}当然可以，奇奇！给你！
+Dialogue: 0,0:00:12.78,0:00:14.74,Default,,0,0,0,,Thank you, Soda! You’re so kind!\N{\fs34}谢谢你，小苏打！你真友善！
+Dialogue: 0,0:00:15.09,0:00:20.08,Default,,0,0,0,,Ooh! I want to play, too!\NCan I have a turn?\N{\fs34}哦！我也想玩！可以轮到我玩一下吗？
+Dialogue: 0,0:00:20.86,0:00:23.41,Default,,0,0,0,,Sure, Mimi! Let’s take turns!\N{\fs34}当然可以，小咪！我们轮流玩吧！
+Dialogue: 0,0:00:23.76,0:00:27.78,Default,,0,0,0,,Yay! Thank you! I’ll be careful!\N{\fs34}耶！谢谢你们！我会小心玩的！
+Dialogue: 0,0:00:28.57,0:00:31.68,Default,,0,0,0,,That’s the way!\NWe can all have fun together!\N{\fs34}这就对啦！我们大家可以一起开心地玩！
+Dialogue: 0,0:00:32.03,0:00:36.70,Default,,0,0,0,,Wheee! I love this ball!\NIt’s so much fun!\N{\fs34}喔耶！我好喜欢这个球！太好玩啦！
+Dialogue: 0,0:00:37.48,0:00:39.45,Default,,0,0,0,,Mimi, can I have the ball when\Nyou’re done?\N{\fs34}小咪，你玩好之后，可以把球给我吗？
+Dialogue: 0,0:00:39.80,0:00:42.38,Default,,0,0,0,,Sure! Just one more roll!\N{\fs34}当然可以！我再滚一次就好！
+Dialogue: 0,0:00:42.73,0:00:44.30,Default,,0,0,0,,Okay! I can wait!\N{\fs34}好呀！我可以等一等！
+Dialogue: 0,0:00:45.07,0:00:48.27,Default,,0,0,0,,All done! Here you go, Jacky!\N{\fs34}玩好啦！给你，奇奇！
+Dialogue: 0,0:00:48.62,0:00:50.71,Default,,0,0,0,,Thanks! You’re a great friend!\N{\fs34}谢谢！你真是个好朋友！
+Dialogue: 0,0:00:51.48,0:00:54.42,Default,,0,0,0,,See? Taking turns makes everyone\Nhappy!\N{\fs34}你们看！轮流玩能让每个人都开心！
+Dialogue: 0,0:00:54.77,0:01:00.25,Default,,0,0,0,,You’re right! We don’t have to play\Nwith everything at the same time!\N{\fs34}你说得对！我们不一定要同时玩同一个玩\N具！
+Dialogue: 0,0:01:01.02,0:01:02.59,Default,,0,0,0,,And we can wait patiently for our\Nturn!\N{\fs34}而且我们可以耐心地等待轮到自己！
+Dialogue: 0,0:01:02.94,0:01:06.09,Default,,0,0,0,,That’s right! Good friends share\Nand care!\N{\fs34}没错！好朋友懂得分享，也会关心彼此！
+Dialogue: 0,0:01:06.86,0:01:09.08,Default,,0,0,0,,Hey, friends! I brought some\Nyummy snacks!\N{\fs34}嘿，朋友们！我带了一些好吃的小点心！
+Dialogue: 0,0:01:09.43,0:01:12.79,Default,,0,0,0,,Yum! They look delicious!\N{\fs34}哇！看起来好好吃呀！
+Dialogue: 0,0:01:13.57,0:01:17.11,Default,,0,0,0,,That’s so nice of you, Jacky!\NCan we share them?\N{\fs34}奇奇，你真好！我们可以一起分享吗？
+Dialogue: 0,0:01:17.46,0:01:20.09,Default,,0,0,0,,Of course! I brought enough for\Neveryone!\N{\fs34}当然可以！我带的点心够大家一起吃！
+Dialogue: 0,0:01:20.86,0:01:25.85,Default,,0,0,0,,Thank you! Sharing makes snack\Ntime even better!\N{\fs34}谢谢你！一起分享，吃点心就更开心啦！
+Dialogue: 0,0:01:26.20,0:01:28.16,Default,,0,0,0,,Here, Mimi. You can have this one!\N{\fs34}来，小咪。这个给你！
+Dialogue: 0,0:01:28.94,0:01:32.36,Default,,0,0,0,,Thanks, Soda!\NAnd this one is for you!\N{\fs34}谢谢你，小苏打！这个给你！
+Dialogue: 0,0:01:32.71,0:01:34.70,Default,,0,0,0,,And let’s save a little for later, too!\N{\fs34}我们也留一点，等会儿再吃吧！
+Dialogue: 0,0:01:35.48,0:01:39.15,Default,,0,0,0,,Great idea! We don’t need to take\Neverything for ourselves.\N{\fs34}好主意！我们不能把所有东西都留给自己。
+Dialogue: 0,0:01:39.50,0:01:43.88,Default,,0,0,0,,When we share,\Neveryone gets a little happiness!\N{\fs34}当我们分享时，每个人都能收获一点快乐！
+Dialogue: 0,0:01:44.65,0:01:46.22,Default,,0,0,0,,That’s why sharing is caring!\N{\fs34}所以说，分享就是关爱！
+Dialogue: 0,0:01:46.57,0:01:49.59,Default,,0,0,0,,Oh, no! My blocks fell down!\N{\fs34}哦，不！我的积木倒了！
+Dialogue: 0,0:01:50.36,0:01:53.81,Default,,0,0,0,,Don’t worry, Jacky!\NI’ll help you pick them up.\N{\fs34}别担心，奇奇！我来帮你捡起来。
+Dialogue: 0,0:01:54.16,0:01:56.71,Default,,0,0,0,,Me, too! Let’s clean up together!\N{\fs34}我也来！我们一起收拾吧！
+Dialogue: 0,0:01:57.06,0:01:58.63,Default,,0,0,0,,Really? Thank you, friends!\N{\fs34}真的吗？谢谢你们，我的朋友们！
+Dialogue: 0,0:01:59.40,0:02:02.73,Default,,0,0,0,,No problem! Friends help each\Nother!\N{\fs34}没关系！好朋友之间要互相帮助！
+Dialogue: 0,0:02:03.08,0:02:04.49,Default,,0,0,0,,Here’s the last block!\N{\fs34}最后一块积木在这里！
+Dialogue: 0,0:02:05.28,0:02:07.53,Default,,0,0,0,,We did it! Everything is back in\Nplace!\N{\fs34}我们做到了！所有东西都放回原位啦！
+Dialogue: 0,0:02:07.88,0:02:12.35,Default,,0,0,0,,Yay! Teamwork makes things\Neasier!\N{\fs34}耶！大家一起合作，事情就容易多啦！
+Dialogue: 0,0:02:13.11,0:02:15.62,Default,,0,0,0,,I’m so happy to have friends like\Nyou!\N{\fs34}有你们这样的朋友，我真开心！
+Dialogue: 0,0:02:15.97,0:02:19.21,Default,,0,0,0,,Me, too! We share, we help,\Nand we have fun!\N{\fs34}我也是！我们一起分享、互相帮助，还能一\N起玩得开心！
+Dialogue: 0,0:02:19.98,0:02:22.34,Default,,0,0,0,,Best friends forever!\N{\fs34}永远都是最好的朋友！

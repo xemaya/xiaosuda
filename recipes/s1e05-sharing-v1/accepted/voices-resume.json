@@ -1,0 +1,39 @@
+{
+  "job_id": "j_f7bd76d505104bbc",
+  "made": [
+    {
+      "line": "d33",
+      "seconds": 1.567
+    },
+    {
+      "line": "d34",
+      "seconds": 3.332
+    },
+    {
+      "line": "d35",
+      "seconds": 1.405
+    },
+    {
+      "line": "d36",
+      "seconds": 2.252
+    },
+    {
+      "line": "d37",
+      "seconds": 4.47
+    },
+    {
+      "line": "d38",
+      "seconds": 2.508
+    },
+    {
+      "line": "d39",
+      "seconds": 3.239
+    },
+    {
+      "line": "d40",
+      "seconds": 2.357
+    }
+  ],
+  "total_lines": 40,
+  "total_seconds": 120.212
+}

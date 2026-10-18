@@ -1,0 +1,42 @@
+{
+  "source_original_path": "scripts/editorial/s1e05-original.txt",
+  "source_docx": "scripts/editorial/少儿英语大纲.docx",
+  "source_docx_sha256": "affdafb3b7cd8e62371a00d90616274a8a99cd139298f497a816d32fa42ef27a",
+  "source_section_sha256": "4e8cd1c0a0d6e9ee0250c175d18d244a22a1cdeb13597b38acfef1e21c5d7b88",
+  "paragraph_range_1based_inclusive": [
+    128,
+    234
+  ],
+  "source_verbatim": true,
+  "canonical_episode": "S1E05",
+  "title_zh": "学会分享",
+  "title_en": "Sharing Is Caring!",
+  "normalizations": [
+    "Baking Soda -> Soda；Chick -> Jacky；Kitty -> Mimi",
+    "中文“小鸡” -> “奇奇”；“小猫咪” -> “小咪”",
+    "删除 d41「All Together 三人齐说」，改为无台词集体欢呼收尾（用户 2026-10-18 决定）",
+    "其余英语句式、剧情与译文含义不变；四部分结构保留"
+  ],
+  "cast_ids": [
+    "xiaosuda",
+    "mengji-gege",
+    "xiaomi-mimi"
+  ],
+  "locations": 1,
+  "camera_masters": 5,
+  "editor_dialogue_count": 41,
+  "planned_dialogue_count": 40,
+  "base_recipe": "recipes/s1e04-new-friend-v1",
+  "status": "user_accepted",
+  "gpu_calls": 20,
+  "tts_calls": 40,
+  "estimated_frames": 3177,
+  "estimated_seconds": 132.4,
+  "open_questions": [
+    "22 帧续接在本工程不可用：接缝跳变且截断段末约 0.9 秒语音，本集全部改直接剪接",
+    "结尾 S19/S20 复用开场全景主图，红球重现；要修需重拍结尾两段或另做无球全景",
+    "S10 等段落存在缓慢推近"
+  ],
+  "release": "releases/s1e05/current.json",
+  "recipe": "recipes/s1e05-sharing-v1/README.md"
+}

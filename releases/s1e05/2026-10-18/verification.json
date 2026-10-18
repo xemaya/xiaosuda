@@ -1,0 +1,51 @@
+{
+ "method": "对已验收成片做只读核验，不重跑生成；不声明离线重建",
+ "gpu_calls": false,
+ "tts_calls": false,
+ "network_calls": false,
+ "video": {
+  "width": 1080,
+  "height": 1932,
+  "frames": 3495,
+  "r_frame_rate": "24/1",
+  "avg_frame_rate": "24/1",
+  "duration": 145.625,
+  "sha256": "fae10af8b04610ae17e98a48b888f1ca687c5213ad6af7e239e279ea49aad160",
+  "size_bytes": 110561794
+ },
+ "picture_bitstream_unchanged_when_adding_bgm": true,
+ "captions_burned": true,
+ "captions_file": "Hi-Soda_S1E05_Sharing-Is-Caring.srt",
+ "peak_dbfs": -8.04,
+ "clipped_samples": 0,
+ "music_relative_to_voice_db": -20.4,
+ "take_frames": [
+  95,
+  202,
+  194,
+  185,
+  214,
+  182,
+  154,
+  229,
+  140,
+  161,
+  175,
+  194,
+  157,
+  220,
+  137,
+  217,
+  141,
+  188,
+  165,
+  97
+ ],
+ "op_frames": 48,
+ "sum_check": {
+  "take_plus_op": 3495,
+  "matches": true
+ },
+ "accepted_master_untouched": true,
+ "workbench_final_asset": "a_53445b374a854542"
+}

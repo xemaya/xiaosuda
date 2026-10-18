@@ -1,0 +1,322 @@
+[
+  {
+    "id": "d1",
+    "speaker_id": "xiaosuda",
+    "text": "Look, everyone! I brought my favorite red ball!",
+    "translation": "大家快看！我带来了我最喜欢的红色小球！",
+    "emotion": "Excited and proud, holding the red ball up with both forepaws",
+    "speed": 1.0
+  },
+  {
+    "id": "d2",
+    "speaker_id": "mengji-gege",
+    "text": "Wow! It’s so pretty! Can I play with it, please?",
+    "translation": "哇！它真漂亮！我可以玩一下吗？",
+    "emotion": "Delighted and polite, leaning in toward the ball",
+    "speed": 1.0
+  },
+  {
+    "id": "d3",
+    "speaker_id": "xiaosuda",
+    "text": "Of course, Jacky! Here you go!",
+    "translation": "当然可以，奇奇！给你！",
+    "emotion": "Warm and generous, holding the ball out to the chick",
+    "speed": 1.0
+  },
+  {
+    "id": "d4",
+    "speaker_id": "mengji-gege",
+    "text": "Thank you, Soda! You’re so kind!",
+    "translation": "谢谢你，小苏打！你真友善！",
+    "emotion": "Happy and grateful, small hop in place",
+    "speed": 1.0
+  },
+  {
+    "id": "d5",
+    "speaker_id": "xiaomi-mimi",
+    "text": "Ooh! I want to play, too! Can I have a turn?",
+    "translation": "哦！我也想玩！可以轮到我玩一下吗？",
+    "emotion": "Eager and a bit shy, one front paw lifted toward the ball",
+    "speed": 1.05
+  },
+  {
+    "id": "d6",
+    "speaker_id": "mengji-gege",
+    "text": "Sure, Mimi! Let’s take turns!",
+    "translation": "当然可以，小咪！我们轮流玩吧！",
+    "emotion": "Cheerful and fair-minded, wing gesturing between the two",
+    "speed": 1.0
+  },
+  {
+    "id": "d7",
+    "speaker_id": "xiaomi-mimi",
+    "text": "Yay! Thank you! I’ll be careful!",
+    "translation": "耶！谢谢你们！我会小心玩的！",
+    "emotion": "Excited and careful, eyes bright",
+    "speed": 1.05
+  },
+  {
+    "id": "d8",
+    "speaker_id": "xiaosuda",
+    "text": "That’s the way! We can all have fun together!",
+    "translation": "这就对啦！我们大家可以一起开心地玩！",
+    "emotion": "Pleased and encouraging, nodding at the group",
+    "speed": 1.0
+  },
+  {
+    "id": "d9",
+    "speaker_id": "xiaomi-mimi",
+    "text": "Wheee! I love this ball! It’s so much fun!",
+    "translation": "喔耶！我好喜欢这个球！太好玩啦！",
+    "emotion": "Joyful while rolling the ball, body low and playful",
+    "speed": 1.05
+  },
+  {
+    "id": "d10",
+    "speaker_id": "mengji-gege",
+    "text": "Mimi, can I have the ball when you’re done?",
+    "translation": "小咪，你玩好之后，可以把球给我吗？",
+    "emotion": "Polite and patient, head tilted toward the kitten",
+    "speed": 1.0
+  },
+  {
+    "id": "d11",
+    "speaker_id": "xiaomi-mimi",
+    "text": "Sure! Just one more roll!",
+    "translation": "当然可以！我再滚一次就好！",
+    "emotion": "Easy-going and playful, one paw on the ball",
+    "speed": 1.05
+  },
+  {
+    "id": "d12",
+    "speaker_id": "mengji-gege",
+    "text": "Okay! I can wait!",
+    "translation": "好呀！我可以等一等！",
+    "emotion": "Calm and patient, sitting down to wait",
+    "speed": 1.0
+  },
+  {
+    "id": "d13",
+    "speaker_id": "xiaomi-mimi",
+    "text": "All done! Here you go, Jacky!",
+    "translation": "玩好啦！给你，奇奇！",
+    "emotion": "Bright and helpful, pushing the ball over",
+    "speed": 1.05
+  },
+  {
+    "id": "d14",
+    "speaker_id": "mengji-gege",
+    "text": "Thanks! You’re a great friend!",
+    "translation": "谢谢！你真是个好朋友！",
+    "emotion": "Warm and thankful, wings up",
+    "speed": 1.0
+  },
+  {
+    "id": "d15",
+    "speaker_id": "xiaosuda",
+    "text": "See? Taking turns makes everyone happy!",
+    "translation": "你们看！轮流玩能让每个人都开心！",
+    "emotion": "Satisfied and teacherly, looking at both friends",
+    "speed": 1.0
+  },
+  {
+    "id": "d16",
+    "speaker_id": "xiaomi-mimi",
+    "text": "You’re right! We don’t have to play with everything at the same time!",
+    "translation": "你说得对！我们不一定要同时玩同一个玩具！",
+    "emotion": "Earnest, thinking it through as she speaks",
+    "speed": 1.05
+  },
+  {
+    "id": "d17",
+    "speaker_id": "mengji-gege",
+    "text": "And we can wait patiently for our turn!",
+    "translation": "而且我们可以耐心地等待轮到自己！",
+    "emotion": "Patient and proud of himself",
+    "speed": 1.0
+  },
+  {
+    "id": "d18",
+    "speaker_id": "xiaosuda",
+    "text": "That’s right! Good friends share and care!",
+    "translation": "没错！好朋友懂得分享，也会关心彼此！",
+    "emotion": "Content and warm, nodding",
+    "speed": 1.0
+  },
+  {
+    "id": "d19",
+    "speaker_id": "mengji-gege",
+    "text": "Hey, friends! I brought some yummy snacks!",
+    "translation": "嘿，朋友们！我带了一些好吃的小点心！",
+    "emotion": "Cheerful and generous, opening the snack box",
+    "speed": 1.0
+  },
+  {
+    "id": "d20",
+    "speaker_id": "xiaomi-mimi",
+    "text": "Yum! They look delicious!",
+    "translation": "哇！看起来好好吃呀！",
+    "emotion": "Curious and hungry, sniffing toward the snacks",
+    "speed": 1.05
+  },
+  {
+    "id": "d21",
+    "speaker_id": "xiaosuda",
+    "text": "That’s so nice of you, Jacky! Can we share them?",
+    "translation": "奇奇，你真好！我们可以一起分享吗？",
+    "emotion": "Polite and happy, looking at the chick",
+    "speed": 1.0
+  },
+  {
+    "id": "d22",
+    "speaker_id": "mengji-gege",
+    "text": "Of course! I brought enough for everyone!",
+    "translation": "当然可以！我带的点心够大家一起吃！",
+    "emotion": "Generous and relaxed, setting the box down",
+    "speed": 1.0
+  },
+  {
+    "id": "d23",
+    "speaker_id": "xiaomi-mimi",
+    "text": "Thank you! Sharing makes snack time even better!",
+    "translation": "谢谢你！一起分享，吃点心就更开心啦！",
+    "emotion": "Grateful and bright, tail tip flicking",
+    "speed": 1.05
+  },
+  {
+    "id": "d24",
+    "speaker_id": "xiaosuda",
+    "text": "Here, Mimi. You can have this one!",
+    "translation": "来，小咪。这个给你！",
+    "emotion": "Kind, offering a snack with one paw",
+    "speed": 1.0
+  },
+  {
+    "id": "d25",
+    "speaker_id": "xiaomi-mimi",
+    "text": "Thanks, Soda! And this one is for you!",
+    "translation": "谢谢你，小苏打！这个给你！",
+    "emotion": "Warm, pushing a snack back toward the puppy",
+    "speed": 1.05
+  },
+  {
+    "id": "d26",
+    "speaker_id": "mengji-gege",
+    "text": "And let’s save a little for later, too!",
+    "translation": "我们也留一点，等会儿再吃吧！",
+    "emotion": "Thoughtful, saving a piece and covering it lightly",
+    "speed": 1.0
+  },
+  {
+    "id": "d27",
+    "speaker_id": "xiaosuda",
+    "text": "Great idea! We don’t need to take everything for ourselves.",
+    "translation": "好主意！我们不能把所有东西都留给自己。",
+    "emotion": "Agreeing and happy, nodding",
+    "speed": 1.0
+  },
+  {
+    "id": "d28",
+    "speaker_id": "xiaomi-mimi",
+    "text": "When we share, everyone gets a little happiness!",
+    "translation": "当我们分享时，每个人都能收获一点快乐！",
+    "emotion": "Soft and content, looking around the group",
+    "speed": 1.05
+  },
+  {
+    "id": "d29",
+    "speaker_id": "mengji-gege",
+    "text": "That’s why sharing is caring!",
+    "translation": "所以说，分享就是关爱！",
+    "emotion": "Pleased, wings out in a small flourish",
+    "speed": 1.0
+  },
+  {
+    "id": "d30",
+    "speaker_id": "mengji-gege",
+    "text": "Oh, no! My blocks fell down!",
+    "translation": "哦，不！我的积木倒了！",
+    "emotion": "Alarmed and upset, looking down at the fallen blocks",
+    "speed": 1.0
+  },
+  {
+    "id": "d31",
+    "speaker_id": "xiaomi-mimi",
+    "text": "Don’t worry, Jacky! I’ll help you pick them up.",
+    "translation": "别担心，奇奇！我来帮你捡起来。",
+    "emotion": "Reassuring and quick to help, already stepping closer",
+    "speed": 1.05
+  },
+  {
+    "id": "d32",
+    "speaker_id": "xiaosuda",
+    "text": "Me, too! Let’s clean up together!",
+    "translation": "我也来！我们一起收拾吧！",
+    "emotion": "Eager to help, trotting toward the blocks",
+    "speed": 1.0
+  },
+  {
+    "id": "d33",
+    "speaker_id": "mengji-gege",
+    "text": "Really? Thank you, friends!",
+    "translation": "真的吗？谢谢你们，我的朋友们！",
+    "emotion": "Touched and relieved, eyes wide",
+    "speed": 1.0
+  },
+  {
+    "id": "d34",
+    "speaker_id": "xiaomi-mimi",
+    "text": "No problem! Friends help each other!",
+    "translation": "没关系！好朋友之间要互相帮助！",
+    "emotion": "Warm and matter-of-fact, holding a block",
+    "speed": 1.05
+  },
+  {
+    "id": "d35",
+    "speaker_id": "xiaosuda",
+    "text": "Here’s the last block!",
+    "translation": "最后一块积木在这里！",
+    "emotion": "Proud, holding up the last block",
+    "speed": 1.0
+  },
+  {
+    "id": "d36",
+    "speaker_id": "mengji-gege",
+    "text": "We did it! Everything is back in place!",
+    "translation": "我们做到了！所有东西都放回原位啦！",
+    "emotion": "Happy and satisfied, looking at the tidy tower",
+    "speed": 1.0
+  },
+  {
+    "id": "d37",
+    "speaker_id": "xiaomi-mimi",
+    "text": "Yay! Teamwork makes things easier!",
+    "translation": "耶！大家一起合作，事情就容易多啦！",
+    "emotion": "Cheerful, little bounce",
+    "speed": 1.05
+  },
+  {
+    "id": "d38",
+    "speaker_id": "xiaosuda",
+    "text": "I’m so happy to have friends like you!",
+    "translation": "有你们这样的朋友，我真开心！",
+    "emotion": "Warm and sincere, looking at both friends",
+    "speed": 1.0
+  },
+  {
+    "id": "d39",
+    "speaker_id": "mengji-gege",
+    "text": "Me, too! We share, we help, and we have fun!",
+    "translation": "我也是！我们一起分享、互相帮助，还能一起玩得开心！",
+    "emotion": "Happy and a bit proud, wings up",
+    "speed": 1.0
+  },
+  {
+    "id": "d40",
+    "speaker_id": "xiaomi-mimi",
+    "text": "Best friends forever!",
+    "translation": "永远都是最好的朋友！",
+    "emotion": "Bright and affectionate, tail up",
+    "speed": 1.05
+  }
+]

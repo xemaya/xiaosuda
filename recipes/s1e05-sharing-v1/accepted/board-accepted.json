@@ -1,0 +1,168 @@
+{
+  "date": "2026-10-18",
+  "board_version": "v_acfea5681681475f",
+  "setting_version": "v_832e226ade494d98",
+  "status": "ready_to_shoot",
+  "shots": [
+    {
+      "id": "S01",
+      "seconds": 3.94,
+      "dialogue_ids": [
+        "d1"
+      ]
+    },
+    {
+      "id": "S02",
+      "seconds": 8.38,
+      "dialogue_ids": [
+        "d2",
+        "d3"
+      ]
+    },
+    {
+      "id": "S03",
+      "seconds": 8.05,
+      "dialogue_ids": [
+        "d4",
+        "d5"
+      ]
+    },
+    {
+      "id": "S04",
+      "seconds": 7.67,
+      "dialogue_ids": [
+        "d6",
+        "d7"
+      ]
+    },
+    {
+      "id": "S05",
+      "seconds": 8.88,
+      "dialogue_ids": [
+        "d8",
+        "d9"
+      ]
+    },
+    {
+      "id": "S06",
+      "seconds": 7.57,
+      "dialogue_ids": [
+        "d10",
+        "d11",
+        "d12"
+      ]
+    },
+    {
+      "id": "S07",
+      "seconds": 6.4,
+      "dialogue_ids": [
+        "d13",
+        "d14"
+      ]
+    },
+    {
+      "id": "S08",
+      "seconds": 9.52,
+      "dialogue_ids": [
+        "d15",
+        "d16"
+      ]
+    },
+    {
+      "id": "S09",
+      "seconds": 5.81,
+      "dialogue_ids": [
+        "d17",
+        "d18"
+      ]
+    },
+    {
+      "id": "S10",
+      "seconds": 6.69,
+      "dialogue_ids": [
+        "d19",
+        "d20"
+      ]
+    },
+    {
+      "id": "S11",
+      "seconds": 7.28,
+      "dialogue_ids": [
+        "d21",
+        "d22"
+      ]
+    },
+    {
+      "id": "S12",
+      "seconds": 8.05,
+      "dialogue_ids": [
+        "d23",
+        "d24"
+      ]
+    },
+    {
+      "id": "S13",
+      "seconds": 6.51,
+      "dialogue_ids": [
+        "d25",
+        "d26"
+      ]
+    },
+    {
+      "id": "S14",
+      "seconds": 9.15,
+      "dialogue_ids": [
+        "d27",
+        "d28"
+      ]
+    },
+    {
+      "id": "S15",
+      "seconds": 5.69,
+      "dialogue_ids": [
+        "d29",
+        "d30"
+      ]
+    },
+    {
+      "id": "S16",
+      "seconds": 9.02,
+      "dialogue_ids": [
+        "d31",
+        "d32",
+        "d33"
+      ]
+    },
+    {
+      "id": "S17",
+      "seconds": 5.84,
+      "dialogue_ids": [
+        "d34",
+        "d35"
+      ]
+    },
+    {
+      "id": "S18",
+      "seconds": 7.82,
+      "dialogue_ids": [
+        "d36",
+        "d37"
+      ]
+    },
+    {
+      "id": "S19",
+      "seconds": 6.85,
+      "dialogue_ids": [
+        "d38",
+        "d39"
+      ]
+    },
+    {
+      "id": "S20",
+      "seconds": 4.01,
+      "dialogue_ids": [
+        "d40"
+      ]
+    }
+  ]
+}

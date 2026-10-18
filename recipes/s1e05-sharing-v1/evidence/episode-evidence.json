@@ -1,0 +1,658 @@
+{
+ "project": "p_c25a69a144ae4b13",
+ "board_version": "v_a33652f9217b421a",
+ "setting_version": "v_832e226ade494d98",
+ "scene_masters": {
+  "ball-play-medium": "a_d3b18d233bca42ab",
+  "park-lawn-wide": "a_23e86bf228a1404b",
+  "picnic-blanket-medium": "a_139c723a61134b42",
+  "blocks-lawn-wide": "a_4606fea8072d422e",
+  "blocks-lawn-close": "a_29419d4d3dc542c9"
+ },
+ "adopted_takes": {
+  "S01": "a_68fefbec24de4ec2",
+  "S02": "a_60f8e645ec434b1f",
+  "S03": "a_3dfe6d38ba974ee8",
+  "S04": "a_b34e55867d074cf8",
+  "S05": "a_b4e2cb3d0699490a",
+  "S06": "a_40c753c1da15403c",
+  "S07": "a_87a787822ab44079",
+  "S08": "a_abee97c10d1f403a",
+  "S09": "a_594f7c98d3b44c94",
+  "S10": "a_1407235a15aa44bc",
+  "S11": "a_8394cd4eea9040e8",
+  "S12": "a_1fed6a3ad8134aea",
+  "S13": "a_c81c6dc0da1e42a7",
+  "S14": "a_4cceb959d5aa4648",
+  "S15": "a_abcaf4b891454ce6",
+  "S16": "a_0fcc7333377740ae",
+  "S17": "a_db9147aa34434647",
+  "S18": "a_c42a3a3bf46b4d8b",
+  "S19": "a_20e0e402e66044b4",
+  "S20": "a_4570bf7636cf4ef5"
+ },
+ "shots": {
+  "S01": {
+   "asset": "a_68fefbec24de4ec2",
+   "sha256": "9f5e418bb15c78b407f7b8435b8b8be8a25f586a6bc54220b5bfeb88a2eac266",
+   "frames": 95,
+   "seed": "711326073",
+   "master": "a_23e86bf228a1404b",
+   "turns": [
+    [
+     "d1",
+     "xiaosuda",
+     0.4
+    ]
+   ]
+  },
+  "S02": {
+   "asset": "a_60f8e645ec434b1f",
+   "sha256": "6fcf2896b780b44e2fa6cc7190608c5edc8e775797783777adb8fa4e28f2d10d",
+   "frames": 202,
+   "seed": "584390873",
+   "master": "a_d3b18d233bca42ab",
+   "turns": [
+    [
+     "d2",
+     "mengji-gege",
+     0.4
+    ],
+    [
+     "d3",
+     "xiaosuda",
+     5.011
+    ]
+   ]
+  },
+  "S03": {
+   "asset": "a_3dfe6d38ba974ee8",
+   "sha256": "52236332415e1131dde1407960400348d2e6bffeb280e0219e301f6ae7350956",
+   "frames": 194,
+   "seed": "250378705",
+   "master": "a_d3b18d233bca42ab",
+   "turns": [
+    [
+     "d4",
+     "mengji-gege",
+     0.4
+    ],
+    [
+     "d5",
+     "xiaomi-mimi",
+     2.712
+    ]
+   ]
+  },
+  "S04": {
+   "asset": "a_b34e55867d074cf8",
+   "sha256": "e8fd048179789d446a34ee474095484e4cffa5c6aca0bc17642ec346872b9325",
+   "frames": 185,
+   "seed": "1366446085",
+   "master": "a_d3b18d233bca42ab",
+   "turns": [
+    [
+     "d6",
+     "mengji-gege",
+     0.4
+    ],
+    [
+     "d7",
+     "xiaomi-mimi",
+     3.304
+    ]
+   ]
+  },
+  "S05": {
+   "asset": "a_b4e2cb3d0699490a",
+   "sha256": "e8425eccf7b7677570a19dd985c079efe902b46c9be353bec4324507f4539f18",
+   "frames": 214,
+   "seed": "786304218",
+   "master": "a_d3b18d233bca42ab",
+   "turns": [
+    [
+     "d8",
+     "xiaosuda",
+     0.4
+    ],
+    [
+     "d9",
+     "xiaomi-mimi",
+     3.861
+    ]
+   ]
+  },
+  "S06": {
+   "asset": "a_40c753c1da15403c",
+   "sha256": "0551619af838691c674750aa7d531742ca3eb36670e126b63bd9202bcf176d74",
+   "frames": 182,
+   "seed": "830650067",
+   "master": "a_d3b18d233bca42ab",
+   "turns": [
+    [
+     "d10",
+     "mengji-gege",
+     0.4
+    ],
+    [
+     "d11",
+     "xiaomi-mimi",
+     2.712
+    ],
+    [
+     "d12",
+     "mengji-gege",
+     5.651
+    ]
+   ]
+  },
+  "S07": {
+   "asset": "a_87a787822ab44079",
+   "sha256": "0220172bd2f2e3211f0355c969e6302b4bf620ece9de69771d56851c5b6628d3",
+   "frames": 154,
+   "seed": "680713185",
+   "master": "a_d3b18d233bca42ab",
+   "turns": [
+    [
+     "d13",
+     "xiaomi-mimi",
+     0.4
+    ],
+    [
+     "d14",
+     "mengji-gege",
+     3.955
+    ]
+   ]
+  },
+  "S08": {
+   "asset": "a_abee97c10d1f403a",
+   "sha256": "f900afc262f82498e1aadb8d86bbb91938a7ab161f6267b41b63c4db26989039",
+   "frames": 229,
+   "seed": "2113857719",
+   "master": "a_d3b18d233bca42ab",
+   "turns": [
+    [
+     "d15",
+     "xiaosuda",
+     0.4
+    ],
+    [
+     "d16",
+     "xiaomi-mimi",
+     3.687
+    ]
+   ]
+  },
+  "S09": {
+   "asset": "a_594f7c98d3b44c94",
+   "sha256": "ea95122196389aa1aeaeef219ad39a5844d8b8c4b965ffab7baa7013a6ee8522",
+   "frames": 140,
+   "seed": "166256665",
+   "master": "a_d3b18d233bca42ab",
+   "turns": [
+    [
+     "d17",
+     "mengji-gege",
+     0.4
+    ],
+    [
+     "d18",
+     "xiaosuda",
+     2.317
+    ]
+   ]
+  },
+  "S10": {
+   "asset": "a_1407235a15aa44bc",
+   "sha256": "9c281cc3f284d6241a667074d73a240fed20144db31eeb06ef2064de80bc1dd9",
+   "frames": 161,
+   "seed": "945349619",
+   "master": "a_139c723a61134b42",
+   "turns": [
+    [
+     "d19",
+     "mengji-gege",
+     0.4
+    ],
+    [
+     "d20",
+     "xiaomi-mimi",
+     2.968
+    ]
+   ]
+  },
+  "S11": {
+   "asset": "a_8394cd4eea9040e8",
+   "sha256": "a77c14ed0e5e75b448c624a6a6efbfbc14cc839dabdf75a6314b6230be31b333",
+   "frames": 175,
+   "seed": "670583462",
+   "master": "a_139c723a61134b42",
+   "turns": [
+    [
+     "d21",
+     "xiaosuda",
+     0.4
+    ],
+    [
+     "d22",
+     "mengji-gege",
+     4.291
+    ]
+   ]
+  },
+  "S12": {
+   "asset": "a_1fed6a3ad8134aea",
+   "sha256": "45de14d1d568e37ada798018487ad542abc65cb494b33872f7d74245e9d8f74d",
+   "frames": 194,
+   "seed": "1872345962",
+   "master": "a_139c723a61134b42",
+   "turns": [
+    [
+     "d23",
+     "xiaomi-mimi",
+     0.4
+    ],
+    [
+     "d24",
+     "xiaosuda",
+     5.742
+    ]
+   ]
+  },
+  "S13": {
+   "asset": "a_c81c6dc0da1e42a7",
+   "sha256": "072edb961b697e76b58a2f4f3030107507c7921e002405bbe658554b6439569a",
+   "frames": 157,
+   "seed": "1698983617",
+   "master": "a_139c723a61134b42",
+   "turns": [
+    [
+     "d25",
+     "xiaomi-mimi",
+     0.4
+    ],
+    [
+     "d26",
+     "mengji-gege",
+     4.163
+    ]
+   ]
+  },
+  "S14": {
+   "asset": "a_4cceb959d5aa4648",
+   "sha256": "f5be3ad286ef847b90a1bb0e97a6f76d51e80d84971a74dca913859f379717b8",
+   "frames": 220,
+   "seed": "1163835618",
+   "master": "a_139c723a61134b42",
+   "turns": [
+    [
+     "d27",
+     "xiaosuda",
+     0.4
+    ],
+    [
+     "d28",
+     "xiaomi-mimi",
+     4.419
+    ]
+   ]
+  },
+  "S15": {
+   "asset": "a_abcaf4b891454ce6",
+   "sha256": "49855044114d64c03114b82e61963800e6ed617c976021b7e92e8ae3de4c62c8",
+   "frames": 137,
+   "seed": "121689662",
+   "master": "a_139c723a61134b42",
+   "turns": [
+    [
+     "d29",
+     "mengji-gege",
+     0.4
+    ],
+    [
+     "d30",
+     "mengji-gege",
+     2.317
+    ]
+   ]
+  },
+  "S16": {
+   "asset": "a_0fcc7333377740ae",
+   "sha256": "4a67cdbc65afa45ce7200c8646df33124e1d9f3a54f8202837ab9f5cc21f681a",
+   "frames": 217,
+   "seed": "332177813",
+   "master": "a_4606fea8072d422e",
+   "turns": [
+    [
+     "d31",
+     "xiaomi-mimi",
+     0.4
+    ],
+    [
+     "d32",
+     "xiaosuda",
+     4.198
+    ],
+    [
+     "d33",
+     "mengji-gege",
+     7.102
+    ]
+   ]
+  },
+  "S17": {
+   "asset": "a_db9147aa34434647",
+   "sha256": "a04af7a614ab6ba33672d994d6af126e24b602fcd4dbd4a7011fd46f0a9068db",
+   "frames": 141,
+   "seed": "560940706",
+   "master": "a_4606fea8072d422e",
+   "turns": [
+    [
+     "d34",
+     "xiaomi-mimi",
+     0.4
+    ],
+    [
+     "d35",
+     "xiaosuda",
+     4.082
+    ]
+   ]
+  },
+  "S18": {
+   "asset": "a_c42a3a3bf46b4d8b",
+   "sha256": "5cb16dddcf36b38eff4f0660eaeea865034e2904b3969a6020576493d0a29534",
+   "frames": 188,
+   "seed": "1251264029",
+   "master": "a_29419d4d3dc542c9",
+   "turns": [
+    [
+     "d36",
+     "mengji-gege",
+     0.4
+    ],
+    [
+     "d37",
+     "xiaomi-mimi",
+     3.002
+    ]
+   ]
+  },
+  "S19": {
+   "asset": "a_20e0e402e66044b4",
+   "sha256": "85a0053d1449ca75f6081450127e72df2c70c4ce56f23fd856b1e5d258d7ba17",
+   "frames": 165,
+   "seed": "2140980527",
+   "master": "a_23e86bf228a1404b",
+   "turns": [
+    [
+     "d38",
+     "xiaosuda",
+     0.4
+    ],
+    [
+     "d39",
+     "mengji-gege",
+     3.258
+    ]
+   ]
+  },
+  "S20": {
+   "asset": "a_4570bf7636cf4ef5",
+   "sha256": "246f6d5ea3e9b4e1fcf79360315239d48671d95e8afc52e0883e63071e54c3e2",
+   "frames": 97,
+   "seed": "1084569441",
+   "master": "a_23e86bf228a1404b",
+   "turns": [
+    [
+     "d40",
+     "xiaomi-mimi",
+     0.4
+    ]
+   ]
+  }
+ },
+ "voices": {
+  "d1": {
+   "asset": "a_f0a1b75de15a4734",
+   "seconds": 3.193,
+   "voice_id": "Cute_Elf",
+   "pitch": 0
+  },
+  "d2": {
+   "asset": "a_a37d124b7da94f32",
+   "seconds": 4.261,
+   "voice_id": "chunzhen_xuedi",
+   "pitch": 1
+  },
+  "d3": {
+   "asset": "a_3a154c9bff4144b0",
+   "seconds": 3.019,
+   "voice_id": "Cute_Elf",
+   "pitch": 0
+  },
+  "d4": {
+   "asset": "a_c8df701b668b47a0",
+   "seconds": 1.962,
+   "voice_id": "chunzhen_xuedi",
+   "pitch": 1
+  },
+  "d5": {
+   "asset": "a_480c50fc17864465",
+   "seconds": 4.992,
+   "voice_id": "lovely_girl",
+   "pitch": 2
+  },
+  "d6": {
+   "asset": "a_8a71af207d154b4f",
+   "seconds": 2.554,
+   "voice_id": "chunzhen_xuedi",
+   "pitch": 1
+  },
+  "d7": {
+   "asset": "a_d023e818094944fe",
+   "seconds": 4.017,
+   "voice_id": "lovely_girl",
+   "pitch": 2
+  },
+  "d8": {
+   "asset": "a_4a4818f45b32467b",
+   "seconds": 3.111,
+   "voice_id": "Cute_Elf",
+   "pitch": 0
+  },
+  "d9": {
+   "asset": "a_c100206c1a894855",
+   "seconds": 4.667,
+   "voice_id": "lovely_girl",
+   "pitch": 2
+  },
+  "d10": {
+   "asset": "a_8bb8df4e508749c6",
+   "seconds": 1.962,
+   "voice_id": "chunzhen_xuedi",
+   "pitch": 1
+  },
+  "d11": {
+   "asset": "a_987a7ac2c9844fe9",
+   "seconds": 2.589,
+   "voice_id": "lovely_girl",
+   "pitch": 2
+  },
+  "d12": {
+   "asset": "a_668d5c8099ba4775",
+   "seconds": 1.567,
+   "voice_id": "chunzhen_xuedi",
+   "pitch": 1
+  },
+  "d13": {
+   "asset": "a_57e1270d248a46e0",
+   "seconds": 3.205,
+   "voice_id": "lovely_girl",
+   "pitch": 2
+  },
+  "d14": {
+   "asset": "a_bb016fa77ee24abb",
+   "seconds": 2.09,
+   "voice_id": "chunzhen_xuedi",
+   "pitch": 1
+  },
+  "d15": {
+   "asset": "a_fe60b7e208d24611",
+   "seconds": 2.937,
+   "voice_id": "Cute_Elf",
+   "pitch": 0
+  },
+  "d16": {
+   "asset": "a_36b7c3337e344f35",
+   "seconds": 5.48,
+   "voice_id": "lovely_girl",
+   "pitch": 2
+  },
+  "d17": {
+   "asset": "a_929208938fa048e6",
+   "seconds": 1.567,
+   "voice_id": "chunzhen_xuedi",
+   "pitch": 1
+  },
+  "d18": {
+   "asset": "a_a76bedfa9a124ba1",
+   "seconds": 3.146,
+   "voice_id": "Cute_Elf",
+   "pitch": 0
+  },
+  "d19": {
+   "asset": "a_3a55b0f7d11f48d1",
+   "seconds": 2.218,
+   "voice_id": "chunzhen_xuedi",
+   "pitch": 1
+  },
+  "d20": {
+   "asset": "a_01970a5fca8b4d46",
+   "seconds": 3.367,
+   "voice_id": "lovely_girl",
+   "pitch": 2
+  },
+  "d21": {
+   "asset": "a_7fd5522e80a541cd",
+   "seconds": 3.541,
+   "voice_id": "Cute_Elf",
+   "pitch": 0
+  },
+  "d22": {
+   "asset": "a_6d1641a8610a4f48",
+   "seconds": 2.635,
+   "voice_id": "chunzhen_xuedi",
+   "pitch": 1
+  },
+  "d23": {
+   "asset": "a_754ff03404384182",
+   "seconds": 4.992,
+   "voice_id": "lovely_girl",
+   "pitch": 2
+  },
+  "d24": {
+   "asset": "a_6a6cb6c30d2247d6",
+   "seconds": 1.962,
+   "voice_id": "Cute_Elf",
+   "pitch": 0
+  },
+  "d25": {
+   "asset": "a_d01a1252927e4423",
+   "seconds": 3.413,
+   "voice_id": "lovely_girl",
+   "pitch": 2
+  },
+  "d26": {
+   "asset": "a_8debeecab6b44ac3",
+   "seconds": 1.997,
+   "voice_id": "chunzhen_xuedi",
+   "pitch": 1
+  },
+  "d27": {
+   "asset": "a_c0631fd09f3d40a7",
+   "seconds": 3.669,
+   "voice_id": "Cute_Elf",
+   "pitch": 0
+  },
+  "d28": {
+   "asset": "a_720cdcdbb4f34779",
+   "seconds": 4.377,
+   "voice_id": "lovely_girl",
+   "pitch": 2
+  },
+  "d29": {
+   "asset": "a_6ee655e9fd0c4b5e",
+   "seconds": 1.567,
+   "voice_id": "chunzhen_xuedi",
+   "pitch": 1
+  },
+  "d30": {
+   "asset": "a_c83342addd944dc4",
+   "seconds": 3.019,
+   "voice_id": "chunzhen_xuedi",
+   "pitch": 1
+  },
+  "d31": {
+   "asset": "a_a42834d3b5544236",
+   "seconds": 3.448,
+   "voice_id": "lovely_girl",
+   "pitch": 2
+  },
+  "d32": {
+   "asset": "a_dc0b8505759d4df8",
+   "seconds": 2.554,
+   "voice_id": "Cute_Elf",
+   "pitch": 0
+  },
+  "d33": {
+   "asset": "a_35a98805a99e4f4b",
+   "seconds": 1.567,
+   "voice_id": "chunzhen_xuedi",
+   "pitch": 1
+  },
+  "d34": {
+   "asset": "a_461539c60182454d",
+   "seconds": 3.332,
+   "voice_id": "lovely_girl",
+   "pitch": 2
+  },
+  "d35": {
+   "asset": "a_e3b0dfac702442a6",
+   "seconds": 1.405,
+   "voice_id": "Cute_Elf",
+   "pitch": 0
+  },
+  "d36": {
+   "asset": "a_653836e8d1a64836",
+   "seconds": 2.252,
+   "voice_id": "chunzhen_xuedi",
+   "pitch": 1
+  },
+  "d37": {
+   "asset": "a_fb97b5163f554c77",
+   "seconds": 4.47,
+   "voice_id": "lovely_girl",
+   "pitch": 2
+  },
+  "d38": {
+   "asset": "a_0fdf1621fab64eb7",
+   "seconds": 2.508,
+   "voice_id": "Cute_Elf",
+   "pitch": 0
+  },
+  "d39": {
+   "asset": "a_1200f9f09c2749c2",
+   "seconds": 3.239,
+   "voice_id": "chunzhen_xuedi",
+   "pitch": 1
+  },
+  "d40": {
+   "asset": "a_32bd5d67a88e4d3d",
+   "seconds": 2.357,
+   "voice_id": "lovely_girl",
+   "pitch": 2
+  }
+ }
+}

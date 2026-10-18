@@ -1,0 +1,105 @@
+{
+ "id": "s1e05-sharing-v1",
+ "status": "user_accepted",
+ "accepted_date": "2026-10-18",
+ "episode": "S1E05",
+ "base_generation_recipe": "plush-dialogue-v14",
+ "accepted_video": {
+  "path": "../../releases/s1e05/2026-10-18/Hi-Soda_S1E05_Sharing-Is-Caring.mp4",
+  "sha256": "fae10af8b04610ae17e98a48b888f1ca687c5213ad6af7e239e279ea49aad160"
+ },
+ "delivery": {
+  "width": 1080,
+  "height": 1932,
+  "frames": 3495,
+  "fps": 24,
+  "seconds": 145.625,
+  "op_frames": 48
+ },
+ "take_frames": [
+  95,
+  202,
+  194,
+  185,
+  214,
+  182,
+  154,
+  229,
+  140,
+  161,
+  175,
+  194,
+  157,
+  220,
+  137,
+  217,
+  141,
+  188,
+  165,
+  97
+ ],
+ "scene_masters": [
+  {
+   "scene_id": "ball-play-medium",
+   "asset_id": "a_d3b18d233bca42ab",
+   "path": "../../jobs/1018-s1e05-sharing-v1/ball-play-medium-candidate-v2.png",
+   "sha256": "557dc269525f8a280bcb33fba597223cce4e52ad2f1d16854035fd17edf058fe"
+  },
+  {
+   "scene_id": "park-lawn-wide",
+   "asset_id": "a_23e86bf228a1404b",
+   "path": "../../jobs/1018-s1e05-sharing-v1/park-lawn-wide-candidate-v2.png",
+   "sha256": "e3f4e6b5b784b9cfa89e834a5ab7543358039b30320d809ca3b851f29f43323e"
+  },
+  {
+   "scene_id": "picnic-blanket-medium",
+   "asset_id": "a_139c723a61134b42",
+   "path": "../../jobs/1018-s1e05-sharing-v1/picnic-blanket-medium-candidate-v2.png",
+   "sha256": "9c2b4be3daa5339521b3d5ce3de0b0a8fa104883c67d4ba4bc0712bb203e70d2"
+  },
+  {
+   "scene_id": "blocks-lawn-wide",
+   "asset_id": "a_4606fea8072d422e",
+   "path": "../../jobs/1018-s1e05-sharing-v1/blocks-lawn-wide-candidate-v2.png",
+   "sha256": "f1033436183dd72153db75d4c28ada978659b9bfca79dd43a7abcba03ef39ba1"
+  },
+  {
+   "scene_id": "blocks-lawn-close",
+   "asset_id": "a_29419d4d3dc542c9",
+   "path": "../../jobs/1018-s1e05-sharing-v1/blocks-lawn-close-candidate-v2.png",
+   "sha256": "4ea69c26d0704a2251cd8d0a253738898c83868fbbc2a062ffdaef282e012525"
+  }
+ ],
+ "voices": {
+  "model": "speech-02-hd",
+  "map": {
+   "xiaosuda": "Cute_Elf/0",
+   "mengji-gege": "chunzhen_xuedi/+1",
+   "xiaomi-mimi": "lovely_girl/+2/speed1.05"
+  },
+  "lines": 40,
+  "spoken_seconds": 120.212,
+  "job_id": "j_f7bd76d505104bbc",
+  "resume_note": "首次任务在 d33 被 RPM 限流，resume_voices.py 按 4 秒间隔补完 d34–d40，未重复计费"
+ },
+ "assembly": {
+  "job_id": "j_e8ddf355e7854831",
+  "clean_asset": "a_947191f88a2e49af",
+  "bgm_asset": "a_53445b374a854542",
+  "bgm_track": "Soda Sunny Steps",
+  "bgm_relative_to_voice_db": -20.4,
+  "peak_dbfs": -8.04,
+  "ffmpeg": "/home/huanghaibin/envs/web/bin/ffmpeg (9.x, 进程内显式指定)"
+ },
+ "project": {
+  "id": "p_c25a69a144ae4b13",
+  "board_version": "v_a33652f9217b421a",
+  "setting_version": "v_832e226ade494d98"
+ },
+ "workspace": "../../jobs/1018-s1e05-sharing-v1",
+ "deviations": [
+  "全部 20 段为直接剪接（22 帧续接有缺陷）",
+  "结尾红球重现",
+  "部分段落缓慢推近"
+ ]
+}

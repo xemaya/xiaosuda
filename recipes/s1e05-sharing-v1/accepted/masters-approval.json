@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-18",
+  "quote": "过，继续配音拍摄",
+  "masters": {
+    "park-lawn-wide": "a_23e86bf228a1404b",
+    "picnic-blanket-medium": "a_139c723a61134b42",
+    "blocks-lawn-wide": "a_4606fea8072d422e",
+    "blocks-lawn-close": "a_29419d4d3dc542c9"
+  },
+  "scene_masters": {
+    "ball-play-medium": "a_d3b18d233bca42ab",
+    "park-lawn-wide": "a_23e86bf228a1404b",
+    "picnic-blanket-medium": "a_139c723a61134b42",
+    "blocks-lawn-wide": "a_4606fea8072d422e",
+    "blocks-lawn-close": "a_29419d4d3dc542c9"
+  },
+  "setting_accepted": true,
+  "setting_version": "v_832e226ade494d98",
+  "revision": 8,
+  "status": "setting"
+}

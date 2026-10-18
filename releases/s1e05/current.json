@@ -1,0 +1,42 @@
+{
+ "series": "Hi, Soda!",
+ "episode": "S1E05",
+ "title": "学会分享 / Sharing Is Caring!",
+ "status": "user_accepted",
+ "date": "2026-10-18",
+ "video": "2026-10-18/Hi-Soda_S1E05_Sharing-Is-Caring.mp4",
+ "sha256": "fae10af8b04610ae17e98a48b888f1ca687c5213ad6af7e239e279ea49aad160",
+ "frames": 3495,
+ "duration_seconds": 145.625,
+ "resolution": [
+  1080,
+  1932
+ ],
+ "fps": 24,
+ "workbench_asset_id": "a_53445b374a854542",
+ "workbench_url": "https://soda.buplayground.cn/api/media/a_53445b374a854542",
+ "recipe": "../../recipes/s1e05-sharing-v1/README.md",
+ "acceptance_quote": "通过，归档",
+ "upload_requested": false,
+ "content": {
+  "dialogue_lines": 40,
+  "editor_lines": 41,
+  "dropped": [
+   "d41 All Together 三人齐说"
+  ],
+  "camera_masters": 5,
+  "shots": 20,
+  "op_seconds": 2,
+  "bgm": {
+   "title": "Soda Sunny Steps",
+   "relative_to_voice_db": -20.4,
+   "peak_dbfs": -8.04
+  }
+ },
+ "known_deviations": [
+  "全部 20 段为直接剪接：22 帧续接在本工程会把上一段末尾放进本段开头（接缝差 42–51）并截掉段末约 0.9 秒语音",
+  "结尾 S19/S20 复用开场全景主图，红球在 Soda 手里重新出现（剧情连续性瑕疵）",
+  "S10 等段落存在缓慢推近，不是严格固定机位",
+  "逐句口型按每句窗口内采样帧核对，非 40 句逐帧"
+ ]
+}

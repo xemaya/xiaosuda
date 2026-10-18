@@ -1,0 +1,452 @@
+{
+  "summary": "S1E05 学会分享：一个公园五个机位、20 段、40 句各一次；四部分连续播放，结尾三人一起欢呼无台词。",
+  "notes": [
+    "窗口按工作台实测原声重算（40 句合计 120.212 秒；段首 0.4 秒、句间 0.35 秒）。",
+    "全部 20 段都是直接剪接，不采用 22 帧续接：本工程续接会把上一段末尾当上下文放进本段开头，实测接缝跳变（末帧对首帧像素差 42–51，S1E04 同期 3.7），且续接段末约 0.9 秒语音被截。在接法修好前，同一机位分段一律直接剪。",
+    "身高三档逐镜验收：Jacky 42cm > Soda 35cm > Mimi 33cm；同一地面水平时 Mimi 头顶（不含耳尖）不得高过 Soda。",
+    "道具连续性：红球只在 S01–S09 出现，点心垫只在 S10–S15，积木只在 S16–S18；S19 起回到草坪全景，不出现球与积木。",
+    "无练习环节，不加 Practice time!；OP 2 秒、轻声 BGM 沿用已认可底轨。结尾 S20 最后约 1.2 秒无台词。"
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "scene_id": "park-lawn-wide",
+      "framing": "wide",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "Soda 带来红球给两位朋友看",
+      "action": "三人站在草地上，Soda 用两只前爪捧着红球举到胸前给两人看，Jacky 与 Mimi 都看向球；听者闭嘴，只做眼神和小幅重心变化。",
+      "camera": "固定全景，交代草坪、栅栏与花坛；身高三档 Jacky>Soda>Mimi",
+      "dialogue_ids": [
+        "d1"
+      ],
+      "seconds": 3.94,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S02",
+      "scene_id": "ball-play-medium",
+      "framing": "medium",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "Jacky 先问能不能玩，Soda 递给他",
+      "action": "Jacky 说完 d2 后前倾一步，Soda 把红球往他面前一递，Jacky 小跳一下道谢；Mimi 在右前安静看着。",
+      "camera": "固定中景，三人围成半圆，红球在中间草地上",
+      "dialogue_ids": [
+        "d2",
+        "d3"
+      ],
+      "seconds": 8.38,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S03",
+      "scene_id": "ball-play-medium",
+      "framing": "medium",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "Mimi 也想玩，Jacky 提议轮流",
+      "action": "直接剪接（不续接）。Mimi 抬起一只前爪问能不能轮到她，Jacky 用翅手在两人之间一比表示轮流。",
+      "camera": "与上一段同一张中景主图，直接剪接（不做 22 帧续接）",
+      "dialogue_ids": [
+        "d4",
+        "d5"
+      ],
+      "seconds": 8.05,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S04",
+      "scene_id": "ball-play-medium",
+      "framing": "medium",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "Mimi 小心玩球",
+      "action": "Mimi 小心伸爪碰球，把球轻轻滚出去，说完 d7 后身体放松；Soda 点头鼓励。",
+      "camera": "固定中景，球滚到 Mimi 前爪边",
+      "dialogue_ids": [
+        "d6",
+        "d7"
+      ],
+      "seconds": 7.67,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S05",
+      "scene_id": "ball-play-medium",
+      "framing": "medium",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "Mimi 再滚一次，Jacky 问何时轮到他",
+      "action": "直接剪接（不续接）。Mimi 低头把球再滚一次，Jacky 侧身坐下问「玩好能给我吗」。",
+      "camera": "与上一段同一张中景主图，直接剪接（不做 22 帧续接）",
+      "dialogue_ids": [
+        "d8",
+        "d9"
+      ],
+      "seconds": 8.88,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S06",
+      "scene_id": "ball-play-medium",
+      "framing": "medium",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "Jacky 耐心等，Mimi 把球推给他",
+      "action": "Mimi 再滚一次球，Jacky 坐着耐心等，Mimi 把球推到他面前并道谢。",
+      "camera": "固定中景，三人站位不变",
+      "dialogue_ids": [
+        "d10",
+        "d11",
+        "d12"
+      ],
+      "seconds": 7.57,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S07",
+      "scene_id": "ball-play-medium",
+      "framing": "medium",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "Jacky 道谢，Soda 开口总结",
+      "action": "直接剪接（不续接）。Jacky 挺起胸道谢，Soda 先看两人再开口总结。",
+      "camera": "与上一段同一张中景主图，直接剪接（不做 22 帧续接）",
+      "dialogue_ids": [
+        "d13",
+        "d14"
+      ],
+      "seconds": 6.4,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S08",
+      "scene_id": "ball-play-medium",
+      "framing": "medium",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "Mimi 说出「不用同时玩」",
+      "action": "Soda 说完 d15，Mimi 认真接一句「不用所有东西同时玩」，身体略向前。",
+      "camera": "固定中景，Jacky 抱着球在右侧",
+      "dialogue_ids": [
+        "d15",
+        "d16"
+      ],
+      "seconds": 9.52,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S09",
+      "scene_id": "ball-play-medium",
+      "framing": "medium",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "Jacky 补一句耐心等，Soda 收束",
+      "action": "直接剪接（不续接）。Jacky 补一句耐心等，Soda 点头收束第二段落。",
+      "camera": "与上一段同一张中景主图，直接剪接（不做 22 帧续接）",
+      "dialogue_ids": [
+        "d17",
+        "d18"
+      ],
+      "seconds": 5.81,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S10",
+      "scene_id": "picnic-blanket-medium",
+      "framing": "medium",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "Jacky 打开点心盒，Mimi 闻一闻",
+      "action": "Jacky 打开膝前的小铁盒，Mimi 探头闻了闻，Soda 趴在垫边看着饼干。",
+      "camera": "固定中景，野餐垫、铁盒、布袋都在画面内",
+      "dialogue_ids": [
+        "d19",
+        "d20"
+      ],
+      "seconds": 6.69,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S11",
+      "scene_id": "picnic-blanket-medium",
+      "framing": "medium",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "Jacky 让全部一起吃",
+      "action": "Jacky 把铁盒往前推，Mimi 尾巴翘起道谢，Soda 抬爪示意。",
+      "camera": "同一中景机位，道具与站位不变",
+      "dialogue_ids": [
+        "d21",
+        "d22"
+      ],
+      "seconds": 7.28,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S12",
+      "scene_id": "picnic-blanket-medium",
+      "framing": "medium",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "Soda 与 Mimi 互让饼干",
+      "action": "Soda 用前爪把一块饼干推给 Mimi，Mimi 也推一块回给 Soda。",
+      "camera": "固定中景，垫上饼干数量与位置连续",
+      "dialogue_ids": [
+        "d23",
+        "d24"
+      ],
+      "seconds": 8.05,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S13",
+      "scene_id": "picnic-blanket-medium",
+      "framing": "medium",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "Jacky 留一点等会儿",
+      "action": "续接 S12 末尾 22 帧。Jacky 把盒盖轻盖一下留一点，Soda 点头同意。",
+      "camera": "同一中景机位，盒盖动作清楚不穿模",
+      "dialogue_ids": [
+        "d25",
+        "d26"
+      ],
+      "seconds": 6.51,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": true,
+      "prompt_en": ""
+    },
+    {
+      "id": "S14",
+      "scene_id": "picnic-blanket-medium",
+      "framing": "medium",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "Mimi 谈分享的快乐，Jacky 总结",
+      "action": "Mimi 说完分享的快乐，Jacky 接一句总结，两人看向 Soda。",
+      "camera": "固定中景，三人围垫而坐/站",
+      "dialogue_ids": [
+        "d27",
+        "d28"
+      ],
+      "seconds": 9.15,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S15",
+      "scene_id": "picnic-blanket-medium",
+      "framing": "medium",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "收拾盒子准备去玩积木",
+      "action": "续接 S14 末尾 22 帧。Jacky 起身收拾盒子，Soda 先说一声，Mimi 也站起来准备离开垫子。",
+      "camera": "同一中景机位，收尾动作幅度小",
+      "dialogue_ids": [
+        "d29",
+        "d30"
+      ],
+      "seconds": 5.69,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": true,
+      "prompt_en": ""
+    },
+    {
+      "id": "S16",
+      "scene_id": "blocks-lawn-wide",
+      "framing": "wide",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "积木倒了，Mimi 与 Soda 主动帮忙",
+      "action": "积木散在草地上，Jacky 低头难过，Mimi 先凑过来要帮忙，Soda 从左侧跑来一起收拾。",
+      "camera": "固定全景，积木位置与数量清晰可见",
+      "dialogue_ids": [
+        "d31",
+        "d32",
+        "d33"
+      ],
+      "seconds": 9.02,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S17",
+      "scene_id": "blocks-lawn-wide",
+      "framing": "wide",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "一起捡积木",
+      "action": "续接 S16 末尾 22 帧。Mimi 举起一块积木，Soda 举起最后一块。",
+      "camera": "同一全景机位，三人围着积木堆",
+      "dialogue_ids": [
+        "d34",
+        "d35"
+      ],
+      "seconds": 5.84,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": true,
+      "prompt_en": ""
+    },
+    {
+      "id": "S18",
+      "scene_id": "blocks-lawn-close",
+      "framing": "close_up",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "放回积木，两人相视",
+      "action": "近景：Jacky 把积木放回堆上，Mimi 也放下一块，两人相视。",
+      "camera": "固定近景，Jacky 左、Mimi 右，Soda 背景虚焦",
+      "dialogue_ids": [
+        "d36",
+        "d37"
+      ],
+      "seconds": 7.82,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S19",
+      "scene_id": "park-lawn-wide",
+      "framing": "wide",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "Soda 说有这样的朋友真开心",
+      "action": "回到开场全景，Soda 说「有你们这样的朋友真开心」，Jacky 接话。",
+      "camera": "固定全景，三人站在一起、红球不在画面里",
+      "dialogue_ids": [
+        "d38",
+        "d39"
+      ],
+      "seconds": 6.85,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S20",
+      "scene_id": "park-lawn-wide",
+      "framing": "wide",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "beat": "三人欢呼收尾（无台词）",
+      "action": "续接 S19 末尾 22 帧。Mimi 说完最后一句，三人一起欢呼、拍手、轻跳收尾，约 1.2 秒无台词。",
+      "camera": "同一全景机位，不推近不摇镜",
+      "dialogue_ids": [
+        "d40"
+      ],
+      "seconds": 4.01,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": true,
+      "prompt_en": ""
+    }
+  ]
+}

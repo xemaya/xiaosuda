@@ -12,7 +12,7 @@
 | S1E02 | [一起出去玩 / Let’s Go Out and Play!](s1e02-original.txt) | 已制作定稿，正式入口见releases/s1e02/current.json |
 | S1E03 | [荡秋千 / Let’s Play on the Swings!](s1e03-original.txt) | 2026-10-18 用户指定按本原稿制作；制作稿见 `episodes/s1e03/`，旧原创《谢谢啦》已按用户指示删除（不保留、不混用） |
 | S1E04 | [认识新朋友 / Let’s Make a New Friend!](s1e04-original.txt) | 已制作定稿（Mimi 首次登场、声线 `lovely_girl`+2），正式入口见 `releases/s1e04/current.json` |
-| S1E05 | [学会分享 / Sharing Is Caring!](s1e05-original.txt) | 编辑原稿，包含分部分内容 |
+| S1E05 | [学会分享 / Sharing Is Caring!](s1e05-original.txt) | 已制作定稿（四部分 41 句做 40 句，删结尾齐说句），正式入口见 `releases/s1e05/current.json` |
 | S1E06 | [说再见 / Time to Say Goodbye!](s1e06-original.txt) | 编辑原稿，包含分部分内容 |
 
 ## 不要混淆的另一套内容

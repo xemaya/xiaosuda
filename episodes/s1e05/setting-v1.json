@@ -1,0 +1,488 @@
+{
+  "style_id": "soda-plush-v14",
+  "title": "S1E05 · 学会分享 · Sharing Is Caring!",
+  "logline": "公园里，Soda、Jacky、Mimi 围绕一只红球、一盒点心和一堆积木，学会轮流、分享与互相帮忙。",
+  "premise": "按编辑原稿 S1E05 制作，四个部分连成一片：第一部分 Soda 带来最喜欢的红球，Jacky 先问能不能玩，Mimi 也想玩，Jacky 提议轮流；第二部分 Mimi 玩球时 Jacky 耐心等到自己那一轮，Mimi 玩完把球交给他，三人总结「轮流让每个人都开心」；第三部分 Jacky 带点心，三人分着吃还留一点以后吃；第四部分 Jacky 的积木塔倒了，Mimi 和 Soda 主动帮忙一起收拾，最后一块积木归位，三人一起欢呼收尾（结尾无台词）。",
+  "cast": [
+    {
+      "character_id": "xiaosuda",
+      "story_role": "弟弟，带红球来分享；被道谢也会主动把球让出去；第一时间去帮 Jacky 捡积木"
+    },
+    {
+      "character_id": "mengji-gege",
+      "story_role": "哥哥，先礼貌请求玩球、耐心等待轮换；带点心请大家吃；积木倒了会难过，被帮忙后开心"
+    },
+    {
+      "character_id": "xiaomi-mimi",
+      "story_role": "新朋友，想玩会先问；玩完主动交还；分点心时也把自己的那份让给 Soda；帮忙捡积木"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "park-lawn-wide",
+      "name": "公园草坪 · 全景",
+      "setting": "同一座公园的草坪全景机位，午后暖光：前景是修剪整齐的浅绿草地，与一条浅色石板步道相交；后方低矮木栅栏、一丛开小白花的花坛和成排绿树，远处树影虚化。地面同一水平、三人全身可见。画面中间偏左：Soda（黑白阿拉斯加幼犬，35cm，四足站在草地上，两只前爪捧着一只鲜红色橡胶小球，球约 12cm，表面哑光、没有文字），黑白花色、白脸罩、暖棕圆眼、蓬松卷尾、背小棕背包；画面右侧半步：Jacky（黄色小鸡，42cm，双足站地，蓝长袖卫衣胸前白色 C，橙嘴橙脚、红橙鸡冠、小圆翅手）；右前方：Mimi（三花短毛小猫，33cm，四足站在草地上，奶白底配暖橘与深灰棕花纹、棕金眼、粉鼻、棕项圈金铃铛、尾巴翘起）。身高硬约束：Jacky 明显最高，Soda 次之，Mimi 最小且头顶（不含耳尖）明显低于 Soda。固定相机、略低于人物视线高度，竖幅 9:16，背景柔和虚化。",
+      "framing": "wide",
+      "cast_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "idle_actions": {
+        "xiaomi-mimi": "四足站着，尾巴轻摆，好奇地看着红球，不抢不扑"
+      },
+      "lighting": "晴朗午后自然光自右后方斜照，草地有柔和阴影，不过曝",
+      "props": [
+        "红色橡胶球",
+        "草地",
+        "石板步道",
+        "木栅栏",
+        "白色小花"
+      ],
+      "reference_scene_id": null
+    },
+    {
+      "id": "ball-play-medium",
+      "name": "草地上玩球 · 中景",
+      "setting": "草坪中景机位（与全景同一地点、同一光向，只换景别）：三人 3/4 身入画、围成一个松散半圆，鲜红小球停在画面中央的草地上，直径约 12cm、哑光无字。Soda 在画面左侧四足站立、身体朝向中央的球，前爪并拢落在草上；Jacky 在右侧后方半步双足站着，蓝卫衣袖口露出圆黄翅手；Mimi 在右前方四足站着或自然蹲坐，花尾巴绕在身侧。身高硬约束不变：Jacky 最高、Soda 次之、Mimi 最小且头顶低于 Soda；三者都不是人形，不穿新增服装（Mimi 仅项圈与铃铛）。背景为草地、栅栏与树影的柔和虚化。",
+      "framing": "medium",
+      "cast_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "idle_actions": {
+        "mengji-gege": "说话间隙站在球旁，翅手自然放在身侧，看着球"
+      },
+      "lighting": "同一暖色午后光，三人面部柔亮、眼内有自然高光",
+      "props": [
+        "红色橡胶球",
+        "草地"
+      ],
+      "reference_scene_id": null
+    },
+    {
+      "id": "picnic-blanket-medium",
+      "name": "野餐垫分点心 · 中景",
+      "setting": "草坪上铺着一块米白与暖橙格纹的野餐垫，中景机位（同一公园、同一光向）：垫子中央放一个打开的浅色小铁盒，里面是几块小圆饼干，旁边一个软布袋。三人围着垫子：Soda 在左侧四足趴坐（前爪并拢落在垫边，后腿收着），Jacky 在右侧双足站着、身体微微前倾，Mimi 在右前方自然蹲坐在垫边、尾巴绕在身侧。三人同一地面水平、身高关系固定（Jacky > Soda > Mimi，Mimi 头顶低于 Soda）；不出现人手、不出现第四只动物。背景是虚化的草地、栅栏与树影。",
+      "framing": "medium",
+      "cast_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "idle_actions": {
+        "xiaomi-mimi": "坐在垫边，鼻尖轻嗅饼干盒，不伸爪乱抓"
+      },
+      "lighting": "同一暖色午后光，饼干盒与野餐垫有柔和质感，不过曝",
+      "props": [
+        "格纹野餐垫",
+        "小铁盒",
+        "小圆饼干",
+        "软布袋"
+      ],
+      "reference_scene_id": null
+    },
+    {
+      "id": "blocks-lawn-wide",
+      "name": "积木倒了 · 全景",
+      "setting": "草坪全景机位（同一公园、同一光向）：草地上散落着二十来块大颗粒积木（暖木色配红、蓝、黄），原本的塔已经倒掉，几块还叠着、多数摊在草上；旁边是同一片草地与步道、木栅栏和树线。三人在散落积木周围：Jacky 在中间双足站着、身体前倾低头看着倒掉的积木（难过但不哭），Soda 在左侧四足站立、头转向积木，Mimi 在右侧四足站着、身体朝积木方向。三人全身可见、同一地面水平，身高关系固定（Jacky > Soda > Mimi）。固定相机、略低视线高度、竖幅 9:16。",
+      "framing": "wide",
+      "cast_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "idle_actions": {},
+      "lighting": "同一暖色午后光，积木有柔和阴影",
+      "props": [
+        "大颗粒积木",
+        "草地",
+        "木栅栏"
+      ],
+      "reference_scene_id": null
+    },
+    {
+      "id": "blocks-lawn-close",
+      "name": "一起捡积木 · 近景",
+      "setting": "散落积木旁近景机位（同一地点、同一光向，景别推近）：画面左侧是 Jacky 的头、蓝卫衣肩部和小圆翅手，翅手正捧着一块暖木色积木；右侧是 Mimi 的头与肩背，奶白底配暖橘与深灰棕花纹、棕金眼、粉鼻、棕项圈金铃铛，嘴里或爪边也有一块积木，低头看向草地；画面左后景是 Soda 的半个身体，虚焦。草地上散着几块同款积木。三人都是动物结构、不拟人；Mimi 头顶（不含耳尖）低于 Soda，Jacky 最高。背景高度虚化只剩草地与树影。",
+      "framing": "close_up",
+      "cast_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "idle_actions": {},
+      "lighting": "同一暖色午后光，眼神光清晰，积木木纹克制",
+      "props": [
+        "大颗粒积木",
+        "草地"
+      ],
+      "reference_scene_id": null
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "d1",
+      "speaker_id": "xiaosuda",
+      "text": "Look, everyone! I brought my favorite red ball!",
+      "translation": "大家快看！我带来了我最喜欢的红色小球！",
+      "emotion": "Excited and proud, holding the red ball up with both forepaws",
+      "speed": 1.0
+    },
+    {
+      "id": "d2",
+      "speaker_id": "mengji-gege",
+      "text": "Wow! It’s so pretty! Can I play with it, please?",
+      "translation": "哇！它真漂亮！我可以玩一下吗？",
+      "emotion": "Delighted and polite, leaning in toward the ball",
+      "speed": 1.0
+    },
+    {
+      "id": "d3",
+      "speaker_id": "xiaosuda",
+      "text": "Of course, Jacky! Here you go!",
+      "translation": "当然可以，奇奇！给你！",
+      "emotion": "Warm and generous, holding the ball out to the chick",
+      "speed": 1.0
+    },
+    {
+      "id": "d4",
+      "speaker_id": "mengji-gege",
+      "text": "Thank you, Soda! You’re so kind!",
+      "translation": "谢谢你，小苏打！你真友善！",
+      "emotion": "Happy and grateful, small hop in place",
+      "speed": 1.0
+    },
+    {
+      "id": "d5",
+      "speaker_id": "xiaomi-mimi",
+      "text": "Ooh! I want to play, too! Can I have a turn?",
+      "translation": "哦！我也想玩！可以轮到我玩一下吗？",
+      "emotion": "Eager and a bit shy, one front paw lifted toward the ball",
+      "speed": 1.05
+    },
+    {
+      "id": "d6",
+      "speaker_id": "mengji-gege",
+      "text": "Sure, Mimi! Let’s take turns!",
+      "translation": "当然可以，小咪！我们轮流玩吧！",
+      "emotion": "Cheerful and fair-minded, wing gesturing between the two",
+      "speed": 1.0
+    },
+    {
+      "id": "d7",
+      "speaker_id": "xiaomi-mimi",
+      "text": "Yay! Thank you! I’ll be careful!",
+      "translation": "耶！谢谢你们！我会小心玩的！",
+      "emotion": "Excited and careful, eyes bright",
+      "speed": 1.05
+    },
+    {
+      "id": "d8",
+      "speaker_id": "xiaosuda",
+      "text": "That’s the way! We can all have fun together!",
+      "translation": "这就对啦！我们大家可以一起开心地玩！",
+      "emotion": "Pleased and encouraging, nodding at the group",
+      "speed": 1.0
+    },
+    {
+      "id": "d9",
+      "speaker_id": "xiaomi-mimi",
+      "text": "Wheee! I love this ball! It’s so much fun!",
+      "translation": "喔耶！我好喜欢这个球！太好玩啦！",
+      "emotion": "Joyful while rolling the ball, body low and playful",
+      "speed": 1.05
+    },
+    {
+      "id": "d10",
+      "speaker_id": "mengji-gege",
+      "text": "Mimi, can I have the ball when you’re done?",
+      "translation": "小咪，你玩好之后，可以把球给我吗？",
+      "emotion": "Polite and patient, head tilted toward the kitten",
+      "speed": 1.0
+    },
+    {
+      "id": "d11",
+      "speaker_id": "xiaomi-mimi",
+      "text": "Sure! Just one more roll!",
+      "translation": "当然可以！我再滚一次就好！",
+      "emotion": "Easy-going and playful, one paw on the ball",
+      "speed": 1.05
+    },
+    {
+      "id": "d12",
+      "speaker_id": "mengji-gege",
+      "text": "Okay! I can wait!",
+      "translation": "好呀！我可以等一等！",
+      "emotion": "Calm and patient, sitting down to wait",
+      "speed": 1.0
+    },
+    {
+      "id": "d13",
+      "speaker_id": "xiaomi-mimi",
+      "text": "All done! Here you go, Jacky!",
+      "translation": "玩好啦！给你，奇奇！",
+      "emotion": "Bright and helpful, pushing the ball over",
+      "speed": 1.05
+    },
+    {
+      "id": "d14",
+      "speaker_id": "mengji-gege",
+      "text": "Thanks! You’re a great friend!",
+      "translation": "谢谢！你真是个好朋友！",
+      "emotion": "Warm and thankful, wings up",
+      "speed": 1.0
+    },
+    {
+      "id": "d15",
+      "speaker_id": "xiaosuda",
+      "text": "See? Taking turns makes everyone happy!",
+      "translation": "你们看！轮流玩能让每个人都开心！",
+      "emotion": "Satisfied and teacherly, looking at both friends",
+      "speed": 1.0
+    },
+    {
+      "id": "d16",
+      "speaker_id": "xiaomi-mimi",
+      "text": "You’re right! We don’t have to play with everything at the same time!",
+      "translation": "你说得对！我们不一定要同时玩同一个玩具！",
+      "emotion": "Earnest, thinking it through as she speaks",
+      "speed": 1.05
+    },
+    {
+      "id": "d17",
+      "speaker_id": "mengji-gege",
+      "text": "And we can wait patiently for our turn!",
+      "translation": "而且我们可以耐心地等待轮到自己！",
+      "emotion": "Patient and proud of himself",
+      "speed": 1.0
+    },
+    {
+      "id": "d18",
+      "speaker_id": "xiaosuda",
+      "text": "That’s right! Good friends share and care!",
+      "translation": "没错！好朋友懂得分享，也会关心彼此！",
+      "emotion": "Content and warm, nodding",
+      "speed": 1.0
+    },
+    {
+      "id": "d19",
+      "speaker_id": "mengji-gege",
+      "text": "Hey, friends! I brought some yummy snacks!",
+      "translation": "嘿，朋友们！我带了一些好吃的小点心！",
+      "emotion": "Cheerful and generous, opening the snack box",
+      "speed": 1.0
+    },
+    {
+      "id": "d20",
+      "speaker_id": "xiaomi-mimi",
+      "text": "Yum! They look delicious!",
+      "translation": "哇！看起来好好吃呀！",
+      "emotion": "Curious and hungry, sniffing toward the snacks",
+      "speed": 1.05
+    },
+    {
+      "id": "d21",
+      "speaker_id": "xiaosuda",
+      "text": "That’s so nice of you, Jacky! Can we share them?",
+      "translation": "奇奇，你真好！我们可以一起分享吗？",
+      "emotion": "Polite and happy, looking at the chick",
+      "speed": 1.0
+    },
+    {
+      "id": "d22",
+      "speaker_id": "mengji-gege",
+      "text": "Of course! I brought enough for everyone!",
+      "translation": "当然可以！我带的点心够大家一起吃！",
+      "emotion": "Generous and relaxed, setting the box down",
+      "speed": 1.0
+    },
+    {
+      "id": "d23",
+      "speaker_id": "xiaomi-mimi",
+      "text": "Thank you! Sharing makes snack time even better!",
+      "translation": "谢谢你！一起分享，吃点心就更开心啦！",
+      "emotion": "Grateful and bright, tail tip flicking",
+      "speed": 1.05
+    },
+    {
+      "id": "d24",
+      "speaker_id": "xiaosuda",
+      "text": "Here, Mimi. You can have this one!",
+      "translation": "来，小咪。这个给你！",
+      "emotion": "Kind, offering a snack with one paw",
+      "speed": 1.0
+    },
+    {
+      "id": "d25",
+      "speaker_id": "xiaomi-mimi",
+      "text": "Thanks, Soda! And this one is for you!",
+      "translation": "谢谢你，小苏打！这个给你！",
+      "emotion": "Warm, pushing a snack back toward the puppy",
+      "speed": 1.05
+    },
+    {
+      "id": "d26",
+      "speaker_id": "mengji-gege",
+      "text": "And let’s save a little for later, too!",
+      "translation": "我们也留一点，等会儿再吃吧！",
+      "emotion": "Thoughtful, saving a piece and covering it lightly",
+      "speed": 1.0
+    },
+    {
+      "id": "d27",
+      "speaker_id": "xiaosuda",
+      "text": "Great idea! We don’t need to take everything for ourselves.",
+      "translation": "好主意！我们不能把所有东西都留给自己。",
+      "emotion": "Agreeing and happy, nodding",
+      "speed": 1.0
+    },
+    {
+      "id": "d28",
+      "speaker_id": "xiaomi-mimi",
+      "text": "When we share, everyone gets a little happiness!",
+      "translation": "当我们分享时，每个人都能收获一点快乐！",
+      "emotion": "Soft and content, looking around the group",
+      "speed": 1.05
+    },
+    {
+      "id": "d29",
+      "speaker_id": "mengji-gege",
+      "text": "That’s why sharing is caring!",
+      "translation": "所以说，分享就是关爱！",
+      "emotion": "Pleased, wings out in a small flourish",
+      "speed": 1.0
+    },
+    {
+      "id": "d30",
+      "speaker_id": "mengji-gege",
+      "text": "Oh, no! My blocks fell down!",
+      "translation": "哦，不！我的积木倒了！",
+      "emotion": "Alarmed and upset, looking down at the fallen blocks",
+      "speed": 1.0
+    },
+    {
+      "id": "d31",
+      "speaker_id": "xiaomi-mimi",
+      "text": "Don’t worry, Jacky! I’ll help you pick them up.",
+      "translation": "别担心，奇奇！我来帮你捡起来。",
+      "emotion": "Reassuring and quick to help, already stepping closer",
+      "speed": 1.05
+    },
+    {
+      "id": "d32",
+      "speaker_id": "xiaosuda",
+      "text": "Me, too! Let’s clean up together!",
+      "translation": "我也来！我们一起收拾吧！",
+      "emotion": "Eager to help, trotting toward the blocks",
+      "speed": 1.0
+    },
+    {
+      "id": "d33",
+      "speaker_id": "mengji-gege",
+      "text": "Really? Thank you, friends!",
+      "translation": "真的吗？谢谢你们，我的朋友们！",
+      "emotion": "Touched and relieved, eyes wide",
+      "speed": 1.0
+    },
+    {
+      "id": "d34",
+      "speaker_id": "xiaomi-mimi",
+      "text": "No problem! Friends help each other!",
+      "translation": "没关系！好朋友之间要互相帮助！",
+      "emotion": "Warm and matter-of-fact, holding a block",
+      "speed": 1.05
+    },
+    {
+      "id": "d35",
+      "speaker_id": "xiaosuda",
+      "text": "Here’s the last block!",
+      "translation": "最后一块积木在这里！",
+      "emotion": "Proud, holding up the last block",
+      "speed": 1.0
+    },
+    {
+      "id": "d36",
+      "speaker_id": "mengji-gege",
+      "text": "We did it! Everything is back in place!",
+      "translation": "我们做到了！所有东西都放回原位啦！",
+      "emotion": "Happy and satisfied, looking at the tidy tower",
+      "speed": 1.0
+    },
+    {
+      "id": "d37",
+      "speaker_id": "xiaomi-mimi",
+      "text": "Yay! Teamwork makes things easier!",
+      "translation": "耶！大家一起合作，事情就容易多啦！",
+      "emotion": "Cheerful, little bounce",
+      "speed": 1.05
+    },
+    {
+      "id": "d38",
+      "speaker_id": "xiaosuda",
+      "text": "I’m so happy to have friends like you!",
+      "translation": "有你们这样的朋友，我真开心！",
+      "emotion": "Warm and sincere, looking at both friends",
+      "speed": 1.0
+    },
+    {
+      "id": "d39",
+      "speaker_id": "mengji-gege",
+      "text": "Me, too! We share, we help, and we have fun!",
+      "translation": "我也是！我们一起分享、互相帮助，还能一起玩得开心！",
+      "emotion": "Happy and a bit proud, wings up",
+      "speed": 1.0
+    },
+    {
+      "id": "d40",
+      "speaker_id": "xiaomi-mimi",
+      "text": "Best friends forever!",
+      "translation": "永远都是最好的朋友！",
+      "emotion": "Bright and affectionate, tail up",
+      "speed": 1.05
+    }
+  ],
+  "beats": [
+    {
+      "summary": "Soda 带来最喜欢的红球给两位朋友看，Jacky、Mimi 都想要玩",
+      "scene_id": "park-lawn-wide"
+    },
+    {
+      "summary": "Jacky 先问能不能玩，Soda 递给他；Mimi 也想玩，Jacky 提议轮流",
+      "scene_id": "ball-play-medium"
+    },
+    {
+      "summary": "Mimi 玩球，Jacky 耐心等到自己那一轮，Mimi 把球交给他",
+      "scene_id": "ball-play-medium"
+    },
+    {
+      "summary": "三人总结轮流玩的道理：可以让别人先玩、也可以耐心等",
+      "scene_id": "ball-play-medium"
+    },
+    {
+      "summary": "Jacky 带点心，三人分着吃，还留一点等会儿",
+      "scene_id": "picnic-blanket-medium"
+    },
+    {
+      "summary": "Jacky 的积木塔倒了，Mimi 和 Soda 主动来帮忙，一起收拾",
+      "scene_id": "blocks-lawn-wide"
+    },
+    {
+      "summary": "最后一块积木归位，三人欢呼收尾（无台词）",
+      "scene_id": "blocks-lawn-close"
+    }
+  ],
+  "notes": [
+    "来源：编辑原稿 scripts/editorial/s1e05-original.txt（docx SHA-256 affdafb3…，段落 128–234）。四个部分 41 句，2026-10-18 用户确认全做，并同意删掉结尾 d41「All Together 三人齐说」，改为三人一起无台词欢呼收尾。",
+    "人名规范化：Baking Soda→Soda、Chick→Jacky、Kitty→Mimi；中文「小鸡」→「奇奇」、「小猫咪」→「小咪」。英语句子、剧情与译文含义不变。",
+    "本集三人都已相识（S1E04 结尾成为朋友），所以不再用 species 称呼当人名；Mimi 首次登场在 S1E04。",
+    "三人同框硬约束：Jacky 42cm > Soda 35cm > Mimi 33cm；同一地面水平时 Mimi 头顶（不含耳尖）必须低于 Soda。逐镜单独量，不因整体画风相近放行。",
+    "姿态：Soda 自然犬类（四足站、趴坐、前爪并拢、摇尾），Jacky 双足小鸡（蹲、前倾、翅手捧物），Mimi 自然猫科（四足站、蹲坐、尾巴绕身）；谁都不拟人直立、不出现人手。",
+    "红球、积木、饼干盒、野餐垫是本集新道具，尺寸与颜色写进场景设定；球不加文字和图案，避免与品牌或文字混淆。",
+    "口型归属：每句只有一位角色开口，其余两人闭嘴；三人同框时尤其要核对是谁在动嘴。结尾无台词，只靠三人欢呼。",
+    "本集无练习环节，不加 Practice time! 幕间；OP 2 秒、大字幕、轻声 BGM 沿用已认可底轨。",
+    "41 句原文中 d41 已按用户指示删除，全片 40 句；四部分结构保留（剧本里分段，成片连续播放）。"
+  ],
+  "unresolved_characters": []
+}
