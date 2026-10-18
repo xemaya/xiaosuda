@@ -1,0 +1,136 @@
+{
+  "shots": [
+    {
+      "id": "S01",
+      "scene_id": "playground-wide",
+      "framing": "wide",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege"
+      ],
+      "beat": "两人来到游乐区看见秋千，Soda 兴奋，Jacky 提议试试",
+      "action": "两人四足/双足并排站定在同一地面，Soda 前爪轻抬、身体朝秋千方向倾，Jacky 抬起一只翅膀指向秋千再转向弟弟；听者闭嘴，只做眼神和小幅重心变化，不抢嘴。",
+      "camera": "固定全景，略低于人物视线高度，交代秋千架、沙地、栅栏与树；Soda 明显比 Jacky 矮小",
+      "dialogue_ids": [
+        "d1",
+        "d2"
+      ],
+      "seconds": 6.14,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S02",
+      "scene_id": "swing-medium",
+      "framing": "medium",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege"
+      ],
+      "beat": "Soda 想玩并坐上座板，Jacky 让他先玩",
+      "action": "Soda 已自然坐在木质座板上，两只前爪轻搭链条、后腿自然下垂，回答时尾巴摇；Jacky 站在身侧半步，一只翅膀扶着链条稳住座板，说完让先玩时向弟弟点头。两人全身可见，身高比例不变。",
+      "camera": "固定中景（与 S01 全景是不同机位，直接剪接，不做 22 帧续接）",
+      "dialogue_ids": [
+        "d3",
+        "d4"
+      ],
+      "seconds": 4.65,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S03",
+      "scene_id": "swing-medium",
+      "framing": "medium",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege"
+      ],
+      "beat": "Soda 道谢，Jacky 提醒轮到他要帮推",
+      "action": "续接 S02 实际保留末尾 22 帧纯画面：Soda 抬头看着哥哥道谢，Jacky 松开链条、退半步站到座板侧后方准备推，说到轮到我时用翅膀指了指自己再指秋千。不换背景、不切景别。",
+      "camera": "固定中景，继承 S02 同机位，只传画面 22 帧，不传旧音频/AV latent",
+      "dialogue_ids": [
+        "d5",
+        "d6"
+      ],
+      "seconds": 6.45,
+      "continuation": true,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "prompt_en": ""
+    },
+    {
+      "id": "S04",
+      "scene_id": "swing-close",
+      "framing": "close_up",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege"
+      ],
+      "beat": "Soda 轻轻荡起来，Jacky 礼貌请求轮换",
+      "action": "切近景：Soda 坐在座板上小幅前后轻摆（幅度小、链条不甩高），前爪扶链条，喊 Wheee 时耳朵和脸颊跟着动；Jacky 在右后方半步抬头看着弟弟，说完请求后小幅举手。两人都在画面内。",
+      "camera": "固定近景（换景别，新主图直接剪接）",
+      "dialogue_ids": [
+        "d7",
+        "d8"
+      ],
+      "seconds": 4.83,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S05",
+      "scene_id": "swing-close",
+      "framing": "close_up",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege"
+      ],
+      "beat": "Soda 主动让出秋千，Jacky 开心道谢",
+      "action": "续接 S04 实际保留末尾 22 帧纯画面：Soda 的摆动幅度收小、稳定下来，说完让位后前爪松开链条、身体略向前；Jacky 开心地原地跳一下再道谢。听者闭嘴。",
+      "camera": "固定近景，继承 S04 同机位，只传画面 22 帧",
+      "dialogue_ids": [
+        "d9",
+        "d10"
+      ],
+      "seconds": 4.27,
+      "continuation": true,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "prompt_en": ""
+    },
+    {
+      "id": "S06",
+      "scene_id": "playground-wide",
+      "framing": "wide",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege"
+      ],
+      "beat": "Soda 提议每天都一起玩，两兄弟一起开心大笑收尾",
+      "action": "回到 S01 同一全景机位：两人并排站在秋千架旁的沙地上，Jacky 双足、Soda 四足，Soda 说完最后一句后两人对视、一起开心大笑（Jacky 轻轻跳一下、Soda 摇尾巴并前爪轻抬）。结尾没有台词，靠表演收尾。身高比例与 S01 一致，Soda 仍明显矮小。",
+      "camera": "固定全景，复用 S01 同一机位主图（非续接，直接剪接）",
+      "dialogue_ids": [
+        "d11"
+      ],
+      "seconds": 4.08,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    }
+  ],
+  "summary": "S1E03 荡秋千：按实测原声重算窗口，一个地点三机位六段，11 句各有一次，结尾无台词大笑收尾。",
+  "notes": [
+    "窗口按工作台实测原声重算（语音合计 22.21 秒，句间 0.35 秒，段首 0.4 秒静音）。",
+    "S02→S03、S04→S05 为同机位 22 帧画面续接；换景别的剪接不做续接。",
+    "身高关系逐镜验收：同一地面水平时 Soda 不得比 Jacky 高。",
+    "无练习环节，不加 Practice time!；OP 2 秒，轻声 BGM 沿用已认可底轨。"
+  ]
+}

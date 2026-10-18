@@ -1,0 +1,204 @@
+{
+  "style_id": "soda-plush-v14",
+  "title": "S1E03 · 荡秋千 · Let’s Play on the Swings!",
+  "logline": "公园里有一副秋千，Jacky 让弟弟先玩；Soda 玩得开心也愿意让出来，两人约定每天都一起玩。",
+  "premise": "按编辑原稿 S1E03 制作：Soda 与 Jacky 来到公园游乐区，看见一副秋千。Jacky 大方让弟弟先玩，Soda 道谢后坐上秋千，Jacky 提醒轮到自己时要帮他推；Soda 轻轻荡起来，听到哥哥想轮换就主动让出，Jacky 点名道谢；最后 Soda 提议每天都一起玩，两兄弟一起开心大笑收尾（结尾无台词）。全片只教一个重点：轮流玩与请求轮换的地道说法（You can go first / Can I have a turn? / It’s your turn!）。",
+  "cast": [
+    {
+      "character_id": "xiaosuda",
+      "story_role": "弟弟，先发现秋千很兴奋；被让先玩会道谢，玩得开心；听哥哥请求后主动让出并提议每天一起玩"
+    },
+    {
+      "character_id": "mengji-gege",
+      "story_role": "哥哥，大方让弟弟先玩、帮忙扶住秋千；想轮换时有礼貌地请求；被让后开心道谢"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "playground-wide",
+      "name": "公园游乐区 · 全景",
+      "setting": "阳光充足的公园游乐区：一副木与金属结合的秋千架立在柔软沙地上，挂两个木质座板，链条自然垂下；后方是低矮木栅栏、成排绿树和灌木，地面由草过渡到沙，远处有一张公园长椅。Soda 与 Jacky 并排站在秋千架前，两人都在地面同一水平、全身可见，中间留出走向秋千的空间。固定相机、略低于人物视线高度，背景柔和虚化。相对身高固定：Jacky 明显高于 Soda（约 42cm 对 35cm，约 1.2 倍）；Soda 是大头短腿的幼犬，四足站立，绝不能比哥哥高大。",
+      "framing": "wide",
+      "cast_ids": [
+        "xiaosuda",
+        "mengji-gege"
+      ],
+      "idle_actions": {},
+      "lighting": "晴朗午后自然光自右后方斜照，草地与沙地有柔和阴影，不过曝",
+      "props": [
+        "秋千架",
+        "两个木座板",
+        "铁链",
+        "沙地",
+        "木栅栏",
+        "公园长椅"
+      ],
+      "reference_scene_id": null
+    },
+    {
+      "id": "swing-medium",
+      "name": "秋千架旁 · 中景",
+      "setting": "秋千架侧前方中景机位：画面左侧是垂下的木座板与链条，右侧 Soda 已自然坐在座板上，两只前爪搭在身前、后腿自然下垂，秋千链条垂在他身体两侧；Jacky 站在他身侧半步处，双足踩地，一只小翅膀扶着链条帮弟弟稳住。两人全身可见，保持固定相对身高：Jacky 站姿明显高于 Soda，Soda 坐姿躯干短圆，不是人形；座板抬高的是座位，不是身体比例。背景为草地、栅栏与树的柔和虚化。",
+      "framing": "medium",
+      "cast_ids": [
+        "xiaosuda",
+        "mengji-gege"
+      ],
+      "idle_actions": {
+        "mengji-gege": "说话间隙轻轻扶着秋千链条，防止座板晃动"
+      },
+      "lighting": "同一午后光，人物面部柔亮、眼内有自然高光，金属链条只有克制反光",
+      "props": [
+        "秋千座板",
+        "铁链",
+        "沙地"
+      ],
+      "reference_scene_id": null
+    },
+    {
+      "id": "swing-close",
+      "name": "秋千上 · 近景",
+      "setting": "秋千架近景机位：Soda 坐在座板上占据画面主要位置，身体小幅前后轻摆，前爪扶着链条，脸转向画面一侧；Jacky 在画面右后方半步，半个身体入画，抬头看着弟弟。背景是虚化的树影与栅栏。两人仍按固定相对身高与幼犬结构呈现；Soda 保持犬类坐姿和短圆躯干，不拟人直立。",
+      "framing": "close_up",
+      "cast_ids": [
+        "xiaosuda",
+        "mengji-gege"
+      ],
+      "idle_actions": {},
+      "lighting": "同一暖色午后光，Soda 面部为主光，Jacky 略带侧光",
+      "props": [
+        "秋千座板",
+        "铁链"
+      ],
+      "reference_scene_id": null
+    }
+  ],
+  "beats": [
+    {
+      "summary": "两人来到公园游乐区看见秋千，Soda 兴奋，Jacky 提议试试",
+      "scene_id": "playground-wide"
+    },
+    {
+      "summary": "Soda 想玩，Jacky 让他先玩，Soda 坐上座板并道谢",
+      "scene_id": "swing-medium"
+    },
+    {
+      "summary": "Jacky 提醒轮到自己时要帮他推，站到秋千后方准备",
+      "scene_id": "swing-medium"
+    },
+    {
+      "summary": "Soda 轻轻荡起来喊 Wheee，Jacky 礼貌请求轮换",
+      "scene_id": "swing-close"
+    },
+    {
+      "summary": "Soda 主动让出秋千，Jacky 开心道谢",
+      "scene_id": "swing-close"
+    },
+    {
+      "summary": "Soda 提议每天都一起玩，两兄弟一起开心大笑收尾（无台词）",
+      "scene_id": "playground-wide"
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "d1",
+      "speaker_id": "xiaosuda",
+      "text": "Wow! Look at those swings!",
+      "translation": "哇！快看那些秋千！",
+      "emotion": "Excited and surprised",
+      "speed": 1.0
+    },
+    {
+      "id": "d2",
+      "speaker_id": "mengji-gege",
+      "text": "They look like so much fun! Do you want to try?",
+      "translation": "看起来真好玩！你想试试吗？",
+      "emotion": "Cheerful and inviting",
+      "speed": 1.0
+    },
+    {
+      "id": "d3",
+      "speaker_id": "xiaosuda",
+      "text": "Yes, please! I love swings!",
+      "translation": "想呀！我最喜欢荡秋千了！",
+      "emotion": "Eager and happy",
+      "speed": 1.0
+    },
+    {
+      "id": "d4",
+      "speaker_id": "mengji-gege",
+      "text": "You can go first, Soda!",
+      "translation": "小苏打，你可以先玩！",
+      "emotion": "Kind and generous",
+      "speed": 1.0
+    },
+    {
+      "id": "d5",
+      "speaker_id": "xiaosuda",
+      "text": "Thank you, Jacky! You’re so nice!",
+      "translation": "谢谢你，奇奇！你真好！",
+      "emotion": "Warm and grateful",
+      "speed": 1.0
+    },
+    {
+      "id": "d6",
+      "speaker_id": "mengji-gege",
+      "text": "You’re welcome! Push me when it’s my turn!",
+      "translation": "不客气！轮到我的时候，帮我推一下哦！",
+      "emotion": "Easy and playful",
+      "speed": 1.0
+    },
+    {
+      "id": "d7",
+      "speaker_id": "xiaosuda",
+      "text": "Wheee! This is so much fun!",
+      "translation": "喔耶！太好玩啦！",
+      "emotion": "Joyful, gentle sway",
+      "speed": 1.0
+    },
+    {
+      "id": "d8",
+      "speaker_id": "mengji-gege",
+      "text": "Can I have a turn now?",
+      "translation": "现在可以轮到我玩了吗？",
+      "emotion": "Polite and hopeful",
+      "speed": 1.0
+    },
+    {
+      "id": "d9",
+      "speaker_id": "xiaosuda",
+      "text": "Of course! It’s your turn!",
+      "translation": "当然可以！轮到你啦！",
+      "emotion": "Happy and generous",
+      "speed": 1.0
+    },
+    {
+      "id": "d10",
+      "speaker_id": "mengji-gege",
+      "text": "Yay! Thank you, Soda!",
+      "translation": "耶！谢谢你，小苏打！",
+      "emotion": "Delighted",
+      "speed": 1.0
+    },
+    {
+      "id": "d11",
+      "speaker_id": "xiaosuda",
+      "text": "Let’s play together every day!",
+      "translation": "我们每天都一起玩吧！",
+      "emotion": "Warm and certain",
+      "speed": 1.0
+    }
+  ],
+  "notes": [
+    "来源：编辑原稿 scripts/editorial/s1e03-original.txt（docx SHA-256 affdafb3…，段落 36–80）。剧情与英语逐句保留，仅按 series-bible 把 Baking Soda 规范为 Soda、Chick 规范为 Jacky，中文里的“小鸡”改为“奇奇”。",
+    "身高关系是硬约束：Jacky 42cm 明显高于 Soda 35cm（约 1.2 倍）。同一地面水平时 Soda 绝不能比哥哥高大；Soda 坐姿或坐上座板抬高的是座位，不是身体比例，也不按头顶对齐拉伸躯干。",
+    "Soda 全程自然犬类：四足站立、自然犬坐、前爪扶链条；不拟人直立、不拉长躯干。Jacky 保持双足小鸡结构。",
+    "一个地点（公园游乐区）、三个机位（全景 / 中景 / 近景），新搭秋千架，不复用 S1E02 步道机位，也不为每句对白新搭背景。",
+    "秋千只用小幅前后轻摆表现，不做大摆幅、不甩到高处；舞台提示里的“假装荡秋千”即指这种原生模型能稳定完成的轻摆。",
+    "每句只有一位角色开口，听者闭嘴；说话者全程在画面内，便于逐句口型验收。",
+    "本集无练习环节，不加 Practice time! 幕间；OP 2 秒、大字幕、轻声 BGM 沿用已认可底轨。",
+    "结尾人设与收尾（2026-10-18 用户指示）：d10 改为点名道谢 “Yay! Thank you, Soda!”；删除原 d12 “Best friends forever!”，结尾不念台词，只拍两兄弟一起开心大笑。因此全片 11 句，最后一段靠表演收尾。",
+    "样图对齐（2026-10-18）：S02 中景样图里 Soda 前爪搭在身前、链条在身体两侧（不是紧握链条）；以后续采用的主图为准，文字与画面保持一致。"
+  ],
+  "unresolved_characters": []
+}

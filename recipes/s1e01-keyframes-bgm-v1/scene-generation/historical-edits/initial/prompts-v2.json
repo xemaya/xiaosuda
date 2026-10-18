@@ -1,0 +1,11 @@
+{
+  "tool": "built-in imagegen",
+  "common": "Precise object edit / identity preserve. Edit the matching V1 frame, preserving the tactile plush 3D identity, warm room lighting or blue snowy setting, and source portrait aspect ratio. No collage, duplicate actors, extra costumes, subtitles or watermarks. White C on Jacky hoodie is allowed.",
+  "per_scene": {
+    "home-wide": "移除后排重复小鸡和绵羊，严格一只Soda、一只Jacky、一只Angela。保留小狗和棕背包、暖光客厅。哥哥坐在积木桌左侧搭积木、闭嘴，姐姐坐右侧扶手椅读书、闭嘴。蓝外套白C和粉色裙/蝴蝶结/小书包不变，无其他人物。",
+    "home-close": "只改变景别和自然友善表情：头肩真正特写，耳尖靠上边、头部占约65–75%画宽，不露脚、地板和下肢。保留相同阿拉斯加犬身份、棕眼、腮红、粉内耳、黑鼻和棕背包肩带，温暖虚化客厅，一只小狗，无新衣物和文字。",
+    "north-wide": "保留冰雪北方、雪松、远山和蓝天，同一只Soda及棕背包。移除背包下多出的蓝布衣料，以本来灰黑/白毛代替；不增加衣服/围巾。全身四爪自然落地、蓬松卷尾，镜头略退，角色约占画高三分之一，留奔跑空间。",
+    "jacky-corner": "保留同一只Jacky和Soda、积木桌、原暖光机位。移除Jacky多出的棕背包，仅保留蓝外套白C；保留Soda的棕背包。Jacky坐在矮桌前专心放积木、喙闭合，不挥手不说话；Soda在旁介绍。两只动物，不复制角色。",
+    "angela-reading": "保留Angela、Soda、扶手椅、暖光房间、粉裙/粉蝴蝶结/粉书包及Soda棕背包。把姐姐挥手和开口改成安静读书：放下举起的手扶着书，目光向书页，闭嘴温柔表情。起始帧在读自己的书，后续视频再抬头回应。一羊一狗，不加人物/配饰/文字。"
+  }
+}

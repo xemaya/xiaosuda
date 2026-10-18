@@ -1,0 +1,32 @@
+{
+  "source": "/Users/huanghaibin/Workspace/games/4090/xiaosuda/jobs/1017-huangshan-quadruped-v2/Hi-Soda_Huangshan_quadruped-v2.mp4",
+  "source_sha256": "69728837c4cec7597abec68bfccbb185b32d6168217903d045ae808201eb816b",
+  "path": "/Users/huanghaibin/Workspace/games/4090/xiaosuda/jobs/1018-huangshan-silent-cloud-v3/Hi-Soda_Huangshan_silent-cloud-v3.mp4",
+  "sha256": "f93c763d99de10762a646e9da632af04cc51141342b3e44b229db40eeef2cd15",
+  "frames": 3325,
+  "fps": 24,
+  "reframed_frames": [
+    1472,
+    1624
+  ],
+  "reframed_seconds": [
+    61.333333333333336,
+    67.66666666666667
+  ],
+  "crop_source_pixels": [
+    260,
+    200,
+    560,
+    1002
+  ],
+  "reencoded_gop_frames": [
+    1276,
+    1624
+  ],
+  "outside_gop_video_stream_copy": true,
+  "all_other_picture_content_preserved": true,
+  "audio_encoded_stream_exact": true,
+  "new_image_or_video_model_calls": 0,
+  "copied_still_or_frozen_tail_frames": 0,
+  "human_acceptance": "pending"
+}

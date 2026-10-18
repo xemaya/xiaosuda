@@ -1,0 +1,195 @@
+{
+  "prompt": [
+    805,
+    "4845baec-6f85-48c2-9d18-e466804d2979",
+    {
+      "1": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "qwen_image_2.1_bf16.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "2": {
+        "class_type": "QwenImage21Cache",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "device": "auto",
+          "dtype": "default"
+        }
+      },
+      "3": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen3vl_8b_bf16.safetensors",
+          "type": "qwen_image",
+          "device": "default"
+        }
+      },
+      "4": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+        }
+      },
+      "5": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "soda-1e9f49fe25537e10c0ebc10a.png"
+        }
+      },
+      "6": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "soda-da91bb93d58cd40cc2ea4871.png"
+        }
+      },
+      "7": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "soda-47e3f9b9f7443b2bbbaadc46.png"
+        }
+      },
+      "8": {
+        "class_type": "TextEncodeQwenImage21",
+        "inputs": {
+          "clip": [
+            "3",
+            0
+          ],
+          "vae": [
+            "4",
+            0
+          ],
+          "prompt": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory and cornflower-blue/golden-yellow palette, soft warm window light, gentle depth of field, physical grounded poses. Preserve the supplied character-sheet identity and outfit exactly; never render a sheet, chart, labels, text, watermark, extra actors or extra limbs inside a scene. One clean full-frame cinematic portrait composition, 768x1376, fixed camera for dialogue.\nMake ONE clean portrait cinematic scene frame, NOT a character sheet. Reference pictures establish identity, outfits and scale only. EXACTLY these visible actors, no other animals: xiaosuda: Black-and-white Alaskan malamute plush puppy, dark gray-black back/head/ears, white face mask/muzzle/chest/belly/paws, pink inner ears and rosy cheeks, black nose, warm brown round eyes, large fluffy curled white-tipped tail, small brown backpack. Warm playful personality.\nmengji-gege: Round warm-yellow plush chick, pale cream belly, orange-yellow beak and feet, orange-red comb, rosy cheeks, dark-brown bright eyes, blue hoodie with a WHITE C on the chest, soft small wings and fluffy tail. Slightly taller than Soda, about 1.2 times his height.\nmianyang-jiejie: Cream-white curly-wool plush sheep, long drooping pale-pink inner ears, light-brown horns/hooves, rosy cheeks, gentle brown eyes, pink sweater dress, pink bow and small backpack. About 1.37 times Soda height.\nScene: 家庭活动区全景，窗边地毯、矮积木桌及阅读扶手椅。Soda站在前景中心，Jacky在左后方坐着搭乐高积木，Angela在右后方扶手椅读书。人物自然站立至头顶身高基准35/42/48cm，坐姿不改变角色真实比例。各自专注自己的事情，被介绍时短暂停下自然回应；只有Soda开口。. Framing: wide. Quiet background activities: {\"mengji-gege\": \"坐在矮桌旁，一次拿起一块积木、轻轻接好；听到自己的名字时抬头微笑挥一下翅膀，再回到积木。\", \"mianyang-jiejie\": \"坐在扶手椅上看书，缓慢翻页；听到自己的名字时抬头温柔微笑，再继续读。\"}. Lighting: 暖色窗光，柔和景深. Props: 地毯, 沙发, 矮积木桌, 乐高积木, 书, 阅读扶手椅. Preserve plush style and relative sizes. No text, no grid, no chart, no labels; only the C on the chick hoodie if chick is in cast. Portrait 768x1376.",
+          "negative_prompt": "",
+          "resolution": 1024,
+          "images.image_1": [
+            "5",
+            0
+          ],
+          "images.image_2": [
+            "6",
+            0
+          ],
+          "images.image_3": [
+            "7",
+            0
+          ]
+        }
+      },
+      "9": {
+        "class_type": "KSampler",
+        "inputs": {
+          "model": [
+            "2",
+            0
+          ],
+          "positive": [
+            "8",
+            0
+          ],
+          "negative": [
+            "8",
+            1
+          ],
+          "latent_image": [
+            "8",
+            2
+          ],
+          "seed": 1994014565,
+          "steps": 25,
+          "cfg": 1.0,
+          "sampler_name": "euler",
+          "scheduler": "simple",
+          "denoise": 1.0
+        }
+      },
+      "10": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "9",
+            0
+          ],
+          "vae": [
+            "4",
+            0
+          ]
+        }
+      },
+      "11": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "10",
+            0
+          ],
+          "filename_prefix": "soda/j_4f820f5f7e8247a7/home-wide"
+        }
+      }
+    },
+    {
+      "soda_job": "j_4f820f5f7e8247a7",
+      "soda_tag": "scene",
+      "client_id": "4845baec-6f85-48c2-9d18-e466804d2979",
+      "create_time": 1792125544048
+    },
+    [
+      "11"
+    ]
+  ],
+  "outputs": {
+    "11": {
+      "images": [
+        {
+          "filename": "home-wide_00001_.png",
+          "subfolder": "soda/j_4f820f5f7e8247a7",
+          "type": "output"
+        }
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "4845baec-6f85-48c2-9d18-e466804d2979",
+          "timestamp": 1792125544050
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "5",
+            "6"
+          ],
+          "prompt_id": "4845baec-6f85-48c2-9d18-e466804d2979",
+          "timestamp": 1792125544146
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "4845baec-6f85-48c2-9d18-e466804d2979",
+          "timestamp": 1792125582077
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "11": {
+      "node_id": "11",
+      "display_node": "11",
+      "parent_node": null,
+      "real_node_id": "11"
+    }
+  }
+}

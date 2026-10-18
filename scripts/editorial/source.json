@@ -1,0 +1,88 @@
+{
+  "source_original_path": "/Users/huanghaibin/Downloads/少儿英语大纲.docx",
+  "archived_docx": "少儿英语大纲.docx",
+  "source_sha256": "affdafb3b7cd8e62371a00d90616274a8a99cd139298f497a816d32fa42ef27a",
+  "full_text": "original.txt",
+  "full_text_sha256": "67d1832da66acb6ccd79a90b65b39fa287742afbb9909b0974b08843f5125ff7",
+  "archived_date": "2026-10-18",
+  "extraction": "word/document.xml paragraph text in original order; no wording/name/dialogue/translation changes",
+  "episodes": [
+    {
+      "episode": "S1E01",
+      "title": "自我介绍 / Self Introduction",
+      "file": "s1e01-original.txt",
+      "sha256": "a57b19f425372eec2faedde5ed2ad78cbdab7e911f984fc73916f242302b98d3",
+      "paragraph_range_1based_inclusive": [
+        2,
+        6
+      ],
+      "source_verbatim": true,
+      "production_approved": true
+    },
+    {
+      "episode": "S1E02",
+      "title": "一起出去玩 / Let’s Go Out and Play!",
+      "file": "s1e02-original.txt",
+      "sha256": "5151a4d9d9f7f130e3b391c48bc7d50ce0f0b181366cd385f7616fa08e565125",
+      "paragraph_range_1based_inclusive": [
+        7,
+        35
+      ],
+      "source_verbatim": true,
+      "production_approved": true
+    },
+    {
+      "episode": "S1E03",
+      "title": "荡秋千 / Let’s Play on the Swings!",
+      "file": "s1e03-original.txt",
+      "sha256": "93b015b5b21b386687daf6d6066e75f9b6e7fb0e41321b32415016b4c89226d8",
+      "paragraph_range_1based_inclusive": [
+        36,
+        80
+      ],
+      "source_verbatim": true,
+      "production_approved": false
+    },
+    {
+      "episode": "S1E04",
+      "title": "认识新朋友 / Let’s Make a New Friend!",
+      "file": "s1e04-original.txt",
+      "sha256": "9607e968722d88df57c34ef9a85dfe810583b0487f0889313f93fd00937877c1",
+      "paragraph_range_1based_inclusive": [
+        81,
+        127
+      ],
+      "source_verbatim": true,
+      "production_approved": false
+    },
+    {
+      "episode": "S1E05",
+      "title": "学会分享 / Sharing Is Caring!",
+      "file": "s1e05-original.txt",
+      "sha256": "4e8cd1c0a0d6e9ee0250c175d18d244a22a1cdeb13597b38acfef1e21c5d7b88",
+      "paragraph_range_1based_inclusive": [
+        128,
+        234
+      ],
+      "source_verbatim": true,
+      "production_approved": false
+    },
+    {
+      "episode": "S1E06",
+      "title": "说再见 / Time to Say Goodbye!",
+      "file": "s1e06-original.txt",
+      "sha256": "9127ee190f75c89d8b4f5c866a9288f58d4ea665debf242df5b5e689ea7845e0",
+      "paragraph_range_1based_inclusive": [
+        235,
+        324
+      ],
+      "source_verbatim": true,
+      "production_approved": false
+    }
+  ],
+  "notes": [
+    "Original text retains Baking Soda/Chick/Kitty and editorial typos. Normalize formal names only in separately reviewed production adaptations.",
+    "S1E05/S1E06 contain multiple parts; do not replace or compress them without reviewing original sections.",
+    "episodes/s1e03/script.md is an independently drafted Thanks a Lot! script, not this editorial S1E03. It has its own confirmation history; this archive does not supersede or cancel it."
+  ]
+}

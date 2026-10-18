@@ -1,0 +1,20 @@
+{
+  "source_job": "j_406de4f10cbb4b8c",
+  "guides": [
+    {
+      "frame": 67,
+      "image": "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-book-released-f67.png",
+      "sha256": "aeff1acc867aa1c5d4d061bf3d5a57c983d61155e51b5da74de59b1c648a374d",
+      "node": "27"
+    },
+    {
+      "frame": 144,
+      "image": "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-family-f144.png",
+      "sha256": "f33b15e3bad7009382be0e5122be311742f1d3df0dfab4528f245b444ab683c3",
+      "node": "29"
+    }
+  ],
+  "prompt_seed_carrier_unchanged": true,
+  "project_state_unchanged": true,
+  "pixel_postprocessing": false
+}

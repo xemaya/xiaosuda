@@ -1,0 +1,16 @@
+{
+  "user_reply": "ok",
+  "date": "2026-10-18",
+  "decision": "accepted",
+  "scope": "Silent S11 cloud cutaway correction only",
+  "frames": [
+    1472,
+    1624
+  ],
+  "seconds": [
+    61.333333333333336,
+    67.66666666666667
+  ],
+  "file": "/Users/huanghaibin/Workspace/games/4090/xiaosuda/jobs/1018-huangshan-silent-cloud-v3/Hi-Soda_Huangshan_silent-cloud-v3.mp4",
+  "sha256": "f93c763d99de10762a646e9da632af04cc51141342b3e44b229db40eeef2cd15"
+}

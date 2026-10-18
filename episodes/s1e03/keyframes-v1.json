@@ -1,0 +1,126 @@
+{
+  "project_id": "p_a2e9b0ffaded4757",
+  "setting_version": "v_9d21aaab0c7d4565",
+  "round": "S1E03 keyframes v1",
+  "model": "qwen_image_2.1_bf16.safetensors",
+  "generator": "self-hosted Qwen-Image-2.1 on 4090 (shared idle selector, ports 8188-8192)",
+  "rounds_this_round": "5 still images (1 sample + 1 sample repair + 3 wide attempts + 1 close)",
+  "video_generated_this_round": false,
+  "tts_generated_this_round": false,
+  "assembly_generated_this_round": false,
+  "location_count": 1,
+  "camera_count": 3,
+  "approvals": {
+    "swing-medium": {
+      "asset_id": "a_6b8a3959739b4a0c",
+      "sha256": "fb2db078de48ce4655b3a92b99d2f2411185b21b6b84464b05f44a53eee84e2c",
+      "user_quote": "图OK",
+      "adopted_in_workbench": true,
+      "date": "2026-10-18"
+    },
+    "playground-wide": null,
+    "swing-close": null
+  },
+  "candidates": [
+    {
+      "scene_id": "swing-medium",
+      "asset_id": "a_620e00b2d7c5446a",
+      "job_id": "j_c0825cb3826b4ba7",
+      "seed": 10180311,
+      "prompt_id": "5c328990-9a32-4c7d-93dc-bba0a155c14b",
+      "port": 8190,
+      "sha256": "984c8eb85d8ddade3072087d4f6ade521eaba148669f3717af5199cd2b293f82",
+      "status": "superseded",
+      "reason": "Soda 体量偏大、没坐实座板",
+      "local_preview": "jobs/1018-s1e03-swing-sample-v1/swing-medium-candidate.png"
+    },
+    {
+      "scene_id": "swing-medium",
+      "asset_id": "a_6b8a3959739b4a0c",
+      "job_id": "j_145166e82d00425e",
+      "seed": 10180312,
+      "prompt_id": "d133fea9-0a1c-4906-8501-0a16ba436fea",
+      "port": 8190,
+      "sha256": "fb2db078de48ce4655b3a92b99d2f2411185b21b6b84464b05f44a53eee84e2c",
+      "status": "user_approved_adopted",
+      "local_preview": "jobs/1018-s1e03-swing-sample-v1/swing-medium-repair1-candidate.png"
+    },
+    {
+      "scene_id": "playground-wide",
+      "asset_id": "a_302cc3bfc621480c",
+      "job_id": "j_5dd4f23f9a6c4454",
+      "seed": 10180321,
+      "prompt_id": "d220859c-6437-4587-917b-961aee8e73a8",
+      "port": 8188,
+      "sha256": "77a7ef63a59436d4b22e76cdd16ea70ea6c50820287aeb2f7db1af0d0cc0151b",
+      "status": "superseded",
+      "reason": "照抄了中景：Soda 还坐在座板上，镜头没拉开",
+      "local_preview": "jobs/1018-s1e03-swing-sample-v1/playground-wide-candidate.png"
+    },
+    {
+      "scene_id": "playground-wide",
+      "asset_id": "a_b0de97eb24e24118",
+      "job_id": "j_9e7b2fd5e6bb4560",
+      "seed": 10180331,
+      "prompt_id": "90dcd7aa-096f-4321-a86d-3de08447cd1f",
+      "port": 8188,
+      "sha256": "30b2f6bbd8bd936d88f535907290532b15a9d4956258d42d92c80801b196ffa5",
+      "status": "superseded",
+      "reason": "两人站姿正确，但秋千座板贴地、架体偏矮",
+      "local_preview": "jobs/1018-s1e03-swing-sample-v1/playground-wide-candidate-v2.png"
+    },
+    {
+      "scene_id": "playground-wide",
+      "asset_id": "a_d149424bd04446c7",
+      "job_id": "j_dd8b87e953cc4d2c",
+      "seed": 10180341,
+      "prompt_id": "902fef69-c8b1-4563-a4ac-4c27c8dd2912",
+      "port": 8188,
+      "sha256": "b0a2732857677683d670c9fccd0c5286e201b4b346c79cc94d4bbfcfc2a6e9fd",
+      "status": "pending_user",
+      "local_preview": "jobs/1018-s1e03-swing-sample-v1/playground-wide-candidate-v3.png"
+    },
+    {
+      "scene_id": "swing-close",
+      "asset_id": "a_e5180d6f361941dd",
+      "job_id": "j_3c45542fbcf9435a",
+      "seed": 10180322,
+      "prompt_id": "3837bbad-e3b9-474a-ae6f-f5e22e2e9c9b",
+      "port": 8188,
+      "sha256": "2cc42d0be8937b7921120677ad0d4190b4cdf77b6dbaa86b6ecb3b479c3e204f",
+      "status": "pending_user",
+      "local_preview": "jobs/1018-s1e03-swing-sample-v1/swing-close-candidate.png"
+    },
+    {
+      "scene_id": "swing-medium",
+      "asset_id": "a_2da53d98d3db46b6",
+      "job_id": "j_1bf5938fe5f04cb6",
+      "seed": 10180401,
+      "sha256": "27453eedfc5c81b1cdaeac32380417d2121ad2069f05b38975e2b1b415b6b81c",
+      "status": "adopted_after_prop_fix",
+      "local_preview": "jobs/1018-s1e03-swing-sample-v1/swing-medium-fix-candidate.png"
+    },
+    {
+      "scene_id": "swing-close",
+      "asset_id": "a_32ec441d022a46db",
+      "job_id": "j_8d47c3dbfe9a4796",
+      "seed": 10180402,
+      "sha256": "75328cadf38d8a37fb106e5ed66aa5888cf96ef1e1bc7a3076016c73daa85ffd",
+      "status": "adopted_after_prop_fix",
+      "local_preview": "jobs/1018-s1e03-swing-sample-v1/swing-close-fix-candidate.png"
+    }
+  ],
+  "prop_fix": {
+    "date": "2026-10-18",
+    "reason": "main masters had two seats / four chains, read as crossed; S05 had paw-through-chain",
+    "new_masters": {
+      "swing-medium": "a_2da53d98d3db46b6",
+      "swing-close": "a_32ec441d022a46db"
+    },
+    "superseded_masters": {
+      "swing-medium": "a_6b8a3959739b4a0c",
+      "swing-close": "a_e5180d6f361941dd"
+    },
+    "note": "playground-wide 未改（单座板双链，本来就干净）"
+  }
+}

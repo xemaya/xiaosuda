@@ -1,0 +1,15 @@
+{
+  "reference_bright_bbox": [
+    108,
+    1174,
+    660,
+    1249
+  ],
+  "local_bright_bbox": [
+    109,
+    1174,
+    659,
+    1250
+  ],
+  "note": "Local ASS sizing calibrated to preserve the original visible font size/position; SRT unchanged."
+}

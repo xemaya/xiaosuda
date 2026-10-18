@@ -1,0 +1,90 @@
+[
+  {
+    "id": "d1",
+    "speaker_id": "xiaosuda",
+    "text": "Wow! Look at those swings!",
+    "translation": "哇！快看那些秋千！",
+    "emotion": "Excited and surprised, eyes wide, front paws lifting",
+    "speed": 1.0
+  },
+  {
+    "id": "d2",
+    "speaker_id": "mengji-gege",
+    "text": "They look like so much fun! Do you want to try?",
+    "translation": "看起来真好玩！你想试试吗？",
+    "emotion": "Cheerful and inviting, one wing pointing at the swings",
+    "speed": 1.0
+  },
+  {
+    "id": "d3",
+    "speaker_id": "xiaosuda",
+    "text": "Yes, please! I love swings!",
+    "translation": "想呀！我最喜欢荡秋千了！",
+    "emotion": "Eager and happy, tail wagging",
+    "speed": 1.0
+  },
+  {
+    "id": "d4",
+    "speaker_id": "mengji-gege",
+    "text": "You can go first, Soda!",
+    "translation": "小苏打，你可以先玩！",
+    "emotion": "Kind and generous, gesturing to the empty swing seat",
+    "speed": 1.0
+  },
+  {
+    "id": "d5",
+    "speaker_id": "xiaosuda",
+    "text": "Thank you, Jacky! You’re so nice!",
+    "translation": "谢谢你，奇奇！你真好！",
+    "emotion": "Warm and grateful, looking up at the chick",
+    "speed": 1.0
+  },
+  {
+    "id": "d6",
+    "speaker_id": "mengji-gege",
+    "text": "You’re welcome! Push me when it’s my turn!",
+    "translation": "不客气！轮到我的时候，帮我推一下哦！",
+    "emotion": "Easy and playful, stepping behind the swing",
+    "speed": 1.0
+  },
+  {
+    "id": "d7",
+    "speaker_id": "xiaosuda",
+    "text": "Wheee! This is so much fun!",
+    "translation": "喔耶！太好玩啦！",
+    "emotion": "Joyful, swaying gently on the seat, paws holding the chains",
+    "speed": 1.0
+  },
+  {
+    "id": "d8",
+    "speaker_id": "mengji-gege",
+    "text": "Can I have a turn now?",
+    "translation": "现在可以轮到我玩了吗？",
+    "emotion": "Polite and hopeful, small wing raised",
+    "speed": 1.0
+  },
+  {
+    "id": "d9",
+    "speaker_id": "xiaosuda",
+    "text": "Of course! It’s your turn!",
+    "translation": "当然可以！轮到你啦！",
+    "emotion": "Happy and generous, slowing down the swing",
+    "speed": 1.0
+  },
+  {
+    "id": "d10",
+    "speaker_id": "mengji-gege",
+    "text": "Yay! Thank you, Soda!",
+    "translation": "耶！谢谢你，小苏打！",
+    "emotion": "Delighted, hopping once, thanking his brother by name",
+    "speed": 1.0
+  },
+  {
+    "id": "d11",
+    "speaker_id": "xiaosuda",
+    "text": "Let’s play together every day!",
+    "translation": "我们每天都一起玩吧！",
+    "emotion": "Warm and certain, looking at his big brother",
+    "speed": 1.0
+  }
+]

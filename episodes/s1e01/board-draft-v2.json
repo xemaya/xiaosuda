@@ -1,0 +1,174 @@
+{
+  "summary": "全景建立家庭生活，特写亲近观众，下拉揭幕北方雪地，再回到有各自活动的哥哥姐姐。",
+  "shots": [
+    {
+      "id": "S01",
+      "scene_id": "home-wide",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "mianyang-jiejie"
+      ],
+      "seconds": 2,
+      "framing": "wide",
+      "dialogue_ids": [],
+      "transition": "cut",
+      "continuation": false,
+      "beat": "开场全景：Soda准备打招呼；哥哥搭积木，姐姐看书，各自自然活动。",
+      "action": "开场全景：Soda准备打招呼；哥哥搭积木，姐姐看书，各自自然活动。",
+      "camera": "固定全景",
+      "prompt_en": ""
+    },
+    {
+      "id": "S02",
+      "scene_id": "home-close",
+      "character_ids": [
+        "xiaosuda"
+      ],
+      "seconds": 5,
+      "framing": "close_up",
+      "dialogue_ids": [
+        "d1"
+      ],
+      "transition": "cut",
+      "continuation": false,
+      "beat": "Soda特写，轻挥爪后自我介绍，耳朵与表情自然灵动。",
+      "action": "Soda特写，轻挥爪后自我介绍，耳朵与表情自然灵动。",
+      "camera": "固定头肩特写",
+      "prompt_en": ""
+    },
+    {
+      "id": "S03",
+      "scene_id": "north-wide",
+      "character_ids": [
+        "xiaosuda"
+      ],
+      "seconds": 5,
+      "framing": "wide",
+      "dialogue_ids": [
+        "d2"
+      ],
+      "transition": "pull_down",
+      "continuation": false,
+      "beat": "背景向下揭开到遥远北方冰雪全景，Soda全身可见，自然介绍寒冷来处。",
+      "action": "背景向下揭开到遥远北方冰雪全景，Soda全身可见，自然介绍寒冷来处。",
+      "camera": "固定全景",
+      "prompt_en": ""
+    },
+    {
+      "id": "S04",
+      "scene_id": "north-wide",
+      "character_ids": [
+        "xiaosuda"
+      ],
+      "seconds": 4,
+      "framing": "wide",
+      "dialogue_ids": [
+        "d3"
+      ],
+      "transition": "cut",
+      "continuation": true,
+      "beat": "同一雪地全景，Soda轻快跑几步，地面留下脚印，完整呈现起跑、移动和自然停下。",
+      "action": "同一雪地全景，Soda轻快跑几步，地面留下脚印，完整呈现起跑、移动和自然停下。",
+      "camera": "固定全景",
+      "prompt_en": ""
+    },
+    {
+      "id": "S05",
+      "scene_id": "home-close",
+      "character_ids": [
+        "xiaosuda"
+      ],
+      "seconds": 4,
+      "framing": "close_up",
+      "dialogue_ids": [
+        "d4"
+      ],
+      "transition": "pull_down",
+      "continuation": false,
+      "beat": "向下揭幕回暖光家庭活动区，Soda特写兴奋地面向观众。",
+      "action": "向下揭幕回暖光家庭活动区，Soda特写兴奋地面向观众。",
+      "camera": "固定头肩特写",
+      "prompt_en": ""
+    },
+    {
+      "id": "S06",
+      "scene_id": "jacky-corner",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege"
+      ],
+      "seconds": 7,
+      "framing": "medium",
+      "dialogue_ids": [
+        "d5"
+      ],
+      "transition": "cut",
+      "continuation": false,
+      "beat": "介绍哥哥的中景：哥哥坐着搭积木，被叫到名字时停手、抬头回应，再接着搭。只有Soda开口。",
+      "action": "介绍哥哥的中景：哥哥坐着搭积木，被叫到名字时停手、抬头回应，再接着搭。只有Soda开口。",
+      "camera": "固定中景",
+      "prompt_en": ""
+    },
+    {
+      "id": "S07",
+      "scene_id": "angela-reading",
+      "character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "seconds": 7,
+      "framing": "medium",
+      "dialogue_ids": [
+        "d6"
+      ],
+      "transition": "cut",
+      "continuation": false,
+      "beat": "介绍姐姐的中景：姐姐在扶手椅看书，抬头回应后自然翻页。只有Soda开口。",
+      "action": "介绍姐姐的中景：姐姐在扶手椅看书，抬头回应后自然翻页。只有Soda开口。",
+      "camera": "固定中景",
+      "prompt_en": ""
+    },
+    {
+      "id": "S08",
+      "scene_id": "home-wide",
+      "character_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "mianyang-jiejie"
+      ],
+      "seconds": 6,
+      "framing": "wide",
+      "dialogue_ids": [
+        "d7"
+      ],
+      "transition": "cut",
+      "continuation": false,
+      "beat": "家庭全景呼应开场，哥哥放下最后一块积木，姐姐合上书，三人轻轻靠近。",
+      "action": "家庭全景呼应开场，哥哥放下最后一块积木，姐姐合上书，三人轻轻靠近。",
+      "camera": "固定全景",
+      "prompt_en": ""
+    },
+    {
+      "id": "S09",
+      "scene_id": "home-close",
+      "character_ids": [
+        "xiaosuda"
+      ],
+      "seconds": 4,
+      "framing": "close_up",
+      "dialogue_ids": [
+        "d8"
+      ],
+      "transition": "cut",
+      "continuation": false,
+      "beat": "Soda特写看向观众，温暖微笑、挥爪，动作自然收住。",
+      "action": "Soda特写看向观众，温暖微笑、挥爪，动作自然收住。",
+      "camera": "固定头肩特写",
+      "prompt_en": ""
+    }
+  ],
+  "notes": [
+    "镜头时长为草案，实际配音完成后校准；主图待审，不跳过工作台阶段确认。"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "series": "Hi, Soda!",
+  "episode": "S1E02",
+  "title": "一起出去玩 / Let’s Go Out and Play!",
+  "status": "user_accepted",
+  "date": "2026-10-18",
+  "video": "2026-10-18/Hi-Soda_S1E02_Lets-Go-Out-and-Play.mp4",
+  "sha256": "c564f9f8c8e0c0287c0ad4b13031e66b675bf08e33f0ebbae159d13360871081",
+  "frames": 768,
+  "duration_seconds": 32.0,
+  "resolution": [
+    1080,
+    1932
+  ],
+  "fps": 24,
+  "workbench_asset_id": "a_a6ad79ccc207436d",
+  "workbench_url": "https://soda.buplayground.cn/api/media/a_a6ad79ccc207436d",
+  "recipe": "../../recipes/s1e02-fluffy-quadruped-v1/README.md",
+  "acceptance_quote": "这版OK了。",
+  "upload_requested": false
+}

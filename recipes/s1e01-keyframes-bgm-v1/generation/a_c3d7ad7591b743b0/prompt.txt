@@ -1,0 +1,14 @@
+Use <Picture 1> as the SOLE visual authority for the adult lead and the environment. Preserve exactly: the black-and-white Alaskan malamute plush puppy (Soda), dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory palette, brown backpack straps, and the fixed close-up framing. Do not redesign, restyle, add or remove anything.
+
+integrated_multimodal_description:
+[Shot 1] Live-action, cinematic, a tight head-and-shoulders vertical shot of the plush puppy in <Picture 1>, preserving her face, hair, outfit and the room. Fixed camera position, shallow depth of field, warm window light from the left.
+0.0–0.4: The character is still, facing the camera directly with bright, expressive eyes and a neutral plush expression. Camera holds steady on the tight crop.
+0.4–3.8: The character begins speaking with a cheerful and welcoming emotion. <d>[EN] Hi everyone! I'm Soda, an Alaskan Malamute.</d> As she speaks, her right front paw lifts gently into a small, deliberate waving gesture (0.5–1.5), then lowers back to rest position (1.6–2.0). Her ears twitch naturally and independently throughout the line, adding liveliness. Her mouth moves clearly in sync with the audio, while her eyes remain fixed on the lens with a soft, friendly gaze.
+3.8–4.5: The speaking ends. The character holds a brief, satisfied smile, eyes bright. The right paw remains at rest. Camera stays fixed.
+4.5–6.0: A subtle head tilt to the left (approx 5 degrees) occurs as a finishing gesture, emphasizing the friendly personality. The ears settle into a relaxed position. The character maintains eye contact with the camera until the end of the clip.
+
+overall_soundscape: Soft ambient room tone, faint fabric rustling as the paw moves, clear and warm voice for the dialogue.
+
+non_diegetic_music: None, or very subtle warm ambient pad if needed to fill silence, low volume.
+
+RULES: No extra people, no reflections of other people, no text or watermarks, no zooming, no panning, no revealing new body parts beyond the tight head-and-shoulders crop, no fast movements, no slow motion.

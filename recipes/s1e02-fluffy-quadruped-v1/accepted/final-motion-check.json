@@ -1,0 +1,7 @@
+{
+  "decoded_frames": 768,
+  "longest_near_identical_body_frames": 0,
+  "op_excluded_from_body_motion_diagnostic": true,
+  "filter_reinit_disabled_for_color_metadata_change": true,
+  "auxiliary_metric_not_visual_acceptance": true
+}

@@ -1,0 +1,14 @@
+{
+  "decoded_frames": 3325,
+  "decoded_pixels_outside_reencoded_gop_exact": true,
+  "unchanged_decoded_frames": 2977,
+  "reframed_interval_seconds": [
+    61.333333333333336,
+    67.66666666666667
+  ],
+  "original_audio_encoded_stream_exact": true,
+  "frame_rate": 24,
+  "manual_static_padding": false,
+  "ffmpeg": "ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers",
+  "human_acceptance": "pending"
+}

@@ -1,0 +1,308 @@
+{
+  "schema": 1,
+  "id": "ep01-v12",
+  "accepted_by_user": "2026-10-15: v12 about 70 points; preserve as baseline",
+  "scope": [
+    "land existing recipe",
+    "optimize shot continuity"
+  ],
+  "deferred": [
+    "subtitles",
+    "teaching text",
+    "story",
+    "voices",
+    "new episodes"
+  ],
+  "assets": [
+    {
+      "path": "assets/carrier1.mp4",
+      "sha256": "291c44caa971e9232e035b81d3102da7a0b7fb2b6ba4e6eeff5649f7e72127aa",
+      "bytes": 133720,
+      "remote_input": "prompts-1015-122648__carrier1.mp4"
+    },
+    {
+      "path": "assets/carrier2.mp4",
+      "sha256": "d057017b2dd5cd0b2c65dc63ca0aba4ce6cec6d2e72fa169560f27de75eb2f87",
+      "bytes": 89774,
+      "remote_input": "prompts-1015-122648__carrier2.mp4"
+    },
+    {
+      "path": "assets/carrier3.mp4",
+      "sha256": "ad6f61305a06320706d0a528a6ea9359da078eed35e0952e92aa9ab5e54e021d",
+      "bytes": 115111,
+      "remote_input": "prompts-1015-122648__carrier3.mp4"
+    },
+    {
+      "path": "assets/characters-at-v12.md",
+      "sha256": "a7af2f3c95693f87427bb24c4893a3c1bd4d6aa232e1fb93fd3cec74f6b1c90a",
+      "bytes": 4941
+    },
+    {
+      "path": "assets/k1-quiz-916.png",
+      "sha256": "9fd7a7a1508b56ce74ce9aa3a9f1213ae4b36f04a0768f1f104e68b2be469630",
+      "bytes": 2247233,
+      "remote_input": "prompts-1015-122648__k1-quiz-916.png"
+    },
+    {
+      "path": "assets/k2-verdict-916.png",
+      "sha256": "af558fbc74ef2c059817b2a18c3f9e7a0b9e173d64bcbcf6e6f085aebe6e3faa",
+      "bytes": 2144781,
+      "remote_input": "prompts-1015-122648__k2-verdict-916.png"
+    },
+    {
+      "path": "assets/k3-teach-916.png",
+      "sha256": "858598613898bfc55915ccc41be10dcf8294dd84742efcff7dd30781d25f8a0e",
+      "bytes": 2043372,
+      "remote_input": "prompts-1015-122648__k3-teach-916.png"
+    },
+    {
+      "path": "assets/practice-carrier.mp4",
+      "sha256": "f531909e23f33a324554ae779b8de78f84e0efd8f37cb46c68703892026444e8",
+      "bytes": 144682,
+      "remote_input": "prompts-1014-233816__carrier3.mp4"
+    },
+    {
+      "path": "assets/practice-firstframe.png",
+      "sha256": "df12a94ce0223cb92b873511de2dc80704c29bdc6eb10596d910b74742029a52",
+      "bytes": 1306252,
+      "remote_input": "prompts-1014-233816__firstframe.png"
+    },
+    {
+      "path": "assets/tts/e1_00_quiz.mp3",
+      "sha256": "03a0041bbfff08548ae1c6534caf843d9e578ca792e16ca67b0fdff2779046d9",
+      "bytes": 76596
+    },
+    {
+      "path": "assets/tts/e1_02.mp3",
+      "sha256": "10262ff60be0f362528e4f401bd826f853cef0017ad996f8a2129b5694267679",
+      "bytes": 42611
+    },
+    {
+      "path": "assets/tts/e1_03.mp3",
+      "sha256": "4b9dea905bcc6c68015c4d0a9ebdc9ff2e90cf5bba18cc87bb20a81b28bb1406",
+      "bytes": 31667
+    },
+    {
+      "path": "assets/tts/e1_04.mp3",
+      "sha256": "79ea1b81cf08541a0376fedaa5bdef6dd25bf9fdd0ac1b53a30ff175a0b830ca",
+      "bytes": 29363
+    },
+    {
+      "path": "assets/tts/e2_01.mp3",
+      "sha256": "e04f0c9dd6a8012288a8a0813d6ea6c97508bb0297c6b6ab1c4c83c7e429de2b",
+      "bytes": 18995
+    },
+    {
+      "path": "assets/tts/e2_02.mp3",
+      "sha256": "d51b5cb2fc66d74a1d4631046a15bbabf9dddf457b007f3620e9b66184112088",
+      "bytes": 12083
+    },
+    {
+      "path": "assets/tts/e2_03.mp3",
+      "sha256": "8e19c8264a9f901b9540db52211440a0be3af16c393d0997ccb015e62f5c0109",
+      "bytes": 14387
+    },
+    {
+      "path": "assets/tts/e2_04.mp3",
+      "sha256": "ac70b7f36f9cd515affe206ec1fe3943c6a7f81c4cc803d1dbe25144aeae3aef",
+      "bytes": 12083
+    },
+    {
+      "path": "assets/tts/e2_05.mp3",
+      "sha256": "89b6150ab79124e91fd2ea3ede5e42ea58ce99de7f6c7b9a62e73247c069116e",
+      "bytes": 11507
+    },
+    {
+      "path": "assets/tts/e2_06.mp3",
+      "sha256": "1fc3d3333c6de43726f375984072994e51ced09c35b03202ac3fa2fcf7c79f94",
+      "bytes": 16115
+    },
+    {
+      "path": "assets/tts/e3_01.mp3",
+      "sha256": "5801ce0d092f74104330b3d437c7169d885e020b4d3a2ca0575ae8b0b3dcb8be",
+      "bytes": 14963
+    },
+    {
+      "path": "assets/tts/e3_02.mp3",
+      "sha256": "1c26f3c6d0a5c491cb39f6d71643207389be79bbbf66f8484f8e0dd919e98a3f",
+      "bytes": 11507
+    },
+    {
+      "path": "assets/tts/e3_03.mp3",
+      "sha256": "2f80205359b775b3a6bb27b73310da1fc9b96ddcdfa72138b1025f9825e02228",
+      "bytes": 13235
+    },
+    {
+      "path": "assets/tts/e3_04.mp3",
+      "sha256": "02117c648999e570c6c763eabc047ecec9bb01951702d2310979596245dac936",
+      "bytes": 17843
+    },
+    {
+      "path": "assets/tts/e3_05.mp3",
+      "sha256": "d1b1f4ecfad64ebf031d6ce6a32d085c96f740c6b8af7df09d970f8e974fb330",
+      "bytes": 12659
+    },
+    {
+      "path": "assets/tts/e3_06.mp3",
+      "sha256": "6e86e52c47b550ebdc2dfc4ce556eec19d068cd8a6336a19cd01c29a6cd95a6a",
+      "bytes": 13235
+    },
+    {
+      "path": "assets/v12.srt",
+      "sha256": "9c4e4f8613cd1254745648bff91e350d8e350b1e24ff943d4c9bcd7b23cd47aa",
+      "bytes": 1074
+    },
+    {
+      "path": "assets/prompts-v12.txt",
+      "sha256": "2efe70b9e8ffdd18b1e8bca3bb5281287b2d89b6d260ef438a1802ec7e0db573",
+      "bytes": 8876
+    }
+  ],
+  "shots": {
+    "quiz": {
+      "graph": "graphs/quiz.json",
+      "source_prompt_id": "22915496-c376-4365-82f5-7bceb1ff222c",
+      "source_port": 8188,
+      "seed": 1954216863,
+      "frames": 226,
+      "fps": 24,
+      "resolution": [
+        768,
+        1376
+      ],
+      "guide_frames": [
+        -1
+      ],
+      "refs": [
+        "prompts-1015-122648__k1-quiz-916.png",
+        "prompts-1015-122648__k2-verdict-916.png"
+      ],
+      "carriers": [
+        "prompts-1015-122648__carrier1.mp4"
+      ],
+      "approved_output": "jobs/1015-v11-keychain/shot1-pin.mp4",
+      "approved_sha256": "ba629849db0d6b0d23a611ceed5e9c656f30c9dd36532bb2bbfa6e611b936b06",
+      "remote_output": "batches/v8r3/quiz_pin_00001_.mp4"
+    },
+    "verdict": {
+      "graph": "graphs/verdict.json",
+      "source_prompt_id": "4419d7eb-ef3d-4160-87f5-b0c1cfec485a",
+      "source_port": 8188,
+      "seed": 871602711,
+      "frames": 124,
+      "fps": 24,
+      "resolution": [
+        768,
+        1376
+      ],
+      "guide_frames": [
+        -1
+      ],
+      "refs": [
+        "prompts-1015-122648__k2-verdict-916.png",
+        "prompts-1015-122648__k3-teach-916.png"
+      ],
+      "carriers": [
+        "prompts-1015-122648__carrier2.mp4"
+      ],
+      "approved_output": "jobs/1015-v11-keychain/shot2-pin.mp4",
+      "approved_sha256": "96fa67cadbe7d949341dd25800be90c1c3bb8ff08b6573f165eeeecb0ca82d8d",
+      "remote_output": "batches/v8r3/verdict_pin_00001_.mp4"
+    },
+    "teach": {
+      "graph": "graphs/teach.json",
+      "source_prompt_id": "cae434fb-3b76-4016-b3db-9f17338aedde",
+      "source_port": 8190,
+      "seed": 909285593,
+      "frames": 243,
+      "fps": 24,
+      "resolution": [
+        768,
+        1376
+      ],
+      "guide_frames": [],
+      "refs": [
+        "prompts-1015-122648__k3-teach-916.png"
+      ],
+      "carriers": [
+        "prompts-1015-122648__carrier3.mp4"
+      ],
+      "approved_output": "jobs/1015-v11-keychain/shot3.mp4",
+      "approved_sha256": "388ce6a929aa61f9903c583b4d21ea770d872df16525528a755491fc128d9dcb",
+      "remote_output": "batches/prompts-1015-122648/03_s909285593_00001_.mp4"
+    },
+    "practice": {
+      "graph": "graphs/practice.json",
+      "source_prompt_id": "6042257e-c406-4d62-8114-535d4e91b000",
+      "source_port": 8188,
+      "seed": 1481111183,
+      "frames": 243,
+      "fps": 24,
+      "resolution": [
+        768,
+        1376
+      ],
+      "guide_frames": [],
+      "refs": [
+        "prompts-1014-233816__firstframe.png"
+      ],
+      "carriers": [
+        "prompts-1014-233816__carrier3.mp4"
+      ],
+      "approved_output": "../out/prompts-1014-233816/03_s1481111183_00001_.mp4",
+      "approved_sha256": "e76664a7f89adf1f25543b4f55528283c668b75917fcd5735d4b7a178cd153ab",
+      "remote_output": "batches/prompts-1014-233816/03_s1481111183_00001_.mp4"
+    }
+  },
+  "references": [
+    {
+      "path": "jobs/1015-v11-keychain/v12-nosub.mp4",
+      "sha256": "aae9355922b8ecf617215bb56bf2419accffb9a84991d8660f4e6ecf5faea10a"
+    },
+    {
+      "path": "jobs/1015-v11-keychain/v12-subtitled.mp4",
+      "sha256": "1d33692c14f3538fa055a5bda15b608a50aa54000735a06b062a5f7ae587de24"
+    },
+    {
+      "path": "jobs/1015-v11-keychain/xiaosuda-how-are-you-v12-final.mp4",
+      "sha256": "a7884c537acdab1ad551c2a9e00cc2b25c0c60e2eb0301fcdd87a4a4f0fa9045"
+    }
+  ],
+  "post": {
+    "verdict_tail_hold_seconds": 0.5,
+    "verdict_audio_pad_seconds": 5.6667,
+    "same_camera": "hard concat",
+    "act_transition": "slideup",
+    "transition_seconds": 0.5,
+    "transition_offset_seconds": 24.7084,
+    "crf": 18,
+    "subtitle_font": "ali_puhui",
+    "subtitle_font_size": 38,
+    "enhance": {
+      "scene": "aigc",
+      "resolution": "1080p",
+      "bitrate_level": "high"
+    }
+  },
+  "runtime_sha256": {
+    "h3run.py": "7934dff4acdb1e092534b7520d3d00dfa3ca9597cc1c86bd696cc81de24bb353",
+    "h3batch.py": "65ee87562faa72d9afa2027d77dcff38cbfd54caa7e9c3989f43561ee461e515",
+    "director_receipt.py": "3a559983f677f0f6def2e3af6c7b67fcd1fb7e727038854b6f039e002899d1b1",
+    "nodes_minimax_h3.py": "108ceff11e5a5c9a34a57bbc380447cf9941beb673a1bd421abc818de54ccd5c"
+  },
+  "limitations": [
+    "Frozen approved pixels and audio are authoritative inputs; image/TTS inference is stochastic.",
+    "Full GPU regeneration and cloud enhancement are not asserted byte reproducible.",
+    "Only quiz/verdict have tail guides; teach/practice are not tail-pinned. None have a frame-0 guide."
+  ],
+  "graph_sha256": {
+    "graphs/practice.json": "4ecb3e309030497bbf704fbe707776edb7b724e240b9ff8ad93780970b81ec89",
+    "graphs/practice.txt": "a0af557cd4a40f2c6e2862d88ba28b3972b836221335f9a81505aa1fb3ce8c5c",
+    "graphs/quiz.json": "98c094f75d3e092f4bb781fde563b94087eae406c8d62b8360349054af822129",
+    "graphs/quiz.txt": "8ade3257fdaddb0fc7efb16780ce8e87ae011b57398b9529516640f19a1649d8",
+    "graphs/teach.json": "cf45750ea749eeeefe54dacebe0795aa6b18add1e136f04e65161233681d30ea",
+    "graphs/teach.txt": "8fec5aaae55418245e71915828d15fcb47131bc0b72cea48388ae735dfae8dbd",
+    "graphs/verdict.json": "ae903b6f5e8663fd5514c70311ca41c059d6b4e3997ebbd17d643cb3137b35e3",
+    "graphs/verdict.txt": "85b0e91aad1a979ac387c0eebde93a9010101d70d6cf8aa49419227252425260"
+  }
+}

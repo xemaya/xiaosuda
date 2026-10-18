@@ -1,0 +1,414 @@
+[
+  {
+    "shot_id": "S01",
+    "take": {
+      "raw_images": [
+        "18",
+        0
+      ],
+      "delivered_images": [
+        "20",
+        0
+      ],
+      "visible_images": [
+        "21",
+        0
+      ],
+      "audio": [
+        "20",
+        1
+      ],
+      "save_node": "23",
+      "raw_frames": 56,
+      "context_frames": 0,
+      "keep_frames": 48
+    },
+    "tail_save": "25",
+    "audio": {
+      "keep_frames": 48,
+      "seconds": 2.0,
+      "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S01/original-audio.wav",
+      "turns": []
+    },
+    "scene_id": "home-wide",
+    "master_id": "a_7939966a292f402d",
+    "dependency": null,
+    "seed": "1126650724"
+  },
+  {
+    "shot_id": "S02",
+    "take": {
+      "raw_images": [
+        "37",
+        0
+      ],
+      "delivered_images": [
+        "39",
+        0
+      ],
+      "visible_images": [
+        "40",
+        0
+      ],
+      "audio": [
+        "39",
+        1
+      ],
+      "save_node": "42",
+      "raw_frames": 158,
+      "context_frames": 0,
+      "keep_frames": 144
+    },
+    "tail_save": "44",
+    "audio": {
+      "keep_frames": 144,
+      "seconds": 6.0,
+      "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/original-audio.wav",
+      "turns": [
+        {
+          "id": "d1",
+          "speaker_id": "xiaosuda",
+          "text": "Hi everyone! I'm Soda, an Alaskan Malamute.",
+          "translation": "大家好！我是小苏打，一只阿拉斯加犬。",
+          "emotion": "Cheerful and welcoming",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 3.81334375
+        }
+      ]
+    },
+    "scene_id": "home-close",
+    "master_id": "a_5893ef082e5346d8",
+    "dependency": null,
+    "seed": "89082843"
+  },
+  {
+    "shot_id": "S03",
+    "take": {
+      "raw_images": [
+        "56",
+        0
+      ],
+      "delivered_images": [
+        "58",
+        0
+      ],
+      "visible_images": [
+        "59",
+        0
+      ],
+      "audio": [
+        "58",
+        1
+      ],
+      "save_node": "61",
+      "raw_frames": 124,
+      "context_frames": 0,
+      "keep_frames": 120
+    },
+    "tail_save": "63",
+    "audio": {
+      "keep_frames": 120,
+      "seconds": 5.0,
+      "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/original-audio.wav",
+      "turns": [
+        {
+          "id": "d2",
+          "speaker_id": "xiaosuda",
+          "text": "I come from a very cold place,",
+          "translation": "我来自一个非常寒冷的地方，",
+          "emotion": "Energetic and proud",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.95421875
+        }
+      ]
+    },
+    "scene_id": "north-wide",
+    "master_id": "a_aa09be7fad554477",
+    "dependency": null,
+    "seed": "1127569772"
+  },
+  {
+    "shot_id": "S04",
+    "take": {
+      "raw_images": [
+        "73",
+        0
+      ],
+      "delivered_images": [
+        "75",
+        0
+      ],
+      "visible_images": [
+        "76",
+        0
+      ],
+      "audio": [
+        "75",
+        1
+      ],
+      "save_node": "78",
+      "raw_frames": 158,
+      "context_frames": 22,
+      "keep_frames": 120
+    },
+    "tail_save": "80",
+    "audio": {
+      "keep_frames": 120,
+      "seconds": 5.0,
+      "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/original-audio.wav",
+      "turns": [
+        {
+          "id": "d3",
+          "speaker_id": "xiaosuda",
+          "text": "and I can run super fast!",
+          "translation": "而且我跑得可快啦！",
+          "emotion": "Energetic and proud",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.74521875
+        }
+      ]
+    },
+    "scene_id": "north-wide",
+    "master_id": "a_aa09be7fad554477",
+    "dependency": "S03",
+    "seed": "233744548"
+  },
+  {
+    "shot_id": "S05",
+    "take": {
+      "raw_images": [
+        "92",
+        0
+      ],
+      "delivered_images": [
+        "94",
+        0
+      ],
+      "visible_images": [
+        "95",
+        0
+      ],
+      "audio": [
+        "94",
+        1
+      ],
+      "save_node": "97",
+      "raw_frames": 107,
+      "context_frames": 0,
+      "keep_frames": 96
+    },
+    "tail_save": "99",
+    "audio": {
+      "keep_frames": 96,
+      "seconds": 4.0,
+      "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/original-audio.wav",
+      "turns": [
+        {
+          "id": "d4",
+          "speaker_id": "xiaosuda",
+          "text": "I'm so excited to meet you all.",
+          "translation": "见到大家，我特别开心。",
+          "emotion": "Happy and eager",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.06025
+        }
+      ]
+    },
+    "scene_id": "home-close",
+    "master_id": "a_5893ef082e5346d8",
+    "dependency": null,
+    "seed": "689137274"
+  },
+  {
+    "shot_id": "S06",
+    "take": {
+      "raw_images": [
+        "111",
+        0
+      ],
+      "delivered_images": [
+        "113",
+        0
+      ],
+      "visible_images": [
+        "114",
+        0
+      ],
+      "audio": [
+        "113",
+        1
+      ],
+      "save_node": "116",
+      "raw_frames": 175,
+      "context_frames": 0,
+      "keep_frames": 168
+    },
+    "tail_save": "118",
+    "audio": {
+      "keep_frames": 168,
+      "seconds": 7.0,
+      "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S06/original-audio.wav",
+      "turns": [
+        {
+          "id": "d5",
+          "speaker_id": "xiaosuda",
+          "text": "This is my big brother, Jacky. He's a cheerful little chick.",
+          "translation": "这是我的哥哥奇奇，他是一只开朗的小鸡。",
+          "emotion": "Warm and affectionate",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 3.975875
+        }
+      ]
+    },
+    "scene_id": "jacky-corner",
+    "master_id": "a_c64cd53df61d48ee",
+    "dependency": null,
+    "seed": "1861118786"
+  },
+  {
+    "shot_id": "S07",
+    "take": {
+      "raw_images": [
+        "130",
+        0
+      ],
+      "delivered_images": [
+        "132",
+        0
+      ],
+      "visible_images": [
+        "133",
+        0
+      ],
+      "audio": [
+        "132",
+        1
+      ],
+      "save_node": "135",
+      "raw_frames": 175,
+      "context_frames": 0,
+      "keep_frames": 168
+    },
+    "tail_save": "137",
+    "audio": {
+      "keep_frames": 168,
+      "seconds": 7.0,
+      "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S07/original-audio.wav",
+      "turns": [
+        {
+          "id": "d6",
+          "speaker_id": "xiaosuda",
+          "text": "And this is my big sister, Angela. She's a gentle sheep.",
+          "translation": "这位是我的姐姐露露，她是一只温柔的绵羊。",
+          "emotion": "Soft and loving",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 4.53315625
+        }
+      ]
+    },
+    "scene_id": "angela-reading",
+    "master_id": "a_af40c7ec9dde411a",
+    "dependency": null,
+    "seed": "1036780124"
+  },
+  {
+    "shot_id": "S08",
+    "take": {
+      "raw_images": [
+        "149",
+        0
+      ],
+      "delivered_images": [
+        "151",
+        0
+      ],
+      "visible_images": [
+        "152",
+        0
+      ],
+      "audio": [
+        "151",
+        1
+      ],
+      "save_node": "154",
+      "raw_frames": 158,
+      "context_frames": 0,
+      "keep_frames": 144
+    },
+    "tail_save": "156",
+    "audio": {
+      "keep_frames": 144,
+      "seconds": 6.0,
+      "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S08/original-audio.wav",
+      "turns": [
+        {
+          "id": "d7",
+          "speaker_id": "xiaosuda",
+          "text": "We live together happily and love each other very much.",
+          "translation": "我们快乐地生活在一起，也非常爱彼此。",
+          "emotion": "Content and sincere",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 3.59275
+        }
+      ]
+    },
+    "scene_id": "home-wide",
+    "master_id": "a_7939966a292f402d",
+    "dependency": null,
+    "seed": "2051969982"
+  },
+  {
+    "shot_id": "S09",
+    "take": {
+      "raw_images": [
+        "168",
+        0
+      ],
+      "delivered_images": [
+        "170",
+        0
+      ],
+      "visible_images": [
+        "171",
+        0
+      ],
+      "audio": [
+        "170",
+        1
+      ],
+      "save_node": "173",
+      "raw_frames": 124,
+      "context_frames": 0,
+      "keep_frames": 120
+    },
+    "tail_save": "175",
+    "audio": {
+      "keep_frames": 120,
+      "seconds": 5.0,
+      "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/original-audio.wav",
+      "turns": [
+        {
+          "id": "d8",
+          "speaker_id": "xiaosuda",
+          "text": "I hope you like me too!",
+          "translation": "希望你们也喜欢我！",
+          "emotion": "Friendly and hopeful",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.1415
+        }
+      ]
+    },
+    "scene_id": "home-close",
+    "master_id": "a_5893ef082e5346d8",
+    "dependency": null,
+    "seed": "1111829882"
+  }
+]

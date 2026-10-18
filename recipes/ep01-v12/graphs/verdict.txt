@@ -1,0 +1,12 @@
+The image <Picture 1> is the visual authority for both characters and the room; the shot opens exactly from this frame. The video <Video 1> is the voice authority: both characters speak with exactly the same voices, emotion, pacing and timing as its audio, and lip movements follow its speech.
+integrated_multimodal_description:
+[Shot 1] 3D plush-toy animation, dense soft plush fur texture everywhere, warm morning living room, vertical two-shot on a beige rug. Continuing from the puppy's proud answer: the chick delivers a gentle verdict on the textbook answer; the puppy reacts. Real-time speed.
+
+0.0-0.5 | Both hold from the opening frame; the chick raises one wing tip to his chin, eyes narrowing, thinking; mouths closed.
+0.5-1.5 | The chick speaks thoughtfully, wing at chin, one slow approving nod; the puppy watches hopefully, ears tilted.
+1.5-2.4 | The chick continues, small warm smile, wing still at chin; the puppy's tail gives a tiny wag.
+2.4-2.8 | Pause, mouths closed; the chick lowers the wing and opens it palm-up toward the puppy, eyebrows lifting.
+2.8-4.6 | The chick delivers the verdict gently, one small sideways wing sway, soft head shake on the key word; the puppy's ears droop a little with a small closed-mouth "oh?".
+4.6-5.2 | The chick raises one wing with the first feather segment extended, settling into the teaching pose; the puppy watches attentively; both hold, no speech, no mouth movement.
+
+RULES: visuals follow <Picture 1>; voices, timing and lip sync follow <Video 1> audio. The chick says exactly the two short lines in the audio and then stays silent — never repeat any word or phrase, no extra speech after 4.4. No text, no subtitles, no logos. Both fully visible. Adult plush mascots. No added limbs, no morphing, no camera shake, no cuts except the final freeze.

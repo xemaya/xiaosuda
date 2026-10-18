@@ -1,0 +1,44 @@
+1
+00:00:02,400 --> 00:00:05,035
+Hi, Jacky! What a beautiful day!
+嗨，奇奇！今天天气真好呀！
+
+2
+00:00:05,285 --> 00:00:08,861
+Hi, Soda! Yes, it is! Do you want to go out and play?
+嗨，小苏打！是呀！你想出去玩吗？
+
+3
+00:00:10,400 --> 00:00:13,639
+Sure! That sounds fun! Where do you want to go?
+当然！听起来真好玩！你想去哪儿玩？
+
+4
+00:00:13,889 --> 00:00:14,946
+Let’s go to the park!
+我们去公园吧！
+
+5
+00:00:15,196 --> 00:00:17,831
+Great idea! Let’s go!
+好主意！我们出发吧！
+
+6
+00:00:18,900 --> 00:00:21,199
+Come on, Soda! Let’s have some fun!
+快来呀，小苏打！我们去玩个痛快吧！
+
+7
+00:00:21,449 --> 00:00:24,177
+Wait for me! I can run super fast!
+等等我！我跑得可快啦！
+
+8
+00:00:24,427 --> 00:00:26,645
+Haha! Let’s see who gets there first!
+哈哈！看看谁先到！
+
+9
+00:00:27,900 --> 00:00:29,467
+Ready, set, go!
+预备，开始，跑！

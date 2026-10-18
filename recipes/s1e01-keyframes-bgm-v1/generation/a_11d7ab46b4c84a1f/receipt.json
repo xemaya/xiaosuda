@@ -1,0 +1,11 @@
+{
+  "phase": "completed",
+  "port": 8188,
+  "prompt_id": "2c3a5d68-f961-48ec-8094-7c23e1fab82f",
+  "graph_sha256": "a928f0507a9a956d94849a06a55f6061b92477e7effeb251a00c99b5b01853b3",
+  "created": 1792169974.1552343,
+  "output": "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/take.mp4",
+  "sha256": "4eb74ed5a3dd7409cbeb9c97df7601e26020cff63124696352d94453578c6ee1",
+  "keep_frames": 192,
+  "seconds": 8.0
+}

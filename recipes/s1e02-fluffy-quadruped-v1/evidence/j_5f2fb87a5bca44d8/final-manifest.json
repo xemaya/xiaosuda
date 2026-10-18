@@ -1,0 +1,38 @@
+{
+  "takes": [
+    {
+      "id": "a_b9dc86d49cb64644",
+      "sha256": "18d1844397c19aa91d163c8b82da770086f609aab9b3a73fe9bed73d822bc152",
+      "shot_id": "S01",
+      "keep_frames": 192
+    },
+    {
+      "id": "a_1f65d9ab5fad432c",
+      "sha256": "6636f36490e5642e0fcb9057158e2dffe7c1fd33d762c15d20d1a7649ad2da3a",
+      "shot_id": "S02",
+      "keep_frames": 204
+    },
+    {
+      "id": "a_fd4692b7a4ba4de6",
+      "sha256": "cef83850b7282d296fc7797be0b2355e5a21d5552589e13ecda8e59882181c2e",
+      "shot_id": "S03",
+      "keep_frames": 216
+    },
+    {
+      "id": "a_9f298c88a9c54786",
+      "sha256": "7d677c9058ad88caec4551ece839060a4874bc952b9de128d6cb70dd3a1c066a",
+      "shot_id": "S04",
+      "keep_frames": 108
+    }
+  ],
+  "frames": 768,
+  "fps": 24,
+  "op": true,
+  "op_after_shot": null,
+  "intertitle": null,
+  "board_version": "v_9dfa08c38b534ce6",
+  "subtitles": "/data/app/huanghaibin/soda/jobs/j_5f2fb87a5bca44d8/captions.srt",
+  "transitions": [],
+  "native_voices_preserved": true,
+  "human_acceptance": "pending"
+}

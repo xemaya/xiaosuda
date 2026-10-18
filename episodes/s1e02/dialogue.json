@@ -1,0 +1,74 @@
+[
+  {
+    "id": "d1",
+    "speaker_id": "xiaosuda",
+    "text": "Hi, Jacky! What a beautiful day!",
+    "translation": "嗨，奇奇！今天天气真好呀！",
+    "emotion": "Cheerful and natural",
+    "speed": 1.0
+  },
+  {
+    "id": "d2",
+    "speaker_id": "mengji-gege",
+    "text": "Hi, Soda! Yes, it is! Do you want to go out and play?",
+    "translation": "嗨，小苏打！是呀！你想出去玩吗？",
+    "emotion": "Cheerful and natural",
+    "speed": 1.0
+  },
+  {
+    "id": "d3",
+    "speaker_id": "xiaosuda",
+    "text": "Sure! That sounds fun! Where do you want to go?",
+    "translation": "当然！听起来真好玩！你想去哪儿玩？",
+    "emotion": "Cheerful and natural",
+    "speed": 1.0
+  },
+  {
+    "id": "d4",
+    "speaker_id": "mengji-gege",
+    "text": "Let’s go to the park!",
+    "translation": "我们去公园吧！",
+    "emotion": "Cheerful and natural",
+    "speed": 1.0
+  },
+  {
+    "id": "d5",
+    "speaker_id": "xiaosuda",
+    "text": "Great idea! Let’s go!",
+    "translation": "好主意！我们出发吧！",
+    "emotion": "Cheerful and natural",
+    "speed": 1.0
+  },
+  {
+    "id": "d6",
+    "speaker_id": "mengji-gege",
+    "text": "Come on, Soda! Let’s have some fun!",
+    "translation": "快来呀，小苏打！我们去玩个痛快吧！",
+    "emotion": "Cheerful and natural",
+    "speed": 1.0
+  },
+  {
+    "id": "d7",
+    "speaker_id": "xiaosuda",
+    "text": "Wait for me! I can run super fast!",
+    "translation": "等等我！我跑得可快啦！",
+    "emotion": "Cheerful and natural",
+    "speed": 1.0
+  },
+  {
+    "id": "d8",
+    "speaker_id": "mengji-gege",
+    "text": "Haha! Let’s see who gets there first!",
+    "translation": "哈哈！看看谁先到！",
+    "emotion": "Cheerful and natural",
+    "speed": 1.0
+  },
+  {
+    "id": "d9",
+    "speaker_id": "xiaosuda",
+    "text": "Ready, set, go!",
+    "translation": "预备，开始，跑！",
+    "emotion": "Cheerful and natural",
+    "speed": 1.0
+  }
+]

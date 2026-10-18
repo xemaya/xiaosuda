@@ -1,0 +1,17 @@
+{
+  "offline_rebuild": "passed",
+  "network_calls": false,
+  "gpu_calls": false,
+  "tts_calls": false,
+  "frames": 1112,
+  "fps": "24/1",
+  "seconds": 46.333333,
+  "rebuild_path": "/tmp/soda-s1e01-freeze-check-1792199596378867948.mp4",
+  "rebuild_sha256": "37a9f1403bdc7918d60bac7787ccccbec80ac02d0e835ce321c758687b06c6d0",
+  "accepted_sha256": "37a9f1403bdc7918d60bac7787ccccbec80ac02d0e835ce321c758687b06c6d0",
+  "file_byte_identical": true,
+  "picture_bitstream_identical": true,
+  "decoded_picture_identical": true,
+  "decoded_audio_identical": true,
+  "accepted_master_untouched": true
+}

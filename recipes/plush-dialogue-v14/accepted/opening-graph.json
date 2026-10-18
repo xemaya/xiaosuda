@@ -1,0 +1,302 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "minimax_h3_ref2va_pruned_fp8_scaled.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2": {
+    "class_type": "LoraLoaderModelOnly",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "lora_name": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+      "strength_model": 1.0
+    }
+  },
+  "3": {
+    "class_type": "CLIPLoaderGGUFMiniMaxH3",
+    "inputs": {
+      "clip_name": "qwen3-vl-32b-ultra-heretic-minimax-h3-q6_k.gguf",
+      "vision_name": "qwen3vl_32b_minimax_h3_visual_bf16.safetensors"
+    }
+  },
+  "4": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "minimax_h3_video_vae_fp16.safetensors"
+    }
+  },
+  "5": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+    }
+  },
+  "6": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "prompts-1015-122648__k2-verdict-916.png"
+    }
+  },
+  "7": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "xiaosuda-v14-95392e868327-opening.mp4"
+    }
+  },
+  "8": {
+    "class_type": "Video Slice",
+    "inputs": {
+      "video": [
+        "7",
+        0
+      ],
+      "start_time": 0.0,
+      "duration": 15.0,
+      "strict_duration": false
+    }
+  },
+  "9": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "8",
+        0
+      ]
+    }
+  },
+  "10": {
+    "class_type": "MiniMaxH3ReferenceToVideo",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "audio_vae": [
+        "5",
+        0
+      ],
+      "prompt": "The image <Picture 1> is the sole authority for identity, texture and room. The video <Video 1> supplies only the intended current-take voice, speaker and exact timing.\n\nOne continuous 8-second shot, fixed camera, fixed warm room layout, scale and light, no cuts, zooms, fades, slides, or internal camera changes. Preserve exact image identity and dense plush texture: yellow chick in blue C hoodie on left, black-white puppy with backpack on right. At time 0 the chick’s wing is at its chin exactly as pictured; immediately and naturally transition into an inviting quiz gesture by smoothly lowering and opening the wing while the chick speaks one complete quiz question from 0.6 to 5.20 seconds: “If someone says How are you to you, how do you answer?” Use the exact voices, speaker order, and lip timing from the static HD master loop plus this take’s original soundtrack. The puppy listens with closed mouth, tail and ears responding naturally without extra movement. At 5.84 to 7.08 seconds the puppy confidently answers: “I’m fine, thank you.” As the answer finishes, the chick smoothly brings the same wing back to its chin, the puppy’s gaze gently returns to the chick, and both characters continue breathing continuously throughout. By 7.625 seconds the visible pose and camera must match the reference picture exactly as a picture anchor, reached through natural connected motion without pausing or resetting the scene. Continue moving past 7.625 seconds until the raw 8-second end because the clip will be cut at 7.666667 seconds; there must be no frozen lead-out and no held or cloned frame. If the carrier audio contains the beginning of the puppy’s next sentence after 7.72 seconds, follow its timing naturally, but do not invent anything new. No extra animals, props, text, music, or camera changes.",
+      "width": 768,
+      "height": 1376,
+      "length": 192,
+      "ref_image_size": "match",
+      "ref_images.ref_image_0": [
+        "6",
+        0
+      ],
+      "ref_videos.ref_video_0": [
+        "9",
+        0
+      ],
+      "ref_video_audios.ref_video_audio_0": [
+        "9",
+        1
+      ]
+    }
+  },
+  "13": {
+    "class_type": "MiniMaxH3MotionContext",
+    "inputs": {
+      "conditioning": [
+        "25",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "10",
+        1
+      ],
+      "context_length": "22",
+      "audio_context_length": 24
+    }
+  },
+  "14": {
+    "class_type": "BasicGuider",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "conditioning": [
+        "13",
+        0
+      ]
+    }
+  },
+  "15": {
+    "class_type": "BasicScheduler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "scheduler": "beta",
+      "steps": 4,
+      "denoise": 1.0
+    }
+  },
+  "16": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 1954216863
+    }
+  },
+  "17": {
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler"
+    }
+  },
+  "18": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "16",
+        0
+      ],
+      "guider": [
+        "14",
+        0
+      ],
+      "sampler": [
+        "17",
+        0
+      ],
+      "sigmas": [
+        "15",
+        0
+      ],
+      "latent_image": [
+        "10",
+        1
+      ]
+    }
+  },
+  "19": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "18",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ]
+    }
+  },
+  "20": {
+    "class_type": "VAEDecodeAudio",
+    "inputs": {
+      "samples": [
+        "18",
+        0
+      ],
+      "vae": [
+        "5",
+        0
+      ]
+    }
+  },
+  "21": {
+    "class_type": "MiniMaxH3MotionContextTrim",
+    "inputs": {
+      "images": [
+        "19",
+        0
+      ],
+      "trim_frames": [
+        "13",
+        1
+      ],
+      "audio": [
+        "20",
+        0
+      ],
+      "fps": 24.0,
+      "match_tail": true
+    }
+  },
+  "22": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "21",
+        0
+      ],
+      "fps": 24.0,
+      "audio": [
+        "21",
+        1
+      ]
+    }
+  },
+  "23": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "22",
+        0
+      ],
+      "filename_prefix": "batches/xiaosuda-continuity/1015-v14-opening",
+      "format": "auto",
+      "format.codec": "auto"
+    }
+  },
+  "24": {
+    "class_type": "MiniMaxH3AddGuide",
+    "inputs": {
+      "positive": [
+        "10",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "10",
+        1
+      ],
+      "image": [
+        "6",
+        0
+      ],
+      "frame_idx": 0
+    }
+  },
+  "25": {
+    "class_type": "MiniMaxH3AddGuide",
+    "inputs": {
+      "positive": [
+        "24",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "10",
+        1
+      ],
+      "image": [
+        "6",
+        0
+      ],
+      "frame_idx": 183
+    }
+  }
+}

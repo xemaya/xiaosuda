@@ -1,0 +1,33 @@
+{
+  "project_id": "p_e8162eb476934167",
+  "url": "https://soda.buplayground.cn/",
+  "setting_version": "v_34705a562e05483f",
+  "source": "editor S1E02; 9 lines, names normalized",
+  "location_count": 2,
+  "camera_count": 3,
+  "human_visual_acceptance": "accepted",
+  "board_version": "v_9dfa08c38b534ce6",
+  "status": "complete",
+  "candidate_asset_id": "a_a6ad79ccc207436d",
+  "candidate_url": "https://soda.buplayground.cn/api/media/a_a6ad79ccc207436d",
+  "seconds": 32.0,
+  "frames": 768,
+  "editorial_reply_closeup": true,
+  "candidate_v1_user_verdict": "rejected_bipedal_soda",
+  "production_gate": "jobs/1017-s1e02-filming-v5/production-gate.json",
+  "keyframe_candidate_assets": [
+    "a_93d7723ece5a4242",
+    "a_edcfe71d480f43c0",
+    "a_b9d927c6cacc4207",
+    "a_5d80fa619529405e"
+  ],
+  "current_candidate_manifest": "episodes/s1e02/candidate-v5.json",
+  "material_candidate_asset": "a_93d7723ece5a4242",
+  "material_candidate_manifest": "episodes/s1e02/material-v3.json",
+  "current_keyframe_manifest": "episodes/s1e02/keyframes-v4.json",
+  "filming_directory": "jobs/1017-s1e02-filming-v5",
+  "revision": 30,
+  "release": "releases/s1e02/current.json",
+  "accepted_date": "2026-10-18",
+  "final_asset": "a_a6ad79ccc207436d"
+}

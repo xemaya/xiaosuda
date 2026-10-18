@@ -1,0 +1,126 @@
+[
+  {
+    "shot_id": "S01",
+    "take": {
+      "raw_images": [
+        "18",
+        0
+      ],
+      "delivered_images": [
+        "20",
+        0
+      ],
+      "visible_images": [
+        "21",
+        0
+      ],
+      "audio": [
+        "20",
+        1
+      ],
+      "save_node": "23",
+      "raw_frames": 192,
+      "context_frames": 0,
+      "keep_frames": 192
+    },
+    "tail_save": "25",
+    "audio": {
+      "keep_frames": 192,
+      "seconds": 8.0,
+      "wave": "/data/app/huanghaibin/soda/jobs/j_f55633cf8e2c4fdf/S01/original-audio.wav",
+      "turns": [
+        {
+          "id": "d1",
+          "speaker_id": "xiaosuda",
+          "text": "Hi, Jacky! What a beautiful day!",
+          "translation": "嗨，奇奇！今天天气真好呀！",
+          "emotion": "Cheerful and natural",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 3.0354687499999997
+        },
+        {
+          "id": "d2",
+          "speaker_id": "mengji-gege",
+          "text": "Hi, Soda! Yes, it is! Do you want to go out and play?",
+          "translation": "嗨，小苏打！是呀！你想出去玩吗？",
+          "emotion": "Cheerful and natural",
+          "speed": 1.0,
+          "start": 3.2854687499999997,
+          "end": 6.86134375
+        }
+      ]
+    },
+    "scene_id": "porch-medium",
+    "master_id": "a_93d7723ece5a4242",
+    "dependency": null,
+    "seed": "530047099"
+  },
+  {
+    "shot_id": "S02",
+    "take": {
+      "raw_images": [
+        "35",
+        0
+      ],
+      "delivered_images": [
+        "37",
+        0
+      ],
+      "visible_images": [
+        "38",
+        0
+      ],
+      "audio": [
+        "37",
+        1
+      ],
+      "save_node": "40",
+      "raw_frames": 226,
+      "context_frames": 22,
+      "keep_frames": 204
+    },
+    "tail_save": "42",
+    "audio": {
+      "keep_frames": 204,
+      "seconds": 8.5,
+      "wave": "/data/app/huanghaibin/soda/jobs/j_f55633cf8e2c4fdf/S02/original-audio.wav",
+      "turns": [
+        {
+          "id": "d3",
+          "speaker_id": "xiaosuda",
+          "text": "Sure! That sounds fun! Where do you want to go?",
+          "translation": "当然！听起来真好玩！你想去哪儿玩？",
+          "emotion": "Cheerful and natural",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 3.6391875
+        },
+        {
+          "id": "d4",
+          "speaker_id": "mengji-gege",
+          "text": "Let’s go to the park!",
+          "translation": "我们去公园吧！",
+          "emotion": "Cheerful and natural",
+          "speed": 1.0,
+          "start": 3.8891875,
+          "end": 4.945718749999999
+        },
+        {
+          "id": "d5",
+          "speaker_id": "xiaosuda",
+          "text": "Great idea! Let’s go!",
+          "translation": "好主意！我们出发吧！",
+          "emotion": "Cheerful and natural",
+          "speed": 1.0,
+          "start": 5.195718749999999,
+          "end": 7.831187499999999
+        }
+      ]
+    },
+    "scene_id": "porch-medium",
+    "master_id": "a_93d7723ece5a4242",
+    "dependency": "S01",
+    "seed": "1216328138"
+  }
+]

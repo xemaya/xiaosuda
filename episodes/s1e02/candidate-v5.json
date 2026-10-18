@@ -1,0 +1,35 @@
+{
+  "project_id": "p_e8162eb476934167",
+  "asset_id": "a_a6ad79ccc207436d",
+  "job_id": "j_5f2fb87a5bca44d8",
+  "path": "/data/app/huanghaibin/soda/jobs/j_5f2fb87a5bca44d8/hi-soda-s1e02-review-v5.mp4",
+  "url": "https://soda.buplayground.cn/api/media/a_a6ad79ccc207436d",
+  "sha256": "c564f9f8c8e0c0287c0ad4b13031e66b675bf08e33f0ebbae159d13360871081",
+  "frames": 768,
+  "fps": 24,
+  "seconds": 32.0,
+  "location_count": 2,
+  "camera_master_count": 3,
+  "native_take_count": 4,
+  "original_dialogue_count": 9,
+  "human_acceptance": "pending",
+  "music_qa": {
+    "music_relative_to_active_voice_db": -17.5,
+    "peak_dbfs": -10.26,
+    "clipped_samples": 0,
+    "voice_gain": 1
+  },
+  "scene_masters": {
+    "porch-medium": "a_93d7723ece5a4242",
+    "park-close": "a_edcfe71d480f43c0",
+    "park-run-wide": "a_b9d927c6cacc4207"
+  },
+  "takes": {
+    "S01": "a_b9dc86d49cb64644",
+    "S02": "a_1f65d9ab5fad432c",
+    "S03": "a_fd4692b7a4ba4de6",
+    "S04": "a_9f298c88a9c54786"
+  },
+  "local_path": "/Users/huanghaibin/Workspace/games/4090/xiaosuda/jobs/1017-s1e02-filming-v5/Hi-Soda_S1E02_review-v5.mp4",
+  "visual_review": "jobs/1017-s1e02-filming-v5/final-visual-review.json"
+}

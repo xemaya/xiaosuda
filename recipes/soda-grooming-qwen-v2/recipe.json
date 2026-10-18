@@ -1,0 +1,25 @@
+{
+  "id": "soda-grooming-qwen-v2",
+  "date": "2026-10-17",
+  "provider": "own_4090",
+  "model": "qwen_image_2.1_bf16.safetensors",
+  "clip": "qwen3vl_8b_bf16.safetensors",
+  "vae": "qwen_image_2.1_vae_bf16.safetensors",
+  "steps": 25,
+  "cfg": 1.0,
+  "sampler": "euler",
+  "scheduler": "simple",
+  "reference_resolution": 1024,
+  "seed": 346398895,
+  "reference_policy": "one target image per grooming edit; approved sample is visual QC reference, not an extra input that may change markings",
+  "accepted_sample": "jobs/1017-soda-fur-qwen-v2/qwen-fur-candidate.png",
+  "accepted_sha256": "0b0bca05f61a9987dda578b3a991b6736dbd56e914b50c7c1e99261e2a34151b",
+  "user_confirmation": "这个OK，批量走",
+  "notes": [
+    "Preserve white chest/belly, eyebrows, muzzle, paws, tail-tip and black upper coat.",
+    "Back-view images must remain back-facing; only preserve visible markings, do not invent hidden face/chest.",
+    "Preserve original pose, muzzle/ear/eye geometry, outfit and landscape.",
+    "Different props/background changes need explicit scene-specific brief and separate review.",
+    "No automatic video regeneration or visual acceptance."
+  ]
+}

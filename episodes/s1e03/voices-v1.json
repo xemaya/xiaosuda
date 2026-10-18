@@ -1,0 +1,24 @@
+{
+  "job_id": "j_1e66db9e76fe43d8",
+  "project_id": "p_a2e9b0ffaded4757",
+  "setting_version": "v_9d21aaab0c7d4565",
+  "model": "MiniMax speech-02-hd",
+  "status": "prepared_not_user_reviewed",
+  "note": "复用已定稿声线，未新增试听、未改动 characters.md 的 voice_id/pitch；Soda=Cute_Elf/pitch 0，Jacky=chunzhen_xuedi/pitch +1。",
+  "total_spoken_seconds": 22.21,
+  "preview": "jobs/1018-s1e03-swing-sample-v1/voices/preview-all-11.mp3",
+  "preview_seconds": 26.17,
+  "lines": [
+    { "line_id": "d1", "asset_id": "a_a0c5494b800347bb", "speaker_id": "xiaosuda", "seconds": 2.125, "text": "Wow! Look at those swings!" },
+    { "line_id": "d2", "asset_id": "a_1bfa2cb8832147f5", "speaker_id": "mengji-gege", "seconds": 2.763, "text": "They look like so much fun! Do you want to try?" },
+    { "line_id": "d3", "asset_id": "a_b63eaac9cc43432c", "speaker_id": "xiaosuda", "seconds": 2.426, "text": "Yes, please! I love swings!" },
+    { "line_id": "d4", "asset_id": "a_fe5ab7abcf564995", "speaker_id": "mengji-gege", "seconds": 0.975, "text": "You can go first, Soda!" },
+    { "line_id": "d5", "asset_id": "a_1b27b4bf038549e9", "speaker_id": "xiaosuda", "seconds": 2.728, "text": "Thank you, Jacky! You’re so nice!" },
+    { "line_id": "d6", "asset_id": "a_7b4249ff56324538", "speaker_id": "mengji-gege", "seconds": 2.473, "text": "You’re welcome! Push me when it’s my turn!" },
+    { "line_id": "d7", "asset_id": "a_6ef50ae847de4c9f", "speaker_id": "xiaosuda", "seconds": 2.426, "text": "Wheee! This is so much fun!" },
+    { "line_id": "d8", "asset_id": "a_085e80fef23d439d", "speaker_id": "mengji-gege", "seconds": 1.149, "text": "Can I have a turn now?" },
+    { "line_id": "d9", "asset_id": "a_611a331eaa184f9f", "speaker_id": "xiaosuda", "seconds": 1.486, "text": "Of course! It’s your turn!" },
+    { "line_id": "d10", "asset_id": "a_6d892a8f635349bf", "speaker_id": "mengji-gege", "seconds": 1.533, "text": "Yay! Thank you, Soda!" },
+    { "line_id": "d11", "asset_id": "a_4798bd3753cb4005", "speaker_id": "xiaosuda", "seconds": 2.125, "text": "Let’s play together every day!" }
+  ]
+}

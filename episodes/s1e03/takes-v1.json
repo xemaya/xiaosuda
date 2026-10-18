@@ -1,0 +1,161 @@
+{
+  "project_id": "p_a2e9b0ffaded4757",
+  "board_version": "v_e8f329509f14426b",
+  "setting_version": "v_9d21aaab0c7d4565",
+  "recipe": "recipes/plush-dialogue-v14 (H3 Ref2VA, 4 steps, euler/beta, 768x1376, CFR24)",
+  "status": "assembled_v3_pending_acceptance",
+  "note": "逐镜拍摄、逐镜审核采用；S02→S03、S04→S05 续接要求上一镜已采用且有 22 帧无损尾帧。",
+  "shots": {
+    "S01": {
+      "job_id": "j_02ff5060bddb4d6d",
+      "take_asset": "a_195ad450a9aa4960",
+      "frames": 148,
+      "seconds": 6.166667,
+      "dialogue_ids": [
+        "d1",
+        "d2"
+      ],
+      "review": "pass",
+      "review_notes": "第一版 d2 后半句（Do you want to try?）嘴停在 6.12s，音频却到 7.34s，用户指出不匹配；本版重新生成，6.0–7.35s 逐帧核对有开合（6.4/7.2 张开，6.2/6.8/7.0 收拢），整句有口型。",
+      "adopted": true
+    },
+    "S02": {
+      "job_id": "j_b8f4981f7797452c",
+      "take_asset": "a_c51c5f124c9946f8",
+      "frames": 112,
+      "seconds": 4.666667,
+      "dialogue_ids": [
+        "d3",
+        "d4"
+      ],
+      "review": "pass",
+      "review_notes": "单座板双平行链、无交叉、前爪不穿链；d3 Soda 开口 / d4 Jacky 开口。",
+      "adopted": true
+    },
+    "S03": {
+      "job_id": "j_4abf0ee52bdd4190",
+      "take_asset": "a_d867f1189b664e4b",
+      "frames": 155,
+      "seconds": 6.458333,
+      "dialogue_ids": [
+        "d5",
+        "d6"
+      ],
+      "continuation": true,
+      "review": "pass_with_note",
+      "review_notes": "链子顺直、接缝连续；但这一段内部有缓慢推近（S03 末尾比开头明显更近），非严格固定机位。",
+      "adopted": true
+    },
+    "S04": {
+      "job_id": "j_b74530aa40774408",
+      "take_asset": "a_cd5b5e8b063e4e31",
+      "frames": 116,
+      "seconds": 4.833333,
+      "dialogue_ids": [
+        "d7",
+        "d8"
+      ],
+      "review": "pass",
+      "review_notes": "近景单座板双链、前爪不穿链；d7 Soda / d8 Jacky 口型正确。",
+      "adopted": true
+    },
+    "S05": {
+      "job_id": "j_e400df2056584f55",
+      "take_asset": "a_5791720008274fc5",
+      "frames": 103,
+      "seconds": 4.291667,
+      "dialogue_ids": [
+        "d9",
+        "d10"
+      ],
+      "continuation": true,
+      "review": "pass",
+      "review_notes": "22 帧续接 S04；链子两股平行不交叉，25s 处前爪不再穿模；d9/d10 口型正确。",
+      "adopted": true
+    },
+    "S06": {
+      "job_id": "j_fcd6e47108ee4789",
+      "take_asset": "a_90fffc12e8e246d7",
+      "frames": 98,
+      "seconds": 4.083333,
+      "dialogue_ids": [
+        "d11"
+      ],
+      "review": "pass",
+      "review_notes": "新版本补拍；d11 Soda 开口（0.9/1.5/2.1s 放大确认），2.6s 后两兄弟一起大笑收尾。",
+      "adopted": true
+    }
+  },
+  "assembly": {
+    "job_id": "j_bd59869fbf934aac",
+    "candidate_no_bgm": "a_118403c0a8414a35",
+    "candidate_with_bgm": "a_37cf5df145714b26",
+    "sha256_with_bgm": "cf1d47f4a14894cf426ea488358fba540edb3140193cb1e3c27398c528fc0660",
+    "frames": 780,
+    "seconds": 32.5,
+    "fps": 24,
+    "size": [
+      1080,
+      1932
+    ],
+    "op_seconds": 2,
+    "bgm": "Soda Sunny Steps 已认可轻声底轨",
+    "peak_dbfs": -11.25,
+    "music_relative_db": -20.07,
+    "clipped_samples": 0,
+    "local_preview": "jobs/1018-s1e03-swing-sample-v1/final/hi-soda-s1e03-soft-bgm-v3.mp4"
+  },
+  "review_flags": [
+    "S01 已因 d2 后半句口型重拍一次；v3 整句有开合，但小尺寸全景下口型精度仍弱于中近景。",
+    "S03 内部有缓慢推近（开头到结尾景别更近），不是严格固定机位；如需完全静止要重拍该镜。",
+    "BGM 在对白下实测 -20.07dB（S1E02 规格 -17.5dB），偏安静；要更明显可 +2.5dB 重混。",
+    "全景座板为宽板、近景/中景为窄板，各机位用自己的主图。"
+  ],
+  "prop_fix": {
+    "date": "2026-10-18",
+    "user_report": "秋千的链子交错，25秒小苏打的手有一个穿模",
+    "diagnosis": "原 swing-medium / swing-close 主图里有两副座板四条链子（左前景空座 + Soda 自己的座板），近景里链条叠成交叉；S05 续接后链条穿进 Soda 右前腿，25 秒处出现穿模。",
+    "fix": {
+      "new_masters": {
+        "swing-medium": "a_2da53d98d3db46b6",
+        "swing-close": "a_32ec441d022a46db"
+      },
+      "board_version": "v_e8f329509f14426b",
+      "constraint_added": "四镜 action 写明：只有一块座板、两根竖直平行链、不交叉不穿身；前爪搭在身前/座板边缘，不穿链条或自己、不出现漂浮手。"
+    },
+    "reshoot_shots": [
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "old_takes_kept": {
+      "S02": "a_8244e482f0fb4c70",
+      "S03": "a_1f9843363e304a76",
+      "S04": "a_058422e72b0d4549",
+      "S05": "a_3dd05f06d56a43bb"
+    },
+    "reshoot_takes": {
+      "S01": "a_5245f0a4b5884481",
+      "S02": "a_c51c5f124c9946f8",
+      "S03": "a_d867f1189b664e4b",
+      "S04": "a_cd5b5e8b063e4e31",
+      "S05": "a_5791720008274fc5",
+      "S06": "a_90fffc12e8e246d7"
+    },
+    "review_notes": {
+      "S02": "单座板双平行链，链条不交叉、不穿身；d3 Soda 开口 / d4 Jacky 开口的口型归属正确。",
+      "S03": "22 帧续接 S02，接缝连续；d5/d6 口型归属正确。",
+      "S04": "近景单座板双平行链，Soda 前爪在身前不穿链；d7/d8 口型正确。"
+    },
+    "board_reset_note": "改分镜（写入链子/前爪约束）会清空 adopted_takes，S01/S06 也因 board_version 变化需按新版本补拍。"
+  },
+  "adopted_takes": {
+    "S01": "a_195ad450a9aa4960",
+    "S02": "a_c51c5f124c9946f8",
+    "S03": "a_d867f1189b664e4b",
+    "S04": "a_cd5b5e8b063e4e31",
+    "S05": "a_5791720008274fc5",
+    "S06": "a_90fffc12e8e246d7"
+  }
+}

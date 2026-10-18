@@ -1,0 +1,15 @@
+{
+  "path": "/data/app/huanghaibin/soda/preproduction/s1e02-filming-v5/delivery-evidence.tgz",
+  "sha256": "387e865f590503d8dfa11aee16b738778dcb54536c032bc3aca05c5dd133d255",
+  "bytes": 11584339,
+  "file_count": 113,
+  "job_ids": [
+    "j_f55633cf8e2c4fdf",
+    "j_7fa30e67597c4a66",
+    "j_5f2fb87a5bca44d8"
+  ],
+  "movie_asset": "a_a6ad79ccc207436d",
+  "movie_sha256": "c564f9f8c8e0c0287c0ad4b13031e66b675bf08e33f0ebbae159d13360871081",
+  "human_acceptance": "pending",
+  "release_promoted": false
+}

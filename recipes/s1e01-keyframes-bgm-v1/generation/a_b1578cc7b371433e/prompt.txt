@@ -1,0 +1,16 @@
+For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.
+
+integrated_multimodal_description:
+[Shot 1] Original cute chibi 3D plush toy mascot style, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory palette, soft warm window light, shallow depth of field. Close-up shot of the black-and-white Alaskan malamute plush puppy (Soda) from <Picture 1>, preserving his exact face, fluffy texture, brown backpack straps, and the room. The camera is fixed in a tight head-and-shoulders crop.
+
+0.0–0.4: Soda sits facing the camera directly, maintaining a neutral but friendly expression with warm brown eyes looking straight ahead. His body remains stable, with only subtle breathing-like movement in the chest area.
+0.4–2.14: <d>[EN] I hope you like me too!</d> As he speaks, his mouth moves naturally to match the dialogue. He gently lifts his right front paw in a small, friendly wave, keeping the motion controlled and soft. His expression remains warm and hopeful throughout the speech.
+2.14–3.5: After finishing the line, Soda holds the friendly gaze for a brief moment, allowing the warmth of the smile to settle. The right paw begins to lower slowly back toward his chest area.
+3.5–4.6: The right paw settles naturally back into its resting position against his body. His head tilts very slightly, reinforcing the gentle and approachable demeanor.
+4.6–5.0: Soda holds the final pose, looking directly at the viewer with a calm, satisfied expression, completing the interaction naturally without any abrupt movements.
+
+overall_soundscape: Soft ambient room tone with faint, gentle fabric rustling sounds as the plush toy moves slightly. The voice is clear and friendly, matching the character's warm personality.
+
+non_diegetic_music: None, or very subtle, soft instrumental background if needed to support the warmth, but primarily focused on the dialogue and natural sounds.
+
+RULES: No extra characters, no text or watermarks, no reflections of other people, no fast spins or hair whips, no finger snaps or waving beyond the single paw gesture, no zoom out or pan, maintain the tight head-and-shoulders crop, preserve the character's exact plush texture and facial features.

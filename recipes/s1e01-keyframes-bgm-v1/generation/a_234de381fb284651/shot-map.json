@@ -1,0 +1,49 @@
+[
+  {
+    "shot_id": "S07",
+    "take": {
+      "raw_images": [
+        "18",
+        0
+      ],
+      "delivered_images": [
+        "20",
+        0
+      ],
+      "visible_images": [
+        "21",
+        0
+      ],
+      "audio": [
+        "20",
+        1
+      ],
+      "save_node": "23",
+      "raw_frames": 175,
+      "context_frames": 0,
+      "keep_frames": 168
+    },
+    "tail_save": "25",
+    "audio": {
+      "keep_frames": 168,
+      "seconds": 7.0,
+      "wave": "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/original-audio.wav",
+      "turns": [
+        {
+          "id": "d6",
+          "speaker_id": "xiaosuda",
+          "text": "And this is my big sister, Angela. She's a gentle sheep.",
+          "translation": "这位是我的姐姐露露，她是一只温柔的绵羊。",
+          "emotion": "Soft and loving",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 4.53315625
+        }
+      ]
+    },
+    "scene_id": "angela-reading",
+    "master_id": "a_61ea7c6aa0ba462a",
+    "dependency": null,
+    "seed": "281868798"
+  }
+]

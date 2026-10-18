@@ -1,0 +1,40 @@
+{
+  "series": "Hi, Soda!",
+  "title": "黄山篇",
+  "kind": "independent_travel_film",
+  "status": "final_delivery",
+  "date": "2026-10-18",
+  "video": "Hi-Soda_Huangshan_Final.mp4",
+  "subtitles": "Hi-Soda_Huangshan_Final.srt",
+  "sha256": "f93c763d99de10762a646e9da632af04cc51141342b3e44b229db40eeef2cd15",
+  "frames": 3325,
+  "duration_seconds": 138.54166666666666,
+  "resolution": [
+    1080,
+    1932
+  ],
+  "fps": 24,
+  "op": "Hi, Soda! / 2 seconds",
+  "source_reviewed_version": "jobs/1018-huangshan-silent-cloud-v3/Hi-Soda_Huangshan_silent-cloud-v3.mp4",
+  "user_instruction": "那成片吧",
+  "user_confirmed_cloud_fix": "ok",
+  "publication_requested": false,
+  "generation_baseline": "recipes/plush-dialogue-v14/README.md",
+  "production_records": [
+    "jobs/1017-huangshan-quadruped-v2/README.md",
+    "jobs/1018-huangshan-silent-cloud-v3/README.md"
+  ],
+  "evidence_sha256": {
+    "evidence/delivery.json": "b6f1ff05a764837fc24e32b40db5bbb9281f8d22d41875f8689e19d2ea7335d3",
+    "evidence/fix_silent_cloud.py": "03f231b6090c8533662fadd97b0b907d7bc0f297553252000201cd87044ec67f",
+    "evidence/keyframes.json": "2e319dcfcbf6c9741ef492ac47c34c9cff3a599ddbf02678c7822d248619ee84",
+    "evidence/quadruped-v2-design-adaptation.json": "dfd11bfb9b25e1cfcf992b96784a3e4819f6217f7d96ea8f7d10df861692361b",
+    "evidence/quadruped-v2-local-verification.json": "e964c94bbde2e4cdb2940ea28a6d68616b4f568ba29c09a1a4610d859a371e1f",
+    "evidence/quadruped-v2-selection-audit.json": "b9d6a70651caf0d29470bd1642bad3fb287c55d7616704e60c359b682d19bd85",
+    "evidence/quadruped-v2-visual-review-decision.json": "fd9b2aed822cf409fa3fa9aa7c0d8c267d6af02a5cb6b22f65c1ced28519c900",
+    "evidence/review-decision.json": "13c313aa09b85820ed4a50251c4fc896010aec25b75cbf715036c1146ba36c38",
+    "evidence/user-confirmation.json": "87e9d64e3cd41f4ff4304353fde2c3e8813bcf3216444e29c8969f4937057d02",
+    "evidence/verification.json": "1439fc79e23aa73ea82957fb37ae0fad5bf5b85f553c9ac6c6d2c6f576eac8a1",
+    "evidence/verify_fix.py": "a8fa663314836e3ec64366723a3628efc095353bdc6e301589d5f5eda4f85f9a"
+  }
+}

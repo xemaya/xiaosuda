@@ -1,0 +1,14 @@
+{
+  "decision": "technical_review_complete",
+  "human_acceptance": "pending",
+  "user_feedback": "1:02–1:06 mouths move without speech",
+  "resolution": "Character-free cloud cutaway from existing native moving video",
+  "cut_boundaries_checked": [
+    61.333333333333336,
+    67.66666666666667
+  ],
+  "original_audio_encoded_stream_exact": true,
+  "decoded_pixels_outside_gop_exact": true,
+  "source_s11_approval": "superseded by this user feedback and V3 reframe",
+  "sha256": "f93c763d99de10762a646e9da632af04cc51141342b3e44b229db40eeef2cd15"
+}

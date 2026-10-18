@@ -1,0 +1,8 @@
+{
+  "asset_id": "a_a140f8a85f614c96",
+  "user_verdict": "rejected",
+  "reason": "Soda全程拟人双脚站姿，与第一集默认自然犬类姿态不一致，不可爱。",
+  "original_files_retained": true,
+  "replacement_phase": "V2关键帧待用户确认",
+  "video_authorized_after_keyframe_approval_only": true
+}

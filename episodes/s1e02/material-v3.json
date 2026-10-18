@@ -1,0 +1,22 @@
+{
+  "project_id": "p_e8162eb476934167",
+  "phase": "single_material_sample",
+  "previous_four_keyframes": "user_rejected_insufficient_fur",
+  "material_candidate": {
+    "project_id": "p_e8162eb476934167",
+    "scene_id": "porch-medium",
+    "asset_id": "a_93d7723ece5a4242",
+    "path": "/data/app/huanghaibin/soda/jobs/j_fc10ddbc68994603/porch-medium-candidate.png",
+    "sha256": "4d84744603f0f0615df53e2cb3790461547ca1b30e2f0bb3f9a49b111b506575",
+    "seed": 10170231,
+    "job_id": "j_fc10ddbc68994603",
+    "prompt_id": "55923ba4-0d33-44ef-b4c9-71d6d02797db",
+    "port": 8189,
+    "model": "qwen_image_2.1_bf16.safetensors",
+    "adopted": false,
+    "human_acceptance": "pending"
+  },
+  "human_acceptance": "pending",
+  "video_authorized": false,
+  "batch_authorized": false
+}

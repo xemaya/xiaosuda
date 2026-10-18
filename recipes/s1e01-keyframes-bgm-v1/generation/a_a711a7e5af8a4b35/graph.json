@@ -1,0 +1,312 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "minimax_h3_ref2va_pruned_fp8_scaled.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2": {
+    "class_type": "LoraLoaderModelOnly",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "lora_name": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+      "strength_model": 1.0
+    }
+  },
+  "3": {
+    "class_type": "CLIPLoaderGGUFMiniMaxH3",
+    "inputs": {
+      "clip_name": "qwen3-vl-32b-ultra-heretic-minimax-h3-q6_k.gguf",
+      "vision_name": "qwen3vl_32b_minimax_h3_visual_bf16.safetensors"
+    }
+  },
+  "4": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "minimax_h3_video_vae_fp16.safetensors"
+    }
+  },
+  "5": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+    }
+  },
+  "6": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "a_17c04ae5b9ec4c8a.png"
+    }
+  },
+  "7": {
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler"
+    }
+  },
+  "8": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "soda-93a4d711d57001663749fec3.mp4"
+    }
+  },
+  "9": {
+    "class_type": "Video Slice",
+    "inputs": {
+      "video": [
+        "8",
+        0
+      ],
+      "start_time": 0.0,
+      "duration": 15.0,
+      "strict_duration": false
+    }
+  },
+  "10": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "9",
+        0
+      ]
+    }
+  },
+  "11": {
+    "class_type": "MiniMaxH3ReferenceToVideo",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "audio_vae": [
+        "5",
+        0
+      ],
+      "prompt": "Use <Picture 1> as the SOLE visual authority for the adult lead and the environment. Preserve exactly: the warm sunlit children's playroom, the low wooden table with colorful building blocks, the black-and-white Alaskan malamute plush puppy on the right, the round warm-yellow plush chick in a blue hoodie on the left, the soft carpet, the background shelves, and the fixed medium camera framing. Do not redesign, restyle, add or remove anything.\n\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a static medium vertical shot of two plush mascots at a low table in a warm room. The chick Jacky is on the left, visibly taller with his orange comb; the puppy Soda is on the right, slightly shorter, wearing a small brown backpack. Both stand on the same floor plane at the same camera distance. Natural real-time movement at normal human speed; no slow motion or time stretching.\n\n0.0–0.4: The scene is stable. Jacky’s beak is closed as he focuses on the blocks. Soda stands naturally, facing slightly toward Jacky, with a warm, affectionate expression.\n\n0.4–3.98: Soda speaks with clear mouth movement and expressive eyes: <d>[EN] This is my big brother, Jacky. He's a cheerful little chick.</d> While speaking, Soda’s head tilts gently toward Jacky, and his fluffy tail gives one soft, natural wag. Jacky remains focused on the table, his beak closed, as he carefully picks up a yellow block with his small wing.\n\n3.98–5.2: Jacky places the yellow block onto the stack on the low table. As he completes the placement, he naturally lifts his head to look at Soda, acknowledging him with a gentle nod and a brief, subtle wing gesture. His beak remains closed throughout.\n\n5.2–7.0: Jacky lowers his gaze back to the blocks and continues building, reaching for another piece. Soda holds his warm, affectionate gaze on Jacky, his expression soft and content. The camera remains fixed, maintaining the exact depth of field and character scale from the reference image.\n\noverall_soundscape: Soft ambient room tone with faint, warm sunlight atmosphere. Subtle fabric rustling as the plush characters move. Gentle, tactile sounds of plastic building blocks clicking together on the wooden table. Soft carpet footfalls if any weight shift occurs.\n\nnon_diegetic_music: None. No background music, only diegetic sounds and dialogue.\n\nRULES: No extra people, no reflections of other people, no giant foreground puppy, no shrinking chick, no duplicated actors, no humans, no new costumes, no text, no watermarks, no cuts, no held or looped tails.",
+      "width": 768,
+      "height": 1376,
+      "length": 175,
+      "ref_image_size": "match",
+      "ref_images.ref_image_0": [
+        "6",
+        0
+      ],
+      "ref_videos.ref_video_0": [
+        "10",
+        0
+      ],
+      "ref_video_audios.ref_video_audio_0": [
+        "10",
+        1
+      ]
+    }
+  },
+  "12": {
+    "class_type": "MiniMaxH3AddGuide",
+    "inputs": {
+      "positive": [
+        "11",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "11",
+        1
+      ],
+      "image": [
+        "6",
+        0
+      ],
+      "frame_idx": 0
+    }
+  },
+  "13": {
+    "class_type": "MiniMaxH3MotionContext",
+    "inputs": {
+      "conditioning": [
+        "12",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "11",
+        1
+      ],
+      "context_length": "22",
+      "audio_context_length": 24
+    }
+  },
+  "14": {
+    "class_type": "BasicGuider",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "conditioning": [
+        "13",
+        0
+      ]
+    }
+  },
+  "15": {
+    "class_type": "BasicScheduler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "scheduler": "beta",
+      "steps": 4,
+      "denoise": 1.0
+    }
+  },
+  "16": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 899244243
+    }
+  },
+  "17": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "16",
+        0
+      ],
+      "guider": [
+        "14",
+        0
+      ],
+      "sampler": [
+        "7",
+        0
+      ],
+      "sigmas": [
+        "15",
+        0
+      ],
+      "latent_image": [
+        "11",
+        1
+      ]
+    }
+  },
+  "18": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "17",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ]
+    }
+  },
+  "19": {
+    "class_type": "VAEDecodeAudio",
+    "inputs": {
+      "samples": [
+        "17",
+        0
+      ],
+      "vae": [
+        "5",
+        0
+      ]
+    }
+  },
+  "20": {
+    "class_type": "MiniMaxH3MotionContextTrim",
+    "inputs": {
+      "images": [
+        "18",
+        0
+      ],
+      "trim_frames": [
+        "13",
+        1
+      ],
+      "audio": [
+        "19",
+        0
+      ],
+      "fps": 24.0,
+      "match_tail": true
+    }
+  },
+  "21": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "20",
+        0
+      ],
+      "batch_index": 0,
+      "length": 168
+    }
+  },
+  "22": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "20",
+        0
+      ],
+      "audio": [
+        "20",
+        1
+      ],
+      "fps": 24.0
+    }
+  },
+  "23": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "22",
+        0
+      ],
+      "filename_prefix": "soda/j_6b6fda5d12a0487d/S06",
+      "format": "auto",
+      "format.codec": "auto"
+    }
+  },
+  "24": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "21",
+        0
+      ],
+      "batch_index": 146,
+      "length": 22
+    }
+  },
+  "25": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "24",
+        0
+      ],
+      "filename_prefix": "soda/j_6b6fda5d12a0487d/S06-tail"
+    }
+  }
+}

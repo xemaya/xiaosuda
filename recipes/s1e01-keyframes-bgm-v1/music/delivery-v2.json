@@ -1,0 +1,32 @@
+{
+  "asset_id": "a_f9326941a16b4c4d",
+  "job_id": "j_26edc1e0ddc840ab",
+  "url": "https://soda.buplayground.cn/api/media/a_f9326941a16b4c4d",
+  "path": "/data/app/huanghaibin/soda/jobs/j_26edc1e0ddc840ab/hi-soda-s1e01-soft-bgm-v2.mp4",
+  "sha256": "37a9f1403bdc7918d60bac7787ccccbec80ac02d0e835ce321c758687b06c6d0",
+  "frames": 1112,
+  "fps": 24,
+  "seconds": 46.333333,
+  "music_title": "Soda Sunny Steps",
+  "source_takes": {
+    "S02": "a_c3d7ad7591b743b0",
+    "S03": "a_b090ab2f70994727",
+    "S05": "a_c8d268c4bb8446b6",
+    "S06": "a_39e4cbd9ab2f41c7",
+    "S09": "a_233880fab04a4f84",
+    "S07": "a_96a0d7c86d014c4a",
+    "S08": "a_11d7ab46b4c84a1f"
+  },
+  "source_mix_unchanged": true,
+  "captions_unchanged": true,
+  "picture_bitstream_unchanged_when_mixing": true,
+  "human_acceptance": "pending",
+  "mix_qa": {
+    "music_under_active_voice_db_relative": -14.65,
+    "mixed_peak_dbfs": -13.61,
+    "source_voice_gain": 1,
+    "clipped_samples": 0,
+    "additional_music_gain_db": -7
+  },
+  "previous_candidate": "a_d1654d3634414489"
+}

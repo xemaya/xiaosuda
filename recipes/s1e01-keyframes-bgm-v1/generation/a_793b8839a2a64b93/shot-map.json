@@ -1,0 +1,49 @@
+[
+  {
+    "shot_id": "S08",
+    "take": {
+      "raw_images": [
+        "18",
+        0
+      ],
+      "delivered_images": [
+        "20",
+        0
+      ],
+      "visible_images": [
+        "21",
+        0
+      ],
+      "audio": [
+        "20",
+        1
+      ],
+      "save_node": "23",
+      "raw_frames": 192,
+      "context_frames": 0,
+      "keep_frames": 192
+    },
+    "tail_save": "25",
+    "audio": {
+      "keep_frames": 192,
+      "seconds": 8.0,
+      "wave": "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/original-audio.wav",
+      "turns": [
+        {
+          "id": "d7",
+          "speaker_id": "xiaosuda",
+          "text": "We live together happily and love each other very much.",
+          "translation": "我们快乐地生活在一起，也非常爱彼此。",
+          "emotion": "Content and sincere",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 3.59275
+        }
+      ]
+    },
+    "scene_id": "home-wide",
+    "master_id": "a_ad75e494c24242cd",
+    "dependency": null,
+    "seed": "1682790540"
+  }
+]

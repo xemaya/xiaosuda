@@ -1,0 +1,27 @@
+{
+  "source_name": "少儿英语大纲.docx",
+  "source_sha256": "affdafb3b7cd8e62371a00d90616274a8a99cd139298f497a816d32fa42ef27a",
+  "section": "S1E02",
+  "normalizations": [
+    "Baking Soda -> Soda",
+    "Chick -> Jacky / 奇奇"
+  ],
+  "cast_ids": [
+    "xiaosuda",
+    "mengji-gege"
+  ],
+  "base_recipe": "recipes/s1e01-keyframes-bgm-v1",
+  "canonical_episode": "S1E02",
+  "user_alias": "SE02",
+  "scene_budget": {
+    "locations": 2,
+    "camera_masters": 3,
+    "user_limit": [
+      2,
+      4
+    ]
+  },
+  "status": "preproduction",
+  "editor_dialogue_count": 9,
+  "source_script_unchanged_except_names": true
+}

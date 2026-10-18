@@ -1,0 +1,258 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "minimax_h3_ref2va_pruned_fp8_scaled.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2": {
+    "class_type": "LoraLoaderModelOnly",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "lora_name": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+      "strength_model": 1.0
+    }
+  },
+  "3": {
+    "class_type": "CLIPLoaderGGUFMiniMaxH3",
+    "inputs": {
+      "clip_name": "qwen3-vl-32b-ultra-heretic-minimax-h3-q6_k.gguf",
+      "vision_name": "qwen3vl_32b_minimax_h3_visual_bf16.safetensors"
+    }
+  },
+  "4": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "minimax_h3_video_vae_fp16.safetensors"
+    }
+  },
+  "5": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+    }
+  },
+  "6": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "prompts-1015-122648__k3-teach-916.png"
+    }
+  },
+  "7": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "prompts-1015-122648__carrier3.mp4"
+    }
+  },
+  "8": {
+    "class_type": "Video Slice",
+    "inputs": {
+      "video": [
+        "7",
+        0
+      ],
+      "start_time": 0.0,
+      "duration": 15.0,
+      "strict_duration": false
+    }
+  },
+  "9": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "8",
+        0
+      ]
+    }
+  },
+  "10": {
+    "class_type": "MiniMaxH3ReferenceToVideo",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "audio_vae": [
+        "5",
+        0
+      ],
+      "prompt": "The image <Picture 1> is the visual authority for both characters and the room. The video <Video 1> is the voice authority: both characters speak with exactly the same voices, emotion, pacing and timing as its audio, and lip movements follow its speech.\nintegrated_multimodal_description:\n[Shot 1] 3D plush-toy animation, dense soft plush fur texture everywhere, warm morning living room, vertical two-shot on a beige rug. The chick teaches four phrases one by one, counting them on his raised wing feathers; the puppy watches. Real-time speed. Camera completely static, constant framing.\n\n0.0-0.25 | Both settle into teacher-student stance, mouths closed smiling.\n0.25-1.4 | Chick presents the lesson, one wing rises chest-high palm-up, then holds; puppy attentive.\n1.4-1.9 | Chick raises his other wing and folds out the first feather segment, counting \"one\"; puppy's eyes follow.\n1.9-2.9 | Chick says the first phrase slowly and clearly, wing holding \"one\" with a small accent beat; puppy silent, ears up.\n2.9-3.8 | Second feather segment folds out, \"two\"; puppy nods once.\n3.8-4.8 | Chick says the second phrase slowly, wing holding \"two\" with the accent beat.\n4.8-5.7 | Third feather segment, \"three\"; puppy leans in.\n5.7-6.7 | Chick says the third phrase slowly, wing holding \"three\".\n6.7-7.6 | Fourth feather segment, \"four\"; puppy's tail wags brighter.\n7.6-8.6 | Chick says the fourth phrase slowly, wing holding \"four\", then both wings lower.\n8.6-9.9 | Puppy repeats the phrase proudly with a happy bounce from his paws, backpack straps shifting; chick watches with a proud closed-beak smile.\n9.9-10.0 | Freeze on the proud pupil and pleased teacher.\n\nRULES: visuals follow <Picture 1>; voices, timing and lip sync follow <Video 1> audio. No text, no subtitles, no logos. Both fully visible. Adult plush mascots. Exactly four wing-count beats. Camera static, no push-in, no zoom. No added limbs, no morphing, no camera shake, no cuts except the final freeze.",
+      "width": 768,
+      "height": 1376,
+      "length": 243,
+      "ref_image_size": "match",
+      "ref_images.ref_image_0": [
+        "6",
+        0
+      ],
+      "ref_videos.ref_video_0": [
+        "9",
+        0
+      ],
+      "ref_video_audios.ref_video_audio_0": [
+        "9",
+        1
+      ]
+    }
+  },
+  "11": {
+    "class_type": "MiniMaxH3MotionContext",
+    "inputs": {
+      "conditioning": [
+        "10",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "10",
+        1
+      ],
+      "context_length": "22",
+      "audio_context_length": 24
+    }
+  },
+  "12": {
+    "class_type": "BasicGuider",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "conditioning": [
+        "11",
+        0
+      ]
+    }
+  },
+  "13": {
+    "class_type": "BasicScheduler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "scheduler": "beta",
+      "steps": 4,
+      "denoise": 1.0
+    }
+  },
+  "14": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 909285593
+    }
+  },
+  "15": {
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler"
+    }
+  },
+  "16": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "14",
+        0
+      ],
+      "guider": [
+        "12",
+        0
+      ],
+      "sampler": [
+        "15",
+        0
+      ],
+      "sigmas": [
+        "13",
+        0
+      ],
+      "latent_image": [
+        "10",
+        1
+      ]
+    }
+  },
+  "17": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "16",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ]
+    }
+  },
+  "18": {
+    "class_type": "VAEDecodeAudio",
+    "inputs": {
+      "samples": [
+        "16",
+        0
+      ],
+      "vae": [
+        "5",
+        0
+      ]
+    }
+  },
+  "19": {
+    "class_type": "MiniMaxH3MotionContextTrim",
+    "inputs": {
+      "images": [
+        "17",
+        0
+      ],
+      "trim_frames": [
+        "11",
+        1
+      ],
+      "audio": [
+        "18",
+        0
+      ],
+      "fps": 24.0,
+      "match_tail": true
+    }
+  },
+  "20": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "19",
+        0
+      ],
+      "fps": 24.0,
+      "audio": [
+        "19",
+        1
+      ]
+    }
+  },
+  "21": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "20",
+        0
+      ],
+      "filename_prefix": "batches/prompts-1015-122648/03_s909285593",
+      "format": "auto",
+      "format.codec": "auto"
+    }
+  }
+}

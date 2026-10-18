@@ -1,0 +1,710 @@
+{
+  "project": {
+    "id": "p_5e6ea50dd70a4026",
+    "title": "S1E01 · 自我介绍 · Hi, I'm Soda!",
+    "script": "# S1E01 自我介绍 Hi, I'm Soda!\n\n制作准备稿 V2，按2026-10-16用户追加要求修订；含2秒OP预计45–60秒，实际时长以配音为准。\n\n## 演员、镜头与表演\n\n只由Soda说话，Jacky与Angela自然做自己的事；Mimi等其他角色不出镜。全景建立空间和人物关系，特写突出Soda表情，介绍哥哥姐姐用对应中景。家庭活动区中Jacky坐着搭乐高积木，Angela坐着读书；被介绍时短暂停下、抬头回应，再回到自己的活动。单簧管、足球、编织为长期兴趣，不在本集全部塞入。\n\n提到寒冷来处时，影片用向下揭幕转场从家庭活动区切到北方冰雪全景，再展示Soda奔跑，之后下拉回家。转场由后期处理两段真实运动画面，保留全部对白，不要求原生模型在一镜内硬变背景。每个景别与地点分别准备主图，保持原毛绒风格、服饰及35/42/48cm相对比例，不插入Practice time!。\n\n## 逐句对白\n\nSoda：Hi everyone! I'm Soda, an Alaskan Malamute.\n大家好！我是小苏打，一只阿拉斯加犬。\n\nSoda：I come from a very cold place,\n我来自一个非常寒冷的地方，\n\nSoda：and I can run super fast!\n而且我跑得可快啦！\n\nSoda：I'm so excited to meet you all.\n见到大家，我特别开心。\n\nSoda：This is my big brother, Jacky. He's a cheerful little chick.\n这是我的哥哥奇奇，他是一只开朗的小鸡。\n\nSoda：And this is my big sister, Angela. She's a gentle sheep.\n这位是我的姐姐露露，她是一只温柔的绵羊。\n\nSoda：We live together happily and love each other very much.\n我们快乐地生活在一起，也非常爱彼此。\n\nSoda：I hope you like me too!\n希望你们也喜欢我！\n\n第二句只按场景动作节拍拆成两条，英文含义和其余对白保持。",
+    "script_hash": "796d091e678a5b167f64465a5989c8fa2f8592ad95f95f5d050f3b80ee83a84e",
+    "cast_ids": [
+      "xiaosuda",
+      "mengji-gege",
+      "mianyang-jiejie"
+    ],
+    "style_id": "soda-plush-v14",
+    "revision": 5,
+    "created": 1792114918.3237062,
+    "updated": 1792125542.5927365,
+    "setting": {
+      "title": "Hi, I'm Soda!",
+      "logline": "Soda用特写介绍自己，下拉换景展示北方雪地与奔跑，再介绍各自在搭积木和读书的哥哥姐姐。",
+      "premise": "以家庭全景建立三兄妹的生活状态；Soda面向观众的自我介绍使用特写。提到寒冷来处时，用后期下拉转场揭开冰雪北方，接同机位轻快奔跑；再下拉回到家中。介绍Jacky与Angela时，分别切到积木角和阅读角中景，他们继续自己的活动，被叫到时才自然回应。最后家庭全景温暖收尾，Soda特写向观众挥爪。全片只有Soda说话，不插练习卡。",
+      "style_id": "soda-plush-v14",
+      "cast": [
+        {
+          "character_id": "xiaosuda",
+          "story_role": "唯一说话者，以特写自我介绍并在北方雪地奔跑"
+        },
+        {
+          "character_id": "mengji-gege",
+          "story_role": "哥哥，旁边坐着搭积木，被叫到时抬头回应"
+        },
+        {
+          "character_id": "mianyang-jiejie",
+          "story_role": "姐姐，旁边坐着读书，被叫到时抬头回应"
+        }
+      ],
+      "scenes": [
+        {
+          "id": "home-wide",
+          "name": "家庭活动区 · 全景",
+          "framing": "wide",
+          "cast_ids": [
+            "xiaosuda",
+            "mengji-gege",
+            "mianyang-jiejie"
+          ],
+          "setting": "家庭活动区全景，窗边地毯、矮积木桌及阅读扶手椅。Soda站在前景中心，Jacky在左后方坐着搭乐高积木，Angela在右后方扶手椅读书。人物自然站立至头顶身高基准35/42/48cm，坐姿不改变角色真实比例。各自专注自己的事情，被介绍时短暂停下自然回应；只有Soda开口。",
+          "props": [
+            "地毯",
+            "沙发",
+            "矮积木桌",
+            "乐高积木",
+            "书",
+            "阅读扶手椅"
+          ],
+          "idle_actions": {
+            "mengji-gege": "坐在矮桌旁，一次拿起一块积木、轻轻接好；听到自己的名字时抬头微笑挥一下翅膀，再回到积木。",
+            "mianyang-jiejie": "坐在扶手椅上看书，缓慢翻页；听到自己的名字时抬头温柔微笑，再继续读。"
+          },
+          "lighting": "暖色窗光，柔和景深",
+          "reference_scene_id": null
+        },
+        {
+          "id": "home-close",
+          "name": "Soda 自我介绍 · 特写",
+          "framing": "close_up",
+          "cast_ids": [
+            "xiaosuda"
+          ],
+          "setting": "与家庭活动区相同地点、光向和色调，Soda头肩特写，目光面向观众，耳朵、毛绒细节和小棕背包肩带清楚可见；地毯、窗边与沙发虚化在背景。Jacky与Angela在画外，不新增其他角色。",
+          "props": [
+            "沙发",
+            "窗户"
+          ],
+          "idle_actions": {},
+          "lighting": "暖色窗光、浅景深",
+          "reference_scene_id": null
+        },
+        {
+          "id": "north-wide",
+          "name": "遥远北方 · 冰雪全景",
+          "framing": "wide",
+          "cast_ids": [
+            "xiaosuda"
+          ],
+          "setting": "遥远北方冰天雪地的全景，蓬松积雪、覆雪松树与远处雪山。Soda全身在安全平坦雪地上，环境辽阔，毛绒角色与原有小棕背包保持完全一致，不擅自换冬装。寒冷来处属于自我介绍的想象布景；说来自寒冷地方时自然介绍，下一镜在同一雪地轻快跑几步、留下脚印。",
+          "props": [
+            "积雪",
+            "覆雪松树",
+            "远处雪山"
+          ],
+          "idle_actions": {},
+          "lighting": "清透冷蓝雪地环境光，角色保留柔软暖色面部高光",
+          "reference_scene_id": null
+        },
+        {
+          "id": "jacky-corner",
+          "name": "哥哥的积木角 · 中景",
+          "framing": "medium",
+          "cast_ids": [
+            "xiaosuda",
+            "mengji-gege"
+          ],
+          "setting": "回到同一家庭活动区左侧积木角，Soda在前侧介绍哥哥，Jacky坐在矮积木桌边搭乐高积木，蓝外套胸前白色C保持不变；Soda说到Jacky时，他停下手中的一块积木、抬头微笑、轻挥小翅膀，然后接着搭。Jacky不张嘴说话。",
+          "props": [
+            "矮积木桌",
+            "乐高积木"
+          ],
+          "idle_actions": {
+            "mengji-gege": "安静搭积木；名字被叫到时短暂停手、抬头回应。"
+          },
+          "lighting": "与家庭全景同一暖色窗光",
+          "reference_scene_id": null
+        },
+        {
+          "id": "angela-reading",
+          "name": "姐姐的阅读角 · 中景",
+          "framing": "medium",
+          "cast_ids": [
+            "xiaosuda",
+            "mianyang-jiejie"
+          ],
+          "setting": "同一家庭活动区右侧阅读角，Soda在前侧介绍姐姐，Angela坐在扶手椅上读书，保持粉色毛衣裙、粉蝴蝶结和小书包；被介绍时抬头温柔回应、轻轻挥手，再把目光放回书上。Angela不张嘴说话。",
+          "props": [
+            "书",
+            "阅读扶手椅"
+          ],
+          "idle_actions": {
+            "mianyang-jiejie": "看书、自然翻页；听到自己的名字时抬头微笑回应。"
+          },
+          "lighting": "与家庭全景同一暖色窗光",
+          "reference_scene_id": null
+        }
+      ],
+      "beats": [
+        {
+          "summary": "S01 · 开场全景：Soda准备打招呼；哥哥搭积木，姐姐看书，各自自然活动。",
+          "scene_id": "home-wide"
+        },
+        {
+          "summary": "S02 · Soda特写，轻挥爪后自我介绍，耳朵与表情自然灵动。",
+          "scene_id": "home-close"
+        },
+        {
+          "summary": "S03 · 背景向下揭开到遥远北方冰雪全景，Soda全身可见，自然介绍寒冷来处。",
+          "scene_id": "north-wide"
+        },
+        {
+          "summary": "S04 · 同一雪地全景，Soda轻快跑几步，地面留下脚印，完整呈现起跑、移动和自然停下。",
+          "scene_id": "north-wide"
+        },
+        {
+          "summary": "S05 · 向下揭幕回暖光家庭活动区，Soda特写兴奋地面向观众。",
+          "scene_id": "home-close"
+        },
+        {
+          "summary": "S06 · 介绍哥哥的中景：哥哥坐着搭积木，被叫到名字时停手、抬头回应，再接着搭。只有Soda开口。",
+          "scene_id": "jacky-corner"
+        },
+        {
+          "summary": "S07 · 介绍姐姐的中景：姐姐在扶手椅看书，抬头回应后自然翻页。只有Soda开口。",
+          "scene_id": "angela-reading"
+        },
+        {
+          "summary": "S08 · 家庭全景呼应开场，哥哥放下最后一块积木，姐姐合上书，三人轻轻靠近。",
+          "scene_id": "home-wide"
+        },
+        {
+          "summary": "S09 · Soda特写看向观众，温暖微笑、挥爪，动作自然收住。",
+          "scene_id": "home-close"
+        }
+      ],
+      "dialogue": [
+        {
+          "id": "d1",
+          "speaker_id": "xiaosuda",
+          "text": "Hi everyone! I'm Soda, an Alaskan Malamute.",
+          "translation": "大家好！我是小苏打，一只阿拉斯加犬。",
+          "emotion": "Cheerful and welcoming",
+          "speed": 1.0
+        },
+        {
+          "id": "d2",
+          "speaker_id": "xiaosuda",
+          "text": "I come from a very cold place,",
+          "translation": "我来自一个非常寒冷的地方，",
+          "emotion": "Energetic and proud",
+          "speed": 1.0
+        },
+        {
+          "id": "d3",
+          "speaker_id": "xiaosuda",
+          "text": "and I can run super fast!",
+          "translation": "而且我跑得可快啦！",
+          "emotion": "Energetic and proud",
+          "speed": 1.0
+        },
+        {
+          "id": "d4",
+          "speaker_id": "xiaosuda",
+          "text": "I'm so excited to meet you all.",
+          "translation": "见到大家，我特别开心。",
+          "emotion": "Happy and eager",
+          "speed": 1.0
+        },
+        {
+          "id": "d5",
+          "speaker_id": "xiaosuda",
+          "text": "This is my big brother, Jacky. He's a cheerful little chick.",
+          "translation": "这是我的哥哥奇奇，他是一只开朗的小鸡。",
+          "emotion": "Warm and affectionate",
+          "speed": 1.0
+        },
+        {
+          "id": "d6",
+          "speaker_id": "xiaosuda",
+          "text": "And this is my big sister, Angela. She's a gentle sheep.",
+          "translation": "这位是我的姐姐露露，她是一只温柔的绵羊。",
+          "emotion": "Soft and loving",
+          "speed": 1.0
+        },
+        {
+          "id": "d7",
+          "speaker_id": "xiaosuda",
+          "text": "We live together happily and love each other very much.",
+          "translation": "我们快乐地生活在一起，也非常爱彼此。",
+          "emotion": "Content and sincere",
+          "speed": 1.0
+        },
+        {
+          "id": "d8",
+          "speaker_id": "xiaosuda",
+          "text": "I hope you like me too!",
+          "translation": "希望你们也喜欢我！",
+          "emotion": "Friendly and hopeful",
+          "speed": 1.0
+        }
+      ],
+      "notes": [
+        "采用全景、特写与中景，不能整集同机位。",
+        "Jacky爱好：单簧管、足球、搭乐高；Angela爱好：看书、编织。本集选搭积木与读书，不同时堆满所有兴趣。",
+        "下拉指影片里的转场：客厅→冰雪、冰雪→客厅；后期8帧向下揭幕，只重叠静音缓冲，不冻结画面或覆盖对白。",
+        "同地点换景别也需要对应的新主图。北方雪地只有Soda；不擅自增加人物、换冬装或新增对白。",
+        "本集只有Soda说话。除第二句按视觉节拍拆成两条外，其余英文和中译保留；分镜按实际配音长度调整。",
+        "所有主图和原生视频仍待生成、预览及确认；本稿不代表候选已验收。"
+      ],
+      "unresolved_characters": []
+    },
+    "setting_version": "v_fdf88139dea74536",
+    "setting_accepted": true,
+    "board": null,
+    "board_version": null,
+    "board_accepted": false,
+    "scene_masters": {},
+    "adopted_takes": {},
+    "final_asset": null,
+    "status": "setting",
+    "packaging": {
+      "op": true
+    },
+    "history": [],
+    "setting_source_hash": "796d091e678a5b167f64465a5989c8fa2f8592ad95f95f5d050f3b80ee83a84e",
+    "jobs": [
+      {
+        "id": "j_af753764db2447fe",
+        "project_id": "p_5e6ea50dd70a4026",
+        "kind": "scene",
+        "status": "succeeded",
+        "progress": "制作结果已保存，请预览并选择采用",
+        "created": 1792125674.6543672,
+        "updated": 1792125704.7681904,
+        "cancel_requested": false,
+        "error": null,
+        "extra": {
+          "scene_id": "angela-reading"
+        },
+        "prompt_id": "655fd955-45a1-4dad-889f-f05fc33e687f",
+        "result_assets": [
+          "a_755dfa8010934ee6"
+        ]
+      },
+      {
+        "id": "j_978241ce4071418b",
+        "project_id": "p_5e6ea50dd70a4026",
+        "kind": "scene",
+        "status": "succeeded",
+        "progress": "制作结果已保存，请预览并选择采用",
+        "created": 1792125642.6365614,
+        "updated": 1792125673.2356915,
+        "cancel_requested": false,
+        "error": null,
+        "extra": {
+          "scene_id": "jacky-corner"
+        },
+        "prompt_id": "2471187e-f373-4e47-b9dd-d91a3f14371a",
+        "result_assets": [
+          "a_6969a07b78464fc6"
+        ]
+      },
+      {
+        "id": "j_0688361724dc4493",
+        "project_id": "p_5e6ea50dd70a4026",
+        "kind": "scene",
+        "status": "succeeded",
+        "progress": "制作结果已保存，请预览并选择采用",
+        "created": 1792125614.6241906,
+        "updated": 1792125640.7932594,
+        "cancel_requested": false,
+        "error": null,
+        "extra": {
+          "scene_id": "north-wide"
+        },
+        "prompt_id": "ec094cb8-ccd3-4825-a36a-e614dd908ea9",
+        "result_assets": [
+          "a_397deaebc1de4184"
+        ]
+      },
+      {
+        "id": "j_7a2eee9a50824875",
+        "project_id": "p_5e6ea50dd70a4026",
+        "kind": "scene",
+        "status": "succeeded",
+        "progress": "制作结果已保存，请预览并选择采用",
+        "created": 1792125586.611702,
+        "updated": 1792125612.0699198,
+        "cancel_requested": false,
+        "error": null,
+        "extra": {
+          "scene_id": "home-close"
+        },
+        "prompt_id": "3e450b6a-299c-4a5c-89f8-f377e7722ffd",
+        "result_assets": [
+          "a_67ef4245662b452a"
+        ]
+      },
+      {
+        "id": "j_4f820f5f7e8247a7",
+        "project_id": "p_5e6ea50dd70a4026",
+        "kind": "scene",
+        "status": "succeeded",
+        "progress": "制作结果已保存，请预览并选择采用",
+        "created": 1792125542.5947893,
+        "updated": 1792125585.0105546,
+        "cancel_requested": false,
+        "error": null,
+        "extra": {
+          "scene_id": "home-wide"
+        },
+        "prompt_id": "4845baec-6f85-48c2-9d18-e466804d2979",
+        "result_assets": [
+          "a_dafbd9dcef5a483e"
+        ]
+      },
+      {
+        "id": "j_55c03049ad164003",
+        "project_id": "p_5e6ea50dd70a4026",
+        "kind": "setting",
+        "status": "succeeded",
+        "progress": "已生成，请检查后确认",
+        "created": 1792114920.9310992,
+        "updated": 1792114953.28677,
+        "cancel_requested": false,
+        "error": null,
+        "extra": {},
+        "result_version": "v_461f1221b5964918"
+      }
+    ],
+    "assets": [
+      {
+        "name": "家庭活动区 · 全景",
+        "scene_id": "home-wide",
+        "setting_version": "v_fdf88139dea74536",
+        "seed": "1994014565",
+        "job_id": "j_4f820f5f7e8247a7",
+        "prompt": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory and cornflower-blue/golden-yellow palette, soft warm window light, gentle depth of field, physical grounded poses. Preserve the supplied character-sheet identity and outfit exactly; never render a sheet, chart, labels, text, watermark, extra actors or extra limbs inside a scene. One clean full-frame cinematic portrait composition, 768x1376, fixed camera for dialogue.\nMake ONE clean portrait cinematic scene frame, NOT a character sheet. Reference pictures establish identity, outfits and scale only. EXACTLY these visible actors, no other animals: xiaosuda: Black-and-white Alaskan malamute plush puppy, dark gray-black back/head/ears, white face mask/muzzle/chest/belly/paws, pink inner ears and rosy cheeks, black nose, warm brown round eyes, large fluffy curled white-tipped tail, small brown backpack. Warm playful personality.\nmengji-gege: Round warm-yellow plush chick, pale cream belly, orange-yellow beak and feet, orange-red comb, rosy cheeks, dark-brown bright eyes, blue hoodie with a WHITE C on the chest, soft small wings and fluffy tail. Slightly taller than Soda, about 1.2 times his height.\nmianyang-jiejie: Cream-white curly-wool plush sheep, long drooping pale-pink inner ears, light-brown horns/hooves, rosy cheeks, gentle brown eyes, pink sweater dress, pink bow and small backpack. About 1.37 times Soda height.\nScene: 家庭活动区全景，窗边地毯、矮积木桌及阅读扶手椅。Soda站在前景中心，Jacky在左后方坐着搭乐高积木，Angela在右后方扶手椅读书。人物自然站立至头顶身高基准35/42/48cm，坐姿不改变角色真实比例。各自专注自己的事情，被介绍时短暂停下自然回应；只有Soda开口。. Framing: wide. Quiet background activities: {\"mengji-gege\": \"坐在矮桌旁，一次拿起一块积木、轻轻接好；听到自己的名字时抬头微笑挥一下翅膀，再回到积木。\", \"mianyang-jiejie\": \"坐在扶手椅上看书，缓慢翻页；听到自己的名字时抬头温柔微笑，再继续读。\"}. Lighting: 暖色窗光，柔和景深. Props: 地毯, 沙发, 矮积木桌, 乐高积木, 书, 阅读扶手椅. Preserve plush style and relative sizes. No text, no grid, no chart, no labels; only the C on the chick hoodie if chick is in cast. Portrait 768x1376.",
+        "review": "candidate",
+        "id": "a_dafbd9dcef5a483e",
+        "project_id": "p_5e6ea50dd70a4026",
+        "kind": "scene",
+        "created": 1792125585.0058038,
+        "sha256": "0a9603cad7379e30feb7d5c2910f21cc42522f730dbd9d38810bd1f8c7cbe025",
+        "url": "api/media/a_dafbd9dcef5a483e"
+      },
+      {
+        "name": "Soda 自我介绍 · 特写",
+        "scene_id": "home-close",
+        "setting_version": "v_fdf88139dea74536",
+        "seed": "650779912",
+        "job_id": "j_7a2eee9a50824875",
+        "prompt": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory and cornflower-blue/golden-yellow palette, soft warm window light, gentle depth of field, physical grounded poses. Preserve the supplied character-sheet identity and outfit exactly; never render a sheet, chart, labels, text, watermark, extra actors or extra limbs inside a scene. One clean full-frame cinematic portrait composition, 768x1376, fixed camera for dialogue.\nMake ONE clean portrait cinematic scene frame, NOT a character sheet. Reference pictures establish identity, outfits and scale only. EXACTLY these visible actors, no other animals: xiaosuda: Black-and-white Alaskan malamute plush puppy, dark gray-black back/head/ears, white face mask/muzzle/chest/belly/paws, pink inner ears and rosy cheeks, black nose, warm brown round eyes, large fluffy curled white-tipped tail, small brown backpack. Warm playful personality.\nScene: 与家庭活动区相同地点、光向和色调，Soda头肩特写，目光面向观众，耳朵、毛绒细节和小棕背包肩带清楚可见；地毯、窗边与沙发虚化在背景。Jacky与Angela在画外，不新增其他角色。. Framing: close_up. Quiet background activities: {}. Lighting: 暖色窗光、浅景深. Props: 沙发, 窗户. Preserve plush style and relative sizes. No text, no grid, no chart, no labels; only the C on the chick hoodie if chick is in cast. Portrait 768x1376.",
+        "review": "candidate",
+        "id": "a_67ef4245662b452a",
+        "project_id": "p_5e6ea50dd70a4026",
+        "kind": "scene",
+        "created": 1792125612.0645704,
+        "sha256": "228260713278c59b59f48f358e54583c2a9a9c708489ee159b2bce3556f6014e",
+        "url": "api/media/a_67ef4245662b452a"
+      },
+      {
+        "name": "遥远北方 · 冰雪全景",
+        "scene_id": "north-wide",
+        "setting_version": "v_fdf88139dea74536",
+        "seed": "1708801650",
+        "job_id": "j_0688361724dc4493",
+        "prompt": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory and cornflower-blue/golden-yellow palette, soft warm window light, gentle depth of field, physical grounded poses. Preserve the supplied character-sheet identity and outfit exactly; never render a sheet, chart, labels, text, watermark, extra actors or extra limbs inside a scene. One clean full-frame cinematic portrait composition, 768x1376, fixed camera for dialogue.\nMake ONE clean portrait cinematic scene frame, NOT a character sheet. Reference pictures establish identity, outfits and scale only. EXACTLY these visible actors, no other animals: xiaosuda: Black-and-white Alaskan malamute plush puppy, dark gray-black back/head/ears, white face mask/muzzle/chest/belly/paws, pink inner ears and rosy cheeks, black nose, warm brown round eyes, large fluffy curled white-tipped tail, small brown backpack. Warm playful personality.\nScene: 遥远北方冰天雪地的全景，蓬松积雪、覆雪松树与远处雪山。Soda全身在安全平坦雪地上，环境辽阔，毛绒角色与原有小棕背包保持完全一致，不擅自换冬装。寒冷来处属于自我介绍的想象布景；说来自寒冷地方时自然介绍，下一镜在同一雪地轻快跑几步、留下脚印。. Framing: wide. Quiet background activities: {}. Lighting: 清透冷蓝雪地环境光，角色保留柔软暖色面部高光. Props: 积雪, 覆雪松树, 远处雪山. Preserve plush style and relative sizes. No text, no grid, no chart, no labels; only the C on the chick hoodie if chick is in cast. Portrait 768x1376.",
+        "review": "candidate",
+        "id": "a_397deaebc1de4184",
+        "project_id": "p_5e6ea50dd70a4026",
+        "kind": "scene",
+        "created": 1792125640.7884917,
+        "sha256": "fb4a9302716c7c14bb40f6c23b96359bc83806c284d6b9690720f3e9501f09c2",
+        "url": "api/media/a_397deaebc1de4184"
+      },
+      {
+        "name": "哥哥的积木角 · 中景",
+        "scene_id": "jacky-corner",
+        "setting_version": "v_fdf88139dea74536",
+        "seed": "1138982876",
+        "job_id": "j_978241ce4071418b",
+        "prompt": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory and cornflower-blue/golden-yellow palette, soft warm window light, gentle depth of field, physical grounded poses. Preserve the supplied character-sheet identity and outfit exactly; never render a sheet, chart, labels, text, watermark, extra actors or extra limbs inside a scene. One clean full-frame cinematic portrait composition, 768x1376, fixed camera for dialogue.\nMake ONE clean portrait cinematic scene frame, NOT a character sheet. Reference pictures establish identity, outfits and scale only. EXACTLY these visible actors, no other animals: xiaosuda: Black-and-white Alaskan malamute plush puppy, dark gray-black back/head/ears, white face mask/muzzle/chest/belly/paws, pink inner ears and rosy cheeks, black nose, warm brown round eyes, large fluffy curled white-tipped tail, small brown backpack. Warm playful personality.\nmengji-gege: Round warm-yellow plush chick, pale cream belly, orange-yellow beak and feet, orange-red comb, rosy cheeks, dark-brown bright eyes, blue hoodie with a WHITE C on the chest, soft small wings and fluffy tail. Slightly taller than Soda, about 1.2 times his height.\nScene: 回到同一家庭活动区左侧积木角，Soda在前侧介绍哥哥，Jacky坐在矮积木桌边搭乐高积木，蓝外套胸前白色C保持不变；Soda说到Jacky时，他停下手中的一块积木、抬头微笑、轻挥小翅膀，然后接着搭。Jacky不张嘴说话。. Framing: medium. Quiet background activities: {\"mengji-gege\": \"安静搭积木；名字被叫到时短暂停手、抬头回应。\"}. Lighting: 与家庭全景同一暖色窗光. Props: 矮积木桌, 乐高积木. Preserve plush style and relative sizes. No text, no grid, no chart, no labels; only the C on the chick hoodie if chick is in cast. Portrait 768x1376.",
+        "review": "candidate",
+        "id": "a_6969a07b78464fc6",
+        "project_id": "p_5e6ea50dd70a4026",
+        "kind": "scene",
+        "created": 1792125673.229475,
+        "sha256": "b8354905883cae5fa43a3b867dd96d965f5b6b13e6d7cab2427cca9408357a53",
+        "url": "api/media/a_6969a07b78464fc6"
+      },
+      {
+        "name": "姐姐的阅读角 · 中景",
+        "scene_id": "angela-reading",
+        "setting_version": "v_fdf88139dea74536",
+        "seed": "493801285",
+        "job_id": "j_af753764db2447fe",
+        "prompt": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory and cornflower-blue/golden-yellow palette, soft warm window light, gentle depth of field, physical grounded poses. Preserve the supplied character-sheet identity and outfit exactly; never render a sheet, chart, labels, text, watermark, extra actors or extra limbs inside a scene. One clean full-frame cinematic portrait composition, 768x1376, fixed camera for dialogue.\nMake ONE clean portrait cinematic scene frame, NOT a character sheet. Reference pictures establish identity, outfits and scale only. EXACTLY these visible actors, no other animals: xiaosuda: Black-and-white Alaskan malamute plush puppy, dark gray-black back/head/ears, white face mask/muzzle/chest/belly/paws, pink inner ears and rosy cheeks, black nose, warm brown round eyes, large fluffy curled white-tipped tail, small brown backpack. Warm playful personality.\nmianyang-jiejie: Cream-white curly-wool plush sheep, long drooping pale-pink inner ears, light-brown horns/hooves, rosy cheeks, gentle brown eyes, pink sweater dress, pink bow and small backpack. About 1.37 times Soda height.\nScene: 同一家庭活动区右侧阅读角，Soda在前侧介绍姐姐，Angela坐在扶手椅上读书，保持粉色毛衣裙、粉蝴蝶结和小书包；被介绍时抬头温柔回应、轻轻挥手，再把目光放回书上。Angela不张嘴说话。. Framing: medium. Quiet background activities: {\"mianyang-jiejie\": \"看书、自然翻页；听到自己的名字时抬头微笑回应。\"}. Lighting: 与家庭全景同一暖色窗光. Props: 书, 阅读扶手椅. Preserve plush style and relative sizes. No text, no grid, no chart, no labels; only the C on the chick hoodie if chick is in cast. Portrait 768x1376.",
+        "review": "candidate",
+        "id": "a_755dfa8010934ee6",
+        "project_id": "p_5e6ea50dd70a4026",
+        "kind": "scene",
+        "created": 1792125704.762055,
+        "sha256": "3c1b5ef4e1b955bea5fefda78b616dd7f3bedf4949ebf0bd89ed4b851dd491cf",
+        "url": "api/media/a_755dfa8010934ee6"
+      },
+      {
+        "name": "家庭全景 · 修正版 V2",
+        "scene_id": "home-wide",
+        "setting_version": "v_fdf88139dea74536",
+        "source_job_id": "j_4f820f5f7e8247a7",
+        "source_asset_id": "a_dafbd9dcef5a483e",
+        "source_image_sha256": "0a9603cad7379e30feb7d5c2910f21cc42522f730dbd9d38810bd1f8c7cbe025",
+        "provider": "builtin-imagegen-edit",
+        "prompt_set": "/data/app/huanghaibin/soda/imports/s1e01-scene-edits-v2-v_fdf88139dea74536/prompts-v2.json",
+        "review": "candidate",
+        "quality_review": "agent_checked_human_pending",
+        "width": 937,
+        "height": 1678,
+        "id": "a_7939966a292f402d",
+        "project_id": "p_5e6ea50dd70a4026",
+        "kind": "scene",
+        "created": 1792129164.618761,
+        "sha256": "e0cdac020f4105ec4c28de2c30c142552141674f5d1406e043e33db1dd120af0",
+        "url": "api/media/a_7939966a292f402d"
+      },
+      {
+        "name": "Soda特写 · 修正版 V2",
+        "scene_id": "home-close",
+        "setting_version": "v_fdf88139dea74536",
+        "source_job_id": "j_7a2eee9a50824875",
+        "source_asset_id": "a_67ef4245662b452a",
+        "source_image_sha256": "228260713278c59b59f48f358e54583c2a9a9c708489ee159b2bce3556f6014e",
+        "provider": "builtin-imagegen-edit",
+        "prompt_set": "/data/app/huanghaibin/soda/imports/s1e01-scene-edits-v2-v_fdf88139dea74536/prompts-v2.json",
+        "review": "candidate",
+        "quality_review": "agent_checked_human_pending",
+        "width": 937,
+        "height": 1679,
+        "id": "a_5893ef082e5346d8",
+        "project_id": "p_5e6ea50dd70a4026",
+        "kind": "scene",
+        "created": 1792129978.6898048,
+        "sha256": "69b510aff9ff6aaff15677e159f79ce706f1a634e894c1f9b7399cc9aa469391",
+        "url": "api/media/a_5893ef082e5346d8"
+      },
+      {
+        "name": "北方雪地全景 · 修正版 V2",
+        "scene_id": "north-wide",
+        "setting_version": "v_fdf88139dea74536",
+        "source_job_id": "j_0688361724dc4493",
+        "source_asset_id": "a_397deaebc1de4184",
+        "source_image_sha256": "fb4a9302716c7c14bb40f6c23b96359bc83806c284d6b9690720f3e9501f09c2",
+        "provider": "builtin-imagegen-edit",
+        "prompt_set": "/data/app/huanghaibin/soda/imports/s1e01-scene-edits-v2-v_fdf88139dea74536/prompts-v2.json",
+        "review": "candidate",
+        "quality_review": "agent_checked_human_pending",
+        "width": 937,
+        "height": 1678,
+        "id": "a_aa09be7fad554477",
+        "project_id": "p_5e6ea50dd70a4026",
+        "kind": "scene",
+        "created": 1792129978.6987376,
+        "sha256": "82f3b627e0d83921da52455eeaa38838eafd752f932886e4ab71dc4854e5e2c1",
+        "url": "api/media/a_aa09be7fad554477"
+      },
+      {
+        "name": "哥哥积木角 · 修正版 V2",
+        "scene_id": "jacky-corner",
+        "setting_version": "v_fdf88139dea74536",
+        "source_job_id": "j_978241ce4071418b",
+        "source_asset_id": "a_6969a07b78464fc6",
+        "source_image_sha256": "b8354905883cae5fa43a3b867dd96d965f5b6b13e6d7cab2427cca9408357a53",
+        "provider": "builtin-imagegen-edit",
+        "prompt_set": "/data/app/huanghaibin/soda/imports/s1e01-scene-edits-v2-v_fdf88139dea74536/prompts-v2.json",
+        "review": "candidate",
+        "quality_review": "agent_checked_human_pending",
+        "width": 937,
+        "height": 1678,
+        "id": "a_c64cd53df61d48ee",
+        "project_id": "p_5e6ea50dd70a4026",
+        "kind": "scene",
+        "created": 1792129978.7062597,
+        "sha256": "2735fddf0f68b7ebbfc633633b7a0fd33adf7b710c4ae7a264781e798c522b85",
+        "url": "api/media/a_c64cd53df61d48ee"
+      },
+      {
+        "name": "姐姐阅读角 · 修正版 V2",
+        "scene_id": "angela-reading",
+        "setting_version": "v_fdf88139dea74536",
+        "source_job_id": "j_af753764db2447fe",
+        "source_asset_id": "a_755dfa8010934ee6",
+        "source_image_sha256": "3c1b5ef4e1b955bea5fefda78b616dd7f3bedf4949ebf0bd89ed4b851dd491cf",
+        "provider": "builtin-imagegen-edit",
+        "prompt_set": "/data/app/huanghaibin/soda/imports/s1e01-scene-edits-v2-v_fdf88139dea74536/prompts-v2.json",
+        "review": "candidate",
+        "quality_review": "agent_checked_human_pending",
+        "width": 937,
+        "height": 1678,
+        "id": "a_af40c7ec9dde411a",
+        "project_id": "p_5e6ea50dd70a4026",
+        "kind": "scene",
+        "created": 1792129978.7135339,
+        "sha256": "da678c472248f50a26533a7ac4b88a134bcbd61f0b6fffa8130b9d5dbaeffe71",
+        "url": "api/media/a_af40c7ec9dde411a"
+      }
+    ],
+    "versions": [
+      {
+        "id": "v_fdf88139dea74536",
+        "stage": "setting",
+        "created": 1792123023.51653
+      },
+      {
+        "id": "v_967dea824f2544dc",
+        "stage": "setting",
+        "created": 1792115024.59599
+      },
+      {
+        "id": "v_461f1221b5964918",
+        "stage": "setting",
+        "created": 1792114953.2845404
+      }
+    ]
+  },
+  "initial_batch": {
+    "project_id": "p_5e6ea50dd70a4026",
+    "setting_version": "v_fdf88139dea74536",
+    "setting_hash": "5f0ceb6083b260f9aa0f1006d165c24b2c1ecb902e0efef73b54d7ed53952b4b",
+    "human_approval": "2026-10-16 审稿OK，开始出图",
+    "jobs": {
+      "home-wide": "j_4f820f5f7e8247a7",
+      "home-close": "j_7a2eee9a50824875",
+      "north-wide": "j_0688361724dc4493",
+      "jacky-corner": "j_978241ce4071418b",
+      "angela-reading": "j_af753764db2447fe"
+    },
+    "assets": {
+      "home-wide": [
+        {
+          "name": "家庭活动区 · 全景",
+          "scene_id": "home-wide",
+          "setting_version": "v_fdf88139dea74536",
+          "seed": "1994014565",
+          "job_id": "j_4f820f5f7e8247a7",
+          "prompt": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory and cornflower-blue/golden-yellow palette, soft warm window light, gentle depth of field, physical grounded poses. Preserve the supplied character-sheet identity and outfit exactly; never render a sheet, chart, labels, text, watermark, extra actors or extra limbs inside a scene. One clean full-frame cinematic portrait composition, 768x1376, fixed camera for dialogue.\nMake ONE clean portrait cinematic scene frame, NOT a character sheet. Reference pictures establish identity, outfits and scale only. EXACTLY these visible actors, no other animals: xiaosuda: Black-and-white Alaskan malamute plush puppy, dark gray-black back/head/ears, white face mask/muzzle/chest/belly/paws, pink inner ears and rosy cheeks, black nose, warm brown round eyes, large fluffy curled white-tipped tail, small brown backpack. Warm playful personality.\nmengji-gege: Round warm-yellow plush chick, pale cream belly, orange-yellow beak and feet, orange-red comb, rosy cheeks, dark-brown bright eyes, blue hoodie with a WHITE C on the chest, soft small wings and fluffy tail. Slightly taller than Soda, about 1.2 times his height.\nmianyang-jiejie: Cream-white curly-wool plush sheep, long drooping pale-pink inner ears, light-brown horns/hooves, rosy cheeks, gentle brown eyes, pink sweater dress, pink bow and small backpack. About 1.37 times Soda height.\nScene: 家庭活动区全景，窗边地毯、矮积木桌及阅读扶手椅。Soda站在前景中心，Jacky在左后方坐着搭乐高积木，Angela在右后方扶手椅读书。人物自然站立至头顶身高基准35/42/48cm，坐姿不改变角色真实比例。各自专注自己的事情，被介绍时短暂停下自然回应；只有Soda开口。. Framing: wide. Quiet background activities: {\"mengji-gege\": \"坐在矮桌旁，一次拿起一块积木、轻轻接好；听到自己的名字时抬头微笑挥一下翅膀，再回到积木。\", \"mianyang-jiejie\": \"坐在扶手椅上看书，缓慢翻页；听到自己的名字时抬头温柔微笑，再继续读。\"}. Lighting: 暖色窗光，柔和景深. Props: 地毯, 沙发, 矮积木桌, 乐高积木, 书, 阅读扶手椅. Preserve plush style and relative sizes. No text, no grid, no chart, no labels; only the C on the chick hoodie if chick is in cast. Portrait 768x1376.",
+          "review": "candidate",
+          "id": "a_dafbd9dcef5a483e",
+          "project_id": "p_5e6ea50dd70a4026",
+          "kind": "scene",
+          "created": 1792125585.0058038,
+          "sha256": "0a9603cad7379e30feb7d5c2910f21cc42522f730dbd9d38810bd1f8c7cbe025",
+          "url": "api/media/a_dafbd9dcef5a483e",
+          "path": "/data/app/huanghaibin/soda/jobs/j_4f820f5f7e8247a7/scene-master.png"
+        }
+      ],
+      "home-close": [
+        {
+          "name": "Soda 自我介绍 · 特写",
+          "scene_id": "home-close",
+          "setting_version": "v_fdf88139dea74536",
+          "seed": "650779912",
+          "job_id": "j_7a2eee9a50824875",
+          "prompt": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory and cornflower-blue/golden-yellow palette, soft warm window light, gentle depth of field, physical grounded poses. Preserve the supplied character-sheet identity and outfit exactly; never render a sheet, chart, labels, text, watermark, extra actors or extra limbs inside a scene. One clean full-frame cinematic portrait composition, 768x1376, fixed camera for dialogue.\nMake ONE clean portrait cinematic scene frame, NOT a character sheet. Reference pictures establish identity, outfits and scale only. EXACTLY these visible actors, no other animals: xiaosuda: Black-and-white Alaskan malamute plush puppy, dark gray-black back/head/ears, white face mask/muzzle/chest/belly/paws, pink inner ears and rosy cheeks, black nose, warm brown round eyes, large fluffy curled white-tipped tail, small brown backpack. Warm playful personality.\nScene: 与家庭活动区相同地点、光向和色调，Soda头肩特写，目光面向观众，耳朵、毛绒细节和小棕背包肩带清楚可见；地毯、窗边与沙发虚化在背景。Jacky与Angela在画外，不新增其他角色。. Framing: close_up. Quiet background activities: {}. Lighting: 暖色窗光、浅景深. Props: 沙发, 窗户. Preserve plush style and relative sizes. No text, no grid, no chart, no labels; only the C on the chick hoodie if chick is in cast. Portrait 768x1376.",
+          "review": "candidate",
+          "id": "a_67ef4245662b452a",
+          "project_id": "p_5e6ea50dd70a4026",
+          "kind": "scene",
+          "created": 1792125612.0645704,
+          "sha256": "228260713278c59b59f48f358e54583c2a9a9c708489ee159b2bce3556f6014e",
+          "url": "api/media/a_67ef4245662b452a",
+          "path": "/data/app/huanghaibin/soda/jobs/j_7a2eee9a50824875/scene-master.png"
+        }
+      ],
+      "north-wide": [
+        {
+          "name": "遥远北方 · 冰雪全景",
+          "scene_id": "north-wide",
+          "setting_version": "v_fdf88139dea74536",
+          "seed": "1708801650",
+          "job_id": "j_0688361724dc4493",
+          "prompt": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory and cornflower-blue/golden-yellow palette, soft warm window light, gentle depth of field, physical grounded poses. Preserve the supplied character-sheet identity and outfit exactly; never render a sheet, chart, labels, text, watermark, extra actors or extra limbs inside a scene. One clean full-frame cinematic portrait composition, 768x1376, fixed camera for dialogue.\nMake ONE clean portrait cinematic scene frame, NOT a character sheet. Reference pictures establish identity, outfits and scale only. EXACTLY these visible actors, no other animals: xiaosuda: Black-and-white Alaskan malamute plush puppy, dark gray-black back/head/ears, white face mask/muzzle/chest/belly/paws, pink inner ears and rosy cheeks, black nose, warm brown round eyes, large fluffy curled white-tipped tail, small brown backpack. Warm playful personality.\nScene: 遥远北方冰天雪地的全景，蓬松积雪、覆雪松树与远处雪山。Soda全身在安全平坦雪地上，环境辽阔，毛绒角色与原有小棕背包保持完全一致，不擅自换冬装。寒冷来处属于自我介绍的想象布景；说来自寒冷地方时自然介绍，下一镜在同一雪地轻快跑几步、留下脚印。. Framing: wide. Quiet background activities: {}. Lighting: 清透冷蓝雪地环境光，角色保留柔软暖色面部高光. Props: 积雪, 覆雪松树, 远处雪山. Preserve plush style and relative sizes. No text, no grid, no chart, no labels; only the C on the chick hoodie if chick is in cast. Portrait 768x1376.",
+          "review": "candidate",
+          "id": "a_397deaebc1de4184",
+          "project_id": "p_5e6ea50dd70a4026",
+          "kind": "scene",
+          "created": 1792125640.7884917,
+          "sha256": "fb4a9302716c7c14bb40f6c23b96359bc83806c284d6b9690720f3e9501f09c2",
+          "url": "api/media/a_397deaebc1de4184",
+          "path": "/data/app/huanghaibin/soda/jobs/j_0688361724dc4493/scene-master.png"
+        }
+      ],
+      "jacky-corner": [
+        {
+          "name": "哥哥的积木角 · 中景",
+          "scene_id": "jacky-corner",
+          "setting_version": "v_fdf88139dea74536",
+          "seed": "1138982876",
+          "job_id": "j_978241ce4071418b",
+          "prompt": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory and cornflower-blue/golden-yellow palette, soft warm window light, gentle depth of field, physical grounded poses. Preserve the supplied character-sheet identity and outfit exactly; never render a sheet, chart, labels, text, watermark, extra actors or extra limbs inside a scene. One clean full-frame cinematic portrait composition, 768x1376, fixed camera for dialogue.\nMake ONE clean portrait cinematic scene frame, NOT a character sheet. Reference pictures establish identity, outfits and scale only. EXACTLY these visible actors, no other animals: xiaosuda: Black-and-white Alaskan malamute plush puppy, dark gray-black back/head/ears, white face mask/muzzle/chest/belly/paws, pink inner ears and rosy cheeks, black nose, warm brown round eyes, large fluffy curled white-tipped tail, small brown backpack. Warm playful personality.\nmengji-gege: Round warm-yellow plush chick, pale cream belly, orange-yellow beak and feet, orange-red comb, rosy cheeks, dark-brown bright eyes, blue hoodie with a WHITE C on the chest, soft small wings and fluffy tail. Slightly taller than Soda, about 1.2 times his height.\nScene: 回到同一家庭活动区左侧积木角，Soda在前侧介绍哥哥，Jacky坐在矮积木桌边搭乐高积木，蓝外套胸前白色C保持不变；Soda说到Jacky时，他停下手中的一块积木、抬头微笑、轻挥小翅膀，然后接着搭。Jacky不张嘴说话。. Framing: medium. Quiet background activities: {\"mengji-gege\": \"安静搭积木；名字被叫到时短暂停手、抬头回应。\"}. Lighting: 与家庭全景同一暖色窗光. Props: 矮积木桌, 乐高积木. Preserve plush style and relative sizes. No text, no grid, no chart, no labels; only the C on the chick hoodie if chick is in cast. Portrait 768x1376.",
+          "review": "candidate",
+          "id": "a_6969a07b78464fc6",
+          "project_id": "p_5e6ea50dd70a4026",
+          "kind": "scene",
+          "created": 1792125673.229475,
+          "sha256": "b8354905883cae5fa43a3b867dd96d965f5b6b13e6d7cab2427cca9408357a53",
+          "url": "api/media/a_6969a07b78464fc6",
+          "path": "/data/app/huanghaibin/soda/jobs/j_978241ce4071418b/scene-master.png"
+        }
+      ],
+      "angela-reading": [
+        {
+          "name": "姐姐的阅读角 · 中景",
+          "scene_id": "angela-reading",
+          "setting_version": "v_fdf88139dea74536",
+          "seed": "493801285",
+          "job_id": "j_af753764db2447fe",
+          "prompt": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory and cornflower-blue/golden-yellow palette, soft warm window light, gentle depth of field, physical grounded poses. Preserve the supplied character-sheet identity and outfit exactly; never render a sheet, chart, labels, text, watermark, extra actors or extra limbs inside a scene. One clean full-frame cinematic portrait composition, 768x1376, fixed camera for dialogue.\nMake ONE clean portrait cinematic scene frame, NOT a character sheet. Reference pictures establish identity, outfits and scale only. EXACTLY these visible actors, no other animals: xiaosuda: Black-and-white Alaskan malamute plush puppy, dark gray-black back/head/ears, white face mask/muzzle/chest/belly/paws, pink inner ears and rosy cheeks, black nose, warm brown round eyes, large fluffy curled white-tipped tail, small brown backpack. Warm playful personality.\nmianyang-jiejie: Cream-white curly-wool plush sheep, long drooping pale-pink inner ears, light-brown horns/hooves, rosy cheeks, gentle brown eyes, pink sweater dress, pink bow and small backpack. About 1.37 times Soda height.\nScene: 同一家庭活动区右侧阅读角，Soda在前侧介绍姐姐，Angela坐在扶手椅上读书，保持粉色毛衣裙、粉蝴蝶结和小书包；被介绍时抬头温柔回应、轻轻挥手，再把目光放回书上。Angela不张嘴说话。. Framing: medium. Quiet background activities: {\"mianyang-jiejie\": \"看书、自然翻页；听到自己的名字时抬头微笑回应。\"}. Lighting: 与家庭全景同一暖色窗光. Props: 书, 阅读扶手椅. Preserve plush style and relative sizes. No text, no grid, no chart, no labels; only the C on the chick hoodie if chick is in cast. Portrait 768x1376.",
+          "review": "candidate",
+          "id": "a_755dfa8010934ee6",
+          "project_id": "p_5e6ea50dd70a4026",
+          "kind": "scene",
+          "created": 1792125704.762055,
+          "sha256": "3c1b5ef4e1b955bea5fefda78b616dd7f3bedf4949ebf0bd89ed4b851dd491cf",
+          "url": "api/media/a_755dfa8010934ee6",
+          "path": "/data/app/huanghaibin/soda/jobs/j_af753764db2447fe/scene-master.png"
+        }
+      ]
+    },
+    "complete": true
+  },
+  "import_receipt": {
+    "project_id": "p_5e6ea50dd70a4026",
+    "setting_version": "v_fdf88139dea74536",
+    "assets": [
+      {
+        "scene_id": "home-wide",
+        "asset_id": "a_7939966a292f402d",
+        "path": "/data/app/huanghaibin/soda/imports/s1e01-scene-edits-v2-v_fdf88139dea74536/home-wide-v2.png",
+        "sha256": "e0cdac020f4105ec4c28de2c30c142552141674f5d1406e043e33db1dd120af0",
+        "url": "api/media/a_7939966a292f402d"
+      },
+      {
+        "scene_id": "home-close",
+        "asset_id": "a_5893ef082e5346d8",
+        "path": "/data/app/huanghaibin/soda/imports/s1e01-scene-edits-v2-v_fdf88139dea74536/home-close-v2.png",
+        "sha256": "69b510aff9ff6aaff15677e159f79ce706f1a634e894c1f9b7399cc9aa469391",
+        "url": "api/media/a_5893ef082e5346d8"
+      },
+      {
+        "scene_id": "north-wide",
+        "asset_id": "a_aa09be7fad554477",
+        "path": "/data/app/huanghaibin/soda/imports/s1e01-scene-edits-v2-v_fdf88139dea74536/north-wide-v2.png",
+        "sha256": "82f3b627e0d83921da52455eeaa38838eafd752f932886e4ab71dc4854e5e2c1",
+        "url": "api/media/a_aa09be7fad554477"
+      },
+      {
+        "scene_id": "jacky-corner",
+        "asset_id": "a_c64cd53df61d48ee",
+        "path": "/data/app/huanghaibin/soda/imports/s1e01-scene-edits-v2-v_fdf88139dea74536/jacky-corner-v2.png",
+        "sha256": "2735fddf0f68b7ebbfc633633b7a0fd33adf7b710c4ae7a264781e798c522b85",
+        "url": "api/media/a_c64cd53df61d48ee"
+      },
+      {
+        "scene_id": "angela-reading",
+        "asset_id": "a_af40c7ec9dde411a",
+        "path": "/data/app/huanghaibin/soda/imports/s1e01-scene-edits-v2-v_fdf88139dea74536/angela-reading-v2.png",
+        "sha256": "da678c472248f50a26533a7ac4b88a134bcbd61f0b6fffa8130b9d5dbaeffe71",
+        "url": "api/media/a_af40c7ec9dde411a"
+      }
+    ],
+    "auto_adopted": false,
+    "review": "pending"
+  }
+}

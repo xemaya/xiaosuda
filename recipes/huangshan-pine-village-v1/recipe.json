@@ -1,0 +1,198 @@
+{
+  "id": "huangshan-pine-village-v1",
+  "status": "user_accepted",
+  "accepted_date": "2026-10-18",
+  "user_instruction": "非常不错，总结经验落盘",
+  "base_generation_recipe": "recipes/plush-dialogue-v14/recipe.json",
+  "accepted_video": {
+    "path": "releases/huangshan/2026-10-18-v4/Hi-Soda_Huangshan_Final.mp4",
+    "sha256": "dd1455e21dcc13003171c3eb8b3bb304b8af792f928774614319da853f4f8b4b"
+  },
+  "delivery": {
+    "width": 1080,
+    "height": 1932,
+    "frames": 3389,
+    "fps": 24,
+    "seconds": 141.20833333333334,
+    "sar": "644:645"
+  },
+  "baseline_v3": {
+    "path": "releases/huangshan/2026-10-18/Hi-Soda_Huangshan_Final.mp4",
+    "sha256": "f93c763d99de10762a646e9da632af04cc51141342b3e44b229db40eeef2cd15"
+  },
+  "pine": {
+    "film_frames": [
+      267,
+      464
+    ],
+    "reference": "jobs/1018-huangshan-pine-village-v4/review/pine-canopy-reference.png",
+    "native": {
+      "name": "canopy",
+      "job_id": "j_252f5185a7f4408c",
+      "keep_frames": 197,
+      "master_sha256": "9d3dcde402f0b25606d023cf90d6831ee110743eef74e7e53d3af0d32306be9a",
+      "seed": 1018202611,
+      "prompt_en": "<Picture 1> displays the Huangshan welcoming pine canopy in a locked-tripod detail for 8.2083 seconds. The granite peaks, trunk, large branches, and entire canopy geometry remain in exactly the reference coordinates and scale. Only tiny needle clusters and the very outermost twigs sway gently by a few pixels in a light mountain breeze, creating smooth slow continuous natural wind with no sudden gust, no branch contraction or expanding canopy. Very light distant atmospheric vapor moves slowly around fixed rocks. The top and bottom framing stay identical, with no camera move, cut, dissolve, zoom, rotation, new branches, bird, or animal. The tree is living, with a rigid main structure and small soft leaf motion. No object is added. There is no speech, music, or text. The crop will be layered over the upper background of the original locked shot; its lower edge must stay at exactly the same scene coordinates. Describe restrained motion throughout, not a frozen hold.",
+      "human_acceptance": "pending",
+      "no_tts": true,
+      "id": "a_9e9f90b74e7d43e5",
+      "project_id": "p_07511601f9624a48",
+      "kind": "take",
+      "created": 1792283336.756211,
+      "sha256": "c1bab9b21d4908b73471d740f446e825efca5c9f27b35d081ceae128d3829c69",
+      "url": "api/media/a_9e9f90b74e7d43e5",
+      "path": "/data/app/huanghaibin/soda/preproduction/1018-huangshan-pine-village-v4/canopy-native.mp4",
+      "prompt_id": "867ce6a4-9451-4a5a-a160-849eadf8d3dd",
+      "port": 8188,
+      "dimensions": [
+        768,
+        512
+      ],
+      "model": "minimax_h3_ref2va_pruned_fp8_scaled.safetensors",
+      "raw_frames": 209
+    },
+    "controlled_wind": {
+      "native_canopy": "canopy-native.mp4",
+      "lowest_needles_source": "source-01.mp4 actual first retained frame",
+      "frames": 197,
+      "fps": 24,
+      "native_region_y": [
+        0,
+        720
+      ],
+      "lowest_needles_displacement_px_max": [
+        1.85,
+        3.05
+      ],
+      "rigid_trunk_and_mountains": "reference geometry",
+      "spatial_layer_feather_y": [
+        680,
+        720
+      ],
+      "temporal_crossfade": false,
+      "repeated_or_padded_frames": 0,
+      "retimed_actor_frames": 0,
+      "large_crop_rejected": "canopy-tall-native.mp4 reinterpreted tree/camera; never selected"
+    },
+    "composite": {
+      "maximum_y": 990,
+      "head_exclusion_ellipse": [
+        800,
+        1060,
+        280,
+        270
+      ],
+      "spatial_feather_only": true
+    },
+    "method": "native canopy plus anchored procedural lowest-needle motion, actor-excluding spatial composite; not full-frame native rerender"
+  },
+  "ending": {
+    "master": {
+      "name": "温泉村舍暖心收尾候选",
+      "scene_id": "village-walk-ending",
+      "job_id": "j_684c2ded27c34b3b",
+      "generator": "own_4090_Qwen-Image-2.1",
+      "seed": 1018202602,
+      "references": [
+        {
+          "path": "/data/app/huanghaibin/soda/preproduction/1017-huangshan-fur-batch-v1/registered/v_09d34c31bede4f93/masters/hot-spring-ending.png",
+          "sha256": "42f54075fcb215a4f89355bc92ffc7c630e0b12e1f88a08427633c3e53f159cc"
+        },
+        {
+          "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-v1/references/soda-four-paws-accepted.png",
+          "sha256": "569f588c92d2446dc058abe9f29902643ef6557bfd9fe8ede29034e110840fec"
+        },
+        {
+          "path": "/data/app/huanghaibin/soda/jobs/j_869e1c555a2e496a/pine-medium-quadruped.png",
+          "sha256": "a6bd7d03e8de3dbe0b7000315976dfcd391f0c560cac8da90545cb4f45f91ac3"
+        }
+      ],
+      "human_acceptance": "pending",
+      "id": "a_ea20dfee56d44b77",
+      "project_id": "p_07511601f9624a48",
+      "kind": "scene",
+      "created": 1792283253.2355194,
+      "sha256": "4bd2000d1516a5b6087a08421eab06459eb1c6a903061599b858b7a3b6feb275",
+      "url": "api/media/a_ea20dfee56d44b77",
+      "path": "/data/app/huanghaibin/soda/preproduction/1018-huangshan-pine-village-v4/village-master-v2.png",
+      "prompt_id": "29348dbf-550d-40d6-a8ce-94c9558dae89",
+      "port": 8189,
+      "model": "qwen_image_2.1_bf16.safetensors"
+    },
+    "native": {
+      "name": "ending",
+      "job_id": "j_2687ecbebce5416b",
+      "keep_frames": 240,
+      "master_sha256": "4bd2000d1516a5b6087a08421eab06459eb1c6a903061599b858b7a3b6feb275",
+      "seed": 1018202612,
+      "prompt_en": "<Picture 1> shows a plush malamute puppy and a plush sheep on a stone path. One continuous ten-second warm shot begins at this exact reference camera position. The camera slowly and smoothly dollies BACK along the path by a small amount, with no orbit, pan, rotation, or cut.\n\nAt 0-2s, Soda and Angela exchange a tiny friendly glance with mouths CLOSED. They turn gently toward the village lane using small grounded steps, reaching rear three-quarter view naturally, and begin walking AWAY from camera. Soda stays a low four-legged dog through the turn, all limbs support his horizontal torso. Angela turns on her two hooves. At 2-8s, they happily stroll side by side along the dry curving stone lane toward the glowing wooden village cottages.\n\nPuppy Soda walks as a natural FOUR-LEGGED dog: low horizontal torso, alternating front and hind paws, normal grounded quadruped walk; he NEVER rises upright or grows hands, no hopping on hind legs. His compact proportions, exactly two dog ears, small brown backpack, rounded dense groomed plush fur, and fluffy curled tail persist.\n\nThe taller curly SHEEP Angela walks upright on her two original hooves in her pink knitted dress and pink backpack, tiny relaxed forehooves at her sides. No new clothes, no swapped species. Small happy tail sway and gently bobbing backpacks follow the footfalls; heads occasionally incline subtly toward each other.\n\nAt 8-10s they keep walking deeper into the welcoming lane, becoming smaller naturally as the camera eases its backward movement, a sense that their journey continues together. Do not stop and pose at the end, no final still hold.\n\nKeep both mouths softly CLOSED throughout: NO dialogue, singing, lip chatter, or vocalization. Warm window light glows steadily; thin hot-spring steam drifts upward on the side of the safely fenced path, gentle water ripples, subtle existing leaf motion. Buildings, path, fence, and mountain peaks stay rigid and coherent. Keep the route readable and dry, never walk through water, fences, or walls, never turn to face camera. No extra actor, text, subtitle, or newly drawn symbol.",
+      "human_acceptance": "pending",
+      "no_tts": true,
+      "id": "a_062a8f4840044810",
+      "project_id": "p_07511601f9624a48",
+      "kind": "take",
+      "created": 1792284319.9078085,
+      "sha256": "1013af6cc87284f06e5b3c73485e54c60ccb6bf401d0f484bc1fb0eef16af36f",
+      "url": "api/media/a_062a8f4840044810",
+      "path": "/data/app/huanghaibin/soda/preproduction/1018-huangshan-pine-village-v4/ending-native.mp4",
+      "prompt_id": "a33e5efd-4feb-45c9-84a6-6ccd9110823f",
+      "port": 8189,
+      "dimensions": [
+        768,
+        1376
+      ],
+      "model": "minimax_h3_ref2va_pruned_fp8_scaled.safetensors",
+      "raw_frames": 243
+    },
+    "native_selected_frames": [
+      24,
+      240
+    ],
+    "final_frames": 216,
+    "final_seconds": 9,
+    "cut_head_reason": "silent mouth articulation during first1s",
+    "film_frames": [
+      3173,
+      3389
+    ]
+  },
+  "audio": {
+    "new_tts_requests": 0,
+    "original_23_lines_and_subtitle_times_unchanged": true,
+    "prefix_pcm": {
+      "source_prefix_samples": 4230667,
+      "prefix_sha256": "e2a525a9032625a5c4924ca00dfbf48375ff4cc044702518552c73286a6dfe78",
+      "method": "byte copy decoded original PCM prefix; time-stretch tail alone",
+      "tail_samples": 288000,
+      "total_samples": 4518667
+    },
+    "silent_tail_atempo": 0.7037037037037037,
+    "aac_reencoded": true,
+    "whole_aac_bit_identical": false
+  },
+  "validation": {
+    "passed": true,
+    "frames": 3389,
+    "fps": 24,
+    "unchanged_picture_packets": 2976,
+    "original_audio_prefix_pcm_samples_exact": 4230667,
+    "all_23_spoken_lines_unchanged_in_audio_prefix": true,
+    "audio_tail_has_no_voice_source": true,
+    "audio_peak_pcm": 14174,
+    "pine_17_to_18_2s_mean_frame_differences": {
+      "before_max": 15.119505882263184,
+      "after_max": 1.1244444847106934,
+      "before_mean": 2.7699601650238037,
+      "after_mean": 0.3258812427520752
+    },
+    "ending_adjacent_duplicate_thumbnail_frames": 0,
+    "human_acceptance": "pending",
+    "source_release_unchanged": true
+  },
+  "evidence_archive": "jobs/1018-huangshan-pine-village-v4/evidence/native-job-evidence.tar.gz",
+  "source_job": "jobs/1018-huangshan-pine-village-v4",
+  "standalone": false,
+  "new_episode_one_click": false,
+  "reuse_instructions": "recipes/huangshan-pine-village-v1/README.md",
+  "actual_submission_verified_against_evidence_archive": true
+}

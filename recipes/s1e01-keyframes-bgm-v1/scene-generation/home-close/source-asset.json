@@ -1,0 +1,15 @@
+{
+  "name": "Soda 自我介绍 · 特写",
+  "scene_id": "home-close",
+  "setting_version": "v_fdf88139dea74536",
+  "seed": "650779912",
+  "job_id": "j_7a2eee9a50824875",
+  "prompt": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory and cornflower-blue/golden-yellow palette, soft warm window light, gentle depth of field, physical grounded poses. Preserve the supplied character-sheet identity and outfit exactly; never render a sheet, chart, labels, text, watermark, extra actors or extra limbs inside a scene. One clean full-frame cinematic portrait composition, 768x1376, fixed camera for dialogue.\nMake ONE clean portrait cinematic scene frame, NOT a character sheet. Reference pictures establish identity, outfits and scale only. EXACTLY these visible actors, no other animals: xiaosuda: Black-and-white Alaskan malamute plush puppy, dark gray-black back/head/ears, white face mask/muzzle/chest/belly/paws, pink inner ears and rosy cheeks, black nose, warm brown round eyes, large fluffy curled white-tipped tail, small brown backpack. Warm playful personality.\nScene: 与家庭活动区相同地点、光向和色调，Soda头肩特写，目光面向观众，耳朵、毛绒细节和小棕背包肩带清楚可见；地毯、窗边与沙发虚化在背景。Jacky与Angela在画外，不新增其他角色。. Framing: close_up. Quiet background activities: {}. Lighting: 暖色窗光、浅景深. Props: 沙发, 窗户. Preserve plush style and relative sizes. No text, no grid, no chart, no labels; only the C on the chick hoodie if chick is in cast. Portrait 768x1376.",
+  "review": "candidate",
+  "id": "a_67ef4245662b452a",
+  "project_id": "p_5e6ea50dd70a4026",
+  "kind": "scene",
+  "created": 1792125612.0645704,
+  "sha256": "228260713278c59b59f48f358e54583c2a9a9c708489ee159b2bce3556f6014e",
+  "url": "api/media/a_67ef4245662b452a"
+}

@@ -1,0 +1,54 @@
+{
+  "native-graph.json": {
+    "bytes": 7995,
+    "sha256": "85862ebe0d3852aa67ad39ea00660ba637b059246222458c166acee8c60c9113"
+  },
+  "opening-graph.json": {
+    "bytes": 6695,
+    "sha256": "c6b4ba621992de7197fd97fb7cd4c44e098367115806314622a8645545df4d0a"
+  },
+  "chained-graph.json": {
+    "bytes": 13849,
+    "sha256": "6963426b7c51f813565cf7677a1dba9a4b11c0283abf14f40595c6be3a854c7c"
+  },
+  "native-prompt.txt": {
+    "bytes": 3399,
+    "sha256": "a1bd0cf376fc895847207a650add716a02250d3e885d7da751df0de153ee3cb2"
+  },
+  "opening-prompt.txt": {
+    "bytes": 1833,
+    "sha256": "e7c3cefdb87fce2a413326970dbb73ba3401507e1aa2eb8179849c4b44366f51"
+  },
+  "continuation-prompt.txt": {
+    "bytes": 2589,
+    "sha256": "69fc4a0bfb26b4d31ca3e18414f0bd3a2fc0725e7f4ea9d0228f0aa350c9b1b4"
+  },
+  "native-carrier.mp4": {
+    "bytes": 189028,
+    "sha256": "a9384c7cd8b632dc55e9dde80215bbf1faf0f142fa4484fabfa443139dff1e1e"
+  },
+  "opening-carrier.mp4": {
+    "bytes": 177344,
+    "sha256": "95392e868327573fcf778ff0a6ff41ab56370cbdb83a22872b15ca227a7cf64a"
+  },
+  "continuation-carrier.mp4": {
+    "bytes": 126536,
+    "sha256": "3e6516fb0097627c0de169c4c0767a7c2c7f53adf2fcaeb0651d1fb89e9b813b"
+  },
+  "v14.srt": {
+    "bytes": 1074,
+    "sha256": "9c4e4f8613cd1254745648bff91e350d8e350b1e24ff943d4c9bcd7b23cd47aa"
+  },
+  "v14-local.ass": {
+    "bytes": 1906,
+    "sha256": "e0f185f7c8008290e247628ce5783a8cd431980ee256811da08bb7441a2622fb"
+  },
+  "fonts/Alibaba-PuHuiTi-Regular.ttf": {
+    "bytes": 9733492,
+    "sha256": "cc1a1b4b24506b75259541462df49f9a70ba53b6af1571d90b6bcee8b3cd0ad0"
+  },
+  "xiaosuda-how-are-you-v14-review.mp4": {
+    "bytes": 22320222,
+    "sha256": "6ad8fc313e72f5c8b959a8d9805a7461c30d1aa02c441d286073ee70f9dee9f4"
+  }
+}

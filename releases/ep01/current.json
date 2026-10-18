@@ -1,0 +1,21 @@
+{
+  "series": "Hi, Soda!",
+  "episode": 1,
+  "title": "How are you?",
+  "status": "final_delivery",
+  "date": "2026-10-15",
+  "video": "2026-10-15/Hi-Soda_EP01_How-Are-You.mp4",
+  "sha256": "09986cbb4c5eb179b178baffbefa792b4f3263eb5f9c5b51cad04d0f2d8a9444",
+  "duration_seconds": 38.299,
+  "resolution": [
+    1080,
+    1932
+  ],
+  "fps": 24,
+  "frames": 917,
+  "op": "Hi, Soda! / 2 seconds",
+  "intertitle": "A paw pop / Practice time!",
+  "upload_requested": false,
+  "user_clarification": "仅成片",
+  "generation_recipe": "../../recipes/plush-dialogue-v14/README.md"
+}

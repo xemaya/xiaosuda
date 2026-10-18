@@ -1,0 +1,16 @@
+{
+  "source_job": "j_9bb8fd3584c847cd",
+  "guides": [
+    {
+      "frame": 48,
+      "image": "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-gesture-f48.png",
+      "sha256": "244935a0a526f2485e33be2055920eb3c045fb9e3146eee668b6d6ff60344417",
+      "node": "27"
+    }
+  ],
+  "prompt_seed_unchanged": true,
+  "carrier_unchanged": false,
+  "clean_start_master": "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start.png",
+  "project_state_unchanged": true,
+  "pixel_postprocessing": false
+}

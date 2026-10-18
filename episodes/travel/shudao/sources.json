@@ -1,0 +1,243 @@
+{
+  "episode": "shudao",
+  "recorded_date": "2026-10-18",
+  "status": "content_preproduction",
+  "selected_by_user": "好，我们做蜀道难。但刚才的几个题材都不错，也都落盘我们后面做",
+  "text_sources": [
+    {
+      "id": "T01",
+      "title": "访中国交通历史博物馆 砺公路人初心使命",
+      "publisher": "广元市交通运输局 / 市公路建设服务中心",
+      "published_date": "2026-07-01",
+      "url": "https://jtj.cngy.gov.cn/News/show/193b8d81be5b4b049e0b5e01746e7384.html",
+      "verification": "web indexed article body; direct open failed",
+      "supports": [
+        "明月峡汇集古栈道凿孔、水道、旧路和宝成铁路等不同时代交通遗存"
+      ],
+      "does_not_establish": [
+        "每一种交通是否在同一机位可见",
+        "列车当前班次和车型",
+        "该页图片再利用许可"
+      ]
+    },
+    {
+      "id": "T02",
+      "title": "明月峡上最后的船工",
+      "publisher": "广元市文化广电旅游局",
+      "published_date": "2019-07-01",
+      "url": "https://swglj.cngy.gov.cn/mshow/2a9514ce68c842db9b119a1df18e988d.html",
+      "verification": "web search returned full indexed article body; direct open405",
+      "supports": [
+        "嘉陵江与明月峡交通关系",
+        "古道遗迹与后来的公路和铁路",
+        "交通改善与居民出行的联系"
+      ],
+      "does_not_establish": [
+        "正文里2019年统计数字为2026年现状",
+        "古今所有交通设施同时出现的准确构图",
+        "素材许可"
+      ]
+    },
+    {
+      "id": "T03",
+      "title": "明月峡上古栈道",
+      "author": "罗倩",
+      "publisher": "人民日报海外版",
+      "published_date": "2021-11-25",
+      "url": "https://paper.people.com.cn/rmrbhwb/html/2021-11/25/content_25890609.htm",
+      "verification": "web full page read; relevant paragraphs on rebuilt walkway, old road and railway",
+      "supports": [
+        "游客脚下部分木栈道为复建",
+        "老虎嘴旧公路已无车辆经过、属景区遗迹",
+        "对岸宝成铁路的列车穿过崖壁隧道的观察描写"
+      ],
+      "does_not_establish": [
+        "所有木栈道都是古代原物",
+        "老虎嘴可拍当代汽车行驶",
+        "未来拍摄日必有指定车型经过",
+        "照片许可"
+      ],
+      "image_credit_as_page_lists": "钟卫东",
+      "image_use_permission": "not_obtained"
+    },
+    {
+      "id": "P01",
+      "title": "蜀道难",
+      "author": "李白",
+      "period": "唐",
+      "publisher": "古文岛 / 原古诗文网",
+      "url": "https://www.gushiwen.cn/shiwenv_d59ec5d6c91c.aspx",
+      "verification": "web full poem read; text uses multiple regional references",
+      "supports": [
+        "首轮引用原句：蜀道之难，难于上青天",
+        "备选短句：天梯石栈相钩连",
+        "诗文不只指明月峡一处地点"
+      ],
+      "does_not_establish": [
+        "李白在本片选定机位写作或有现场访问记录",
+        "天堑变通途是李白原句"
+      ]
+    },
+    {
+      "id": "T04",
+      "title": "古代高速公路之褒斜栈道的演变史",
+      "publisher": "汉中市汉台区人民政府",
+      "published_date": null,
+      "url": "https://www.htq.gov.cn/hzshtqzf/zjht/lswh/201607/2ea52170cfa2137d702a25c8df08ba7c.shtml",
+      "verified_date": "2026-10-18",
+      "verification": "web full page read, paragraph on cutting holes, inserting timber beams and laying boards",
+      "supports": [
+        "古栈道凿孔、架梁、铺板的一般结构认识"
+      ],
+      "does_not_establish": [
+        "明月峡某一个孔或某一段的尺寸和木构形制",
+        "本片古代人物及协作情节是真实历史记录",
+        "某一具体朝代的工具和服饰",
+        "图片和视频再利用许可"
+      ]
+    }
+  ],
+  "fact_links": [
+    {
+      "id": "F01",
+      "claim": "以明月峡古今交通作为本集实地核心",
+      "source_ids": [
+        "T01",
+        "T02"
+      ],
+      "type": "documented_place_context"
+    },
+    {
+      "id": "F02",
+      "claim": "可游览木栈道含复建部分，不称木板保存两千年",
+      "source_ids": [
+        "T03"
+      ],
+      "type": "site_history"
+    },
+    {
+      "id": "F03",
+      "claim": "老虎嘴作旧路遗迹，不加现役车流",
+      "source_ids": [
+        "T03"
+      ],
+      "type": "visual_constraint"
+    },
+    {
+      "id": "F04",
+      "claim": "真实明月峡资料里的铁路为宝成；本轮06按用户要求改为艺术化高铁外观，不作为该具体线路车型的实景图解",
+      "source_ids": [
+        "T01",
+        "T02",
+        "T03"
+      ],
+      "type": "visual_constraint"
+    },
+    {
+      "id": "F05",
+      "claim": "诗句只作旅行线索，选点不能冒充全诗唯一场景",
+      "source_ids": [
+        "P01"
+      ],
+      "type": "interpretation_boundary"
+    },
+    {
+      "id": "F06",
+      "claim": "古代接路表演采用凿孔、架梁、铺板的一般工序认识，具体结构与动作待资料适配",
+      "source_ids": [
+        "T04"
+      ],
+      "type": "general_structure_reference_not_site_specific_reconstruction"
+    }
+  ],
+  "media_references": [
+    {
+      "id": "real-mingyue-cliff",
+      "path": "mingyue-cliff.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:明月峡古栈道遗址照片.JPG",
+      "author": "Nekitarc / CrB_Nekit",
+      "date": "2015-02-18",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "use": "real cliff/river/path geometry reference; original photo not to be edited into film",
+      "sha256": "e2711d2581edf61433b8e3c9f52bde44670f1cb56ddbf497a9e1bf2b374ef124"
+    },
+    {
+      "id": "real-mingyue-walkway",
+      "path": "mingyue-walkway.jpg",
+      "page_url": "https://paper.people.com.cn/rmrbhwb/html/2021-11/25/content_25890609.htm",
+      "author": "钟卫东",
+      "date": "unknown; article published2021-11-25",
+      "license": "not_stated",
+      "use": "internal real route/landscape reference only; no original photo distribution in review page",
+      "sha256": "01b24d74d12b7ef634874306f3e674a5409a3854bf36eb6f73e214187c48d768"
+    },
+    {
+      "id": "mingyue-portrait-derivative",
+      "path": "mingyue-portrait-reference.png",
+      "source": "real-mingyue-cliff",
+      "derivation": "deterministic centered portrait crop and scale only",
+      "sha256": "6dd4fcd18f971c73f18a6da37b98ae97395f639044f9bfabcd72ed23de35ad40"
+    },
+    {
+      "id": "accepted-pair-identity",
+      "path": "accepted-soda-angela.png",
+      "source_asset": "a_75192a9a661f4a3a",
+      "use": "accepted identity/plush material only; never copy Huangshan background",
+      "sha256": "a6bd7d03e8de3dbe0b7000315976dfcd391f0c560cac8da90545cb4f45f91ac3"
+    },
+    {
+      "id": "real-mingyue-railway",
+      "path": "mingyue-railway.jpg",
+      "original_url": "https://youimg1.c-ctrip.com/target/100g14000000vw5rt2C63.jpg",
+      "page_url": "https://you.ctrip.com/sight/guangyuan593/20451.html",
+      "author": "unknown; destination photo feed",
+      "date": "unknown",
+      "license": "not_stated",
+      "use": "internal railway geometry concept reference only; original photo not distributed",
+      "sha256": "8b5c9ab21f4c28537c7c700d9a511cfd05b60284d9be7f99244880b7234e933e",
+      "place_evidence": "Ctrip Mingyue Gorge Guangyuan destination image, consistent with official text describing Baocheng line across the gorge; exact capture date/service not claimed"
+    },
+    {
+      "id": "railway-portrait-canvas",
+      "path": "mingyue-railway-portrait.png",
+      "source": "real-mingyue-railway",
+      "derivation": "deterministic portrait padding preserving full original, no invented scene geometry",
+      "sha256": "5a31fba67def0e64edd695eec93c7fd609019982327806a67d8ebde9b93ad8b1"
+    },
+    {
+      "id": "accepted-main-pair-rear-pose",
+      "path": "accepted-rear-quadruped-pose.png",
+      "source": "jobs/1018-huangshan-pine-village-v4/ending-native.mp4",
+      "source_native_frame": 72,
+      "accepted_film": "releases/huangshan/2026-10-18-v4/Hi-Soda_Huangshan_Final.mp4",
+      "use": "accepted rear-three-quarter quadruped anatomy and same sheep identity only; no village/pool scenery",
+      "sha256": "15678dba43b29e7ca6eff5e78dc76872eb34c3228abcd93bc7c4c8e48a4dafdd"
+    }
+  ],
+  "media_status": "keyframe_prototype_references_recorded; originals not cut into film",
+  "notes": [
+    "story-v2.md的角色对白和情节是原创草稿；场景位置、具体机位和步道构造以待选真实参考为准。",
+    "实际参考图与输出图的SHA见jobs/1018-shudao-keyframes-v1/references/manifest.json和manifest.json；不将未知许可写成可再分发。",
+    "2026-10-18用户要求02/04/06修订；06使用流线高铁外观概念，具体线路名称不再用于该镜头讲解。"
+  ],
+  "current_story": "story-v2.md",
+  "dramatic_reconstruction": {
+    "status": "fictional_reenactment",
+    "label": "古时蜀道 · 情景演绎",
+    "specific_dynasty": null,
+    "anonymous_roles": [
+      "ancient_traveler",
+      "ancient_craftsman",
+      "ancient_helper"
+    ],
+    "modern_life_roles": [
+      "modern_adult_visitor",
+      "modern_child_visitor"
+    ],
+    "scope": "2026-10-18用户要求路人演和古代镜头，非指定历史人物实录；服饰/工具/具体构造在样图前取得合适依据"
+  },
+  "media_job_root": "jobs/1018-shudao-keyframes-v1",
+  "keyframe_revision_v2": "jobs/1018-shudao-keyframes-v2/revision.json",
+  "new_object_references_v2": "jobs/1018-shudao-keyframes-v2/references/manifest.json"
+}

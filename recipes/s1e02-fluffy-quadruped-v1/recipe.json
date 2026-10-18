@@ -1,0 +1,70 @@
+{
+  "id": "s1e02-fluffy-quadruped-v1",
+  "status": "user_accepted",
+  "accepted_date": "2026-10-18",
+  "episode": "S1E02",
+  "base_generation_recipe": "plush-dialogue-v14",
+  "accepted_video": {
+    "path": "../../releases/s1e02/2026-10-18/Hi-Soda_S1E02_Lets-Go-Out-and-Play.mp4",
+    "sha256": "c564f9f8c8e0c0287c0ad4b13031e66b675bf08e33f0ebbae159d13360871081"
+  },
+  "delivery": {
+    "width": 1080,
+    "height": 1932,
+    "frames": 768,
+    "fps": 24,
+    "seconds": 32.0
+  },
+  "take_frames": [
+    192,
+    204,
+    216,
+    108
+  ],
+  "keyframes": [
+    {
+      "scene_id": "porch-medium",
+      "asset_id": "a_93d7723ece5a4242",
+      "path": "../../jobs/1017-s1e02-fluffy-keyframes-v4/porch-approved.png",
+      "sha256": "4d84744603f0f0615df53e2cb3790461547ca1b30e2f0bb3f9a49b111b506575"
+    },
+    {
+      "scene_id": "park-close",
+      "asset_id": "a_edcfe71d480f43c0",
+      "path": "../../jobs/1017-s1e02-fluffy-keyframes-v4/park-close.png",
+      "sha256": "133f001b41ce20b9477c7594a59b2ab26b953b44c1abecd2d7340bda9f36efa8"
+    },
+    {
+      "scene_id": "park-run-wide",
+      "asset_id": "a_b9d927c6cacc4207",
+      "path": "../../jobs/1017-s1e02-fluffy-keyframes-v4/park-run-wide.png",
+      "sha256": "eb13a719cf611a78be3ba1f81bcd3748c42137eb3137cb2d7538f223e8d0ed71"
+    },
+    {
+      "scene_id": "park-run-stride",
+      "asset_id": "a_5d80fa619529405e",
+      "path": "../../jobs/1017-s1e02-fluffy-keyframes-v4/park-run-stride.png",
+      "sha256": "db1ad49e1e23a556ced0d44ceec5592d1d3aa9cc3f57bf5ba43d1bcb3a836ed8"
+    }
+  ],
+  "middle_guide": {
+    "shot_id": "S04",
+    "frame_idx": 64,
+    "asset_id": "a_5d80fa619529405e"
+  },
+  "captions": {
+    "english": 46,
+    "chinese": 42,
+    "safe_width": 620
+  },
+  "music": {
+    "music_relative_to_active_voice_db": -17.5,
+    "peak_dbfs": -10.26,
+    "clipped_samples": 0,
+    "voice_gain": 1
+  },
+  "evidence_archive": "../../jobs/1017-s1e02-filming-v5/delivery-evidence.tgz",
+  "standalone": false,
+  "new_episode_one_click": false,
+  "reuse_instructions": "../../docs/agent-handoff.md"
+}

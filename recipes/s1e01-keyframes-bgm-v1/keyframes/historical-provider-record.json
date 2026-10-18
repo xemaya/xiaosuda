@@ -1,0 +1,14 @@
+{
+  "provider": "Codex built-in image_gen (historical accepted assets)",
+  "model_id": null,
+  "seed": null,
+  "provider_prompt_id": null,
+  "unknown_reason": "Built-in tool did not expose these provider fields; do not invent values. Prompts, reference images, returned execution filenames and exact accepted PNGs are archived.",
+  "files": {
+    "S07-clean-start.png": "exec-dd83b183-4ee4-4827-9030-0ba4bafdbaa9.png",
+    "S07-gesture-f48.png": "exec-92bc22b1-0b4c-4309-bc30-377f660c1788.png",
+    "S08-book-released-f67.png": "exec-49eddcad-96c0-4581-89af-b93501635c52.png",
+    "S08-family-f144.png": "exec-41e0ef4e-114d-4207-a2d7-a52e4ad74079.png"
+  },
+  "future_default": "self-hosted Qwen-Image-2.1 on 4090; record real seed and prompt_id for each new image"
+}

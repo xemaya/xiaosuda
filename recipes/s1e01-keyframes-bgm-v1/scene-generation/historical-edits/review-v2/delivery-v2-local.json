@@ -1,0 +1,29 @@
+{
+  "project_id": "p_5e6ea50dd70a4026",
+  "asset_id": "a_854401cb137f492e",
+  "file": "/Users/huanghaibin/Workspace/games/4090/xiaosuda/jobs/1016-s1e01-review-v2/Hi-Soda_S1E01_Introduction_review-v2.mp4",
+  "sha256": "bf5eec8a5c00d733e3d2f9fe079a6f2607a5345464a6e3cec19af1a44b10ef87",
+  "seconds": 42.833333,
+  "fps": 24,
+  "frames": 1028,
+  "resolution": [
+    1080,
+    1932
+  ],
+  "source_v1_preserved": true,
+  "user_review": "pending",
+  "changes": [
+    "safe-width bilingual captions",
+    "first character shot is Soda close-up",
+    "snow speech gap .18 seconds, immediate run",
+    "Jacky visibly taller on same floor/depth plane"
+  ],
+  "unchanged_native_shots": 5,
+  "retaken_shots": [
+    "S03",
+    "S06"
+  ],
+  "spoken_audio_preservation": "all 8 original spoken waveforms found byte-for-byte in final PCM mix",
+  "subtitle_checks": "8 cues rendered inside safe margins; all source EN/ZH text retained",
+  "candidate_not_user_approved": true
+}

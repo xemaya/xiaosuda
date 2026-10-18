@@ -1,0 +1,15 @@
+{
+  "name": "姐姐的阅读角 · 中景",
+  "scene_id": "angela-reading",
+  "setting_version": "v_fdf88139dea74536",
+  "seed": "493801285",
+  "job_id": "j_af753764db2447fe",
+  "prompt": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory and cornflower-blue/golden-yellow palette, soft warm window light, gentle depth of field, physical grounded poses. Preserve the supplied character-sheet identity and outfit exactly; never render a sheet, chart, labels, text, watermark, extra actors or extra limbs inside a scene. One clean full-frame cinematic portrait composition, 768x1376, fixed camera for dialogue.\nMake ONE clean portrait cinematic scene frame, NOT a character sheet. Reference pictures establish identity, outfits and scale only. EXACTLY these visible actors, no other animals: xiaosuda: Black-and-white Alaskan malamute plush puppy, dark gray-black back/head/ears, white face mask/muzzle/chest/belly/paws, pink inner ears and rosy cheeks, black nose, warm brown round eyes, large fluffy curled white-tipped tail, small brown backpack. Warm playful personality.\nmianyang-jiejie: Cream-white curly-wool plush sheep, long drooping pale-pink inner ears, light-brown horns/hooves, rosy cheeks, gentle brown eyes, pink sweater dress, pink bow and small backpack. About 1.37 times Soda height.\nScene: 同一家庭活动区右侧阅读角，Soda在前侧介绍姐姐，Angela坐在扶手椅上读书，保持粉色毛衣裙、粉蝴蝶结和小书包；被介绍时抬头温柔回应、轻轻挥手，再把目光放回书上。Angela不张嘴说话。. Framing: medium. Quiet background activities: {\"mianyang-jiejie\": \"看书、自然翻页；听到自己的名字时抬头微笑回应。\"}. Lighting: 与家庭全景同一暖色窗光. Props: 书, 阅读扶手椅. Preserve plush style and relative sizes. No text, no grid, no chart, no labels; only the C on the chick hoodie if chick is in cast. Portrait 768x1376.",
+  "review": "candidate",
+  "id": "a_755dfa8010934ee6",
+  "project_id": "p_5e6ea50dd70a4026",
+  "kind": "scene",
+  "created": 1792125704.762055,
+  "sha256": "3c1b5ef4e1b955bea5fefda78b616dd7f3bedf4949ebf0bd89ed4b851dd491cf",
+  "url": "api/media/a_755dfa8010934ee6"
+}

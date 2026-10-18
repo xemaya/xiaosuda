@@ -1,0 +1,116 @@
+{
+  "project_id": "p_5e6ea50dd70a4026",
+  "setting_version": "v_fdf88139dea74536",
+  "generation": "self-hosted Qwen-Image-2.1 initial frames; built-in imagegen targeted edits",
+  "review": "user_approved",
+  "auto_adopted": false,
+  "items": [
+    {
+      "scene_id": "home-wide",
+      "name": "家庭全景 · 修正版 V2",
+      "file": "home-wide-v2.png",
+      "sha256": "e0cdac020f4105ec4c28de2c30c142552141674f5d1406e043e33db1dd120af0",
+      "width": 937,
+      "height": 1678,
+      "expected_actor_count": 3,
+      "source_job_id": "j_4f820f5f7e8247a7",
+      "source_asset_id": "a_dafbd9dcef5a483e",
+      "source_image_sha256": "0a9603cad7379e30feb7d5c2910f21cc42522f730dbd9d38810bd1f8c7cbe025",
+      "imagegen_original_file": "exec-0d44fb97-536b-4520-a009-20d33f290643.png"
+    },
+    {
+      "scene_id": "home-close",
+      "name": "Soda特写 · 修正版 V2",
+      "file": "home-close-v2.png",
+      "sha256": "69b510aff9ff6aaff15677e159f79ce706f1a634e894c1f9b7399cc9aa469391",
+      "width": 937,
+      "height": 1679,
+      "expected_actor_count": 1,
+      "source_job_id": "j_7a2eee9a50824875",
+      "source_asset_id": "a_67ef4245662b452a",
+      "source_image_sha256": "228260713278c59b59f48f358e54583c2a9a9c708489ee159b2bce3556f6014e",
+      "imagegen_original_file": "exec-c0c37a2b-8b04-4497-baac-492c041356b6.png"
+    },
+    {
+      "scene_id": "north-wide",
+      "name": "北方雪地全景 · 修正版 V2",
+      "file": "north-wide-v2.png",
+      "sha256": "82f3b627e0d83921da52455eeaa38838eafd752f932886e4ab71dc4854e5e2c1",
+      "width": 937,
+      "height": 1678,
+      "expected_actor_count": 1,
+      "source_job_id": "j_0688361724dc4493",
+      "source_asset_id": "a_397deaebc1de4184",
+      "source_image_sha256": "fb4a9302716c7c14bb40f6c23b96359bc83806c284d6b9690720f3e9501f09c2",
+      "imagegen_original_file": "exec-ba7401d8-807e-4251-8db6-80d854166735.png"
+    },
+    {
+      "scene_id": "jacky-corner",
+      "name": "哥哥积木角 · 修正版 V2",
+      "file": "jacky-corner-v2.png",
+      "sha256": "2735fddf0f68b7ebbfc633633b7a0fd33adf7b710c4ae7a264781e798c522b85",
+      "width": 937,
+      "height": 1678,
+      "expected_actor_count": 2,
+      "source_job_id": "j_978241ce4071418b",
+      "source_asset_id": "a_6969a07b78464fc6",
+      "source_image_sha256": "b8354905883cae5fa43a3b867dd96d965f5b6b13e6d7cab2427cca9408357a53",
+      "imagegen_original_file": "exec-83e62186-cef2-4df0-a7ba-59faa9fe142b.png"
+    },
+    {
+      "scene_id": "angela-reading",
+      "name": "姐姐阅读角 · 修正版 V2",
+      "file": "angela-reading-v2.png",
+      "sha256": "da678c472248f50a26533a7ac4b88a134bcbd61f0b6fffa8130b9d5dbaeffe71",
+      "width": 937,
+      "height": 1678,
+      "expected_actor_count": 2,
+      "source_job_id": "j_af753764db2447fe",
+      "source_asset_id": "a_755dfa8010934ee6",
+      "source_image_sha256": "3c1b5ef4e1b955bea5fefda78b616dd7f3bedf4949ebf0bd89ed4b851dd491cf",
+      "imagegen_original_file": "exec-978f8471-2a61-42dd-8f07-4188b45d1644.png"
+    }
+  ],
+  "workbench_assets": [
+    {
+      "scene_id": "home-wide",
+      "asset_id": "a_7939966a292f402d",
+      "path": "/data/app/huanghaibin/soda/imports/s1e01-scene-edits-v2-v_fdf88139dea74536/home-wide-v2.png",
+      "sha256": "e0cdac020f4105ec4c28de2c30c142552141674f5d1406e043e33db1dd120af0",
+      "url": "api/media/a_7939966a292f402d"
+    },
+    {
+      "scene_id": "home-close",
+      "asset_id": "a_5893ef082e5346d8",
+      "path": "/data/app/huanghaibin/soda/imports/s1e01-scene-edits-v2-v_fdf88139dea74536/home-close-v2.png",
+      "sha256": "69b510aff9ff6aaff15677e159f79ce706f1a634e894c1f9b7399cc9aa469391",
+      "url": "api/media/a_5893ef082e5346d8"
+    },
+    {
+      "scene_id": "north-wide",
+      "asset_id": "a_aa09be7fad554477",
+      "path": "/data/app/huanghaibin/soda/imports/s1e01-scene-edits-v2-v_fdf88139dea74536/north-wide-v2.png",
+      "sha256": "82f3b627e0d83921da52455eeaa38838eafd752f932886e4ab71dc4854e5e2c1",
+      "url": "api/media/a_aa09be7fad554477"
+    },
+    {
+      "scene_id": "jacky-corner",
+      "asset_id": "a_c64cd53df61d48ee",
+      "path": "/data/app/huanghaibin/soda/imports/s1e01-scene-edits-v2-v_fdf88139dea74536/jacky-corner-v2.png",
+      "sha256": "2735fddf0f68b7ebbfc633633b7a0fd33adf7b710c4ae7a264781e798c522b85",
+      "url": "api/media/a_c64cd53df61d48ee"
+    },
+    {
+      "scene_id": "angela-reading",
+      "asset_id": "a_af40c7ec9dde411a",
+      "path": "/data/app/huanghaibin/soda/imports/s1e01-scene-edits-v2-v_fdf88139dea74536/angela-reading-v2.png",
+      "sha256": "da678c472248f50a26533a7ac4b88a134bcbd61f0b6fffa8130b9d5dbaeffe71",
+      "url": "api/media/a_af40c7ec9dde411a"
+    }
+  ],
+  "workbench_ui_verified": true,
+  "approval": {
+    "date": "2026-10-16",
+    "message": "确认，可以继续"
+  }
+}

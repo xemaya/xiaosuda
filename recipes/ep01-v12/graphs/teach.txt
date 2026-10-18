@@ -1,0 +1,18 @@
+The image <Picture 1> is the visual authority for both characters and the room. The video <Video 1> is the voice authority: both characters speak with exactly the same voices, emotion, pacing and timing as its audio, and lip movements follow its speech.
+integrated_multimodal_description:
+[Shot 1] 3D plush-toy animation, dense soft plush fur texture everywhere, warm morning living room, vertical two-shot on a beige rug. The chick teaches four phrases one by one, counting them on his raised wing feathers; the puppy watches. Real-time speed. Camera completely static, constant framing.
+
+0.0-0.25 | Both settle into teacher-student stance, mouths closed smiling.
+0.25-1.4 | Chick presents the lesson, one wing rises chest-high palm-up, then holds; puppy attentive.
+1.4-1.9 | Chick raises his other wing and folds out the first feather segment, counting "one"; puppy's eyes follow.
+1.9-2.9 | Chick says the first phrase slowly and clearly, wing holding "one" with a small accent beat; puppy silent, ears up.
+2.9-3.8 | Second feather segment folds out, "two"; puppy nods once.
+3.8-4.8 | Chick says the second phrase slowly, wing holding "two" with the accent beat.
+4.8-5.7 | Third feather segment, "three"; puppy leans in.
+5.7-6.7 | Chick says the third phrase slowly, wing holding "three".
+6.7-7.6 | Fourth feather segment, "four"; puppy's tail wags brighter.
+7.6-8.6 | Chick says the fourth phrase slowly, wing holding "four", then both wings lower.
+8.6-9.9 | Puppy repeats the phrase proudly with a happy bounce from his paws, backpack straps shifting; chick watches with a proud closed-beak smile.
+9.9-10.0 | Freeze on the proud pupil and pleased teacher.
+
+RULES: visuals follow <Picture 1>; voices, timing and lip sync follow <Video 1> audio. No text, no subtitles, no logos. Both fully visible. Adult plush mascots. Exactly four wing-count beats. Camera static, no push-in, no zoom. No added limbs, no morphing, no camera shake, no cuts except the final freeze.

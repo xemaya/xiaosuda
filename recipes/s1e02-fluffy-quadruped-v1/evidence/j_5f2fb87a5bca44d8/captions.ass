@@ -1,0 +1,22 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 768
+PlayResY: 1376
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Alibaba PuHuiTi,46,&H00FFFFFF,&H00FFFFFF,&H50000000,&H90000000,0,0,0,0,100,100,0,0,1,1.6,0.5,2,64,64,121,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.40,0:00:03.04,Default,,0,0,0,,Hi, Jacky!\NWhat a beautiful day!\N{\fs42}嗨，奇奇！今天天气真好呀！
+Dialogue: 0,0:00:03.29,0:00:06.86,Default,,0,0,0,,Hi, Soda! Yes, it is! Do you\Nwant to go out and play?\N{\fs42}嗨，小苏打！是呀！你想出去玩吗？
+Dialogue: 0,0:00:08.40,0:00:11.64,Default,,0,0,0,,Sure! That sounds fun!\NWhere do you want to go?\N{\fs42}当然！听起来真好玩！\N你想去哪儿玩？
+Dialogue: 0,0:00:11.89,0:00:12.95,Default,,0,0,0,,Let’s go to the park!\N{\fs42}我们去公园吧！
+Dialogue: 0,0:00:13.20,0:00:15.83,Default,,0,0,0,,Great idea! Let’s go!\N{\fs42}好主意！我们出发吧！
+Dialogue: 0,0:00:16.90,0:00:19.20,Default,,0,0,0,,Come on, Soda!\NLet’s have some fun!\N{\fs42}快来呀，小苏打！\N我们去玩个痛快吧！
+Dialogue: 0,0:00:19.45,0:00:22.18,Default,,0,0,0,,Wait for me!\NI can run super fast!\N{\fs42}等等我！我跑得可快啦！
+Dialogue: 0,0:00:22.43,0:00:24.64,Default,,0,0,0,,Haha! Let’s see\Nwho gets there first!\N{\fs42}哈哈！看看谁先到！
+Dialogue: 0,0:00:25.90,0:00:27.47,Default,,0,0,0,,Ready, set, go!\N{\fs42}预备，开始，跑！

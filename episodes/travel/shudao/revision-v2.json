@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-18",
+  "user_feedback": [
+    "没有路人，不够贴近生活。既然是蜀道，肯定是有人走，有人开路的。不能只是两姐弟的讲，得让路人“演”",
+    "古、今的切换不够明显，是需要有一些古代的镜头穿插的"
+  ],
+  "current_story": "story-v2.md",
+  "superseded_story": "story-v1.md",
+  "status": "revised_draft_for_review",
+  "user_accepted_script": false,
+  "changes": {
+    "runtime_budget_seconds": 200,
+    "ancient_intervals_seconds": [
+      [
+        28,
+        62
+      ],
+      [
+        88,
+        126
+      ]
+    ],
+    "ancient_seconds": 72,
+    "today_return_seconds": [
+      62,
+      126
+    ],
+    "extra_cast": "episode-scoped anonymous plush animal traveler/craftsman/helper and contemporary adult/child visitors",
+    "speaking_roles": [
+      "Soda",
+      "Angela",
+      "古代行旅",
+      "古代开路匠"
+    ],
+    "extras_voice_status": "not_selected",
+    "superseded_constraints": [
+      "no ancient actors",
+      "diagram/book illustration as sole ancient representation",
+      "only siblings carrying all dramatic action"
+    ],
+    "period_markers": [
+      "古时蜀道 · 情景演绎",
+      "今天 · 明月峡"
+    ],
+    "no_actual_time_travel": true
+  },
+  "provider_calls_this_revision": 0,
+  "workbench_changed": false
+}

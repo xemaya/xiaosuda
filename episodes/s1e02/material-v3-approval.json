@@ -1,0 +1,16 @@
+{
+  "material_sample_approval": "confirmed_by_user",
+  "approved_material_asset": "a_93d7723ece5a4242",
+  "approved_material_sha256": "4d84744603f0f0615df53e2cb3790461547ca1b30e2f0bb3f9a49b111b506575",
+  "allow_batch_images": true,
+  "allowed_scenes": [
+    "park-close",
+    "park-run-wide",
+    "park-run-stride"
+  ],
+  "human_full_set_approval": "pending",
+  "allow_video": false,
+  "allow_tts": false,
+  "allow_assembly": false,
+  "authorization": "User confirmed the V3 material sample after the stated next step: rebuild remaining keyframes, full set confirmation before filming."
+}

@@ -1,0 +1,109 @@
+[
+  {
+    "id": "d1",
+    "en": [
+      "Hi, Jacky!",
+      "What a beautiful day!"
+    ],
+    "zh": [
+      "嗨，奇奇！今天天气真好呀！"
+    ],
+    "max_width": 488.890625,
+    "total_rows": 3
+  },
+  {
+    "id": "d2",
+    "en": [
+      "Hi, Soda! Yes, it is! Do you",
+      "want to go out and play?"
+    ],
+    "zh": [
+      "嗨，小苏打！是呀！你想出去玩吗？"
+    ],
+    "max_width": 596.75,
+    "total_rows": 3
+  },
+  {
+    "id": "d3",
+    "en": [
+      "Sure! That sounds fun!",
+      "Where do you want to go?"
+    ],
+    "zh": [
+      "当然！听起来真好玩！",
+      "你想去哪儿玩？"
+    ],
+    "max_width": 563.59375,
+    "total_rows": 4
+  },
+  {
+    "id": "d4",
+    "en": [
+      "Let’s go to the park!"
+    ],
+    "zh": [
+      "我们去公园吧！"
+    ],
+    "max_width": 431.609375,
+    "total_rows": 2
+  },
+  {
+    "id": "d5",
+    "en": [
+      "Great idea! Let’s go!"
+    ],
+    "zh": [
+      "好主意！我们出发吧！"
+    ],
+    "max_width": 437.71875,
+    "total_rows": 2
+  },
+  {
+    "id": "d6",
+    "en": [
+      "Come on, Soda!",
+      "Let’s have some fun!"
+    ],
+    "zh": [
+      "快来呀，小苏打！",
+      "我们去玩个痛快吧！"
+    ],
+    "max_width": 447.59375,
+    "total_rows": 4
+  },
+  {
+    "id": "d7",
+    "en": [
+      "Wait for me!",
+      "I can run super fast!"
+    ],
+    "zh": [
+      "等等我！我跑得可快啦！"
+    ],
+    "max_width": 430.78125,
+    "total_rows": 3
+  },
+  {
+    "id": "d8",
+    "en": [
+      "Haha! Let’s see",
+      "who gets there first!"
+    ],
+    "zh": [
+      "哈哈！看看谁先到！"
+    ],
+    "max_width": 433.25,
+    "total_rows": 3
+  },
+  {
+    "id": "d9",
+    "en": [
+      "Ready, set, go!"
+    ],
+    "zh": [
+      "预备，开始，跑！"
+    ],
+    "max_width": 317.890625,
+    "total_rows": 2
+  }
+]

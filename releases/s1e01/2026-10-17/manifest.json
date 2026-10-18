@@ -1,0 +1,21 @@
+{
+  "series": "Hi, Soda!",
+  "episode": "S1E01",
+  "title": "自我介绍 / Self Introduction",
+  "status": "user_accepted",
+  "date": "2026-10-17",
+  "video": "2026-10-17/Hi-Soda_S1E01_Self-Introduction.mp4",
+  "sha256": "37a9f1403bdc7918d60bac7787ccccbec80ac02d0e835ce321c758687b06c6d0",
+  "frames": 1112,
+  "duration_seconds": 46.333333,
+  "resolution": [
+    1080,
+    1932
+  ],
+  "fps": 24,
+  "workbench_asset_id": "a_f9326941a16b4c4d",
+  "workbench_url": "https://soda.buplayground.cn/api/media/a_f9326941a16b4c4d",
+  "recipe": "../../recipes/s1e01-keyframes-bgm-v1/README.md",
+  "acceptance_quote": "这个定稿，配方全部落盘",
+  "upload_requested": false
+}

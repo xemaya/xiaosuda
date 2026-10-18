@@ -1,0 +1,16 @@
+{
+  "decision": "technical_review_complete",
+  "human_acceptance": "pending",
+  "sha256": "69728837c4cec7597abec68bfccbb185b32d6168217903d045ae808201eb816b",
+  "checks": [
+    "all 10 replacement shots reviewed for canine body, ears and speaker assignment",
+    "all 93 final response frames reviewed",
+    "complete timeline overview checked after assembly",
+    "continuous joins at43.5s,61.333s,76.708s checked at adjacent frame offsets",
+    "intentional bough insert cuts at19.333s and27.375s retained",
+    "original audio encoded stream exact and starts at0",
+    "3325 decoded frames at24fps; no literal duplicate within267:2028",
+    "local downloaded file hash matches registered server candidate"
+  ],
+  "delivery_file": "/Users/huanghaibin/Workspace/games/4090/xiaosuda/jobs/1017-huangshan-quadruped-v2/Hi-Soda_Huangshan_quadruped-v2.mp4"
+}

@@ -1,0 +1,340 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "minimax_h3_ref2va_pruned_fp8_scaled.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2": {
+    "class_type": "LoraLoaderModelOnly",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "lora_name": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+      "strength_model": 1.0
+    }
+  },
+  "3": {
+    "class_type": "CLIPLoaderGGUFMiniMaxH3",
+    "inputs": {
+      "clip_name": "qwen3-vl-32b-ultra-heretic-minimax-h3-q6_k.gguf",
+      "vision_name": "qwen3vl_32b_minimax_h3_visual_bf16.safetensors"
+    }
+  },
+  "4": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "minimax_h3_video_vae_fp16.safetensors"
+    }
+  },
+  "5": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+    }
+  },
+  "6": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "soda-f3567ba147b667ec489600ee.png"
+    }
+  },
+  "7": {
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler"
+    }
+  },
+  "8": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "soda-e1d1499a74eb8960ab9819e8.mp4"
+    }
+  },
+  "9": {
+    "class_type": "Video Slice",
+    "inputs": {
+      "video": [
+        "8",
+        0
+      ],
+      "start_time": 0.0,
+      "duration": 15.0,
+      "strict_duration": false
+    }
+  },
+  "10": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "9",
+        0
+      ]
+    }
+  },
+  "11": {
+    "class_type": "MiniMaxH3ReferenceToVideo",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "audio_vae": [
+        "5",
+        0
+      ],
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description:\n[Shot 1] Warm plush 3D animation, fixed medium shot, soft domestic lighting, two plush characters in a cozy room. The black-and-white Alaskan malamute plush puppy Soda with brown backpack straps and the cream sheep plush Angela in her pink knitted dress remain exactly as shown, preserving their faces, outfits, body sizes, and the room.\n\n0.0–0.4: Both plush characters hold their original seated/standing relationship; Soda is in profile toward Angela, Angela holds a rigid hardcover book with both hands, mouth closed, calm and attentive.\n0.4–1.2: The husky initiates a natural turn from facing Angela toward the audience, weight shifting smoothly from one foot to the other, ears lifting slightly, eyes brightening; Angela remains still except for subtle attention.\n0.4–4.533: The husky speaks with soft loving timing: <d>[EN] And this is my big sister, Angela. She's a gentle sheep.</d> While speaking, Soda’s right foreleg makes one small, controlled presenting gesture toward Angela and then relaxes back to its side; the black plush fur remains continuous from shoulder to white paw, and the brown backpack straps remain brown.\n1.5–3.0 (Angela, simultaneous with Soda speech): The sheep hears her name, lifts her eyes gently, mouth still closed, and gives one small soft right-hand wave near the book before returning her hand to the supported open book.\n4.7–6.2: The sheep turns one page near the end of the book with a light, natural motion, left hand keeping the rigid hardcover steady; Soda settles into a relaxed but alive pose, ears and tail showing small natural movement.\n6.2–7.0: Angela continues reading with small natural page-hand movement; Soda gives her a warm brief glance and returns his eyes toward the audience, ears and tail continuing naturally.\n\nCamera: fixed medium framing matching the original scene, no camera movement, stable composition throughout.\n\noverall_soundscape: soft room ambience, subtle plush fabric rustle during the turn and page turn, light paw movement, warm quiet domestic atmosphere.\n\nnon_diegetic_music: none; preserve the supplied dialogue audio exactly.\n\n\nSoda dialogue is supplied exactly at 0.400–4.533156 seconds. His head turn begins as the line begins, then the introducing paw travels out and back naturally. His forelegs remain continuous dense black plush fur down to the white-fur paws, with brown leather backpack straps. Angela listens with her mouth closed throughout; her eyes, wave and page turn have full natural initiation and follow-through. The original warm plush animal identities and fixed camera remain exact.\n",
+      "width": 768,
+      "height": 1376,
+      "length": 175,
+      "ref_image_size": "match",
+      "ref_images.ref_image_0": [
+        "6",
+        0
+      ],
+      "ref_videos.ref_video_0": [
+        "10",
+        0
+      ],
+      "ref_video_audios.ref_video_audio_0": [
+        "10",
+        1
+      ]
+    }
+  },
+  "12": {
+    "class_type": "MiniMaxH3AddGuide",
+    "inputs": {
+      "positive": [
+        "11",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "11",
+        1
+      ],
+      "image": [
+        "6",
+        0
+      ],
+      "frame_idx": 0
+    }
+  },
+  "13": {
+    "class_type": "MiniMaxH3MotionContext",
+    "inputs": {
+      "conditioning": [
+        "27",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "11",
+        1
+      ],
+      "context_length": "22",
+      "audio_context_length": 24
+    }
+  },
+  "14": {
+    "class_type": "BasicGuider",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "conditioning": [
+        "13",
+        0
+      ]
+    }
+  },
+  "15": {
+    "class_type": "BasicScheduler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "scheduler": "beta",
+      "steps": 4,
+      "denoise": 1.0
+    }
+  },
+  "16": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 281868798
+    }
+  },
+  "17": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "16",
+        0
+      ],
+      "guider": [
+        "14",
+        0
+      ],
+      "sampler": [
+        "7",
+        0
+      ],
+      "sigmas": [
+        "15",
+        0
+      ],
+      "latent_image": [
+        "11",
+        1
+      ]
+    }
+  },
+  "18": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "17",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ]
+    }
+  },
+  "19": {
+    "class_type": "VAEDecodeAudio",
+    "inputs": {
+      "samples": [
+        "17",
+        0
+      ],
+      "vae": [
+        "5",
+        0
+      ]
+    }
+  },
+  "20": {
+    "class_type": "MiniMaxH3MotionContextTrim",
+    "inputs": {
+      "images": [
+        "18",
+        0
+      ],
+      "trim_frames": [
+        "13",
+        1
+      ],
+      "audio": [
+        "19",
+        0
+      ],
+      "fps": 24.0,
+      "match_tail": true
+    }
+  },
+  "21": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "20",
+        0
+      ],
+      "batch_index": 0,
+      "length": 168
+    }
+  },
+  "22": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "20",
+        0
+      ],
+      "audio": [
+        "20",
+        1
+      ],
+      "fps": 24.0
+    }
+  },
+  "23": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "22",
+        0
+      ],
+      "filename_prefix": "soda/s1e01-generation-review/S07-clean-start-guide/23",
+      "format": "auto",
+      "format.codec": "auto"
+    }
+  },
+  "24": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "21",
+        0
+      ],
+      "batch_index": 146,
+      "length": 22
+    }
+  },
+  "25": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "24",
+        0
+      ],
+      "filename_prefix": "soda/s1e01-generation-review/S07-clean-start-guide/25"
+    }
+  },
+  "26": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "soda-244935a0a526f2485e33be20.png"
+    }
+  },
+  "27": {
+    "class_type": "MiniMaxH3AddGuide",
+    "inputs": {
+      "positive": [
+        "12",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "11",
+        1
+      ],
+      "image": [
+        "26",
+        0
+      ],
+      "frame_idx": 48
+    }
+  }
+}

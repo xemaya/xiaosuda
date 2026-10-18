@@ -1,0 +1,71 @@
+{
+  "project_id": "p_e8162eb476934167",
+  "setting_version": "v_34705a562e05483f",
+  "human_keyframe_approval": "pending",
+  "video_generated_this_round": false,
+  "tts_generated_this_round": false,
+  "adopted": false,
+  "location_count": 2,
+  "camera_count": 3,
+  "extra_same_camera_action_keyframe": true,
+  "model": "qwen_image_2.1_bf16.safetensors",
+  "candidates": [
+    {
+      "project_id": "p_e8162eb476934167",
+      "scene_id": "porch-medium",
+      "asset_id": "a_7c0c9a0eebcb44eb",
+      "path": "/data/app/huanghaibin/soda/jobs/j_3995c0ccae244f34/porch-medium-candidate.png",
+      "sha256": "cc1d762de31c9de408e2f48d225aec4004326bd5f70ced21a4be22e1bc0ad831",
+      "seed": 10170221,
+      "job_id": "j_3995c0ccae244f34",
+      "prompt_id": "dd4f95d1-1482-4737-acd5-fbe367251f5b",
+      "port": 8188,
+      "model": "qwen_image_2.1_bf16.safetensors",
+      "adopted": false,
+      "human_acceptance": "pending"
+    },
+    {
+      "project_id": "p_e8162eb476934167",
+      "scene_id": "park-close",
+      "asset_id": "a_0042eaf7e3844090",
+      "path": "/data/app/huanghaibin/soda/jobs/j_92b07b799a6b4214/park-close-candidate.png",
+      "sha256": "c7593bc4f5cffa6b384549846e88942417c04bfac5ff448f78ef2f1b18650b46",
+      "seed": 10170222,
+      "job_id": "j_92b07b799a6b4214",
+      "prompt_id": "c532d9f3-824a-47ee-8fc0-1bc419e0711a",
+      "port": 8188,
+      "model": "qwen_image_2.1_bf16.safetensors",
+      "adopted": false,
+      "human_acceptance": "pending"
+    },
+    {
+      "project_id": "p_e8162eb476934167",
+      "scene_id": "park-run-wide",
+      "asset_id": "a_61beca8893d14b02",
+      "path": "/data/app/huanghaibin/soda/jobs/j_9cf437485fe0461d/park-run-wide-candidate.png",
+      "sha256": "dec780cabfdac69f217801f05c636b617b2be83c07f874a0acd6b895e434c9fa",
+      "seed": 10170223,
+      "job_id": "j_9cf437485fe0461d",
+      "prompt_id": "a370be77-501d-4ff0-945e-a7ff86ca3794",
+      "port": 8188,
+      "model": "qwen_image_2.1_bf16.safetensors",
+      "adopted": false,
+      "human_acceptance": "pending"
+    },
+    {
+      "project_id": "p_e8162eb476934167",
+      "scene_id": "park-run-stride",
+      "asset_id": "a_8f45930cf8ce44a5",
+      "path": "/data/app/huanghaibin/soda/jobs/j_f6b2d97dc41840d9/park-run-stride-candidate.png",
+      "sha256": "741f973fdab5a37a647d5e935ae4c18b29e07cbf8b6db39c11643d0d87d381e0",
+      "seed": 10170224,
+      "job_id": "j_f6b2d97dc41840d9",
+      "prompt_id": "53cc5a9f-caeb-4b8c-ad8a-d680db3bb00f",
+      "port": 8188,
+      "model": "qwen_image_2.1_bf16.safetensors",
+      "adopted": false,
+      "human_acceptance": "pending"
+    }
+  ],
+  "overview": "/Users/huanghaibin/Workspace/games/4090/xiaosuda/jobs/1017-s1e02-keyframes-v2/keyframes-v2-overview.jpg"
+}

@@ -1,0 +1,415 @@
+{
+  "id": "p_5e6ea50dd70a4026",
+  "title": "S1E01 · 自我介绍 · Hi, I'm Soda!",
+  "script": "# S1E01 自我介绍 · 审片修订 V2\n\n去掉原S01家庭开场，保留2秒Hi, Soda!片头。\nS03合并原d2/d3，句间0.18秒，说完寒冷来处立即跑；不剪掉尾巴后沿用旧上下文。\nS06哥哥42cm、Soda35cm，同一景深和地面，不用透视把小狗显大。\n字幕使用新安全宽度自动断行，中文和英文均保留完整。\n全部旧配音原样复用；V1保留，V2仍待用户审片。\n\n## 逐句对白（原配音不变）\n\nSoda: Hi everyone! I'm Soda, an Alaskan Malamute.\n大家好！我是小苏打，一只阿拉斯加犬。\n\nSoda: I come from a very cold place,\n我来自一个非常寒冷的地方，\n\nSoda: and I can run super fast!\n而且我跑得可快啦！\n\nSoda: I'm so excited to meet you all.\n见到大家，我特别开心。\n\nSoda: This is my big brother, Jacky. He's a cheerful little chick.\n这是我的哥哥奇奇，他是一只开朗的小鸡。\n\nSoda: And this is my big sister, Angela. She's a gentle sheep.\n这位是我的姐姐露露，她是一只温柔的绵羊。\n\nSoda: We live together happily and love each other very much.\n我们快乐地生活在一起，也非常爱彼此。\n\nSoda: I hope you like me too!\n希望你们也喜欢我！",
+  "script_hash": "0ab9f85f18a3f56aa417a385fb967a31d1538a1dc7f5dfbc967c975c394c8241",
+  "cast_ids": [
+    "xiaosuda",
+    "mengji-gege",
+    "mianyang-jiejie"
+  ],
+  "style_id": "soda-plush-v14",
+  "revision": 89,
+  "created": 1792114918.3237062,
+  "updated": 1792198734.673183,
+  "setting": {
+    "title": "Hi, I'm Soda!",
+    "logline": "Soda特写开场，在北方边介绍边奔跑，介绍比自己高的哥哥和温柔姐姐，最后一家靠近。",
+    "premise": "Soda特写自我介绍，原速雪地快跑，介绍哥哥和姐姐；姐姐听到介绍时自然挥手后继续读书。结尾姐姐先把书放稳再下椅子，哥哥绕过桌边，大家自然靠近。",
+    "style_id": "soda-plush-v14",
+    "cast": [
+      {
+        "character_id": "xiaosuda",
+        "story_role": "唯一说话者，以特写自我介绍并在北方雪地奔跑"
+      },
+      {
+        "character_id": "mengji-gege",
+        "story_role": "哥哥，旁边坐着搭积木，被叫到时抬头回应"
+      },
+      {
+        "character_id": "mianyang-jiejie",
+        "story_role": "姐姐，旁边坐着读书，被叫到时抬头回应"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "home-wide",
+        "name": "家庭活动区 · 全景",
+        "framing": "wide",
+        "cast_ids": [
+          "xiaosuda",
+          "mengji-gege",
+          "mianyang-jiejie"
+        ],
+        "setting": "家庭活动区全景，窗边地毯、矮积木桌及阅读扶手椅。Soda站在前景中心，Jacky在左后方坐着搭乐高积木，Angela在右后方扶手椅读书。人物自然站立至头顶身高基准35/42/48cm，坐姿不改变角色真实比例。各自专注自己的事情，被介绍时短暂停下自然回应；只有Soda开口。",
+        "props": [
+          "地毯",
+          "沙发",
+          "矮积木桌",
+          "乐高积木",
+          "书",
+          "阅读扶手椅"
+        ],
+        "idle_actions": {
+          "mengji-gege": "坐在矮桌旁，一次拿起一块积木、轻轻接好；听到自己的名字时抬头微笑挥一下翅膀，再回到积木。",
+          "mianyang-jiejie": "坐在扶手椅上看书，缓慢翻页；听到自己的名字时抬头温柔微笑，再继续读。"
+        },
+        "lighting": "暖色窗光，柔和景深",
+        "reference_scene_id": null
+      },
+      {
+        "id": "home-close",
+        "name": "Soda 自我介绍 · 特写",
+        "framing": "close_up",
+        "cast_ids": [
+          "xiaosuda"
+        ],
+        "setting": "与家庭活动区相同地点、光向和色调，Soda头肩特写，目光面向观众，耳朵、毛绒细节和小棕背包肩带清楚可见；地毯、窗边与沙发虚化在背景。Jacky与Angela在画外，不新增其他角色。",
+        "props": [
+          "沙发",
+          "窗户"
+        ],
+        "idle_actions": {},
+        "lighting": "暖色窗光、浅景深",
+        "reference_scene_id": null
+      },
+      {
+        "id": "north-wide",
+        "name": "遥远北方 · 冰雪全景",
+        "framing": "wide",
+        "cast_ids": [
+          "xiaosuda"
+        ],
+        "setting": "遥远北方冰天雪地的全景，蓬松积雪、覆雪松树与远处雪山。Soda全身在安全平坦雪地上，环境辽阔，毛绒角色与原有小棕背包保持完全一致，不擅自换冬装。寒冷来处属于自我介绍的想象布景；说来自寒冷地方时自然介绍，下一镜在同一雪地轻快跑几步、留下脚印。",
+        "props": [
+          "积雪",
+          "覆雪松树",
+          "远处雪山"
+        ],
+        "idle_actions": {},
+        "lighting": "清透冷蓝雪地环境光，角色保留柔软暖色面部高光",
+        "reference_scene_id": null
+      },
+      {
+        "id": "jacky-corner",
+        "name": "哥哥的积木角 · 中景",
+        "framing": "medium",
+        "cast_ids": [
+          "xiaosuda",
+          "mengji-gege"
+        ],
+        "setting": "同一暖光积木角中景，Jacky在左侧站着搭积木，Soda在右侧同一地面和景深自然站立。两人脚落同一地面基线，哥哥42cm、小苏打35cm，Jacky头顶约高20%，不可把小狗放在近处显大、把哥哥缩小。保留蓝外套白色C和Soda棕背包，哥哥没有背包。",
+        "props": [
+          "矮积木桌",
+          "乐高积木"
+        ],
+        "idle_actions": {
+          "mengji-gege": "站在矮桌边搭积木，喙闭合，听到名字时短暂抬头自然回应。"
+        },
+        "lighting": "与家庭全景同一暖色窗光",
+        "reference_scene_id": null
+      },
+      {
+        "id": "angela-reading",
+        "name": "姐姐的阅读角 · 中景",
+        "framing": "medium",
+        "cast_ids": [
+          "xiaosuda",
+          "mianyang-jiejie"
+        ],
+        "setting": "同一家庭活动区右侧阅读角，Soda在前侧介绍姐姐，Angela坐在扶手椅上读书，保持粉色毛衣裙、粉蝴蝶结和小书包；被介绍时抬头温柔回应、轻轻挥手，再把目光放回书上。Angela不张嘴说话。",
+        "props": [
+          "书",
+          "阅读扶手椅"
+        ],
+        "idle_actions": {
+          "mianyang-jiejie": "看书、自然翻页；听到自己的名字时抬头微笑回应。"
+        },
+        "lighting": "与家庭全景同一暖色窗光",
+        "reference_scene_id": null
+      }
+    ],
+    "beats": [
+      {
+        "summary": "S02 · Soda特写，轻挥爪后自我介绍，耳朵与表情自然灵动。",
+        "scene_id": "home-close"
+      },
+      {
+        "summary": "S03 · 保留V1原速快跑，去掉起跑前2秒等待",
+        "scene_id": "north-wide"
+      },
+      {
+        "summary": "S05 · 向下揭幕回暖光家庭活动区，Soda特写兴奋地面向观众。",
+        "scene_id": "home-close"
+      },
+      {
+        "summary": "S06 · 奇奇哥哥在同一景深里明显高于Soda",
+        "scene_id": "jacky-corner"
+      },
+      {
+        "summary": "S07 · 恢复原版自然转身、介绍姐姐、挥手与翻页，再抽一版黑白毛手臂",
+        "scene_id": "angela-reading"
+      },
+      {
+        "summary": "S08 · 姐姐先放书再下椅子，哥哥绕过桌边，三只自然走近",
+        "scene_id": "home-wide"
+      },
+      {
+        "summary": "S09 · Soda特写看向观众，温暖微笑、挥爪，动作自然收住。",
+        "scene_id": "home-close"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "d1",
+        "speaker_id": "xiaosuda",
+        "text": "Hi everyone! I'm Soda, an Alaskan Malamute.",
+        "translation": "大家好！我是小苏打，一只阿拉斯加犬。",
+        "emotion": "Cheerful and welcoming",
+        "speed": 1.0
+      },
+      {
+        "id": "d2",
+        "speaker_id": "xiaosuda",
+        "text": "I come from a very cold place,",
+        "translation": "我来自一个非常寒冷的地方，",
+        "emotion": "Energetic and proud",
+        "speed": 1.0
+      },
+      {
+        "id": "d3",
+        "speaker_id": "xiaosuda",
+        "text": "and I can run super fast!",
+        "translation": "而且我跑得可快啦！",
+        "emotion": "Energetic and proud",
+        "speed": 1.0
+      },
+      {
+        "id": "d4",
+        "speaker_id": "xiaosuda",
+        "text": "I'm so excited to meet you all.",
+        "translation": "见到大家，我特别开心。",
+        "emotion": "Happy and eager",
+        "speed": 1.0
+      },
+      {
+        "id": "d5",
+        "speaker_id": "xiaosuda",
+        "text": "This is my big brother, Jacky. He's a cheerful little chick.",
+        "translation": "这是我的哥哥奇奇，他是一只开朗的小鸡。",
+        "emotion": "Warm and affectionate",
+        "speed": 1.0
+      },
+      {
+        "id": "d6",
+        "speaker_id": "xiaosuda",
+        "text": "And this is my big sister, Angela. She's a gentle sheep.",
+        "translation": "这位是我的姐姐露露，她是一只温柔的绵羊。",
+        "emotion": "Soft and loving",
+        "speed": 1.0
+      },
+      {
+        "id": "d7",
+        "speaker_id": "xiaosuda",
+        "text": "We live together happily and love each other very much.",
+        "translation": "我们快乐地生活在一起，也非常爱彼此。",
+        "emotion": "Content and sincere",
+        "speed": 1.0
+      },
+      {
+        "id": "d8",
+        "speaker_id": "xiaosuda",
+        "text": "I hope you like me too!",
+        "translation": "希望你们也喜欢我！",
+        "emotion": "Friendly and hopeful",
+        "speed": 1.0
+      }
+    ],
+    "notes": [
+      "V4的静态合影及正面站桩已被用户否决，不作为动作基线。",
+      "S07只再抽一版，恢复原版转身、挥手、翻页；正面描写黑白毛手臂。",
+      "S08按放稳书→松手→双脚落地起身→走近的顺序；哥哥沿桌右侧外沿绕行，检查穿模及衣服。",
+      "S08由6秒增加到8秒，原对白时刻和语速不变，仅增加动作尾部；后续最后一句及字幕整体后移2秒。",
+      "V3快跑及其余5段视频原样保留；大字幕英文46/中文42继续使用。"
+    ],
+    "unresolved_characters": []
+  },
+  "setting_version": "v_96146bd510574500",
+  "setting_accepted": true,
+  "board": {
+    "summary": "S1E01 V5：回到原主图和自然表演；姐姐介绍再抽一版；结尾先合书放稳、松手，再下椅子走近，哥哥绕桌走近。其余5段和大字幕保留，结尾增加2秒动作空间。",
+    "shots": [
+      {
+        "id": "S02",
+        "scene_id": "home-close",
+        "character_ids": [
+          "xiaosuda"
+        ],
+        "seconds": 6.0,
+        "beat": "Soda特写，轻挥爪后自我介绍，耳朵与表情自然灵动。",
+        "action": "Soda头肩特写，面向观众，轻轻挥动右前爪打招呼，耳朵灵活转动，眼神明亮，嘴巴张合说话。",
+        "camera": "固定特写机位，与场景主图相同景别",
+        "framing": "close_up",
+        "dialogue_ids": [
+          "d1"
+        ],
+        "continuation": false,
+        "transition": "cut",
+        "prompt_en": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory palette, soft warm window light, shallow depth of field. Close-up shot of a black-and-white Alaskan malamute plush puppy (Soda), head and shoulders visible, facing the camera directly. The background is a blurred cozy living room with warm window light. Soda gently waves his right front paw in a greeting gesture, ears twitching naturally, eyes bright and expressive, mouth moving to speak. <d>[EN] Hi everyone! I'm Soda, an Alaskan Malamute.</d> Preserve the character's exact plush texture, brown backpack straps, and facial features. No extra characters, no text or watermarks. Keep the genuine tight head-and-shoulders crop and fixed camera of the master. A small paw may enter the lower edge naturally; do not zoom out, pan, or reveal a new body.",
+        "dialogue_gap_seconds": 0.35
+      },
+      {
+        "id": "S03",
+        "scene_id": "north-wide",
+        "character_ids": [
+          "xiaosuda"
+        ],
+        "seconds": 8.0,
+        "beat": "保留V1原速快跑，去掉起跑前2秒等待",
+        "action": "复用V1雪地介绍前72帧及原快跑完整120帧。第一句结束后立刻蓄力起跑，保留原版腾空奔跑、快速移位与自然收住；不慢放、不重生成。",
+        "camera": "固定全景机位，与场景主图相同景别",
+        "framing": "wide",
+        "dialogue_ids": [
+          "d2",
+          "d3"
+        ],
+        "continuation": false,
+        "transition": "pull_down",
+        "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\nintegrated_multimodal_description:\n[Shot 1] Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, cold blue snowy environment light with warm facial highlights. Wide shot of the same snowy landscape. The black-and-white Alaskan malamute plush puppy (Soda) in <Picture 1>, preserving her face, hair, outfit and the room, starts from the exact inherited final pose and position of the previous take.\n0.0–0.8: Soda initiates a cheerful run toward screen right, limbs moving in coordination, tail lifted high, leaving clear paw prints in the snow.\n0.8–2.7: He continues running at a natural real-time speed, fully inside the frame, with an energetic expression and mouth moving to speak. <d>[EN] and I can run super fast!</d>\n2.7–4.2: He naturally decelerates and stops, facing the camera with a proud expression.\n4.2–5.0: Brief finishing pause, maintaining the final pose.\noverall_soundscape: Ambient winter wind, soft crunching of snow under paws, and clear dialogue.\nnon_diegetic_music: Upbeat, playful chiptune or light orchestral, 100-120 BPM, no vocals.\nRULES: No extra characters, no text or watermarks, no position reset, no teleport, no static-pose reset, no held frame, no reintroduced first frame.",
+        "dialogue_gap_seconds": 0.445781
+      },
+      {
+        "id": "S05",
+        "scene_id": "home-close",
+        "character_ids": [
+          "xiaosuda"
+        ],
+        "seconds": 4.0,
+        "beat": "向下揭幕回暖光家庭活动区，Soda特写兴奋地面向观众。",
+        "action": "Soda头肩特写，回到暖光客厅，表情兴奋开心，耳朵竖起，嘴巴张合说话。",
+        "camera": "固定特写机位，与场景主图相同景别",
+        "framing": "close_up",
+        "dialogue_ids": [
+          "d4"
+        ],
+        "continuation": false,
+        "transition": "pull_down",
+        "prompt_en": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory palette, soft warm window light, shallow depth of field. Close-up shot of a black-and-white Alaskan malamute plush puppy (Soda), head and shoulders visible, back in the cozy living room with warm window light. His expression is excited and happy, ears perked up, mouth moving to speak. <d>[EN] I'm so excited to meet you all.</d> Preserve the character's exact plush texture, brown backpack straps, and facial features. No extra characters, no text or watermarks. Keep the genuine tight head-and-shoulders crop and fixed camera of the master. A small paw may enter the lower edge naturally; do not zoom out, pan, or reveal a new body.",
+        "dialogue_gap_seconds": 0.35
+      },
+      {
+        "id": "S06",
+        "scene_id": "jacky-corner",
+        "character_ids": [
+          "xiaosuda",
+          "mengji-gege"
+        ],
+        "seconds": 7.0,
+        "beat": "奇奇哥哥在同一景深里明显高于Soda",
+        "action": "严格继承新主图同一地面及景深：左侧Jacky站着搭积木，右侧Soda自然站立。哥哥42cm，小苏打35cm，哥哥头顶保持约高20%，不可把哥哥缩小或让小狗在前景变大。Soda说话；Jacky喙全程闭合，搭好一块积木，被叫到时自然抬头回应，再继续。",
+        "camera": "固定中景机位，与场景主图相同景别",
+        "framing": "medium",
+        "dialogue_ids": [
+          "d5"
+        ],
+        "continuation": false,
+        "transition": "cut",
+        "prompt_en": "Use the adopted corrected image as exact identity, scale, pose, depth and camera authority. Exactly one chick Jacky on screen left, one puppy Soda on screen right, both standing on the SAME floor plane at the SAME camera distance. Jacky is the older brother: 42cm versus Soda 35cm, visibly about 20 percent taller, including his head/comb. Preserve that size ratio on EVERY frame. Jacky wears his blue hoodie with white C, no backpack, and places a block at the low table; his beak remains CLOSED throughout. Soda has his small brown backpack and speaks the exact original line <d>[EN] This is my big brother, Jacky. He's a cheerful little chick.</d>. At his name Jacky may briefly look up and make a small wing greeting, then return to the blocks. Keep the room, low table, plush fibers and warm light fixed. No giant foreground puppy, no shrinking chick, no duplicated actors, no humans, no new costumes, no music.",
+        "dialogue_gap_seconds": 0.35
+      },
+      {
+        "id": "S07",
+        "scene_id": "angela-reading",
+        "character_ids": [
+          "xiaosuda",
+          "mianyang-jiejie"
+        ],
+        "seconds": 7.0,
+        "beat": "恢复原版自然转身、介绍姐姐、挥手与翻页，再抽一版黑白毛手臂",
+        "action": "沿用最初侧身Soda与姐姐读书的原主图。Soda自然转身面向观众介绍姐姐，耳朵灵动，前爪有一次自然小幅介绍手势再收回。手臂从肩至白爪始终是黑色绒毛，棕背包带保持棕色。Angela听到名字抬头，右手轻轻挥一次后放回书边，最后自然翻一页继续看；左手托稳完整硬壳书，姐姐始终闭嘴。保留原版活泼表演，不用僵直站姿代替动作。",
+        "camera": "固定中景机位，与场景主图相同景别",
+        "framing": "medium",
+        "dialogue_ids": [
+          "d6"
+        ],
+        "continuation": false,
+        "transition": "cut",
+        "prompt_en": "Restore the original lively performance from the original adopted two-character master: Soda naturally turns from Angela toward the audience, perked ears and expressive eyes, gives a small introducing paw gesture then relaxes it. His forelegs are dense black plush fur from shoulders to the white paws; the original backpack straps stay brown. Angela hears her name, lifts her eyes, gives one small soft right-hand wave, then returns her hand to the supported open rigid book and turns one page near the end. She remains a closed-mouth listener. Match the original supplied Soda dialogue and exact original audio timing. Natural initiation, travel, accent, brake and release in each gesture; the characters feel alive throughout. Keep original room, toy identities, outfits, body sizes and fixed medium camera.",
+        "dialogue_gap_seconds": 0.35
+      },
+      {
+        "id": "S08",
+        "scene_id": "home-wide",
+        "character_ids": [
+          "xiaosuda",
+          "mengji-gege",
+          "mianyang-jiejie"
+        ],
+        "seconds": 8.0,
+        "beat": "姐姐先放书再下椅子，哥哥绕过桌边，三只自然走近",
+        "action": "从原家庭全景主图开始，姐姐仍坐着读书，哥哥在积木桌后。0–1.2秒Angela合书；1.2–2.4秒坐着把整本合好的硬壳书平放到旁边宽扶手上；2.4–2.8秒松开双手，让书留在扶手上。2.8–4.2秒才把双脚落地并起身；4.2–6.7秒空手走两小步到Soda右侧；6.7–8秒自然收住、轻轻靠近看向观众。Jacky先放下积木，再从桌子朝画面中央的右侧外沿绕过桌边走到Soda左侧，脚步有可见路径，卫衣与肚皮保持完整。Soda原地说原对白，有自然眼神和尾巴动作。两位听者闭嘴，动作自然衔接，不直接变成合影静帧。",
+        "camera": "固定全景机位，与场景主图相同景别",
+        "framing": "wide",
+        "dialogue_ids": [
+          "d7"
+        ],
+        "continuation": false,
+        "transition": "cut",
+        "prompt_en": "Start from the ORIGINAL family living-room wide master, with Angela still SEATED holding her open book and Jacky at his block table. A continuous lively 8-second full-body performance. Angela performs this strict physical sequence: close the rigid book while seated (0–1.2s); place that complete closed book FLAT on the broad adjacent chair armrest while still seated (1.2–2.4s); visibly release BOTH hands so the book is supported by the armrest and stays there (2.4–2.8s); lower her feet onto the rug and rise with EMPTY hands (2.8–4.2s); walk two small natural steps to Soda right (4.2–6.7s); settle affectionately with the family (6.7–8s). Her original wool, pink outfit and bag remain the same. Jacky puts down his last block, then follows a clearly visible curved walking path around the table RIGHT outside edge toward the room center before approaching Soda left. His whole body clears the table edge before moving forward; keep table solid and fixed, hoodie and yellow plush belly continuous unbroken surfaces. Soda stays on his original foreground mark and mouths only the supplied original dialogue, with natural eye contact, ears and tail. Jacky beak and Angela mouth remain closed. Original warm plush toy 3D look, relative sizes and camera fixed. Complete initiation, weight transfer, walking and natural stop, not static posing. Book rests motionless on chair armrest after release.",
+        "dialogue_gap_seconds": 0.35
+      },
+      {
+        "id": "S09",
+        "scene_id": "home-close",
+        "character_ids": [
+          "xiaosuda"
+        ],
+        "seconds": 5.0,
+        "beat": "Soda特写看向观众，温暖微笑、挥爪，动作自然收住。",
+        "action": "Soda头肩特写，面向观众温暖微笑，轻轻挥动右前爪，动作自然收住，眼神友好期待。",
+        "camera": "固定特写机位，与场景主图相同景别",
+        "framing": "close_up",
+        "dialogue_ids": [
+          "d8"
+        ],
+        "continuation": false,
+        "transition": "cut",
+        "prompt_en": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory palette, soft warm window light, shallow depth of field. Close-up shot of a black-and-white Alaskan malamute plush puppy (Soda), head and shoulders visible, facing the camera directly. He smiles warmly, gently waves his right front paw in a friendly gesture, and the motion settles naturally. His eyes are friendly and hopeful, mouth moving to speak. <d>[EN] I hope you like me too!</d> Preserve the character's exact plush texture, brown backpack straps, and facial features. No extra characters, no text or watermarks. Keep the genuine tight head-and-shoulders crop and fixed camera of the master. A small paw may enter the lower edge naturally; do not zoom out, pan, or reveal a new body.",
+        "dialogue_gap_seconds": 0.35
+      }
+    ],
+    "notes": [
+      "V4的静态合影及正面站桩已被用户否决，不作为动作基线。",
+      "S07只再抽一版，恢复原版转身、挥手、翻页；正面描写黑白毛手臂。",
+      "S08按放稳书→松手→双脚落地起身→走近的顺序；哥哥沿桌右侧外沿绕行，检查穿模及衣服。",
+      "S08由6秒增加到8秒，原对白时刻和语速不变，仅增加动作尾部；后续最后一句及字幕整体后移2秒。",
+      "V3快跑及其余5段视频原样保留；大字幕英文46/中文42继续使用。"
+    ]
+  },
+  "board_version": "v_925deeb376374984",
+  "board_accepted": true,
+  "scene_masters": {
+    "home-wide": "a_ad75e494c24242cd",
+    "home-close": "a_35988b39eca54fd6",
+    "north-wide": "a_40ff0f3228674d74",
+    "jacky-corner": "a_17c04ae5b9ec4c8a",
+    "angela-reading": "a_a80c4ec48a024ecd"
+  },
+  "adopted_takes": {
+    "S02": "a_c3d7ad7591b743b0",
+    "S03": "a_b090ab2f70994727",
+    "S05": "a_c8d268c4bb8446b6",
+    "S06": "a_39e4cbd9ab2f41c7",
+    "S09": "a_233880fab04a4f84",
+    "S07": "a_96a0d7c86d014c4a",
+    "S08": "a_11d7ab46b4c84a1f"
+  },
+  "final_asset": "a_f9326941a16b4c4d",
+  "status": "complete",
+  "packaging": {
+    "op": true
+  },
+  "history": [],
+  "setting_source_hash": "0ab9f85f18a3f56aa417a385fb967a31d1538a1dc7f5dfbc967c975c394c8241",
+  "board_setting_version": "v_96146bd510574500"
+}

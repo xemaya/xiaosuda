@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "frames": 3389,
+  "fps": 24,
+  "unchanged_picture_packets": 2976,
+  "original_audio_prefix_pcm_samples_exact": 4230667,
+  "all_23_spoken_lines_unchanged_in_audio_prefix": true,
+  "audio_tail_has_no_voice_source": true,
+  "audio_peak_pcm": 14174,
+  "pine_17_to_18_2s_mean_frame_differences": {
+    "before_max": 15.119505882263184,
+    "after_max": 1.1244444847106934,
+    "before_mean": 2.7699601650238037,
+    "after_mean": 0.3258812427520752
+  },
+  "ending_adjacent_duplicate_thumbnail_frames": 0,
+  "human_acceptance": "pending",
+  "source_release_unchanged": true
+}

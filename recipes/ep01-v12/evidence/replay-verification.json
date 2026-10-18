@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-15",
+  "ffmpeg_version": "ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers",
+  "carriers": [
+    {
+      "file": "carrier1.mp4",
+      "byte_equal": true
+    },
+    {
+      "file": "carrier2.mp4",
+      "byte_equal": true
+    },
+    {
+      "file": "carrier3.mp4",
+      "byte_equal": true
+    },
+    {
+      "file": "practice-carrier.mp4",
+      "byte_equal": true
+    }
+  ],
+  "assembly": {
+    "byte_equal": true,
+    "replay_sha256": "aae9355922b8ecf617215bb56bf2419accffb9a84991d8660f4e6ecf5faea10a",
+    "approved_sha256": "aae9355922b8ecf617215bb56bf2419accffb9a84991d8660f4e6ecf5faea10a"
+  },
+  "batch_parameters": [
+    {
+      "shot": "quiz",
+      "prompt_seed_sampler_lora_match": true,
+      "inputs_exist": true,
+      "tail_guide_match": true
+    },
+    {
+      "shot": "verdict",
+      "prompt_seed_sampler_lora_match": true,
+      "inputs_exist": true,
+      "tail_guide_match": true
+    },
+    {
+      "shot": "teach",
+      "prompt_seed_sampler_lora_match": true,
+      "inputs_exist": true,
+      "tail_guide_match": true
+    },
+    {
+      "shot": "practice",
+      "prompt_seed_sampler_lora_match": true,
+      "inputs_exist": true,
+      "tail_guide_match": true
+    }
+  ],
+  "gpu_full_episode_regenerated": false,
+  "subtitles_and_cloud_enhancement_rerun": false
+}

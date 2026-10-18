@@ -1,0 +1,2424 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "minimax_h3_ref2va_pruned_fp8_scaled.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2": {
+    "class_type": "LoraLoaderModelOnly",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "lora_name": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+      "strength_model": 1.0
+    }
+  },
+  "3": {
+    "class_type": "CLIPLoaderGGUFMiniMaxH3",
+    "inputs": {
+      "clip_name": "qwen3-vl-32b-ultra-heretic-minimax-h3-q6_k.gguf",
+      "vision_name": "qwen3vl_32b_minimax_h3_visual_bf16.safetensors"
+    }
+  },
+  "4": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "minimax_h3_video_vae_fp16.safetensors"
+    }
+  },
+  "5": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+    }
+  },
+  "6": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "soda-e0cdac020f4105ec4c28de2c.png"
+    }
+  },
+  "7": {
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler"
+    }
+  },
+  "8": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "soda-efb01d44511b0834bc3cbec9.mp4"
+    }
+  },
+  "9": {
+    "class_type": "Video Slice",
+    "inputs": {
+      "video": [
+        "8",
+        0
+      ],
+      "start_time": 0.0,
+      "duration": 15.0,
+      "strict_duration": false
+    }
+  },
+  "10": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "9",
+        0
+      ]
+    }
+  },
+  "11": {
+    "class_type": "MiniMaxH3ReferenceToVideo",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "audio_vae": [
+        "5",
+        0
+      ],
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a wide vertical shot of a cozy living room with warm window light and soft depth of field. The scene features three plush mascots: the black-and-white malamute puppy (Soda) in the foreground center, the yellow chick (Jacky) at a low table on the left, and the cream sheep (Angela) in an armchair on the right. Use <Picture 1> as the SOLE visual authority for the adult lead and the environment. Preserve exactly: the plush textures, character proportions, outfit details, and the warm domestic atmosphere. Do not redesign, restyle, add or remove anything.\n\n0.0–2.0s: The camera remains fixed in a wide framing, capturing the full scene. Soda (the puppy) maintains his seated pose on the carpet, facing the lens with a playful expression; he performs a gentle, rhythmic tail wag and subtle ear perk-up, keeping his mouth closed. In the background left, Jacky (the chick) sits at the low table, quietly placing a single LEGO block onto his structure with a small, deliberate hand movement, his mouth remaining closed. In the background right, Angela (the sheep) sits in the armchair, holding an open book; she performs a slow, subtle page turn or a slight head tilt as if reading, her mouth also closed. All three characters maintain their natural positions and plush textures without any sudden standing or positional shifts.\n\noverall_soundscape: Soft ambient room tone, faint rustling of plush fabric as Soda wags his tail, and the gentle click of a LEGO block being placed by Jacky.\nnon_diegetic_music: Gentle, warm acoustic guitar or soft piano, 80 BPM, no vocals, creating a cozy and peaceful atmosphere.\nRULES: No dialogue, no extra characters, no text or watermarks, no reflections of other people, no fast spins, no hair whips, no sudden movements, all mouths closed, natural real-time movement at normal human speed; no slow motion or time stretching.",
+      "width": 768,
+      "height": 1376,
+      "length": 56,
+      "ref_image_size": "match",
+      "ref_images.ref_image_0": [
+        "6",
+        0
+      ],
+      "ref_videos.ref_video_0": [
+        "10",
+        0
+      ],
+      "ref_video_audios.ref_video_audio_0": [
+        "10",
+        1
+      ]
+    }
+  },
+  "12": {
+    "class_type": "MiniMaxH3AddGuide",
+    "inputs": {
+      "positive": [
+        "11",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "11",
+        1
+      ],
+      "image": [
+        "6",
+        0
+      ],
+      "frame_idx": 0
+    }
+  },
+  "13": {
+    "class_type": "MiniMaxH3MotionContext",
+    "inputs": {
+      "conditioning": [
+        "12",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "11",
+        1
+      ],
+      "context_length": "22",
+      "audio_context_length": 24
+    }
+  },
+  "14": {
+    "class_type": "BasicGuider",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "conditioning": [
+        "13",
+        0
+      ]
+    }
+  },
+  "15": {
+    "class_type": "BasicScheduler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "scheduler": "beta",
+      "steps": 4,
+      "denoise": 1.0
+    }
+  },
+  "16": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 1126650724
+    }
+  },
+  "17": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "16",
+        0
+      ],
+      "guider": [
+        "14",
+        0
+      ],
+      "sampler": [
+        "7",
+        0
+      ],
+      "sigmas": [
+        "15",
+        0
+      ],
+      "latent_image": [
+        "11",
+        1
+      ]
+    }
+  },
+  "18": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "17",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ]
+    }
+  },
+  "19": {
+    "class_type": "VAEDecodeAudio",
+    "inputs": {
+      "samples": [
+        "17",
+        0
+      ],
+      "vae": [
+        "5",
+        0
+      ]
+    }
+  },
+  "20": {
+    "class_type": "MiniMaxH3MotionContextTrim",
+    "inputs": {
+      "images": [
+        "18",
+        0
+      ],
+      "trim_frames": [
+        "13",
+        1
+      ],
+      "audio": [
+        "19",
+        0
+      ],
+      "fps": 24.0,
+      "match_tail": true
+    }
+  },
+  "21": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "20",
+        0
+      ],
+      "batch_index": 0,
+      "length": 48
+    }
+  },
+  "22": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "20",
+        0
+      ],
+      "audio": [
+        "20",
+        1
+      ],
+      "fps": 24.0
+    }
+  },
+  "23": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "22",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S01",
+      "format": "auto",
+      "format.codec": "auto"
+    }
+  },
+  "24": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "21",
+        0
+      ],
+      "batch_index": 26,
+      "length": 22
+    }
+  },
+  "25": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "24",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S01-tail"
+    }
+  },
+  "26": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "soda-69b510aff9ff6aaff15677e1.png"
+    }
+  },
+  "27": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "soda-adbdf77d010b128204d1f181.mp4"
+    }
+  },
+  "28": {
+    "class_type": "Video Slice",
+    "inputs": {
+      "video": [
+        "27",
+        0
+      ],
+      "start_time": 0.0,
+      "duration": 15.0,
+      "strict_duration": false
+    }
+  },
+  "29": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "28",
+        0
+      ]
+    }
+  },
+  "30": {
+    "class_type": "MiniMaxH3ReferenceToVideo",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "audio_vae": [
+        "5",
+        0
+      ],
+      "prompt": "Use <Picture 1> as the SOLE visual authority for the adult lead and the environment. Preserve exactly: the black-and-white Alaskan malamute plush puppy (Soda), dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory palette, brown backpack straps, and the fixed close-up framing. Do not redesign, restyle, add or remove anything.\n\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a tight head-and-shoulders vertical shot of the plush puppy in <Picture 1>, preserving her face, hair, outfit and the room. Fixed camera position, shallow depth of field, warm window light from the left.\n0.0–0.4: The character is still, facing the camera directly with bright, expressive eyes and a neutral plush expression. Camera holds steady on the tight crop.\n0.4–3.8: The character begins speaking with a cheerful and welcoming emotion. <d>[EN] Hi everyone! I'm Soda, an Alaskan Malamute.</d> As she speaks, her right front paw lifts gently into a small, deliberate waving gesture (0.5–1.5), then lowers back to rest position (1.6–2.0). Her ears twitch naturally and independently throughout the line, adding liveliness. Her mouth moves clearly in sync with the audio, while her eyes remain fixed on the lens with a soft, friendly gaze.\n3.8–4.5: The speaking ends. The character holds a brief, satisfied smile, eyes bright. The right paw remains at rest. Camera stays fixed.\n4.5–6.0: A subtle head tilt to the left (approx 5 degrees) occurs as a finishing gesture, emphasizing the friendly personality. The ears settle into a relaxed position. The character maintains eye contact with the camera until the end of the clip.\n\noverall_soundscape: Soft ambient room tone, faint fabric rustling as the paw moves, clear and warm voice for the dialogue.\n\nnon_diegetic_music: None, or very subtle warm ambient pad if needed to fill silence, low volume.\n\nRULES: No extra people, no reflections of other people, no text or watermarks, no zooming, no panning, no revealing new body parts beyond the tight head-and-shoulders crop, no fast movements, no slow motion.",
+      "width": 768,
+      "height": 1376,
+      "length": 158,
+      "ref_image_size": "match",
+      "ref_images.ref_image_0": [
+        "26",
+        0
+      ],
+      "ref_videos.ref_video_0": [
+        "29",
+        0
+      ],
+      "ref_video_audios.ref_video_audio_0": [
+        "29",
+        1
+      ]
+    }
+  },
+  "31": {
+    "class_type": "MiniMaxH3AddGuide",
+    "inputs": {
+      "positive": [
+        "30",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "30",
+        1
+      ],
+      "image": [
+        "26",
+        0
+      ],
+      "frame_idx": 0
+    }
+  },
+  "32": {
+    "class_type": "MiniMaxH3MotionContext",
+    "inputs": {
+      "conditioning": [
+        "31",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "30",
+        1
+      ],
+      "context_length": "22",
+      "audio_context_length": 24
+    }
+  },
+  "33": {
+    "class_type": "BasicGuider",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "conditioning": [
+        "32",
+        0
+      ]
+    }
+  },
+  "34": {
+    "class_type": "BasicScheduler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "scheduler": "beta",
+      "steps": 4,
+      "denoise": 1.0
+    }
+  },
+  "35": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 89082843
+    }
+  },
+  "36": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "35",
+        0
+      ],
+      "guider": [
+        "33",
+        0
+      ],
+      "sampler": [
+        "7",
+        0
+      ],
+      "sigmas": [
+        "34",
+        0
+      ],
+      "latent_image": [
+        "30",
+        1
+      ]
+    }
+  },
+  "37": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "36",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ]
+    }
+  },
+  "38": {
+    "class_type": "VAEDecodeAudio",
+    "inputs": {
+      "samples": [
+        "36",
+        0
+      ],
+      "vae": [
+        "5",
+        0
+      ]
+    }
+  },
+  "39": {
+    "class_type": "MiniMaxH3MotionContextTrim",
+    "inputs": {
+      "images": [
+        "37",
+        0
+      ],
+      "trim_frames": [
+        "32",
+        1
+      ],
+      "audio": [
+        "38",
+        0
+      ],
+      "fps": 24.0,
+      "match_tail": true
+    }
+  },
+  "40": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "39",
+        0
+      ],
+      "batch_index": 0,
+      "length": 144
+    }
+  },
+  "41": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "39",
+        0
+      ],
+      "audio": [
+        "39",
+        1
+      ],
+      "fps": 24.0
+    }
+  },
+  "42": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "41",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S02",
+      "format": "auto",
+      "format.codec": "auto"
+    }
+  },
+  "43": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "40",
+        0
+      ],
+      "batch_index": 122,
+      "length": 22
+    }
+  },
+  "44": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "43",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S02-tail"
+    }
+  },
+  "45": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "soda-82f3b627e0d83921da52455e.png"
+    }
+  },
+  "46": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "soda-5d9ef07303f6e47431990b27.mp4"
+    }
+  },
+  "47": {
+    "class_type": "Video Slice",
+    "inputs": {
+      "video": [
+        "46",
+        0
+      ],
+      "start_time": 0.0,
+      "duration": 15.0,
+      "strict_duration": false
+    }
+  },
+  "48": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "47",
+        0
+      ]
+    }
+  },
+  "49": {
+    "class_type": "MiniMaxH3ReferenceToVideo",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "audio_vae": [
+        "5",
+        0
+      ],
+      "prompt": "[Shot 1] Original cute chibi 3D plush toy mascot style, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth. A wide, static full-body shot of a vast snowy landscape in the far north. The scene features fluffy snow-covered pine trees and distant snow mountains under a clear blue sky, with cold blue environmental light and warm facial highlights on the character.\n\nThe black-and-white Alaskan malamute plush puppy (Soda) stands in the center of the flat snowfield, facing the camera. He wears his small brown backpack. His body leans slightly forward, expression excited and proud, mouth moving to speak.\n\n0.0–0.4s: Soda stands still, looking at the camera with a bright, eager expression, paws planted firmly in the snow.\n0.4–2.95s: <d>[EN] I come from a very cold place,</d> His mouth moves clearly and energetically to match the dialogue. His head tilts slightly forward, ears perked up, tail giving a small, happy wag. The camera remains fixed in a wide shot.\n2.95–5.0s: He finishes speaking, holding his excited pose with a proud smile, tongue slightly out. The background remains static with the snowy mountains and trees.\n\noverall_soundscape: Ambient cold wind, soft crunching of snow under paws, clear high-pitched vocal delivery.\nnon_diegetic_music: Upbeat, playful orchestral chiptune, 120 BPM, light percussion and bright synth leads, no vocals.\nRULES: No extra characters, no text or watermarks, no reflections, preserve the character's exact plush texture and outfit, no fast spinning, natural real-time movement.",
+      "width": 768,
+      "height": 1376,
+      "length": 124,
+      "ref_image_size": "match",
+      "ref_images.ref_image_0": [
+        "45",
+        0
+      ],
+      "ref_videos.ref_video_0": [
+        "48",
+        0
+      ],
+      "ref_video_audios.ref_video_audio_0": [
+        "48",
+        1
+      ]
+    }
+  },
+  "50": {
+    "class_type": "MiniMaxH3AddGuide",
+    "inputs": {
+      "positive": [
+        "49",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "49",
+        1
+      ],
+      "image": [
+        "45",
+        0
+      ],
+      "frame_idx": 0
+    }
+  },
+  "51": {
+    "class_type": "MiniMaxH3MotionContext",
+    "inputs": {
+      "conditioning": [
+        "50",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "49",
+        1
+      ],
+      "context_length": "22",
+      "audio_context_length": 24
+    }
+  },
+  "52": {
+    "class_type": "BasicGuider",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "conditioning": [
+        "51",
+        0
+      ]
+    }
+  },
+  "53": {
+    "class_type": "BasicScheduler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "scheduler": "beta",
+      "steps": 4,
+      "denoise": 1.0
+    }
+  },
+  "54": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 1127569772
+    }
+  },
+  "55": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "54",
+        0
+      ],
+      "guider": [
+        "52",
+        0
+      ],
+      "sampler": [
+        "7",
+        0
+      ],
+      "sigmas": [
+        "53",
+        0
+      ],
+      "latent_image": [
+        "49",
+        1
+      ]
+    }
+  },
+  "56": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "55",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ]
+    }
+  },
+  "57": {
+    "class_type": "VAEDecodeAudio",
+    "inputs": {
+      "samples": [
+        "55",
+        0
+      ],
+      "vae": [
+        "5",
+        0
+      ]
+    }
+  },
+  "58": {
+    "class_type": "MiniMaxH3MotionContextTrim",
+    "inputs": {
+      "images": [
+        "56",
+        0
+      ],
+      "trim_frames": [
+        "51",
+        1
+      ],
+      "audio": [
+        "57",
+        0
+      ],
+      "fps": 24.0,
+      "match_tail": true
+    }
+  },
+  "59": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "58",
+        0
+      ],
+      "batch_index": 0,
+      "length": 120
+    }
+  },
+  "60": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "58",
+        0
+      ],
+      "audio": [
+        "58",
+        1
+      ],
+      "fps": 24.0
+    }
+  },
+  "61": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "60",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S03",
+      "format": "auto",
+      "format.codec": "auto"
+    }
+  },
+  "62": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "59",
+        0
+      ],
+      "batch_index": 98,
+      "length": 22
+    }
+  },
+  "63": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "62",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S03-tail"
+    }
+  },
+  "64": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "soda-503449d103572a81aa3f73f5.mp4"
+    }
+  },
+  "65": {
+    "class_type": "Video Slice",
+    "inputs": {
+      "video": [
+        "64",
+        0
+      ],
+      "start_time": 0.0,
+      "duration": 15.0,
+      "strict_duration": false
+    }
+  },
+  "66": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "65",
+        0
+      ]
+    }
+  },
+  "67": {
+    "class_type": "MiniMaxH3ReferenceToVideo",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "audio_vae": [
+        "5",
+        0
+      ],
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\nintegrated_multimodal_description:\n[Shot 1] Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, cold blue snowy environment light with warm facial highlights. Wide shot of the same snowy landscape. The black-and-white Alaskan malamute plush puppy (Soda) in <Picture 1>, preserving her face, hair, outfit and the room, starts from the exact inherited final pose and position of the previous take.\n0.0–0.8: Soda initiates a cheerful run toward screen right, limbs moving in coordination, tail lifted high, leaving clear paw prints in the snow.\n0.8–2.7: He continues running at a natural real-time speed, fully inside the frame, with an energetic expression and mouth moving to speak. <d>[EN] and I can run super fast!</d>\n2.7–4.2: He naturally decelerates and stops, facing the camera with a proud expression.\n4.2–5.0: Brief finishing pause, maintaining the final pose.\noverall_soundscape: Ambient winter wind, soft crunching of snow under paws, and clear dialogue.\nnon_diegetic_music: Upbeat, playful chiptune or light orchestral, 100-120 BPM, no vocals.\nRULES: No extra characters, no text or watermarks, no position reset, no teleport, no static-pose reset, no held frame, no reintroduced first frame.",
+      "width": 768,
+      "height": 1376,
+      "length": 158,
+      "ref_image_size": "match",
+      "ref_images.ref_image_0": [
+        "45",
+        0
+      ],
+      "ref_videos.ref_video_0": [
+        "66",
+        0
+      ],
+      "ref_video_audios.ref_video_audio_0": [
+        "66",
+        1
+      ]
+    }
+  },
+  "68": {
+    "class_type": "MiniMaxH3MotionContext",
+    "inputs": {
+      "conditioning": [
+        "67",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "67",
+        1
+      ],
+      "context_length": "22",
+      "audio_context_length": 24,
+      "context_frames": [
+        "59",
+        0
+      ]
+    }
+  },
+  "69": {
+    "class_type": "BasicGuider",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "conditioning": [
+        "68",
+        0
+      ]
+    }
+  },
+  "70": {
+    "class_type": "BasicScheduler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "scheduler": "beta",
+      "steps": 4,
+      "denoise": 1.0
+    }
+  },
+  "71": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 233744548
+    }
+  },
+  "72": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "71",
+        0
+      ],
+      "guider": [
+        "69",
+        0
+      ],
+      "sampler": [
+        "7",
+        0
+      ],
+      "sigmas": [
+        "70",
+        0
+      ],
+      "latent_image": [
+        "67",
+        1
+      ]
+    }
+  },
+  "73": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "72",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ]
+    }
+  },
+  "74": {
+    "class_type": "VAEDecodeAudio",
+    "inputs": {
+      "samples": [
+        "72",
+        0
+      ],
+      "vae": [
+        "5",
+        0
+      ]
+    }
+  },
+  "75": {
+    "class_type": "MiniMaxH3MotionContextTrim",
+    "inputs": {
+      "images": [
+        "73",
+        0
+      ],
+      "trim_frames": [
+        "68",
+        1
+      ],
+      "audio": [
+        "74",
+        0
+      ],
+      "fps": 24.0,
+      "match_tail": true
+    }
+  },
+  "76": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "75",
+        0
+      ],
+      "batch_index": 0,
+      "length": 120
+    }
+  },
+  "77": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "75",
+        0
+      ],
+      "audio": [
+        "75",
+        1
+      ],
+      "fps": 24.0
+    }
+  },
+  "78": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "77",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S04",
+      "format": "auto",
+      "format.codec": "auto"
+    }
+  },
+  "79": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "76",
+        0
+      ],
+      "batch_index": 98,
+      "length": 22
+    }
+  },
+  "80": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "79",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S04-tail"
+    }
+  },
+  "81": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "soda-69b510aff9ff6aaff15677e1.png"
+    }
+  },
+  "82": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "soda-7c3633972db77e8630d4da56.mp4"
+    }
+  },
+  "83": {
+    "class_type": "Video Slice",
+    "inputs": {
+      "video": [
+        "82",
+        0
+      ],
+      "start_time": 0.0,
+      "duration": 15.0,
+      "strict_duration": false
+    }
+  },
+  "84": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "83",
+        0
+      ]
+    }
+  },
+  "85": {
+    "class_type": "MiniMaxH3ReferenceToVideo",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "audio_vae": [
+        "5",
+        0
+      ],
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic 3D plush toy aesthetic, close-up head-and-shoulders shot. The black-and-white Alaskan malamute plush puppy (Soda) from <Picture 1> is centered in the frame, preserving his exact plush texture, brown backpack straps, and facial features. Natural real-time movement at normal human speed; no slow motion or time stretching.\n0.0–0.4s: Soda sits still with a gentle, attentive expression, eyes wide and focused on the lens. Camera remains fixed in a tight close-up.\n0.4–2.1s: <d>[EN] I'm so excited to meet you all.</d> His mouth moves in sync with the dialogue, ears perk up slightly higher, and his head tilts forward with an eager, happy energy. A small paw may enter the lower edge naturally without zooming out.\n2.1–4.0s: He finishes speaking with a soft, contented smile, eyes bright and warm. The camera holds the tight framing as he settles into a calm, friendly gaze. No extra characters, no text or watermarks.\noverall_soundscape: Soft ambient room tone, subtle fabric rustling from the plush texture, and clear, high-fidelity dialogue.\nnon_diegetic_music: None, to keep focus on the character's expression and speech.\nRULES: No extra people, no reflections of other people, no zooming out, no panning, no new body parts revealed, no text or watermarks, no fast spins, no hand blurring.",
+      "width": 768,
+      "height": 1376,
+      "length": 107,
+      "ref_image_size": "match",
+      "ref_images.ref_image_0": [
+        "81",
+        0
+      ],
+      "ref_videos.ref_video_0": [
+        "84",
+        0
+      ],
+      "ref_video_audios.ref_video_audio_0": [
+        "84",
+        1
+      ]
+    }
+  },
+  "86": {
+    "class_type": "MiniMaxH3AddGuide",
+    "inputs": {
+      "positive": [
+        "85",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "85",
+        1
+      ],
+      "image": [
+        "81",
+        0
+      ],
+      "frame_idx": 0
+    }
+  },
+  "87": {
+    "class_type": "MiniMaxH3MotionContext",
+    "inputs": {
+      "conditioning": [
+        "86",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "85",
+        1
+      ],
+      "context_length": "22",
+      "audio_context_length": 24
+    }
+  },
+  "88": {
+    "class_type": "BasicGuider",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "conditioning": [
+        "87",
+        0
+      ]
+    }
+  },
+  "89": {
+    "class_type": "BasicScheduler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "scheduler": "beta",
+      "steps": 4,
+      "denoise": 1.0
+    }
+  },
+  "90": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 689137274
+    }
+  },
+  "91": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "90",
+        0
+      ],
+      "guider": [
+        "88",
+        0
+      ],
+      "sampler": [
+        "7",
+        0
+      ],
+      "sigmas": [
+        "89",
+        0
+      ],
+      "latent_image": [
+        "85",
+        1
+      ]
+    }
+  },
+  "92": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "91",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ]
+    }
+  },
+  "93": {
+    "class_type": "VAEDecodeAudio",
+    "inputs": {
+      "samples": [
+        "91",
+        0
+      ],
+      "vae": [
+        "5",
+        0
+      ]
+    }
+  },
+  "94": {
+    "class_type": "MiniMaxH3MotionContextTrim",
+    "inputs": {
+      "images": [
+        "92",
+        0
+      ],
+      "trim_frames": [
+        "87",
+        1
+      ],
+      "audio": [
+        "93",
+        0
+      ],
+      "fps": 24.0,
+      "match_tail": true
+    }
+  },
+  "95": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "94",
+        0
+      ],
+      "batch_index": 0,
+      "length": 96
+    }
+  },
+  "96": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "94",
+        0
+      ],
+      "audio": [
+        "94",
+        1
+      ],
+      "fps": 24.0
+    }
+  },
+  "97": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "96",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S05",
+      "format": "auto",
+      "format.codec": "auto"
+    }
+  },
+  "98": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "95",
+        0
+      ],
+      "batch_index": 74,
+      "length": 22
+    }
+  },
+  "99": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "98",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S05-tail"
+    }
+  },
+  "100": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "soda-2735fddf0f68b7ebbfc63363.png"
+    }
+  },
+  "101": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "soda-dbc7e662f8121c6fa98f2416.mp4"
+    }
+  },
+  "102": {
+    "class_type": "Video Slice",
+    "inputs": {
+      "video": [
+        "101",
+        0
+      ],
+      "start_time": 0.0,
+      "duration": 15.0,
+      "strict_duration": false
+    }
+  },
+  "103": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "102",
+        0
+      ]
+    }
+  },
+  "104": {
+    "class_type": "MiniMaxH3ReferenceToVideo",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "audio_vae": [
+        "5",
+        0
+      ],
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a medium vertical shot of a cozy living room corner with warm window light. The black-and-white Alaskan malamute plush puppy (Soda) and the round warm-yellow plush chick (Jacky) are positioned exactly as in <Picture 1>, preserving their faces, outfits, textures, and relative spatial arrangement. Jacky sits at the low table building with LEGO blocks; Soda stands in the foreground facing the camera.\n\n0.0–0.4s: The scene is static. Jacky's small wings are actively moving, placing a yellow LEGO block onto the structure on the table. Soda faces the camera directly, mouth closed, maintaining a warm and affectionate expression.\n\n0.4–3.975s: Soda begins to speak, his mouth moving clearly in sync with the dialogue <d>[EN] This is my big brother, Jacky. He's a cheerful little chick.</d>. His head gently turns slightly toward the audience while speaking. Jacky continues building, his beak remains fully closed and still.\n\n4.0–5.2s: As Soda finishes speaking, Jacky pauses his block placement. He lifts his head and looks up with a bright smile, then gently waves his small wing in a friendly greeting. His beak stays closed throughout this action.\n\n5.2–7.0s: Jacky lowers his head back to the table and resumes building with the LEGO blocks. Soda maintains his gaze toward the camera, mouth closed, holding a steady, warm pose as the clip ends.\n\nCamera: Fixed medium shot, matching the framing of <Picture 1>, no movement or zoom.\n\noverall_soundscape: Soft ambient room tone, subtle sound of plush fabric shifting, and the gentle clicking of LEGO blocks being placed on the wooden table.\n\nnon_diegetic_music: None. The audio is dominated by the clear dialogue and natural foley sounds.\n\nRULES: No extra characters, no reflections of other people, no text or watermarks, no costume changes, no duplicated actors. Jacky's beak must remain closed during Soda's speech. Preserve the exact plush textures and lighting from <Picture 1>.",
+      "width": 768,
+      "height": 1376,
+      "length": 175,
+      "ref_image_size": "match",
+      "ref_images.ref_image_0": [
+        "100",
+        0
+      ],
+      "ref_videos.ref_video_0": [
+        "103",
+        0
+      ],
+      "ref_video_audios.ref_video_audio_0": [
+        "103",
+        1
+      ]
+    }
+  },
+  "105": {
+    "class_type": "MiniMaxH3AddGuide",
+    "inputs": {
+      "positive": [
+        "104",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "104",
+        1
+      ],
+      "image": [
+        "100",
+        0
+      ],
+      "frame_idx": 0
+    }
+  },
+  "106": {
+    "class_type": "MiniMaxH3MotionContext",
+    "inputs": {
+      "conditioning": [
+        "105",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "104",
+        1
+      ],
+      "context_length": "22",
+      "audio_context_length": 24
+    }
+  },
+  "107": {
+    "class_type": "BasicGuider",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "conditioning": [
+        "106",
+        0
+      ]
+    }
+  },
+  "108": {
+    "class_type": "BasicScheduler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "scheduler": "beta",
+      "steps": 4,
+      "denoise": 1.0
+    }
+  },
+  "109": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 1861118786
+    }
+  },
+  "110": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "109",
+        0
+      ],
+      "guider": [
+        "107",
+        0
+      ],
+      "sampler": [
+        "7",
+        0
+      ],
+      "sigmas": [
+        "108",
+        0
+      ],
+      "latent_image": [
+        "104",
+        1
+      ]
+    }
+  },
+  "111": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "110",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ]
+    }
+  },
+  "112": {
+    "class_type": "VAEDecodeAudio",
+    "inputs": {
+      "samples": [
+        "110",
+        0
+      ],
+      "vae": [
+        "5",
+        0
+      ]
+    }
+  },
+  "113": {
+    "class_type": "MiniMaxH3MotionContextTrim",
+    "inputs": {
+      "images": [
+        "111",
+        0
+      ],
+      "trim_frames": [
+        "106",
+        1
+      ],
+      "audio": [
+        "112",
+        0
+      ],
+      "fps": 24.0,
+      "match_tail": true
+    }
+  },
+  "114": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "113",
+        0
+      ],
+      "batch_index": 0,
+      "length": 168
+    }
+  },
+  "115": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "113",
+        0
+      ],
+      "audio": [
+        "113",
+        1
+      ],
+      "fps": 24.0
+    }
+  },
+  "116": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "115",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S06",
+      "format": "auto",
+      "format.codec": "auto"
+    }
+  },
+  "117": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "114",
+        0
+      ],
+      "batch_index": 146,
+      "length": 22
+    }
+  },
+  "118": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "117",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S06-tail"
+    }
+  },
+  "119": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "soda-da678c472248f50a26533a7a.png"
+    }
+  },
+  "120": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "soda-9dd66c73d7f6f526ff9e06a7.mp4"
+    }
+  },
+  "121": {
+    "class_type": "Video Slice",
+    "inputs": {
+      "video": [
+        "120",
+        0
+      ],
+      "start_time": 0.0,
+      "duration": 15.0,
+      "strict_duration": false
+    }
+  },
+  "122": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "121",
+        0
+      ]
+    }
+  },
+  "123": {
+    "class_type": "MiniMaxH3ReferenceToVideo",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "audio_vae": [
+        "5",
+        0
+      ],
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a medium vertical shot of a warm living room corner. The woman in <Picture 1>, preserving her face, hair, outfit and the room. Natural real-time movement at normal human speed; no slow motion or time stretching.\n0.0–0.4: Static hold. Soda stands in the foreground left, facing the camera with a soft smile. Angela sits in the armchair right, reading a book, her mouth fully closed.\n0.4–4.5: Dialogue. <d>[EN] And this is my big sister, Angela. She's a gentle sheep.</d> Soda's mouth moves clearly to match the audio. At 1.2s, Angela looks up from the book with a gentle smile and gives a small, soft wave with her right hand. Her mouth remains closed throughout.\n4.5–6.0: Follow-through. Angela lowers her hand and returns her gaze to the book. She gently turns a page with her left hand, the movement deliberate and slow.\n6.0–7.0: Settle. Both characters hold their positions. Soda maintains eye contact with the lens, smiling warmly. Angela remains focused on reading, mouth closed.\noverall_soundscape: Soft ambient room tone, gentle rustle of plush fabric as Angela waves and turns a page, subtle breathing sounds.\nnon_diegetic_music: None.\nRULES: No extra people, no reflections of other people, no text or watermarks, no costume changes, no duplicated actors, no lip movement on the listener.",
+      "width": 768,
+      "height": 1376,
+      "length": 175,
+      "ref_image_size": "match",
+      "ref_images.ref_image_0": [
+        "119",
+        0
+      ],
+      "ref_videos.ref_video_0": [
+        "122",
+        0
+      ],
+      "ref_video_audios.ref_video_audio_0": [
+        "122",
+        1
+      ]
+    }
+  },
+  "124": {
+    "class_type": "MiniMaxH3AddGuide",
+    "inputs": {
+      "positive": [
+        "123",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "123",
+        1
+      ],
+      "image": [
+        "119",
+        0
+      ],
+      "frame_idx": 0
+    }
+  },
+  "125": {
+    "class_type": "MiniMaxH3MotionContext",
+    "inputs": {
+      "conditioning": [
+        "124",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "123",
+        1
+      ],
+      "context_length": "22",
+      "audio_context_length": 24
+    }
+  },
+  "126": {
+    "class_type": "BasicGuider",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "conditioning": [
+        "125",
+        0
+      ]
+    }
+  },
+  "127": {
+    "class_type": "BasicScheduler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "scheduler": "beta",
+      "steps": 4,
+      "denoise": 1.0
+    }
+  },
+  "128": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 1036780124
+    }
+  },
+  "129": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "128",
+        0
+      ],
+      "guider": [
+        "126",
+        0
+      ],
+      "sampler": [
+        "7",
+        0
+      ],
+      "sigmas": [
+        "127",
+        0
+      ],
+      "latent_image": [
+        "123",
+        1
+      ]
+    }
+  },
+  "130": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "129",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ]
+    }
+  },
+  "131": {
+    "class_type": "VAEDecodeAudio",
+    "inputs": {
+      "samples": [
+        "129",
+        0
+      ],
+      "vae": [
+        "5",
+        0
+      ]
+    }
+  },
+  "132": {
+    "class_type": "MiniMaxH3MotionContextTrim",
+    "inputs": {
+      "images": [
+        "130",
+        0
+      ],
+      "trim_frames": [
+        "125",
+        1
+      ],
+      "audio": [
+        "131",
+        0
+      ],
+      "fps": 24.0,
+      "match_tail": true
+    }
+  },
+  "133": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "132",
+        0
+      ],
+      "batch_index": 0,
+      "length": 168
+    }
+  },
+  "134": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "132",
+        0
+      ],
+      "audio": [
+        "132",
+        1
+      ],
+      "fps": 24.0
+    }
+  },
+  "135": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "134",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S07",
+      "format": "auto",
+      "format.codec": "auto"
+    }
+  },
+  "136": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "133",
+        0
+      ],
+      "batch_index": 146,
+      "length": 22
+    }
+  },
+  "137": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "136",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S07-tail"
+    }
+  },
+  "138": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "soda-e0cdac020f4105ec4c28de2c.png"
+    }
+  },
+  "139": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "soda-d92ff0ec22d4f1b8d0886652.mp4"
+    }
+  },
+  "140": {
+    "class_type": "Video Slice",
+    "inputs": {
+      "video": [
+        "139",
+        0
+      ],
+      "start_time": 0.0,
+      "duration": 15.0,
+      "strict_duration": false
+    }
+  },
+  "141": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "140",
+        0
+      ]
+    }
+  },
+  "142": {
+    "class_type": "MiniMaxH3ReferenceToVideo",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "audio_vae": [
+        "5",
+        0
+      ],
+      "prompt": "Use <Picture 1> as the SOLE visual authority for the adult lead and the environment. Preserve exactly: the warm cozy living room with soft window light, the black-and-white Alaskan malamute plush puppy (Soda) in the center foreground, the round warm-yellow plush chick (Jacky) at the block table on the left, and the cream-white curly-wool plush sheep (Angela) in the armchair on the right. Do not redesign, restyle, add or remove anything.\n\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a wide vertical shot of a cozy living room with warm ivory and golden-yellow tones. The scene features three plush toy mascots: Soda (the malamute puppy) in the center foreground facing the camera, Jacky (the chick) at the low table on the left, and Angela (the sheep) in the armchair on the right. Natural real-time movement at normal human speed; no slow motion or time stretching.\n\n0.0–0.4s: The scene is stable. Jacky is reaching toward the block tower, and Angela holds her book open. Soda faces the camera with a content expression.\n0.4–3.6s: <d>[EN] We live together happily and love each other very much.</d> Soda's mouth moves clearly to match the dialogue. Simultaneously, Jacky gently places the final block onto the table with a soft, deliberate motion. Angela closes her book and rests it on her lap. Both background characters remain closed-mouth listeners.\n3.6–5.2s: After the action is complete, all three characters perform a subtle, synchronized lean toward the center of the frame, creating a sense of unity. The movement is gentle and slow.\n5.2–6.0s: The characters settle into their new closer positions. The camera remains fixed in a wide shot throughout the entire duration.\n\noverall_soundscape: Soft ambient room tone, the soft 'clack' of the final block being placed at 3.6s, and the subtle rustle of plush fabric as they lean together.\n\nnon_diegetic_music: Gentle, warm acoustic lullaby, 70 BPM, soft piano and light strings, no vocals.\n\nRULES: No extra characters, no text or watermarks, no reflections of other people. Preserve exact room geometry, armchair, block table and starting body positions. Only Soda mouths the supplied speech; Jacky and Angela remain closed-mouth listeners. No sudden standing, teleporting or moving furniture.",
+      "width": 768,
+      "height": 1376,
+      "length": 158,
+      "ref_image_size": "match",
+      "ref_images.ref_image_0": [
+        "138",
+        0
+      ],
+      "ref_videos.ref_video_0": [
+        "141",
+        0
+      ],
+      "ref_video_audios.ref_video_audio_0": [
+        "141",
+        1
+      ]
+    }
+  },
+  "143": {
+    "class_type": "MiniMaxH3AddGuide",
+    "inputs": {
+      "positive": [
+        "142",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "142",
+        1
+      ],
+      "image": [
+        "138",
+        0
+      ],
+      "frame_idx": 0
+    }
+  },
+  "144": {
+    "class_type": "MiniMaxH3MotionContext",
+    "inputs": {
+      "conditioning": [
+        "143",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "142",
+        1
+      ],
+      "context_length": "22",
+      "audio_context_length": 24
+    }
+  },
+  "145": {
+    "class_type": "BasicGuider",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "conditioning": [
+        "144",
+        0
+      ]
+    }
+  },
+  "146": {
+    "class_type": "BasicScheduler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "scheduler": "beta",
+      "steps": 4,
+      "denoise": 1.0
+    }
+  },
+  "147": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 2051969982
+    }
+  },
+  "148": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "147",
+        0
+      ],
+      "guider": [
+        "145",
+        0
+      ],
+      "sampler": [
+        "7",
+        0
+      ],
+      "sigmas": [
+        "146",
+        0
+      ],
+      "latent_image": [
+        "142",
+        1
+      ]
+    }
+  },
+  "149": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "148",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ]
+    }
+  },
+  "150": {
+    "class_type": "VAEDecodeAudio",
+    "inputs": {
+      "samples": [
+        "148",
+        0
+      ],
+      "vae": [
+        "5",
+        0
+      ]
+    }
+  },
+  "151": {
+    "class_type": "MiniMaxH3MotionContextTrim",
+    "inputs": {
+      "images": [
+        "149",
+        0
+      ],
+      "trim_frames": [
+        "144",
+        1
+      ],
+      "audio": [
+        "150",
+        0
+      ],
+      "fps": 24.0,
+      "match_tail": true
+    }
+  },
+  "152": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "151",
+        0
+      ],
+      "batch_index": 0,
+      "length": 144
+    }
+  },
+  "153": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "151",
+        0
+      ],
+      "audio": [
+        "151",
+        1
+      ],
+      "fps": 24.0
+    }
+  },
+  "154": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "153",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S08",
+      "format": "auto",
+      "format.codec": "auto"
+    }
+  },
+  "155": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "152",
+        0
+      ],
+      "batch_index": 122,
+      "length": 22
+    }
+  },
+  "156": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "155",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S08-tail"
+    }
+  },
+  "157": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "soda-69b510aff9ff6aaff15677e1.png"
+    }
+  },
+  "158": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "soda-5065e728e0181907961854dc.mp4"
+    }
+  },
+  "159": {
+    "class_type": "Video Slice",
+    "inputs": {
+      "video": [
+        "158",
+        0
+      ],
+      "start_time": 0.0,
+      "duration": 15.0,
+      "strict_duration": false
+    }
+  },
+  "160": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "159",
+        0
+      ]
+    }
+  },
+  "161": {
+    "class_type": "MiniMaxH3ReferenceToVideo",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "audio_vae": [
+        "5",
+        0
+      ],
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description:\n[Shot 1] Original cute chibi 3D plush toy mascot style, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory palette, soft warm window light, shallow depth of field. Close-up shot of the black-and-white Alaskan malamute plush puppy (Soda) from <Picture 1>, preserving his exact face, fluffy texture, brown backpack straps, and the room. The camera is fixed in a tight head-and-shoulders crop.\n\n0.0–0.4: Soda sits facing the camera directly, maintaining a neutral but friendly expression with warm brown eyes looking straight ahead. His body remains stable, with only subtle breathing-like movement in the chest area.\n0.4–2.14: <d>[EN] I hope you like me too!</d> As he speaks, his mouth moves naturally to match the dialogue. He gently lifts his right front paw in a small, friendly wave, keeping the motion controlled and soft. His expression remains warm and hopeful throughout the speech.\n2.14–3.5: After finishing the line, Soda holds the friendly gaze for a brief moment, allowing the warmth of the smile to settle. The right paw begins to lower slowly back toward his chest area.\n3.5–4.6: The right paw settles naturally back into its resting position against his body. His head tilts very slightly, reinforcing the gentle and approachable demeanor.\n4.6–5.0: Soda holds the final pose, looking directly at the viewer with a calm, satisfied expression, completing the interaction naturally without any abrupt movements.\n\noverall_soundscape: Soft ambient room tone with faint, gentle fabric rustling sounds as the plush toy moves slightly. The voice is clear and friendly, matching the character's warm personality.\n\nnon_diegetic_music: None, or very subtle, soft instrumental background if needed to support the warmth, but primarily focused on the dialogue and natural sounds.\n\nRULES: No extra characters, no text or watermarks, no reflections of other people, no fast spins or hair whips, no finger snaps or waving beyond the single paw gesture, no zoom out or pan, maintain the tight head-and-shoulders crop, preserve the character's exact plush texture and facial features.",
+      "width": 768,
+      "height": 1376,
+      "length": 124,
+      "ref_image_size": "match",
+      "ref_images.ref_image_0": [
+        "157",
+        0
+      ],
+      "ref_videos.ref_video_0": [
+        "160",
+        0
+      ],
+      "ref_video_audios.ref_video_audio_0": [
+        "160",
+        1
+      ]
+    }
+  },
+  "162": {
+    "class_type": "MiniMaxH3AddGuide",
+    "inputs": {
+      "positive": [
+        "161",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "161",
+        1
+      ],
+      "image": [
+        "157",
+        0
+      ],
+      "frame_idx": 0
+    }
+  },
+  "163": {
+    "class_type": "MiniMaxH3MotionContext",
+    "inputs": {
+      "conditioning": [
+        "162",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "161",
+        1
+      ],
+      "context_length": "22",
+      "audio_context_length": 24
+    }
+  },
+  "164": {
+    "class_type": "BasicGuider",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "conditioning": [
+        "163",
+        0
+      ]
+    }
+  },
+  "165": {
+    "class_type": "BasicScheduler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "scheduler": "beta",
+      "steps": 4,
+      "denoise": 1.0
+    }
+  },
+  "166": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 1111829882
+    }
+  },
+  "167": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "166",
+        0
+      ],
+      "guider": [
+        "164",
+        0
+      ],
+      "sampler": [
+        "7",
+        0
+      ],
+      "sigmas": [
+        "165",
+        0
+      ],
+      "latent_image": [
+        "161",
+        1
+      ]
+    }
+  },
+  "168": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "167",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ]
+    }
+  },
+  "169": {
+    "class_type": "VAEDecodeAudio",
+    "inputs": {
+      "samples": [
+        "167",
+        0
+      ],
+      "vae": [
+        "5",
+        0
+      ]
+    }
+  },
+  "170": {
+    "class_type": "MiniMaxH3MotionContextTrim",
+    "inputs": {
+      "images": [
+        "168",
+        0
+      ],
+      "trim_frames": [
+        "163",
+        1
+      ],
+      "audio": [
+        "169",
+        0
+      ],
+      "fps": 24.0,
+      "match_tail": true
+    }
+  },
+  "171": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "170",
+        0
+      ],
+      "batch_index": 0,
+      "length": 120
+    }
+  },
+  "172": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "170",
+        0
+      ],
+      "audio": [
+        "170",
+        1
+      ],
+      "fps": 24.0
+    }
+  },
+  "173": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "172",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S09",
+      "format": "auto",
+      "format.codec": "auto"
+    }
+  },
+  "174": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "171",
+        0
+      ],
+      "batch_index": 98,
+      "length": 22
+    }
+  },
+  "175": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "174",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S09-tail"
+    }
+  }
+}

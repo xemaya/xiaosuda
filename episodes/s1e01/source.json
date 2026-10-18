@@ -1,0 +1,19 @@
+{
+  "source_name": "少儿英语大纲.docx",
+  "source_sha256": "affdafb3b7cd8e62371a00d90616274a8a99cd139298f497a816d32fa42ef27a",
+  "section": "S1E01",
+  "canonical_bible": "docs/series-bible.md",
+  "status": "preproduction_review",
+  "only_speaker": "xiaosuda",
+  "cast_ids": [
+    "xiaosuda",
+    "mengji-gege",
+    "mianyang-jiejie"
+  ],
+  "changes": [
+    "extreme cold -> very cold",
+    "rooster -> little chick",
+    "add Jacky and Angela names"
+  ],
+  "historical_video_reused_as_story": false
+}

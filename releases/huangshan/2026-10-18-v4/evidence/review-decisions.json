@@ -1,0 +1,37 @@
+{
+  "human_acceptance": "pending",
+  "technical_candidate": "Hi-Soda_Huangshan_pine-village-v4.mp4",
+  "decisions": [
+    {
+      "source": "canopy-native.mp4",
+      "decision": "use_native_top_layer",
+      "checks": "main trunk/branches/camera stable, subtle needle motion"
+    },
+    {
+      "source": "canopy-tall-native.mp4",
+      "decision": "rejected",
+      "reason": "canopy shape and camera reinterpreted during wider crop generation"
+    },
+    {
+      "source": "layered-wind.json",
+      "decision": "select",
+      "reason": "accepted native upper canopy plus small non-looped anchored wind on lowest needles; no new actor pixels"
+    },
+    {
+      "source": "ending-native.mp4",
+      "decision": "trim_select",
+      "keep_native_frames": [
+        24,
+        240
+      ],
+      "reason": "first1s had silent mouth opening and was discarded; retained9s turns then walks toward village with dog quadruped, sheep upright, warm window light, steam and camera pullback"
+    }
+  ],
+  "review_assets": [
+    "pine-layered-review.jpg",
+    "pine-layered-large.jpg",
+    "ending-motion.jpg",
+    "ending-gait.jpg",
+    "ending-mouths.jpg"
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "minimax_h3_ref2va_pruned_fp8_scaled.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2": {
+    "class_type": "LoraLoaderModelOnly",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "lora_name": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+      "strength_model": 1.0
+    }
+  },
+  "3": {
+    "class_type": "CLIPLoaderGGUFMiniMaxH3",
+    "inputs": {
+      "clip_name": "qwen3-vl-32b-ultra-heretic-minimax-h3-q6_k.gguf",
+      "vision_name": "qwen3vl_32b_minimax_h3_visual_bf16.safetensors"
+    }
+  },
+  "4": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "minimax_h3_video_vae_fp16.safetensors"
+    }
+  },
+  "5": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+    }
+  },
+  "7": {
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "euler"
+    }
+  },
+  "45": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "a_40ff0f3228674d74.png"
+    }
+  },
+  "46": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "soda-5d9ef07303f6e47431990b27.mp4"
+    }
+  },
+  "47": {
+    "class_type": "Video Slice",
+    "inputs": {
+      "video": [
+        "46",
+        0
+      ],
+      "start_time": 0.0,
+      "duration": 15.0,
+      "strict_duration": false
+    }
+  },
+  "48": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "47",
+        0
+      ]
+    }
+  },
+  "49": {
+    "class_type": "MiniMaxH3ReferenceToVideo",
+    "inputs": {
+      "clip": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "audio_vae": [
+        "5",
+        0
+      ],
+      "prompt": "[Shot 1] Original cute chibi 3D plush toy mascot style, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth. A wide, static full-body shot of a vast snowy landscape in the far north. The scene features fluffy snow-covered pine trees and distant snow mountains under a clear blue sky, with cold blue environmental light and warm facial highlights on the character.\n\nThe black-and-white Alaskan malamute plush puppy (Soda) stands in the center of the flat snowfield, facing the camera. He wears his small brown backpack. His body leans slightly forward, expression excited and proud, mouth moving to speak.\n\n0.0–0.4s: Soda stands still, looking at the camera with a bright, eager expression, paws planted firmly in the snow.\n0.4–2.95s: <d>[EN] I come from a very cold place,</d> His mouth moves clearly and energetically to match the dialogue. His head tilts slightly forward, ears perked up, tail giving a small, happy wag. The camera remains fixed in a wide shot.\n2.95–5.0s: He finishes speaking, holding his excited pose with a proud smile, tongue slightly out. The background remains static with the snowy mountains and trees.\n\noverall_soundscape: Ambient cold wind, soft crunching of snow under paws, clear high-pitched vocal delivery.\nnon_diegetic_music: Upbeat, playful orchestral chiptune, 120 BPM, light percussion and bright synth leads, no vocals.\nRULES: No extra characters, no text or watermarks, no reflections, preserve the character's exact plush texture and outfit, no fast spinning, natural real-time movement.",
+      "width": 768,
+      "height": 1376,
+      "length": 124,
+      "ref_image_size": "match",
+      "ref_images.ref_image_0": [
+        "45",
+        0
+      ],
+      "ref_videos.ref_video_0": [
+        "48",
+        0
+      ],
+      "ref_video_audios.ref_video_audio_0": [
+        "48",
+        1
+      ]
+    }
+  },
+  "50": {
+    "class_type": "MiniMaxH3AddGuide",
+    "inputs": {
+      "positive": [
+        "49",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "49",
+        1
+      ],
+      "image": [
+        "45",
+        0
+      ],
+      "frame_idx": 0
+    }
+  },
+  "51": {
+    "class_type": "MiniMaxH3MotionContext",
+    "inputs": {
+      "conditioning": [
+        "50",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ],
+      "latent": [
+        "49",
+        1
+      ],
+      "context_length": "22",
+      "audio_context_length": 24
+    }
+  },
+  "52": {
+    "class_type": "BasicGuider",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "conditioning": [
+        "51",
+        0
+      ]
+    }
+  },
+  "53": {
+    "class_type": "BasicScheduler",
+    "inputs": {
+      "model": [
+        "2",
+        0
+      ],
+      "scheduler": "beta",
+      "steps": 4,
+      "denoise": 1.0
+    }
+  },
+  "54": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 1127569772
+    }
+  },
+  "55": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": [
+        "54",
+        0
+      ],
+      "guider": [
+        "52",
+        0
+      ],
+      "sampler": [
+        "7",
+        0
+      ],
+      "sigmas": [
+        "53",
+        0
+      ],
+      "latent_image": [
+        "49",
+        1
+      ]
+    }
+  },
+  "56": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "55",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ]
+    }
+  },
+  "57": {
+    "class_type": "VAEDecodeAudio",
+    "inputs": {
+      "samples": [
+        "55",
+        0
+      ],
+      "vae": [
+        "5",
+        0
+      ]
+    }
+  },
+  "58": {
+    "class_type": "MiniMaxH3MotionContextTrim",
+    "inputs": {
+      "images": [
+        "56",
+        0
+      ],
+      "trim_frames": [
+        "51",
+        1
+      ],
+      "audio": [
+        "57",
+        0
+      ],
+      "fps": 24.0,
+      "match_tail": true
+    }
+  },
+  "59": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "58",
+        0
+      ],
+      "batch_index": 0,
+      "length": 120
+    }
+  },
+  "60": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "58",
+        0
+      ],
+      "audio": [
+        "58",
+        1
+      ],
+      "fps": 24.0
+    }
+  },
+  "61": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "60",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S03",
+      "format": "auto",
+      "format.codec": "auto"
+    }
+  },
+  "62": {
+    "class_type": "ImageFromBatch",
+    "inputs": {
+      "image": [
+        "59",
+        0
+      ],
+      "batch_index": 98,
+      "length": 22
+    }
+  },
+  "63": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "62",
+        0
+      ],
+      "filename_prefix": "soda/j_5bb2c6045ec44148/S03-tail"
+    }
+  }
+}

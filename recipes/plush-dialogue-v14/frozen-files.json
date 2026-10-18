@@ -1,0 +1,126 @@
+{
+  "recipe.json": {
+    "bytes": 2371,
+    "sha256": "568d6ec9b257a7efab828ea1608526e4721c3f5d4a99e1ed0a69257709ada0d5"
+  },
+  "README.md": {
+    "bytes": 6269,
+    "sha256": "46a2336ea0cb9946276e0dd216f75be490df223ca2461e27ad9f85eb0d7c17ab"
+  },
+  "verify.py": {
+    "bytes": 1204,
+    "sha256": "99136ae71558a1e6168045289ccd4f76fd8e5c945ab79ddef84e7c0feadfb5d3"
+  },
+  "continuity.py": {
+    "bytes": 7414,
+    "sha256": "c5ee540808f4f727f8af0d9a813a5b0976f2b2ed5c16d79bfcd312d9b39b3e8c"
+  },
+  "runtime/nodes_minimax_h3.py": {
+    "bytes": 30934,
+    "sha256": "108ceff11e5a5c9a34a57bbc380447cf9941beb673a1bd421abc818de54ccd5c"
+  },
+  "runtime/layout_contract.py": {
+    "bytes": 10611,
+    "sha256": "789bc211bd8196c50d95e908af33186c9aae2e11594b20c32d459d4fcea89d75"
+  },
+  "runtime/nodes.py": {
+    "bytes": 56354,
+    "sha256": "47ff5d4f0a7b17e5ad80a8a5b9d6d4f1df7cdf4e9a910900159e4cf1afc9923d"
+  },
+  "accepted/native-prompt.txt": {
+    "bytes": 3399,
+    "sha256": "a1bd0cf376fc895847207a650add716a02250d3e885d7da751df0de153ee3cb2"
+  },
+  "accepted/opening-prompt.txt": {
+    "bytes": 1833,
+    "sha256": "e7c3cefdb87fce2a413326970dbb73ba3401507e1aa2eb8179849c4b44366f51"
+  },
+  "accepted/chained-graph.json": {
+    "bytes": 13849,
+    "sha256": "6963426b7c51f813565cf7677a1dba9a4b11c0283abf14f40595c6be3a854c7c"
+  },
+  "accepted/render-history.json": {
+    "bytes": 10930,
+    "sha256": "fb26f7048be11dce6478daaf2fbc2e2216e74be0601bd5fdae1db1621b6cf6e7"
+  },
+  "accepted/candidate-manifest.json": {
+    "bytes": 1746,
+    "sha256": "4f324e931768a77c10a04e408dc0beba58147e1c762717530f0a9797e0abb1c1"
+  },
+  "accepted/native-graph.json": {
+    "bytes": 7995,
+    "sha256": "85862ebe0d3852aa67ad39ea00660ba637b059246222458c166acee8c60c9113"
+  },
+  "accepted/episode-finishing-proof.json": {
+    "bytes": 659,
+    "sha256": "b1315f40ff3b7aed8590b70e9dfe3e6bc9744956843e7943a2da2b01bec5550e"
+  },
+  "accepted/chained-render-history.json": {
+    "bytes": 18628,
+    "sha256": "3967192039373347e8b91ad8998749aa837f059d950560044261643f760110c2"
+  },
+  "accepted/local-subtitle-calibration.json": {
+    "bytes": 249,
+    "sha256": "e210f5a2e591f1245a82c7b3221ca361990c793e128ef3138da07cfb262b688a"
+  },
+  "accepted/opening-render-history.json": {
+    "bytes": 9681,
+    "sha256": "58eb75dc807e104d75c00d785fd54bb96cf30ef7a78908295153905f4d64b831"
+  },
+  "accepted/final-delivery-proof.json": {
+    "bytes": 631,
+    "sha256": "b7a27ec4e3ff1c894f5cb372c5d4e8001094b9168d094360979026bd127158f8"
+  },
+  "accepted/opening-graph.json": {
+    "bytes": 6695,
+    "sha256": "c6b4ba621992de7197fd97fb7cd4c44e098367115806314622a8645545df4d0a"
+  },
+  "accepted/continuation-prompt.txt": {
+    "bytes": 2589,
+    "sha256": "69fc4a0bfb26b4d31ca3e18414f0bd3a2fc0725e7f4ea9d0228f0aa350c9b1b4"
+  },
+  "assets/v14.srt": {
+    "bytes": 1074,
+    "sha256": "9c4e4f8613cd1254745648bff91e350d8e350b1e24ff943d4c9bcd7b23cd47aa"
+  },
+  "assets/native-carrier.mp4": {
+    "bytes": 189028,
+    "sha256": "a9384c7cd8b632dc55e9dde80215bbf1faf0f142fa4484fabfa443139dff1e1e"
+  },
+  "assets/opening-original-audio.wav": {
+    "bytes": 1024078,
+    "sha256": "dabd9a6f49928515dc33b0b563496b558e244b940cf59f9dbfdc88291042c2eb"
+  },
+  "assets/continuation-carrier.mp4": {
+    "bytes": 126536,
+    "sha256": "3e6516fb0097627c0de169c4c0767a7c2c7f53adf2fcaeb0651d1fb89e9b813b"
+  },
+  "assets/window-original-audio.wav": {
+    "bytes": 1296078,
+    "sha256": "c5d2e312cb7d85bf99b3d16f597f5eef56dbabe7a1d5e08632ac172e869c63d9"
+  },
+  "assets/v14-local.ass": {
+    "bytes": 1906,
+    "sha256": "e0f185f7c8008290e247628ce5783a8cd431980ee256811da08bb7441a2622fb"
+  },
+  "assets/scene-master.png": {
+    "bytes": 2144781,
+    "sha256": "af558fbc74ef2c059817b2a18c3f9e7a0b9e173d64bcbcf6e6f085aebe6e3faa"
+  },
+  "assets/opening-carrier.mp4": {
+    "bytes": 177344,
+    "sha256": "95392e868327573fcf778ff0a6ff41ab56370cbdb83a22872b15ca227a7cf64a"
+  },
+  "assets/font-source.json": {
+    "bytes": 336,
+    "sha256": "f8b94532337b49c37c5cc32a0025a2398b515a73c022705b5abc7e46ae587908"
+  },
+  "assets/continuation-original-audio.wav": {
+    "bytes": 951554,
+    "sha256": "833d5ecc09f3a70e967256fb63befb7e0122df7e22d3c526e9e58c145a76720f"
+  },
+  "assets/Alibaba-PuHuiTi-Regular.ttf": {
+    "bytes": 9733492,
+    "sha256": "cc1a1b4b24506b75259541462df49f9a70ba53b6af1571d90b6bcee8b3cd0ad0"
+  }
+}

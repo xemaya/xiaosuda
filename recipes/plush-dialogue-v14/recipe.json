@@ -1,0 +1,65 @@
+{
+  "id": "plush-dialogue-v14",
+  "status": "user_accepted",
+  "accepted_date": "2026-10-15",
+  "acceptance_quote": "这版牛逼了，非常丝滑",
+  "scope": "固定机位、同一场景、毛绒动物对白",
+  "models": {
+    "unet": "minimax_h3_ref2va_pruned_fp8_scaled.safetensors",
+    "lora": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+    "lora_strength": 1.0,
+    "clip": "qwen3-vl-32b-ultra-heretic-minimax-h3-q6_k.gguf",
+    "vision": "qwen3vl_32b_minimax_h3_visual_bf16.safetensors",
+    "video_vae": "minimax_h3_video_vae_fp16.safetensors",
+    "audio_vae": "minimax_h3_audio_vae_fp32.safetensors"
+  },
+  "render": {
+    "width": 768,
+    "height": 1376,
+    "fps": 24,
+    "steps": 4,
+    "sampler": "euler",
+    "scheduler": "beta",
+    "context_frames": 22,
+    "frame_grid": "17k+5",
+    "carrier_width": 384,
+    "carrier_height": 688
+  },
+  "audio": {
+    "chick": {
+      "voice_id": "chunzhen_xuedi",
+      "pitch": 1
+    },
+    "puppy": {
+      "voice_id": "Cute_Elf",
+      "pitch": 0
+    },
+    "tts_model": "speech-02-hd",
+    "current_take_only": true,
+    "preroll": "22/24 seconds of exact silence for picture-context continuations"
+  },
+  "delivery": {
+    "width": 1080,
+    "height": 1932,
+    "fps": 24,
+    "crf": 17,
+    "subtitle_font": "Alibaba PuHuiTi",
+    "local_ass_style_file": "assets/v14-local.ass",
+    "third_party_cloud_upload": false
+  },
+  "accepted_video": {
+    "path": "../../jobs/1015-v14-native-continuity/xiaosuda-how-are-you-v14-review.mp4",
+    "sha256": "6ad8fc313e72f5c8b959a8d9805a7461c30d1aa02c441d286073ee70f9dee9f4"
+  },
+  "rules": [
+    "One canonical HD scene image per continuous camera setup.",
+    "Use one native pass for each <=10-second continuous performance where possible.",
+    "For continuation wire only context_frames, never context_audio/context_latent.",
+    "audio_context_length=0 follows video span; it is not an audio-disable switch.",
+    "Preroll the current-take carrier with 22 silent frames, then remove the output context head.",
+    "Pass the last ACTUALLY KEPT frames to the next take, not the extra discarded render tail.",
+    "No cloned still tail, looped frames, or crossfade to hide a dialogue seam.",
+    "Stay CFR24 through generation, edit, subtitles and delivery.",
+    "User visual playback determines acceptance; metrics only assist review."
+  ]
+}

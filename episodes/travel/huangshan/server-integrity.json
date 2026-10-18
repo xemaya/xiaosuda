@@ -1,0 +1,224 @@
+{
+  "recorded_date": "2026-10-18",
+  "read_only": true,
+  "assets": [
+    {
+      "id": "a_07f29c00826a4dd4",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-v1/sea-of-clouds-two-ears.png",
+      "registered_sha256": "aa82c01ae52685da59f0ce639cb628ee758337162fe75884e0903645be997e3c",
+      "actual_sha256": "aa82c01ae52685da59f0ce639cb628ee758337162fe75884e0903645be997e3c",
+      "matches": true
+    },
+    {
+      "id": "a_08cf1da8cf7148be",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S17/take.mp4",
+      "registered_sha256": "553d744980f54d1da717322a8a57d918e70a2592330bc7a9f50749c986a2258a",
+      "actual_sha256": "553d744980f54d1da717322a8a57d918e70a2592330bc7a9f50749c986a2258a",
+      "matches": true
+    },
+    {
+      "id": "a_136ce29587b64f1f",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S03/take.mp4",
+      "registered_sha256": "6d9361c2f96ab312b3462bcb4c25981b00e8e5aef0ef5a5c0dd71a915dd3d642",
+      "actual_sha256": "6d9361c2f96ab312b3462bcb4c25981b00e8e5aef0ef5a5c0dd71a915dd3d642",
+      "matches": true
+    },
+    {
+      "id": "a_31a4af5f0cc74b97",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S01/take.mp4",
+      "registered_sha256": "9e220dfdac35b8b87402c68a2c8bf2dcb03c2f3898ee31822ca915d8c808d870",
+      "actual_sha256": "9e220dfdac35b8b87402c68a2c8bf2dcb03c2f3898ee31822ca915d8c808d870",
+      "matches": true
+    },
+    {
+      "id": "a_4055c245324143b2",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S11/take.mp4",
+      "registered_sha256": "f966142d81dc8c789f966d3b2b69e9ff845e8d5a7cff7ce0a079f045713a7e72",
+      "actual_sha256": "f966142d81dc8c789f966d3b2b69e9ff845e8d5a7cff7ce0a079f045713a7e72",
+      "matches": true
+    },
+    {
+      "id": "a_42a7db0e1daf4712",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S15/take.mp4",
+      "registered_sha256": "8b1f4d98a0833a05d54dec7530a2b9f3c30e8198835b9335f9e841a153553397",
+      "actual_sha256": "8b1f4d98a0833a05d54dec7530a2b9f3c30e8198835b9335f9e841a153553397",
+      "matches": true
+    },
+    {
+      "id": "a_482f7297721a498c",
+      "path": "/data/app/huanghaibin/soda/jobs/j_3a4d41e1339b49db/S05/take.mp4",
+      "registered_sha256": "01f6e15a693c2d0a66842cb75ccefffb30f5699d68bb121881632e9c05c705c5",
+      "actual_sha256": "01f6e15a693c2d0a66842cb75ccefffb30f5699d68bb121881632e9c05c705c5",
+      "matches": true
+    },
+    {
+      "id": "a_52b11630b44049d9",
+      "path": "/data/app/huanghaibin/soda/jobs/j_4dffc4aa863b4235/S06/take.mp4",
+      "registered_sha256": "6bdf3dfffb587a66b83d7383f5fb050ad3d69329d8955816cb41c2222d39c40a",
+      "actual_sha256": "6bdf3dfffb587a66b83d7383f5fb050ad3d69329d8955816cb41c2222d39c40a",
+      "matches": true
+    },
+    {
+      "id": "a_551227dd5a7b4d05",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S14/take.mp4",
+      "registered_sha256": "aa05b9dc0bef52a20188f9829e3ea875bc22b782f94345f5bca0e7125a4c78dd",
+      "actual_sha256": "aa05b9dc0bef52a20188f9829e3ea875bc22b782f94345f5bca0e7125a4c78dd",
+      "matches": true
+    },
+    {
+      "id": "a_75192a9a661f4a3a",
+      "path": "/data/app/huanghaibin/soda/jobs/j_869e1c555a2e496a/pine-medium-quadruped.png",
+      "registered_sha256": "a6bd7d03e8de3dbe0b7000315976dfcd391f0c560cac8da90545cb4f45f91ac3",
+      "actual_sha256": "a6bd7d03e8de3dbe0b7000315976dfcd391f0c560cac8da90545cb4f45f91ac3",
+      "matches": true
+    },
+    {
+      "id": "a_7e29cf480d0e4b24",
+      "path": "/data/app/huanghaibin/soda/preproduction/1017-huangshan-fur-batch-v1/registered/v_09d34c31bede4f93/masters/waterfall-journal-medium.png",
+      "registered_sha256": "727fb6c455cfa64b9ff70c3c14e1af892acfa3010e7966ffeb294f790f95c6c3",
+      "actual_sha256": "727fb6c455cfa64b9ff70c3c14e1af892acfa3010e7966ffeb294f790f95c6c3",
+      "matches": true
+    },
+    {
+      "id": "a_85110ae2a70e4a7d",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S08/take.mp4",
+      "registered_sha256": "e61efe848363de334671a017c408b493be95db4931e44e08b4a532d73aacb740",
+      "actual_sha256": "e61efe848363de334671a017c408b493be95db4931e44e08b4a532d73aacb740",
+      "matches": true
+    },
+    {
+      "id": "a_864d8f02e88c4598",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S12/take.mp4",
+      "registered_sha256": "4dda96d8045ce8ebfe1d26816e1501eb87e77a68134fa66ad04367db38efa562",
+      "actual_sha256": "4dda96d8045ce8ebfe1d26816e1501eb87e77a68134fa66ad04367db38efa562",
+      "matches": true
+    },
+    {
+      "id": "a_8714b05aae5d45e8",
+      "path": "/data/app/huanghaibin/soda/jobs/j_73e0a505ecc04797/monkey-close-quadruped.png",
+      "registered_sha256": "958b63ece8108188396c10a148f5bcafab45547e7329aa5517fc8597c592c9df",
+      "actual_sha256": "958b63ece8108188396c10a148f5bcafab45547e7329aa5517fc8597c592c9df",
+      "matches": true
+    },
+    {
+      "id": "a_9067fb82aecf42f7",
+      "path": "/data/app/huanghaibin/soda/preproduction/1017-huangshan-fur-batch-v1/registered/v_09d34c31bede4f93/masters/travel-journal.png",
+      "registered_sha256": "b04e7470de459000a4e2cdb479fc7aa8469be9475775df8710b767e7a36d3109",
+      "actual_sha256": "b04e7470de459000a4e2cdb479fc7aa8469be9475775df8710b767e7a36d3109",
+      "matches": true
+    },
+    {
+      "id": "a_91ccc2331a5c4a22",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S19/take.mp4",
+      "registered_sha256": "2c9d7afb340c60438b5f4febafd879bd5578f4107f1da934709c823f75ab77ff",
+      "actual_sha256": "2c9d7afb340c60438b5f4febafd879bd5578f4107f1da934709c823f75ab77ff",
+      "matches": true
+    },
+    {
+      "id": "a_93cc8e24e5ea44ff",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S10/take.mp4",
+      "registered_sha256": "895399d4599002d7f9a597c385c731f203cfda2220f4edd54096db4a6110de60",
+      "actual_sha256": "895399d4599002d7f9a597c385c731f203cfda2220f4edd54096db4a6110de60",
+      "matches": true
+    },
+    {
+      "id": "a_9595012cf7144b4a",
+      "path": "/data/app/huanghaibin/soda/preproduction/1017-huangshan-fur-batch-v1/registered/v_09d34c31bede4f93/masters/hot-spring-ending.png",
+      "registered_sha256": "42f54075fcb215a4f89355bc92ffc7c630e0b12e1f88a08427633c3e53f159cc",
+      "actual_sha256": "42f54075fcb215a4f89355bc92ffc7c630e0b12e1f88a08427633c3e53f159cc",
+      "matches": true
+    },
+    {
+      "id": "a_acee0ee64c6a4856",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S20/take.mp4",
+      "registered_sha256": "53c8edb78ad0540852853ab2949cde9e3b730178eda178e3ce860af66269743b",
+      "actual_sha256": "53c8edb78ad0540852853ab2949cde9e3b730178eda178e3ce860af66269743b",
+      "matches": true
+    },
+    {
+      "id": "a_b4c91848aca142df",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S07/take.mp4",
+      "registered_sha256": "3e6e0cb2857a66e8c5c4fe28d3e8361f508da9d0b467066c4f19d64ca1c50bab",
+      "actual_sha256": "3e6e0cb2857a66e8c5c4fe28d3e8361f508da9d0b467066c4f19d64ca1c50bab",
+      "matches": true
+    },
+    {
+      "id": "a_b69659ff6d6644fe",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S09/take.mp4",
+      "registered_sha256": "e1a42e7c5c98fde2a14ed4048410fbf7b96f4ef5819ce02e98a5b65de16762fd",
+      "actual_sha256": "e1a42e7c5c98fde2a14ed4048410fbf7b96f4ef5819ce02e98a5b65de16762fd",
+      "matches": true
+    },
+    {
+      "id": "a_c90408fa1df84acf",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S22/take.mp4",
+      "registered_sha256": "66567553654c328dda550b61e9849eae0b0c86c14b0ae978763828cbb4a86fb9",
+      "actual_sha256": "66567553654c328dda550b61e9849eae0b0c86c14b0ae978763828cbb4a86fb9",
+      "matches": true
+    },
+    {
+      "id": "a_cc4e8d933e244bf9",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S18/take.mp4",
+      "registered_sha256": "a26f7ea1f373273e6ec1caf39946ee3c0ec8da38e14d6172b7281b8eaf5784d4",
+      "actual_sha256": "a26f7ea1f373273e6ec1caf39946ee3c0ec8da38e14d6172b7281b8eaf5784d4",
+      "matches": true
+    },
+    {
+      "id": "a_d8260e3418014239",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S21/take.mp4",
+      "registered_sha256": "788288c819b353a6ecec58c5da7803fa45060564301bffc489afd2feebebe2f9",
+      "actual_sha256": "788288c819b353a6ecec58c5da7803fa45060564301bffc489afd2feebebe2f9",
+      "matches": true
+    },
+    {
+      "id": "a_dc3923c72b56446a",
+      "path": "/data/app/huanghaibin/soda/jobs/j_bcd5b1ec71e14921/cloud-medium-quadruped.png",
+      "registered_sha256": "9c98ec4c61350a56e0b5dce4c50c0799b4dd97fb65bf255033a946a07ab123df",
+      "actual_sha256": "9c98ec4c61350a56e0b5dce4c50c0799b4dd97fb65bf255033a946a07ab123df",
+      "matches": true
+    },
+    {
+      "id": "a_df99a750928349cc",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S16/take.mp4",
+      "registered_sha256": "d834bdae1c61beb4893e0026bd0d3c13415335d686c0374e85686033801c4386",
+      "actual_sha256": "d834bdae1c61beb4893e0026bd0d3c13415335d686c0374e85686033801c4386",
+      "matches": true
+    },
+    {
+      "id": "a_e3ec41bc67e74102",
+      "path": "/data/app/huanghaibin/soda/jobs/j_51d9dc8754744c8e/monkey-gazing-sea-quadruped.png",
+      "registered_sha256": "36e8723485e5b99b9fd806ed78a9cfd6e04a91989da5d43ac52216d121081018",
+      "actual_sha256": "36e8723485e5b99b9fd806ed78a9cfd6e04a91989da5d43ac52216d121081018",
+      "matches": true
+    },
+    {
+      "id": "a_e7e2a0cc13f14bed",
+      "path": "/data/app/huanghaibin/soda/preproduction/1017-huangshan-fur-batch-v1/registered/v_09d34c31bede4f93/masters/reading-rest.png",
+      "registered_sha256": "5b9bbc061d490e85434241cc7e486f9ad2f81ef995aa9ab3fe8d4a2386d0433a",
+      "actual_sha256": "5b9bbc061d490e85434241cc7e486f9ad2f81ef995aa9ab3fe8d4a2386d0433a",
+      "matches": true
+    },
+    {
+      "id": "a_eac18be796d04e14",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S13/take.mp4",
+      "registered_sha256": "ee0b5263a1d0254752732a253336831f5535d733da5523738fbb1c9c9e0cd587",
+      "actual_sha256": "ee0b5263a1d0254752732a253336831f5535d733da5523738fbb1c9c9e0cd587",
+      "matches": true
+    },
+    {
+      "id": "a_eeb314f1a454437a",
+      "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/pine-bough-master.png",
+      "registered_sha256": "1e2129db61b8062f4fc97be6c1d702a04bf5b32f5a0364ebc41742f30e09bd7d",
+      "actual_sha256": "1e2129db61b8062f4fc97be6c1d702a04bf5b32f5a0364ebc41742f30e09bd7d",
+      "matches": true
+    },
+    {
+      "id": "a_f268438a0c7b4d16",
+      "path": "/data/app/huanghaibin/soda/preproduction/1017-huangshan-fur-batch-v1/registered/v_09d34c31bede4f93/masters/departure.png",
+      "registered_sha256": "77d714981a5eb8e4e67dac74c29dea669f7a8b2c0d3d274b0f0f97bec7827232",
+      "actual_sha256": "77d714981a5eb8e4e67dac74c29dea669f7a8b2c0d3d274b0f0f97bec7827232",
+      "matches": true
+    }
+  ],
+  "all_match": true
+}

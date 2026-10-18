@@ -1,0 +1,27 @@
+[
+  {
+    "source_session": "7e2ae5e7-9bc2-4347-a9c4-ef6754763efe",
+    "source_line": 7861,
+    "command": "J=xiaosuda/jobs/1015-v11-keychain && mkdir -p $J && cd xiaosuda/jobs/1015-v8-quiz-slideup && \\\ncp k1-quiz-916.png k2-verdict-916.png k3-teach-916.png ../../../$J/ && cd ../../../$J && \\\nT=../1014-how-are-you-v3/tts_v4 && T2=../1015-v8-quiz-slideup && \\\nffmpeg -y -v error -loop 1 -t 9.0 -i k1-quiz-916.png -i $T2/e1_00_quiz.mp3 -i $T/e1_02.mp3 \\\n  -filter_complex \"[0:v]scale=384:688,setsar=1[v];[1:a]adelay=500|500[a];[2:a]adelay=5780|5780[b];[a][b]amix=inputs=2:normalize=0,apad=whole_dur=9.0[ao]\" \\\n  -map \"[v]\" -map \"[ao]\" -c:v libx264 -crf 20 -pix_fmt yuv420p -r 24 -c:a aac -shortest carrier1.mp4 && \\\nffmpeg -y -v error -loop 1 -t 5.2 -i k2-verdict-916.png -i $T/e1_03.mp3 -i $T/e1_04.mp3 \\\n  -filter_complex \"[0:v]scale=384:688,setsar=1[v];[1:a]adelay=500|500[a];[2:a]adelay=2820|2820[b];[a][b]amix=inputs=2:normalize=0,apad=whole_dur=5.2[ao]\" \\\n  -map \"[v]\" -map \"[ao]\" -c:v libx264 -crf 20 -pix_fmt yuv420p -r 24 -c:a aac -shortest carrier2.mp4 && \\\nffmpeg -y -v error -loop 1 -t 10.2 -i k3-teach-916.png -i $T/e2_01.mp3 -i $T/e2_02.mp3 -i $T/e2_03.mp3 -i $T/e2_04.mp3 -i $T/e2_05.mp3 -i $T/e2_06.mp3 \\\n  -filter_complex \"[0:v]scale=384:688,setsar=1[v];[1:a]adelay=250|250[a];[2:a]adelay=1900|1900[b];[3:a]adelay=3840|3840[c];[4:a]adelay=5680|5680[d];[5:a]adelay=7560|7560[e];[6:a]adelay=8680|8680[f];[a][b][c][d][e][f]amix=inputs=6:normalize=0,apad=whole_dur=10.2[ao]\" \\\n  -map \"[v]\" -map \"[ao]\" -c:v libx264 -crf 20 -pix_fmt yuv420p -r 24 -c:a aac -shortest carrier3.mp4 && \\\nfor c in 1 2 3; do ffprobe -v error -show_entries format=duration -of csv=p=0 carrier$c.mp4; done"
+  },
+  {
+    "source_session": "7e2ae5e7-9bc2-4347-a9c4-ef6754763efe",
+    "source_line": 8228,
+    "command": "ssh shouyun-4090 'cd /home/huanghaibin && /home/huanghaibin/envs/comfy/bin/python bin/h3run.py --port 8188 \\\n  --prompt-file /data/app/huanghaibin/batches/v8r3/p_shot2_pin.txt \\\n  --unet minimax_h3_ref2va_pruned_fp8_scaled.safetensors \\\n  --lora minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors:1 \\\n  --ref prompts-1015-122648__k2-verdict-916.png --refvideo prompts-1015-122648__carrier2.mp4 \\\n  --last prompts-1015-122648__k3-teach-916.png \\\n  --w 768 --h 1376 --sec 5 --steps 4 --sampler euler --scheduler beta --seed 871602711 \\\n  --prefix batches/v8r3/verdict_pin 2>&1 | tail -3'"
+  },
+  {
+    "source_session": "7e2ae5e7-9bc2-4347-a9c4-ef6754763efe",
+    "source_line": 8239,
+    "command": "ssh shouyun-4090 'cd /home/huanghaibin && /home/huanghaibin/envs/comfy/bin/python bin/h3run.py --port 8188 \\\n  --prompt-file /data/app/huanghaibin/batches/v8r3/p_shot1_pin.txt \\\n  --unet minimax_h3_ref2va_pruned_fp8_scaled.safetensors \\\n  --lora minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors:1 \\\n  --ref prompts-1015-122648__k1-quiz-916.png --refvideo prompts-1015-122648__carrier1.mp4 \\\n  --last prompts-1015-122648__k2-verdict-916.png \\\n  --w 768 --h 1376 --sec 9 --steps 4 --sampler euler --scheduler beta --seed 1954216863 \\\n  --prefix batches/v8r3/quiz_pin 2>&1 | tail -3'"
+  },
+  {
+    "source_session": "7e2ae5e7-9bc2-4347-a9c4-ef6754763efe",
+    "source_line": 8249,
+    "command": "cd xiaosuda/jobs/1015-v11-keychain && \\\nffmpeg -y -v error -i shot2-pin.mp4 -vf \"tpad=stop_mode=clone:stop_duration=0.5\" -af \"apad=whole_dur=5.6667\" -c:v libx264 -crf 18 -pix_fmt yuv420p -c:a aac shot2pinf.mp4 && \\\nO=../../../out/prompts-1014-233816 && \\\nffmpeg -y -v error -i shot1-pin.mp4 -i shot2pinf.mp4 -i shot3.mp4 -i $O/03_s1481111183_00001_.mp4 \\\n -filter_complex \"\\\n[0:v]settb=AVTB[v0];[1:v]settb=AVTB[v1];[2:v]settb=AVTB[v2];[3:v]settb=AVTB[v3];\\\n[v0][v1][v2]concat=n=3:v=1:a=0[vabc];[0:a][1:a][2:a]concat=n=3:v=0:a=1[aabc];\\\n[vabc][v3]xfade=transition=slideup:duration=0.5:offset=24.7084[v];\\\n[aabc][3:a]acrossfade=d=0.5[a]\" \\\n -map \"[v]\" -map \"[a]\" -c:v libx264 -crf 18 -pix_fmt yuv420p -c:a aac v12-nosub.mp4 && \\\nffprobe -v error -show_entries format=duration -of csv=p=0 v12-nosub.mp4"
+  },
+  {
+    "source_session": "7e2ae5e7-9bc2-4347-a9c4-ef6754763efe",
+    "source_line": 8255,
+    "command": "cd xiaosuda/jobs/1015-v11-keychain && MEDIAKIT_SURFACE=skill MEDIAKIT_RUNTIME=kimi mediakit-cli editing add-subtitle-to-video --video-url v12-nosub.mp4 --subtitle-url v12.srt --subtitle-font-type ali_puhui --subtitle-font-size 38 --client-token \"v12-sub-1015-01\" 2>&1 | grep -E '\"task_id\"|success'"
+  }
+]

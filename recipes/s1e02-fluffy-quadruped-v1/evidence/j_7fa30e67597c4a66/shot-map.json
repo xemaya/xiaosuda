@@ -1,0 +1,116 @@
+[
+  {
+    "shot_id": "S03",
+    "take": {
+      "raw_images": [
+        "18",
+        0
+      ],
+      "delivered_images": [
+        "20",
+        0
+      ],
+      "visible_images": [
+        "21",
+        0
+      ],
+      "audio": [
+        "20",
+        1
+      ],
+      "save_node": "23",
+      "raw_frames": 226,
+      "context_frames": 0,
+      "keep_frames": 216
+    },
+    "tail_save": "25",
+    "audio": {
+      "keep_frames": 216,
+      "seconds": 9.0,
+      "wave": "/data/app/huanghaibin/soda/jobs/j_7fa30e67597c4a66/S03/original-audio.wav",
+      "turns": [
+        {
+          "id": "d6",
+          "speaker_id": "mengji-gege",
+          "text": "Come on, Soda! Let’s have some fun!",
+          "translation": "快来呀，小苏打！我们去玩个痛快吧！",
+          "emotion": "Cheerful and natural",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.69878125
+        },
+        {
+          "id": "d7",
+          "speaker_id": "xiaosuda",
+          "text": "Wait for me! I can run super fast!",
+          "translation": "等等我！我跑得可快啦！",
+          "emotion": "Cheerful and natural",
+          "speed": 1.0,
+          "start": 2.94878125,
+          "end": 5.67715625
+        },
+        {
+          "id": "d8",
+          "speaker_id": "mengji-gege",
+          "text": "Haha! Let’s see who gets there first!",
+          "translation": "哈哈！看看谁先到！",
+          "emotion": "Cheerful and natural",
+          "speed": 1.0,
+          "start": 5.92715625,
+          "end": 8.1446875
+        }
+      ]
+    },
+    "scene_id": "park-close",
+    "master_id": "a_edcfe71d480f43c0",
+    "dependency": null,
+    "seed": "2002236103"
+  },
+  {
+    "shot_id": "S04",
+    "take": {
+      "raw_images": [
+        "37",
+        0
+      ],
+      "delivered_images": [
+        "39",
+        0
+      ],
+      "visible_images": [
+        "40",
+        0
+      ],
+      "audio": [
+        "39",
+        1
+      ],
+      "save_node": "42",
+      "raw_frames": 124,
+      "context_frames": 0,
+      "keep_frames": 108
+    },
+    "tail_save": "44",
+    "audio": {
+      "keep_frames": 108,
+      "seconds": 4.5,
+      "wave": "/data/app/huanghaibin/soda/jobs/j_7fa30e67597c4a66/S04/original-audio.wav",
+      "turns": [
+        {
+          "id": "d9",
+          "speaker_id": "xiaosuda",
+          "text": "Ready, set, go!",
+          "translation": "预备，开始，跑！",
+          "emotion": "Cheerful and natural",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 1.967375
+        }
+      ]
+    },
+    "scene_id": "park-run-wide",
+    "master_id": "a_b9d927c6cacc4207",
+    "dependency": null,
+    "seed": "963305219"
+  }
+]

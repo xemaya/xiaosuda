@@ -1,0 +1,49 @@
+[
+  {
+    "shot_id": "S06",
+    "take": {
+      "raw_images": [
+        "18",
+        0
+      ],
+      "delivered_images": [
+        "20",
+        0
+      ],
+      "visible_images": [
+        "21",
+        0
+      ],
+      "audio": [
+        "20",
+        1
+      ],
+      "save_node": "23",
+      "raw_frames": 175,
+      "context_frames": 0,
+      "keep_frames": 168
+    },
+    "tail_save": "25",
+    "audio": {
+      "keep_frames": 168,
+      "seconds": 7.0,
+      "wave": "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/original-audio.wav",
+      "turns": [
+        {
+          "id": "d5",
+          "speaker_id": "xiaosuda",
+          "text": "This is my big brother, Jacky. He's a cheerful little chick.",
+          "translation": "这是我的哥哥奇奇，他是一只开朗的小鸡。",
+          "emotion": "Warm and affectionate",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 3.975875
+        }
+      ]
+    },
+    "scene_id": "jacky-corner",
+    "master_id": "a_5459e1cb604b4381",
+    "dependency": null,
+    "seed": "899244243"
+  }
+]

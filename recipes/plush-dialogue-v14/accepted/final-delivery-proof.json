@@ -1,0 +1,19 @@
+{
+  "file": "xiaosuda-how-are-you-v14-review.mp4",
+  "sha256": "6ad8fc313e72f5c8b959a8d9805a7461c30d1aa02c441d286073ee70f9dee9f4",
+  "size_bytes": 22320222,
+  "resolution": [
+    1080,
+    1932
+  ],
+  "fps": 24,
+  "frames": 836,
+  "duration": "34.924000",
+  "subtitle_srt_byte_equal_to_v12": true,
+  "audio_packets_byte_equal_to_v12": true,
+  "subtitle_processing": "entirely local libass + official Alibaba PuHuiTi font",
+  "cloud_enhancement": false,
+  "scale": "deterministic Lanczos to the existing delivery dimensions",
+  "acceptance": "review candidate; v12 retained as accepted baseline",
+  "subtitle_cloud_upload": false
+}

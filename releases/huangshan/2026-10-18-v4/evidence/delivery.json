@@ -1,0 +1,51 @@
+{
+  "source": "/Users/huanghaibin/Workspace/games/4090/xiaosuda/releases/huangshan/2026-10-18/Hi-Soda_Huangshan_Final.mp4",
+  "source_sha256": "f93c763d99de10762a646e9da632af04cc51141342b3e44b229db40eeef2cd15",
+  "path": "/Users/huanghaibin/Workspace/games/4090/xiaosuda/jobs/1018-huangshan-pine-village-v4/Hi-Soda_Huangshan_pine-village-v4.mp4",
+  "sha256": "dd1455e21dcc13003171c3eb8b3bb304b8af792f928774614319da853f4f8b4b",
+  "frames": 3389,
+  "fps": 24,
+  "seconds": 141.20833333333334,
+  "pine_frames": [
+    267,
+    464
+  ],
+  "pine_background_layer": {
+    "maximum_y": 990,
+    "head_exclusion_ellipse": [
+      800,
+      1060,
+      280,
+      270
+    ],
+    "spatial_feather_only": true
+  },
+  "pine_actor_performance_preserved": true,
+  "unchanged_stream_copy_frames": [
+    [
+      0,
+      267
+    ],
+    [
+      464,
+      3173
+    ]
+  ],
+  "ending_frames": [
+    3173,
+    3389
+  ],
+  "ending_native_selected_frames": [
+    24,
+    240
+  ],
+  "new_ending_seconds": 9,
+  "original_ending_seconds": 6.333333333333333,
+  "original_speech_and_subtitle_times_preserved": true,
+  "original_audio_prefix_samples": 4230667,
+  "music_ambience_only_tail_atempo": 0.7037037037037037,
+  "new_tts_requests": 0,
+  "new_candidate_only": true,
+  "human_acceptance": "pending",
+  "current_release_unchanged": true
+}

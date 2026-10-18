@@ -1,0 +1,15 @@
+{
+  "name": "家庭活动区 · 全景",
+  "scene_id": "home-wide",
+  "setting_version": "v_fdf88139dea74536",
+  "seed": "1994014565",
+  "job_id": "j_4f820f5f7e8247a7",
+  "prompt": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory and cornflower-blue/golden-yellow palette, soft warm window light, gentle depth of field, physical grounded poses. Preserve the supplied character-sheet identity and outfit exactly; never render a sheet, chart, labels, text, watermark, extra actors or extra limbs inside a scene. One clean full-frame cinematic portrait composition, 768x1376, fixed camera for dialogue.\nMake ONE clean portrait cinematic scene frame, NOT a character sheet. Reference pictures establish identity, outfits and scale only. EXACTLY these visible actors, no other animals: xiaosuda: Black-and-white Alaskan malamute plush puppy, dark gray-black back/head/ears, white face mask/muzzle/chest/belly/paws, pink inner ears and rosy cheeks, black nose, warm brown round eyes, large fluffy curled white-tipped tail, small brown backpack. Warm playful personality.\nmengji-gege: Round warm-yellow plush chick, pale cream belly, orange-yellow beak and feet, orange-red comb, rosy cheeks, dark-brown bright eyes, blue hoodie with a WHITE C on the chest, soft small wings and fluffy tail. Slightly taller than Soda, about 1.2 times his height.\nmianyang-jiejie: Cream-white curly-wool plush sheep, long drooping pale-pink inner ears, light-brown horns/hooves, rosy cheeks, gentle brown eyes, pink sweater dress, pink bow and small backpack. About 1.37 times Soda height.\nScene: 家庭活动区全景，窗边地毯、矮积木桌及阅读扶手椅。Soda站在前景中心，Jacky在左后方坐着搭乐高积木，Angela在右后方扶手椅读书。人物自然站立至头顶身高基准35/42/48cm，坐姿不改变角色真实比例。各自专注自己的事情，被介绍时短暂停下自然回应；只有Soda开口。. Framing: wide. Quiet background activities: {\"mengji-gege\": \"坐在矮桌旁，一次拿起一块积木、轻轻接好；听到自己的名字时抬头微笑挥一下翅膀，再回到积木。\", \"mianyang-jiejie\": \"坐在扶手椅上看书，缓慢翻页；听到自己的名字时抬头温柔微笑，再继续读。\"}. Lighting: 暖色窗光，柔和景深. Props: 地毯, 沙发, 矮积木桌, 乐高积木, 书, 阅读扶手椅. Preserve plush style and relative sizes. No text, no grid, no chart, no labels; only the C on the chick hoodie if chick is in cast. Portrait 768x1376.",
+  "review": "candidate",
+  "id": "a_dafbd9dcef5a483e",
+  "project_id": "p_5e6ea50dd70a4026",
+  "kind": "scene",
+  "created": 1792125585.0058038,
+  "sha256": "0a9603cad7379e30feb7d5c2910f21cc42522f730dbd9d38810bd1f8c7cbe025",
+  "url": "api/media/a_dafbd9dcef5a483e"
+}

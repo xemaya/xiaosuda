@@ -1,0 +1,14 @@
+{
+  "episode": 1,
+  "status": "final_delivery",
+  "date": "2026-10-15",
+  "files": {
+    "Hi-Soda_EP01_Cover.png": "d417d30187767604b98306316bd6bf83318a11f631dfede54a0d46458bd7529b",
+    "Hi-Soda_EP01_How-Are-You.mp4": "09986cbb4c5eb179b178baffbefa792b4f3263eb5f9c5b51cad04d0f2d8a9444",
+    "Hi-Soda_EP01_How-Are-You.srt": "2e27aecdd418c3b363652933a8c1820d64786cab2ac852ad95b07171432556c8",
+    "README.md": "b6c599ff6ca72b3af6de74373686d13dc8d63b0d43d6523780e857c151e8fae5",
+    "assembly-proof.json": "8d66d9de2888c62a7f16e2fd2077e7013cd1f3456d3b1c5046177bbfe5d9d255",
+    "verification.json": "0c67eabca530d1403a0b52e0e16c0eccdce2cb9099c0e7a5bf5b4b5e7dcdcc21"
+  },
+  "upload_requested": false
+}

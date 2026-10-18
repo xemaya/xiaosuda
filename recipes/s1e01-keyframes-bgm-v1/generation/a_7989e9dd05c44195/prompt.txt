@@ -1,0 +1,18 @@
+Use <Picture 1> as the SOLE visual authority for the adult lead and the environment. Preserve exactly: the warm sunlit children's playroom, the low wooden table with colorful building blocks, the black-and-white Alaskan malamute plush puppy on the right, the round warm-yellow plush chick in a blue hoodie on the left, the soft carpet, the background shelves, and the fixed medium camera framing. Do not redesign, restyle, add or remove anything.
+
+integrated_multimodal_description:
+[Shot 1] Live-action, cinematic, a static medium vertical shot of two plush mascots at a low table in a warm room. The chick Jacky is on the left, visibly taller with his orange comb; the puppy Soda is on the right, slightly shorter, wearing a small brown backpack. Both stand on the same floor plane at the same camera distance. Natural real-time movement at normal human speed; no slow motion or time stretching.
+
+0.0–0.4: The scene is stable. Jacky’s beak is closed as he focuses on the blocks. Soda stands naturally, facing slightly toward Jacky, with a warm, affectionate expression.
+
+0.4–3.98: Soda speaks with clear mouth movement and expressive eyes: <d>[EN] This is my big brother, Jacky. He's a cheerful little chick.</d> While speaking, Soda’s head tilts gently toward Jacky, and his fluffy tail gives one soft, natural wag. Jacky remains focused on the table, his beak closed, as he carefully picks up a yellow block with his small wing.
+
+3.98–5.2: Jacky places the yellow block onto the stack on the low table. As he completes the placement, he naturally lifts his head to look at Soda, acknowledging him with a gentle nod and a brief, subtle wing gesture. His beak remains closed throughout.
+
+5.2–7.0: Jacky lowers his gaze back to the blocks and continues building, reaching for another piece. Soda holds his warm, affectionate gaze on Jacky, his expression soft and content. The camera remains fixed, maintaining the exact depth of field and character scale from the reference image.
+
+overall_soundscape: Soft ambient room tone with faint, warm sunlight atmosphere. Subtle fabric rustling as the plush characters move. Gentle, tactile sounds of plastic building blocks clicking together on the wooden table. Soft carpet footfalls if any weight shift occurs.
+
+non_diegetic_music: None. No background music, only diegetic sounds and dialogue.
+
+RULES: No extra people, no reflections of other people, no giant foreground puppy, no shrinking chick, no duplicated actors, no humans, no new costumes, no text, no watermarks, no cuts, no held or looped tails.

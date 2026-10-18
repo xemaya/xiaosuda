@@ -1,0 +1,19 @@
+The image <Picture 1> is the visual authority for both characters and the room. The video <Video 1> is the voice authority: both characters speak with exactly the same voices, emotion, pacing and timing as its audio, and lip movements follow its speech.
+integrated_multimodal_description:
+[Shot 1] 3D plush-toy animation, dense soft plush fur texture everywhere, warm morning living room, vertical two-shot on a beige rug. Practice round: the puppy leads the dialogue with his newly learned phrases and earns a celebration at the end. Real-time speed.
+
+0.0-0.5 | Slow push-in; both settle into face-to-face stance, mouths closed smiling.
+0.5-1.9 | Puppy initiates the greeting with bright new confidence, head lifts, one paw rises slightly, tail wagging; chick listens with a proud closed-beak smile.
+1.9-2.3 | Mouths closed; chick bounces once lightly, delighted.
+2.3-3.3 | Chick answers with playful ease, one wing gestures outward casually, body sways once, then brakes.
+3.3-3.5 | Tiny pause; chick leans slightly toward the puppy.
+3.5-4.7 | Chick continues the question warmly, wing relaxed; puppy listens, ears up, grinning with closed mouth.
+4.7-5.0 | Mouths closed; puppy inhales, chest lifts, tail wag speeds up.
+5.0-6.1 | Puppy answers crisply and proudly, one confident head tilt, paw taps the rug once; chick's eyes widen in delight.
+6.1-6.5 | Mouths closed; chick raises both wings slightly, barely containing excitement.
+6.5-7.1 | Chick bursts out the first praise word, springing once from his feet, wings lift high.
+7.1-8.2 | Chick finishes the praise warmly, wings settling; puppy beams, tail wagging hard but controlled.
+8.2-9.2 | Earned celebration: puppy's paw and chick's wing meet in a soft high-five, both bounce once, then share a silent happy laugh, mouths open in laughter without speech.
+9.2-10.0 | Camera hard lock; freeze on the joyful post-high-five pose to 10.0.
+
+RULES: visuals follow <Picture 1>; voices, timing and lip sync follow <Video 1> audio. No text, no subtitles, no logos. Both fully visible. Adult plush mascots. Exactly one high-five, only after 8.2. No added limbs, no morphing, no camera shake, no cuts except the final freeze.

@@ -1,0 +1,34 @@
+{
+  "project_id": "p_e8162eb476934167",
+  "asset_id": "a_a140f8a85f614c96",
+  "job_id": "j_a42ecde458884435",
+  "path": "/data/app/huanghaibin/soda/jobs/j_a42ecde458884435/hi-soda-s1e02-review-v1.mp4",
+  "url": "https://soda.buplayground.cn/api/media/a_a140f8a85f614c96",
+  "sha256": "8494dfc19271dcbb8bf6cab47fffb651ccf6574fece4434388d93b41af26022b",
+  "frames": 816,
+  "fps": 24,
+  "seconds": 34.0,
+  "location_count": 2,
+  "camera_master_count": 3,
+  "native_take_count": 4,
+  "original_dialogue_count": 9,
+  "human_acceptance": "pending",
+  "music_qa": {
+    "music_relative_to_active_voice_db": -17.5,
+    "peak_dbfs": -10.26,
+    "clipped_samples": 0,
+    "voice_gain": 1
+  },
+  "scene_masters": {
+    "porch-medium": "a_4413fce9d77947b0",
+    "park-run-wide": "a_5d4ece38d5524dfc",
+    "park-close": "a_3eb025a4b2764ae3"
+  },
+  "takes": {
+    "S01": "a_3c2c294f1ef14625",
+    "S02": "a_391ffce2b9b844c3",
+    "S03": "a_c7e9bfda89234feb",
+    "S04": "a_d48bf14f9500421a"
+  },
+  "local_video": "../../jobs/1017-s1e02-preproduction/Hi-Soda_S1E02_review-v1.mp4"
+}

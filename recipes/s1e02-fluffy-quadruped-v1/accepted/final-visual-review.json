@@ -1,0 +1,34 @@
+{
+  "asset_id": "a_a6ad79ccc207436d",
+  "sha256": "c564f9f8c8e0c0287c0ad4b13031e66b675bf08e33f0ebbae159d13360871081",
+  "operator_review": "passed_for_user_review",
+  "human_acceptance": "pending",
+  "method": "Full-duration 6fps contact-sheet inspection of native and captioned candidate, full-resolution caption sample, exact frame44–50 OP boundary and native porch join; decoded frame statistics supplementary only.",
+  "checks": {
+    "Soda_natural_seated_or_quadrupedal_never_humanoid": true,
+    "Jacky_two_foot_run_blue_sleeves_white_C": true,
+    "fluffy_coat_and_actor_identity_screened": true,
+    "nine_original_voice_waveforms_preserved_before_mix": true,
+    "speaker_ownership_per_line_screened": true,
+    "bilingual_subtitles_safe_and_legible": true,
+    "OP_exact_48_frames_then_body": true,
+    "four_native_takes_frames": [
+      192,
+      204,
+      216,
+      108
+    ],
+    "final_CFR24_frames": 768,
+    "body_has_no_repeated_freeze_tail": true,
+    "music_relative_active_voice_db": -17.5,
+    "audio_clipped_samples": 0,
+    "no_pixel_fur_or_mouth_patches": true
+  },
+  "editorial_views": 5,
+  "notes": [
+    "S03 includes a natural four-paw rise and return to sitting during the boast.",
+    "Speaker closeups are crops from original moving footage, not new images or mouth patches.",
+    "OP color metadata changes caused diagnostic filter reinitialization; exact boundary and per-frame body diagnostic verified with reinit_filter disabled. Movie itself retains correct timing and 768 decoded frames.",
+    "Movie remains a candidate; earlier rejected versions and S1E01 release untouched."
+  ]
+}

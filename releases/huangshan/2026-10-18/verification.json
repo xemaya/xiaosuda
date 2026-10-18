@@ -1,0 +1,16 @@
+{
+  "video_sha256": "f93c763d99de10762a646e9da632af04cc51141342b3e44b229db40eeef2cd15",
+  "video_bytes": 144831203,
+  "frames": 3325,
+  "fps": 24,
+  "duration_seconds": 138.54166666666666,
+  "resolution": [
+    1080,
+    1932
+  ],
+  "sample_aspect_ratio": "644:645",
+  "subtitle_sha256": "17eabd5cfd750ca4f7d64b89bcc8700d4342e650794ae40bae0cb4d184009e60",
+  "copied_without_remux_or_reencode": true,
+  "matches_reviewed_v3": true,
+  "original_audio_stream_exact": true
+}

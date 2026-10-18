@@ -1,0 +1,2817 @@
+{
+  "a_ad75e494c24242cd": {
+    "metadata": {
+      "name": "家庭活动区 · 全景 · V5原主图",
+      "scene_id": "home-wide",
+      "setting_version": "v_96146bd510574500",
+      "source_asset_id": "a_7939966a292f402d",
+      "revision_reason": "用户要求恢复原版自然表演，复用原始机位",
+      "review": "candidate",
+      "id": "a_ad75e494c24242cd",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "scene",
+      "created": 1792160141.8312664,
+      "sha256": "e0cdac020f4105ec4c28de2c30c142552141674f5d1406e043e33db1dd120af0",
+      "url": "api/media/a_ad75e494c24242cd"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v5/imports/home-wide.png",
+    "selected": false,
+    "file": "assets/scenes/a_ad75e494c24242cd.png"
+  },
+  "a_35988b39eca54fd6": {
+    "metadata": {
+      "name": "Soda 自我介绍 · 特写 · V5原主图",
+      "scene_id": "home-close",
+      "setting_version": "v_96146bd510574500",
+      "source_asset_id": "a_4d6d8e73444349fe",
+      "revision_reason": "用户要求恢复原版自然表演，复用原始机位",
+      "review": "candidate",
+      "id": "a_35988b39eca54fd6",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "scene",
+      "created": 1792160141.840643,
+      "sha256": "69b510aff9ff6aaff15677e159f79ce706f1a634e894c1f9b7399cc9aa469391",
+      "url": "api/media/a_35988b39eca54fd6"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v5/imports/home-close.png",
+    "selected": false,
+    "file": "assets/scenes/a_35988b39eca54fd6.png"
+  },
+  "a_40ff0f3228674d74": {
+    "metadata": {
+      "name": "遥远北方 · 冰雪全景 · V5原主图",
+      "scene_id": "north-wide",
+      "setting_version": "v_96146bd510574500",
+      "source_asset_id": "a_98cdcd298f7f4221",
+      "revision_reason": "用户要求恢复原版自然表演，复用原始机位",
+      "review": "candidate",
+      "id": "a_40ff0f3228674d74",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "scene",
+      "created": 1792160141.8494604,
+      "sha256": "82f3b627e0d83921da52455eeaa38838eafd752f932886e4ab71dc4854e5e2c1",
+      "url": "api/media/a_40ff0f3228674d74"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v5/imports/north-wide.png",
+    "selected": false,
+    "file": "assets/scenes/a_40ff0f3228674d74.png"
+  },
+  "a_17c04ae5b9ec4c8a": {
+    "metadata": {
+      "name": "哥哥的积木角 · 中景 · V5原主图",
+      "scene_id": "jacky-corner",
+      "setting_version": "v_96146bd510574500",
+      "source_asset_id": "a_e2b9c59e88e04a91",
+      "revision_reason": "用户要求恢复原版自然表演，复用原始机位",
+      "review": "candidate",
+      "id": "a_17c04ae5b9ec4c8a",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "scene",
+      "created": 1792160141.8582585,
+      "sha256": "9460403c5a3537c0a62be4d1b60720f5b8093902c0973db2eed80b49283d2bd4",
+      "url": "api/media/a_17c04ae5b9ec4c8a"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v5/imports/jacky-corner.png",
+    "selected": false,
+    "file": "assets/scenes/a_17c04ae5b9ec4c8a.png"
+  },
+  "a_a80c4ec48a024ecd": {
+    "metadata": {
+      "name": "姐姐段 · 清除源图蓝袖口，保留侧身起点",
+      "scene_id": "angela-reading",
+      "setting_version": "v_96146bd510574500",
+      "source_asset_id": "a_61ea7c6aa0ba462a",
+      "review": "candidate",
+      "operator_batch": "s1e01-generation-review",
+      "reason": "原始首帧的蓝布已被实际API图和文件哈希证实，纠正后用于全段新生成；未修改视频像素",
+      "id": "a_a80c4ec48a024ecd",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "scene",
+      "created": 1792171081.50611,
+      "sha256": "f3567ba147b667ec489600ee7bc0126d736ea71a5c6774cdc2110d1293d71725",
+      "url": "api/media/a_a80c4ec48a024ecd"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start.png",
+    "selected": false,
+    "file": "assets/scenes/a_a80c4ec48a024ecd.png"
+  },
+  "a_c3d7ad7591b743b0": {
+    "metadata": {
+      "name": "S02 · V5原样保留",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S02",
+      "scene_id": "home-close",
+      "master_id": "a_35988b39eca54fd6",
+      "board_version": "v_925deeb376374984",
+      "keep_frames": 144,
+      "seed": "89082843",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 144,
+        "seconds": 6.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/original-audio.wav",
+        "turns": [
+          {
+            "id": "d1",
+            "speaker_id": "xiaosuda",
+            "text": "Hi everyone! I'm Soda, an Alaskan Malamute.",
+            "translation": "大家好！我是小苏打，一只阿拉斯加犬。",
+            "emotion": "Cheerful and welcoming",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 3.81334375
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "Use <Picture 1> as the SOLE visual authority for the adult lead and the environment. Preserve exactly: the black-and-white Alaskan malamute plush puppy (Soda), dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory palette, brown backpack straps, and the fixed close-up framing. Do not redesign, restyle, add or remove anything.\n\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a tight head-and-shoulders vertical shot of the plush puppy in <Picture 1>, preserving her face, hair, outfit and the room. Fixed camera position, shallow depth of field, warm window light from the left.\n0.0–0.4: The character is still, facing the camera directly with bright, expressive eyes and a neutral plush expression. Camera holds steady on the tight crop.\n0.4–3.8: The character begins speaking with a cheerful and welcoming emotion. <d>[EN] Hi everyone! I'm Soda, an Alaskan Malamute.</d> As she speaks, her right front paw lifts gently into a small, deliberate waving gesture (0.5–1.5), then lowers back to rest position (1.6–2.0). Her ears twitch naturally and independently throughout the line, adding liveliness. Her mouth moves clearly in sync with the audio, while her eyes remain fixed on the lens with a soft, friendly gaze.\n3.8–4.5: The speaking ends. The character holds a brief, satisfied smile, eyes bright. The right paw remains at rest. Camera stays fixed.\n4.5–6.0: A subtle head tilt to the left (approx 5 degrees) occurs as a finishing gesture, emphasizing the friendly personality. The ears settle into a relaxed position. The character maintains eye contact with the camera until the end of the clip.\n\noverall_soundscape: Soft ambient room tone, faint fabric rustling as the paw moves, clear and warm voice for the dialogue.\n\nnon_diegetic_music: None, or very subtle warm ambient pad if needed to fill silence, low volume.\n\nRULES: No extra people, no reflections of other people, no text or watermarks, no zooming, no panning, no revealing new body parts beyond the tight head-and-shoulders crop, no fast movements, no slow motion.",
+      "review": "candidate",
+      "source_asset_id": "a_35848836de824c4a",
+      "source_board_version": "v_a5053563ef83402d",
+      "source_master_id": "a_5893ef082e5346d8",
+      "reuse_reason": "保留原速快跑及其余既有视频",
+      "id": "a_c3d7ad7591b743b0",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792160141.8831034,
+      "sha256": "91b27d26330918ee3977aa73bfa6112abddef791c5ed2bc32f1d3ec6aed02dd1",
+      "url": "api/media/a_c3d7ad7591b743b0"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v5/imports/S02-unchanged.mp4",
+    "selected": true,
+    "file": "assets/takes/a_c3d7ad7591b743b0.mp4",
+    "generation": {
+      "graph": "generation/a_c3d7ad7591b743b0/graph.json",
+      "input_map": "generation/a_c3d7ad7591b743b0/input-map.json",
+      "seed": "89082843",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 144,
+      "seconds": 6.0,
+      "wave": "assets/audio/a_c3d7ad7591b743b0.wav",
+      "turns": [
+        {
+          "id": "d1",
+          "speaker_id": "xiaosuda",
+          "text": "Hi everyone! I'm Soda, an Alaskan Malamute.",
+          "translation": "大家好！我是小苏打，一只阿拉斯加犬。",
+          "emotion": "Cheerful and welcoming",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 3.81334375
+        }
+      ]
+    }
+  },
+  "a_35848836de824c4a": {
+    "metadata": {
+      "name": "S02 · V4保留原表演",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S02",
+      "scene_id": "home-close",
+      "master_id": "a_4d6d8e73444349fe",
+      "board_version": "v_7aa53222506c487f",
+      "keep_frames": 144,
+      "seed": "89082843",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 144,
+        "seconds": 6.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/original-audio.wav",
+        "turns": [
+          {
+            "id": "d1",
+            "speaker_id": "xiaosuda",
+            "text": "Hi everyone! I'm Soda, an Alaskan Malamute.",
+            "translation": "大家好！我是小苏打，一只阿拉斯加犬。",
+            "emotion": "Cheerful and welcoming",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 3.81334375
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "Use <Picture 1> as the SOLE visual authority for the adult lead and the environment. Preserve exactly: the black-and-white Alaskan malamute plush puppy (Soda), dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory palette, brown backpack straps, and the fixed close-up framing. Do not redesign, restyle, add or remove anything.\n\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a tight head-and-shoulders vertical shot of the plush puppy in <Picture 1>, preserving her face, hair, outfit and the room. Fixed camera position, shallow depth of field, warm window light from the left.\n0.0–0.4: The character is still, facing the camera directly with bright, expressive eyes and a neutral plush expression. Camera holds steady on the tight crop.\n0.4–3.8: The character begins speaking with a cheerful and welcoming emotion. <d>[EN] Hi everyone! I'm Soda, an Alaskan Malamute.</d> As she speaks, her right front paw lifts gently into a small, deliberate waving gesture (0.5–1.5), then lowers back to rest position (1.6–2.0). Her ears twitch naturally and independently throughout the line, adding liveliness. Her mouth moves clearly in sync with the audio, while her eyes remain fixed on the lens with a soft, friendly gaze.\n3.8–4.5: The speaking ends. The character holds a brief, satisfied smile, eyes bright. The right paw remains at rest. Camera stays fixed.\n4.5–6.0: A subtle head tilt to the left (approx 5 degrees) occurs as a finishing gesture, emphasizing the friendly personality. The ears settle into a relaxed position. The character maintains eye contact with the camera until the end of the clip.\n\noverall_soundscape: Soft ambient room tone, faint fabric rustling as the paw moves, clear and warm voice for the dialogue.\n\nnon_diegetic_music: None, or very subtle warm ambient pad if needed to fill silence, low volume.\n\nRULES: No extra people, no reflections of other people, no text or watermarks, no zooming, no panning, no revealing new body parts beyond the tight head-and-shoulders crop, no fast movements, no slow motion.",
+      "review": "candidate",
+      "source_asset_id": "a_5ab984aad7334b9e",
+      "source_board_version": "v_a5053563ef83402d",
+      "source_master_id": "a_5893ef082e5346d8",
+      "reuse_reason": "V3表演原样复用",
+      "id": "a_35848836de824c4a",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792155693.2063303,
+      "sha256": "91b27d26330918ee3977aa73bfa6112abddef791c5ed2bc32f1d3ec6aed02dd1",
+      "url": "api/media/a_35848836de824c4a"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v4/imports/S02-unchanged.mp4",
+    "selected": false,
+    "file": "assets/takes/a_c3d7ad7591b743b0.mp4",
+    "generation": {
+      "graph": "generation/a_35848836de824c4a/graph.json",
+      "input_map": "generation/a_35848836de824c4a/input-map.json",
+      "seed": "89082843",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 144,
+      "seconds": 6.0,
+      "wave": "assets/audio/a_c3d7ad7591b743b0.wav",
+      "turns": [
+        {
+          "id": "d1",
+          "speaker_id": "xiaosuda",
+          "text": "Hi everyone! I'm Soda, an Alaskan Malamute.",
+          "translation": "大家好！我是小苏打，一只阿拉斯加犬。",
+          "emotion": "Cheerful and welcoming",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 3.81334375
+        }
+      ]
+    }
+  },
+  "a_5ab984aad7334b9e": {
+    "metadata": {
+      "name": "S02 · V3",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S02",
+      "scene_id": "home-close",
+      "master_id": "a_3abde136fa5a4a7b",
+      "board_version": "v_d950f063d6384a56",
+      "keep_frames": 144,
+      "seed": "89082843",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 144,
+        "seconds": 6.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/original-audio.wav",
+        "turns": [
+          {
+            "id": "d1",
+            "speaker_id": "xiaosuda",
+            "text": "Hi everyone! I'm Soda, an Alaskan Malamute.",
+            "translation": "大家好！我是小苏打，一只阿拉斯加犬。",
+            "emotion": "Cheerful and welcoming",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 3.81334375
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "Use <Picture 1> as the SOLE visual authority for the adult lead and the environment. Preserve exactly: the black-and-white Alaskan malamute plush puppy (Soda), dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory palette, brown backpack straps, and the fixed close-up framing. Do not redesign, restyle, add or remove anything.\n\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a tight head-and-shoulders vertical shot of the plush puppy in <Picture 1>, preserving her face, hair, outfit and the room. Fixed camera position, shallow depth of field, warm window light from the left.\n0.0–0.4: The character is still, facing the camera directly with bright, expressive eyes and a neutral plush expression. Camera holds steady on the tight crop.\n0.4–3.8: The character begins speaking with a cheerful and welcoming emotion. <d>[EN] Hi everyone! I'm Soda, an Alaskan Malamute.</d> As she speaks, her right front paw lifts gently into a small, deliberate waving gesture (0.5–1.5), then lowers back to rest position (1.6–2.0). Her ears twitch naturally and independently throughout the line, adding liveliness. Her mouth moves clearly in sync with the audio, while her eyes remain fixed on the lens with a soft, friendly gaze.\n3.8–4.5: The speaking ends. The character holds a brief, satisfied smile, eyes bright. The right paw remains at rest. Camera stays fixed.\n4.5–6.0: A subtle head tilt to the left (approx 5 degrees) occurs as a finishing gesture, emphasizing the friendly personality. The ears settle into a relaxed position. The character maintains eye contact with the camera until the end of the clip.\n\noverall_soundscape: Soft ambient room tone, faint fabric rustling as the paw moves, clear and warm voice for the dialogue.\n\nnon_diegetic_music: None, or very subtle warm ambient pad if needed to fill silence, low volume.\n\nRULES: No extra people, no reflections of other people, no text or watermarks, no zooming, no panning, no revealing new body parts beyond the tight head-and-shoulders crop, no fast movements, no slow motion.",
+      "review": "candidate",
+      "source_asset_id": "a_533a2551f9d24ba5",
+      "source_board_version": "v_a5053563ef83402d",
+      "source_master_id": "a_5893ef082e5346d8",
+      "reuse_reason": "V2表演逐字节保留",
+      "id": "a_5ab984aad7334b9e",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792153655.0234518,
+      "sha256": "91b27d26330918ee3977aa73bfa6112abddef791c5ed2bc32f1d3ec6aed02dd1",
+      "url": "api/media/a_5ab984aad7334b9e"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v3/S02-unchanged.mp4",
+    "selected": false,
+    "file": "assets/takes/a_c3d7ad7591b743b0.mp4",
+    "generation": {
+      "graph": "generation/a_5ab984aad7334b9e/graph.json",
+      "input_map": "generation/a_5ab984aad7334b9e/input-map.json",
+      "seed": "89082843",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 144,
+      "seconds": 6.0,
+      "wave": "assets/audio/a_c3d7ad7591b743b0.wav",
+      "turns": [
+        {
+          "id": "d1",
+          "speaker_id": "xiaosuda",
+          "text": "Hi everyone! I'm Soda, an Alaskan Malamute.",
+          "translation": "大家好！我是小苏打，一只阿拉斯加犬。",
+          "emotion": "Cheerful and welcoming",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 3.81334375
+        }
+      ]
+    }
+  },
+  "a_533a2551f9d24ba5": {
+    "metadata": {
+      "name": "S02 · 保留原表演",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S02",
+      "scene_id": "home-close",
+      "master_id": "a_3abde136fa5a4a7b",
+      "board_version": "v_fd55ce4c0e854ec6",
+      "keep_frames": 144,
+      "seed": "89082843",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 144,
+        "seconds": 6.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/original-audio.wav",
+        "turns": [
+          {
+            "id": "d1",
+            "speaker_id": "xiaosuda",
+            "text": "Hi everyone! I'm Soda, an Alaskan Malamute.",
+            "translation": "大家好！我是小苏打，一只阿拉斯加犬。",
+            "emotion": "Cheerful and welcoming",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 3.81334375
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "Use <Picture 1> as the SOLE visual authority for the adult lead and the environment. Preserve exactly: the black-and-white Alaskan malamute plush puppy (Soda), dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory palette, brown backpack straps, and the fixed close-up framing. Do not redesign, restyle, add or remove anything.\n\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a tight head-and-shoulders vertical shot of the plush puppy in <Picture 1>, preserving her face, hair, outfit and the room. Fixed camera position, shallow depth of field, warm window light from the left.\n0.0–0.4: The character is still, facing the camera directly with bright, expressive eyes and a neutral plush expression. Camera holds steady on the tight crop.\n0.4–3.8: The character begins speaking with a cheerful and welcoming emotion. <d>[EN] Hi everyone! I'm Soda, an Alaskan Malamute.</d> As she speaks, her right front paw lifts gently into a small, deliberate waving gesture (0.5–1.5), then lowers back to rest position (1.6–2.0). Her ears twitch naturally and independently throughout the line, adding liveliness. Her mouth moves clearly in sync with the audio, while her eyes remain fixed on the lens with a soft, friendly gaze.\n3.8–4.5: The speaking ends. The character holds a brief, satisfied smile, eyes bright. The right paw remains at rest. Camera stays fixed.\n4.5–6.0: A subtle head tilt to the left (approx 5 degrees) occurs as a finishing gesture, emphasizing the friendly personality. The ears settle into a relaxed position. The character maintains eye contact with the camera until the end of the clip.\n\noverall_soundscape: Soft ambient room tone, faint fabric rustling as the paw moves, clear and warm voice for the dialogue.\n\nnon_diegetic_music: None, or very subtle warm ambient pad if needed to fill silence, low volume.\n\nRULES: No extra people, no reflections of other people, no text or watermarks, no zooming, no panning, no revealing new body parts beyond the tight head-and-shoulders crop, no fast movements, no slow motion.",
+      "review": "candidate",
+      "source_asset_id": "a_b99a0073e8454c86",
+      "source_board_version": "v_a5053563ef83402d",
+      "source_master_id": "a_5893ef082e5346d8",
+      "reuse_reason": "未修改视频或原配音，仅适配新剪辑版本",
+      "id": "a_533a2551f9d24ba5",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792149156.5507958,
+      "sha256": "91b27d26330918ee3977aa73bfa6112abddef791c5ed2bc32f1d3ec6aed02dd1",
+      "url": "api/media/a_533a2551f9d24ba5"
+    },
+    "original_path": "/data/app/huanghaibin/soda/imports/s1e01-review-v2-v_02e37967f70f4e41/S02-unchanged.mp4",
+    "selected": false,
+    "file": "assets/takes/a_c3d7ad7591b743b0.mp4",
+    "generation": {
+      "graph": "generation/a_533a2551f9d24ba5/graph.json",
+      "input_map": "generation/a_533a2551f9d24ba5/input-map.json",
+      "seed": "89082843",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 144,
+      "seconds": 6.0,
+      "wave": "assets/audio/a_c3d7ad7591b743b0.wav",
+      "turns": [
+        {
+          "id": "d1",
+          "speaker_id": "xiaosuda",
+          "text": "Hi everyone! I'm Soda, an Alaskan Malamute.",
+          "translation": "大家好！我是小苏打，一只阿拉斯加犬。",
+          "emotion": "Cheerful and welcoming",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 3.81334375
+        }
+      ]
+    }
+  },
+  "a_b99a0073e8454c86": {
+    "metadata": {
+      "name": "S02",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S02",
+      "scene_id": "home-close",
+      "master_id": "a_5893ef082e5346d8",
+      "board_version": "v_a5053563ef83402d",
+      "keep_frames": 144,
+      "seed": "89082843",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 144,
+        "seconds": 6.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/original-audio.wav",
+        "turns": [
+          {
+            "id": "d1",
+            "speaker_id": "xiaosuda",
+            "text": "Hi everyone! I'm Soda, an Alaskan Malamute.",
+            "translation": "大家好！我是小苏打，一只阿拉斯加犬。",
+            "emotion": "Cheerful and welcoming",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 3.81334375
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "Use <Picture 1> as the SOLE visual authority for the adult lead and the environment. Preserve exactly: the black-and-white Alaskan malamute plush puppy (Soda), dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory palette, brown backpack straps, and the fixed close-up framing. Do not redesign, restyle, add or remove anything.\n\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a tight head-and-shoulders vertical shot of the plush puppy in <Picture 1>, preserving her face, hair, outfit and the room. Fixed camera position, shallow depth of field, warm window light from the left.\n0.0–0.4: The character is still, facing the camera directly with bright, expressive eyes and a neutral plush expression. Camera holds steady on the tight crop.\n0.4–3.8: The character begins speaking with a cheerful and welcoming emotion. <d>[EN] Hi everyone! I'm Soda, an Alaskan Malamute.</d> As she speaks, her right front paw lifts gently into a small, deliberate waving gesture (0.5–1.5), then lowers back to rest position (1.6–2.0). Her ears twitch naturally and independently throughout the line, adding liveliness. Her mouth moves clearly in sync with the audio, while her eyes remain fixed on the lens with a soft, friendly gaze.\n3.8–4.5: The speaking ends. The character holds a brief, satisfied smile, eyes bright. The right paw remains at rest. Camera stays fixed.\n4.5–6.0: A subtle head tilt to the left (approx 5 degrees) occurs as a finishing gesture, emphasizing the friendly personality. The ears settle into a relaxed position. The character maintains eye contact with the camera until the end of the clip.\n\noverall_soundscape: Soft ambient room tone, faint fabric rustling as the paw moves, clear and warm voice for the dialogue.\n\nnon_diegetic_music: None, or very subtle warm ambient pad if needed to fill silence, low volume.\n\nRULES: No extra people, no reflections of other people, no text or watermarks, no zooming, no panning, no revealing new body parts beyond the tight head-and-shoulders crop, no fast movements, no slow motion.",
+      "review": "candidate",
+      "id": "a_b99a0073e8454c86",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792138334.9829128,
+      "sha256": "91b27d26330918ee3977aa73bfa6112abddef791c5ed2bc32f1d3ec6aed02dd1",
+      "url": "api/media/a_b99a0073e8454c86"
+    },
+    "original_path": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S02/take.mp4",
+    "selected": false,
+    "file": "assets/takes/a_c3d7ad7591b743b0.mp4",
+    "generation": {
+      "graph": "generation/a_b99a0073e8454c86/graph.json",
+      "input_map": "generation/a_b99a0073e8454c86/input-map.json",
+      "seed": "89082843",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 144,
+      "seconds": 6.0,
+      "wave": "assets/audio/a_c3d7ad7591b743b0.wav",
+      "turns": [
+        {
+          "id": "d1",
+          "speaker_id": "xiaosuda",
+          "text": "Hi everyone! I'm Soda, an Alaskan Malamute.",
+          "translation": "大家好！我是小苏打，一只阿拉斯加犬。",
+          "emotion": "Cheerful and welcoming",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 3.81334375
+        }
+      ]
+    }
+  },
+  "a_b090ab2f70994727": {
+    "metadata": {
+      "name": "S03 · V5原样保留",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S03",
+      "scene_id": "north-wide",
+      "master_id": "a_40ff0f3228674d74",
+      "board_version": "v_925deeb376374984",
+      "keep_frames": 192,
+      "seed": "233744548",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 192,
+        "seconds": 8,
+        "wave": "/data/app/huanghaibin/soda/batches/s1e01-review-v3/S03-original-audio.wav",
+        "turns": [
+          {
+            "id": "d2",
+            "speaker_id": "xiaosuda",
+            "text": "I come from a very cold place,",
+            "translation": "我来自一个非常寒冷的地方，",
+            "emotion": "Energetic and proud",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 2.95421875
+          },
+          {
+            "id": "d3",
+            "speaker_id": "xiaosuda",
+            "text": "and I can run super fast!",
+            "translation": "而且我跑得可快啦！",
+            "emotion": "Energetic and proud",
+            "speed": 1.0,
+            "start": 3.4,
+            "end": 5.745218749999999
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\nintegrated_multimodal_description:\n[Shot 1] Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, cold blue snowy environment light with warm facial highlights. Wide shot of the same snowy landscape. The black-and-white Alaskan malamute plush puppy (Soda) in <Picture 1>, preserving her face, hair, outfit and the room, starts from the exact inherited final pose and position of the previous take.\n0.0–0.8: Soda initiates a cheerful run toward screen right, limbs moving in coordination, tail lifted high, leaving clear paw prints in the snow.\n0.8–2.7: He continues running at a natural real-time speed, fully inside the frame, with an energetic expression and mouth moving to speak. <d>[EN] and I can run super fast!</d>\n2.7–4.2: He naturally decelerates and stops, facing the camera with a proud expression.\n4.2–5.0: Brief finishing pause, maintaining the final pose.\noverall_soundscape: Ambient winter wind, soft crunching of snow under paws, and clear dialogue.\nnon_diegetic_music: Upbeat, playful chiptune or light orchestral, 100-120 BPM, no vocals.\nRULES: No extra characters, no text or watermarks, no position reset, no teleport, no static-pose reset, no held frame, no reintroduced first frame.",
+      "review": "candidate",
+      "source_asset_ids": [
+        "a_5e2f2806475f4a3e",
+        "a_402a53e21ece40f4"
+      ],
+      "edit": {
+        "source_ranges": [
+          {
+            "id": "a_5e2f2806475f4a3e",
+            "start_frame": 0,
+            "end_frame_exclusive": 72
+          },
+          {
+            "id": "a_402a53e21ece40f4",
+            "start_frame": 0,
+            "end_frame_exclusive": 120
+          }
+        ],
+        "speed": 1,
+        "removed_silent_frames": 48
+      },
+      "reuse_reason": "保留原速快跑及其余既有视频",
+      "source_seeds": [
+        "1127569772",
+        "233744548"
+      ],
+      "source_asset_id": "a_113a2c62b8304c62",
+      "id": "a_b090ab2f70994727",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792160141.895429,
+      "sha256": "e38322fb0aea138e2a15abf93d92cd28ed6f30b69038e3da1a1ad48bada34df0",
+      "url": "api/media/a_b090ab2f70994727"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v5/imports/S03-unchanged.mp4",
+    "selected": true,
+    "file": "assets/takes/a_b090ab2f70994727.mp4",
+    "generation": {
+      "graph": "generation/a_b090ab2f70994727/graph.json",
+      "input_map": "generation/a_b090ab2f70994727/input-map.json",
+      "seed": "233744548",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 192,
+      "seconds": 8,
+      "wave": "assets/audio/a_b090ab2f70994727.wav",
+      "turns": [
+        {
+          "id": "d2",
+          "speaker_id": "xiaosuda",
+          "text": "I come from a very cold place,",
+          "translation": "我来自一个非常寒冷的地方，",
+          "emotion": "Energetic and proud",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.95421875
+        },
+        {
+          "id": "d3",
+          "speaker_id": "xiaosuda",
+          "text": "and I can run super fast!",
+          "translation": "而且我跑得可快啦！",
+          "emotion": "Energetic and proud",
+          "speed": 1.0,
+          "start": 3.4,
+          "end": 5.745218749999999
+        }
+      ]
+    }
+  },
+  "a_113a2c62b8304c62": {
+    "metadata": {
+      "name": "S03 · V4保留原表演",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S03",
+      "scene_id": "north-wide",
+      "master_id": "a_98cdcd298f7f4221",
+      "board_version": "v_7aa53222506c487f",
+      "keep_frames": 192,
+      "seed": "233744548",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 192,
+        "seconds": 8,
+        "wave": "/data/app/huanghaibin/soda/batches/s1e01-review-v3/S03-original-audio.wav",
+        "turns": [
+          {
+            "id": "d2",
+            "speaker_id": "xiaosuda",
+            "text": "I come from a very cold place,",
+            "translation": "我来自一个非常寒冷的地方，",
+            "emotion": "Energetic and proud",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 2.95421875
+          },
+          {
+            "id": "d3",
+            "speaker_id": "xiaosuda",
+            "text": "and I can run super fast!",
+            "translation": "而且我跑得可快啦！",
+            "emotion": "Energetic and proud",
+            "speed": 1.0,
+            "start": 3.4,
+            "end": 5.745218749999999
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\nintegrated_multimodal_description:\n[Shot 1] Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, cold blue snowy environment light with warm facial highlights. Wide shot of the same snowy landscape. The black-and-white Alaskan malamute plush puppy (Soda) in <Picture 1>, preserving her face, hair, outfit and the room, starts from the exact inherited final pose and position of the previous take.\n0.0–0.8: Soda initiates a cheerful run toward screen right, limbs moving in coordination, tail lifted high, leaving clear paw prints in the snow.\n0.8–2.7: He continues running at a natural real-time speed, fully inside the frame, with an energetic expression and mouth moving to speak. <d>[EN] and I can run super fast!</d>\n2.7–4.2: He naturally decelerates and stops, facing the camera with a proud expression.\n4.2–5.0: Brief finishing pause, maintaining the final pose.\noverall_soundscape: Ambient winter wind, soft crunching of snow under paws, and clear dialogue.\nnon_diegetic_music: Upbeat, playful chiptune or light orchestral, 100-120 BPM, no vocals.\nRULES: No extra characters, no text or watermarks, no position reset, no teleport, no static-pose reset, no held frame, no reintroduced first frame.",
+      "review": "candidate",
+      "source_asset_ids": [
+        "a_5e2f2806475f4a3e",
+        "a_402a53e21ece40f4"
+      ],
+      "edit": {
+        "source_ranges": [
+          {
+            "id": "a_5e2f2806475f4a3e",
+            "start_frame": 0,
+            "end_frame_exclusive": 72
+          },
+          {
+            "id": "a_402a53e21ece40f4",
+            "start_frame": 0,
+            "end_frame_exclusive": 120
+          }
+        ],
+        "speed": 1,
+        "removed_silent_frames": 48
+      },
+      "reuse_reason": "V3表演原样复用",
+      "source_seeds": [
+        "1127569772",
+        "233744548"
+      ],
+      "source_asset_id": "a_f7ba53f4912e4e1c",
+      "id": "a_113a2c62b8304c62",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792155693.221616,
+      "sha256": "e38322fb0aea138e2a15abf93d92cd28ed6f30b69038e3da1a1ad48bada34df0",
+      "url": "api/media/a_113a2c62b8304c62"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v4/imports/S03-unchanged.mp4",
+    "selected": false,
+    "file": "assets/takes/a_b090ab2f70994727.mp4",
+    "generation": {
+      "graph": "generation/a_113a2c62b8304c62/graph.json",
+      "input_map": "generation/a_113a2c62b8304c62/input-map.json",
+      "seed": "233744548",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 192,
+      "seconds": 8,
+      "wave": "assets/audio/a_b090ab2f70994727.wav",
+      "turns": [
+        {
+          "id": "d2",
+          "speaker_id": "xiaosuda",
+          "text": "I come from a very cold place,",
+          "translation": "我来自一个非常寒冷的地方，",
+          "emotion": "Energetic and proud",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.95421875
+        },
+        {
+          "id": "d3",
+          "speaker_id": "xiaosuda",
+          "text": "and I can run super fast!",
+          "translation": "而且我跑得可快啦！",
+          "emotion": "Energetic and proud",
+          "speed": 1.0,
+          "start": 3.4,
+          "end": 5.745218749999999
+        }
+      ]
+    }
+  },
+  "a_f7ba53f4912e4e1c": {
+    "metadata": {
+      "name": "S03 · V3",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S03",
+      "scene_id": "north-wide",
+      "master_id": "a_13273e1f44714217",
+      "board_version": "v_d950f063d6384a56",
+      "keep_frames": 192,
+      "seed": "233744548",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 192,
+        "seconds": 8,
+        "wave": "/data/app/huanghaibin/soda/batches/s1e01-review-v3/S03-original-audio.wav",
+        "turns": [
+          {
+            "id": "d2",
+            "speaker_id": "xiaosuda",
+            "text": "I come from a very cold place,",
+            "translation": "我来自一个非常寒冷的地方，",
+            "emotion": "Energetic and proud",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 2.95421875
+          },
+          {
+            "id": "d3",
+            "speaker_id": "xiaosuda",
+            "text": "and I can run super fast!",
+            "translation": "而且我跑得可快啦！",
+            "emotion": "Energetic and proud",
+            "speed": 1.0,
+            "start": 3.4,
+            "end": 5.745218749999999
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\nintegrated_multimodal_description:\n[Shot 1] Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, cold blue snowy environment light with warm facial highlights. Wide shot of the same snowy landscape. The black-and-white Alaskan malamute plush puppy (Soda) in <Picture 1>, preserving her face, hair, outfit and the room, starts from the exact inherited final pose and position of the previous take.\n0.0–0.8: Soda initiates a cheerful run toward screen right, limbs moving in coordination, tail lifted high, leaving clear paw prints in the snow.\n0.8–2.7: He continues running at a natural real-time speed, fully inside the frame, with an energetic expression and mouth moving to speak. <d>[EN] and I can run super fast!</d>\n2.7–4.2: He naturally decelerates and stops, facing the camera with a proud expression.\n4.2–5.0: Brief finishing pause, maintaining the final pose.\noverall_soundscape: Ambient winter wind, soft crunching of snow under paws, and clear dialogue.\nnon_diegetic_music: Upbeat, playful chiptune or light orchestral, 100-120 BPM, no vocals.\nRULES: No extra characters, no text or watermarks, no position reset, no teleport, no static-pose reset, no held frame, no reintroduced first frame.",
+      "review": "candidate",
+      "source_asset_ids": [
+        "a_5e2f2806475f4a3e",
+        "a_402a53e21ece40f4"
+      ],
+      "edit": {
+        "source_ranges": [
+          {
+            "id": "a_5e2f2806475f4a3e",
+            "start_frame": 0,
+            "end_frame_exclusive": 72
+          },
+          {
+            "id": "a_402a53e21ece40f4",
+            "start_frame": 0,
+            "end_frame_exclusive": 120
+          }
+        ],
+        "speed": 1,
+        "removed_silent_frames": 48
+      },
+      "reuse_reason": "用户要求恢复V1快跑，仅剪掉等待",
+      "id": "a_f7ba53f4912e4e1c",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792153655.0441818,
+      "sha256": "e38322fb0aea138e2a15abf93d92cd28ed6f30b69038e3da1a1ad48bada34df0",
+      "url": "api/media/a_f7ba53f4912e4e1c",
+      "source_seeds": [
+        "1127569772",
+        "233744548"
+      ]
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v3/S03-restored-fast-run.mp4",
+    "selected": false,
+    "file": "assets/takes/a_b090ab2f70994727.mp4",
+    "generation": {
+      "graph": "generation/a_f7ba53f4912e4e1c/graph.json",
+      "input_map": "generation/a_f7ba53f4912e4e1c/input-map.json",
+      "seed": "233744548",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 192,
+      "seconds": 8,
+      "wave": "assets/audio/a_b090ab2f70994727.wav",
+      "turns": [
+        {
+          "id": "d2",
+          "speaker_id": "xiaosuda",
+          "text": "I come from a very cold place,",
+          "translation": "我来自一个非常寒冷的地方，",
+          "emotion": "Energetic and proud",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.95421875
+        },
+        {
+          "id": "d3",
+          "speaker_id": "xiaosuda",
+          "text": "and I can run super fast!",
+          "translation": "而且我跑得可快啦！",
+          "emotion": "Energetic and proud",
+          "speed": 1.0,
+          "start": 3.4,
+          "end": 5.745218749999999
+        }
+      ]
+    }
+  },
+  "a_5e2f2806475f4a3e": {
+    "metadata": {
+      "name": "S03",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S03",
+      "scene_id": "north-wide",
+      "master_id": "a_aa09be7fad554477",
+      "board_version": "v_a5053563ef83402d",
+      "keep_frames": 120,
+      "seed": "1127569772",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 120,
+        "seconds": 5.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/original-audio.wav",
+        "turns": [
+          {
+            "id": "d2",
+            "speaker_id": "xiaosuda",
+            "text": "I come from a very cold place,",
+            "translation": "我来自一个非常寒冷的地方，",
+            "emotion": "Energetic and proud",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 2.95421875
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "[Shot 1] Original cute chibi 3D plush toy mascot style, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth. A wide, static full-body shot of a vast snowy landscape in the far north. The scene features fluffy snow-covered pine trees and distant snow mountains under a clear blue sky, with cold blue environmental light and warm facial highlights on the character.\n\nThe black-and-white Alaskan malamute plush puppy (Soda) stands in the center of the flat snowfield, facing the camera. He wears his small brown backpack. His body leans slightly forward, expression excited and proud, mouth moving to speak.\n\n0.0–0.4s: Soda stands still, looking at the camera with a bright, eager expression, paws planted firmly in the snow.\n0.4–2.95s: <d>[EN] I come from a very cold place,</d> His mouth moves clearly and energetically to match the dialogue. His head tilts slightly forward, ears perked up, tail giving a small, happy wag. The camera remains fixed in a wide shot.\n2.95–5.0s: He finishes speaking, holding his excited pose with a proud smile, tongue slightly out. The background remains static with the snowy mountains and trees.\n\noverall_soundscape: Ambient cold wind, soft crunching of snow under paws, clear high-pitched vocal delivery.\nnon_diegetic_music: Upbeat, playful orchestral chiptune, 120 BPM, light percussion and bright synth leads, no vocals.\nRULES: No extra characters, no text or watermarks, no reflections, preserve the character's exact plush texture and outfit, no fast spinning, natural real-time movement.",
+      "review": "candidate",
+      "id": "a_5e2f2806475f4a3e",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792138336.391583,
+      "sha256": "998f3e5b9863f8c5ed8576500b55ada7c6d205e4146a1e7d48a99f2b9ded606f",
+      "url": "api/media/a_5e2f2806475f4a3e"
+    },
+    "original_path": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S03/take.mp4",
+    "selected": false,
+    "file": "assets/takes/a_5e2f2806475f4a3e.mp4",
+    "generation": {
+      "graph": "generation/a_5e2f2806475f4a3e/graph.json",
+      "input_map": "generation/a_5e2f2806475f4a3e/input-map.json",
+      "seed": "1127569772",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 120,
+      "seconds": 5.0,
+      "wave": "assets/audio/a_5e2f2806475f4a3e.wav",
+      "turns": [
+        {
+          "id": "d2",
+          "speaker_id": "xiaosuda",
+          "text": "I come from a very cold place,",
+          "translation": "我来自一个非常寒冷的地方，",
+          "emotion": "Energetic and proud",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.95421875
+        }
+      ]
+    }
+  },
+  "a_402a53e21ece40f4": {
+    "metadata": {
+      "name": "S04",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S04",
+      "scene_id": "north-wide",
+      "master_id": "a_aa09be7fad554477",
+      "board_version": "v_a5053563ef83402d",
+      "keep_frames": 120,
+      "seed": "233744548",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 120,
+        "seconds": 5.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/original-audio.wav",
+        "turns": [
+          {
+            "id": "d3",
+            "speaker_id": "xiaosuda",
+            "text": "and I can run super fast!",
+            "translation": "而且我跑得可快啦！",
+            "emotion": "Energetic and proud",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 2.74521875
+          }
+        ]
+      },
+      "context_dependency": "a_5e2f2806475f4a3e",
+      "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\nintegrated_multimodal_description:\n[Shot 1] Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, cold blue snowy environment light with warm facial highlights. Wide shot of the same snowy landscape. The black-and-white Alaskan malamute plush puppy (Soda) in <Picture 1>, preserving her face, hair, outfit and the room, starts from the exact inherited final pose and position of the previous take.\n0.0–0.8: Soda initiates a cheerful run toward screen right, limbs moving in coordination, tail lifted high, leaving clear paw prints in the snow.\n0.8–2.7: He continues running at a natural real-time speed, fully inside the frame, with an energetic expression and mouth moving to speak. <d>[EN] and I can run super fast!</d>\n2.7–4.2: He naturally decelerates and stops, facing the camera with a proud expression.\n4.2–5.0: Brief finishing pause, maintaining the final pose.\noverall_soundscape: Ambient winter wind, soft crunching of snow under paws, and clear dialogue.\nnon_diegetic_music: Upbeat, playful chiptune or light orchestral, 100-120 BPM, no vocals.\nRULES: No extra characters, no text or watermarks, no position reset, no teleport, no static-pose reset, no held frame, no reintroduced first frame.",
+      "review": "candidate",
+      "id": "a_402a53e21ece40f4",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792138337.9601405,
+      "sha256": "76edd14f75d2f710da6ff6574af7f7fba529f44fa26ffb2ba2b4b0dc3e181a1a",
+      "url": "api/media/a_402a53e21ece40f4"
+    },
+    "original_path": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S04/take.mp4",
+    "selected": false,
+    "file": "assets/takes/a_402a53e21ece40f4.mp4",
+    "generation": {
+      "graph": "generation/a_402a53e21ece40f4/graph.json",
+      "input_map": "generation/a_402a53e21ece40f4/input-map.json",
+      "seed": "233744548",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 120,
+      "seconds": 5.0,
+      "wave": "assets/audio/a_402a53e21ece40f4.wav",
+      "turns": [
+        {
+          "id": "d3",
+          "speaker_id": "xiaosuda",
+          "text": "and I can run super fast!",
+          "translation": "而且我跑得可快啦！",
+          "emotion": "Energetic and proud",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.74521875
+        }
+      ]
+    }
+  },
+  "a_c8d268c4bb8446b6": {
+    "metadata": {
+      "name": "S05 · V5原样保留",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S05",
+      "scene_id": "home-close",
+      "master_id": "a_35988b39eca54fd6",
+      "board_version": "v_925deeb376374984",
+      "keep_frames": 96,
+      "seed": "689137274",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 96,
+        "seconds": 4.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/original-audio.wav",
+        "turns": [
+          {
+            "id": "d4",
+            "speaker_id": "xiaosuda",
+            "text": "I'm so excited to meet you all.",
+            "translation": "见到大家，我特别开心。",
+            "emotion": "Happy and eager",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 2.06025
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic 3D plush toy aesthetic, close-up head-and-shoulders shot. The black-and-white Alaskan malamute plush puppy (Soda) from <Picture 1> is centered in the frame, preserving his exact plush texture, brown backpack straps, and facial features. Natural real-time movement at normal human speed; no slow motion or time stretching.\n0.0–0.4s: Soda sits still with a gentle, attentive expression, eyes wide and focused on the lens. Camera remains fixed in a tight close-up.\n0.4–2.1s: <d>[EN] I'm so excited to meet you all.</d> His mouth moves in sync with the dialogue, ears perk up slightly higher, and his head tilts forward with an eager, happy energy. A small paw may enter the lower edge naturally without zooming out.\n2.1–4.0s: He finishes speaking with a soft, contented smile, eyes bright and warm. The camera holds the tight framing as he settles into a calm, friendly gaze. No extra characters, no text or watermarks.\noverall_soundscape: Soft ambient room tone, subtle fabric rustling from the plush texture, and clear, high-fidelity dialogue.\nnon_diegetic_music: None, to keep focus on the character's expression and speech.\nRULES: No extra people, no reflections of other people, no zooming out, no panning, no new body parts revealed, no text or watermarks, no fast spins, no hand blurring.",
+      "review": "candidate",
+      "source_asset_id": "a_af7eb9fd7c3f4ee4",
+      "source_board_version": "v_a5053563ef83402d",
+      "source_master_id": "a_5893ef082e5346d8",
+      "reuse_reason": "保留原速快跑及其余既有视频",
+      "id": "a_c8d268c4bb8446b6",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792160141.908413,
+      "sha256": "b4aa04e6ce7dda3f19b243823792cd354fd6f01d146a8595af87f73d3982a063",
+      "url": "api/media/a_c8d268c4bb8446b6"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v5/imports/S05-unchanged.mp4",
+    "selected": true,
+    "file": "assets/takes/a_c8d268c4bb8446b6.mp4",
+    "generation": {
+      "graph": "generation/a_c8d268c4bb8446b6/graph.json",
+      "input_map": "generation/a_c8d268c4bb8446b6/input-map.json",
+      "seed": "689137274",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 96,
+      "seconds": 4.0,
+      "wave": "assets/audio/a_c8d268c4bb8446b6.wav",
+      "turns": [
+        {
+          "id": "d4",
+          "speaker_id": "xiaosuda",
+          "text": "I'm so excited to meet you all.",
+          "translation": "见到大家，我特别开心。",
+          "emotion": "Happy and eager",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.06025
+        }
+      ]
+    }
+  },
+  "a_af7eb9fd7c3f4ee4": {
+    "metadata": {
+      "name": "S05 · V4保留原表演",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S05",
+      "scene_id": "home-close",
+      "master_id": "a_4d6d8e73444349fe",
+      "board_version": "v_7aa53222506c487f",
+      "keep_frames": 96,
+      "seed": "689137274",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 96,
+        "seconds": 4.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/original-audio.wav",
+        "turns": [
+          {
+            "id": "d4",
+            "speaker_id": "xiaosuda",
+            "text": "I'm so excited to meet you all.",
+            "translation": "见到大家，我特别开心。",
+            "emotion": "Happy and eager",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 2.06025
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic 3D plush toy aesthetic, close-up head-and-shoulders shot. The black-and-white Alaskan malamute plush puppy (Soda) from <Picture 1> is centered in the frame, preserving his exact plush texture, brown backpack straps, and facial features. Natural real-time movement at normal human speed; no slow motion or time stretching.\n0.0–0.4s: Soda sits still with a gentle, attentive expression, eyes wide and focused on the lens. Camera remains fixed in a tight close-up.\n0.4–2.1s: <d>[EN] I'm so excited to meet you all.</d> His mouth moves in sync with the dialogue, ears perk up slightly higher, and his head tilts forward with an eager, happy energy. A small paw may enter the lower edge naturally without zooming out.\n2.1–4.0s: He finishes speaking with a soft, contented smile, eyes bright and warm. The camera holds the tight framing as he settles into a calm, friendly gaze. No extra characters, no text or watermarks.\noverall_soundscape: Soft ambient room tone, subtle fabric rustling from the plush texture, and clear, high-fidelity dialogue.\nnon_diegetic_music: None, to keep focus on the character's expression and speech.\nRULES: No extra people, no reflections of other people, no zooming out, no panning, no new body parts revealed, no text or watermarks, no fast spins, no hand blurring.",
+      "review": "candidate",
+      "source_asset_id": "a_ceed7b0065e34ad5",
+      "source_board_version": "v_a5053563ef83402d",
+      "source_master_id": "a_5893ef082e5346d8",
+      "reuse_reason": "V3表演原样复用",
+      "id": "a_af7eb9fd7c3f4ee4",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792155693.2376702,
+      "sha256": "b4aa04e6ce7dda3f19b243823792cd354fd6f01d146a8595af87f73d3982a063",
+      "url": "api/media/a_af7eb9fd7c3f4ee4"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v4/imports/S05-unchanged.mp4",
+    "selected": false,
+    "file": "assets/takes/a_c8d268c4bb8446b6.mp4",
+    "generation": {
+      "graph": "generation/a_af7eb9fd7c3f4ee4/graph.json",
+      "input_map": "generation/a_af7eb9fd7c3f4ee4/input-map.json",
+      "seed": "689137274",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 96,
+      "seconds": 4.0,
+      "wave": "assets/audio/a_c8d268c4bb8446b6.wav",
+      "turns": [
+        {
+          "id": "d4",
+          "speaker_id": "xiaosuda",
+          "text": "I'm so excited to meet you all.",
+          "translation": "见到大家，我特别开心。",
+          "emotion": "Happy and eager",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.06025
+        }
+      ]
+    }
+  },
+  "a_ceed7b0065e34ad5": {
+    "metadata": {
+      "name": "S05 · V3",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S05",
+      "scene_id": "home-close",
+      "master_id": "a_3abde136fa5a4a7b",
+      "board_version": "v_d950f063d6384a56",
+      "keep_frames": 96,
+      "seed": "689137274",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 96,
+        "seconds": 4.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/original-audio.wav",
+        "turns": [
+          {
+            "id": "d4",
+            "speaker_id": "xiaosuda",
+            "text": "I'm so excited to meet you all.",
+            "translation": "见到大家，我特别开心。",
+            "emotion": "Happy and eager",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 2.06025
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic 3D plush toy aesthetic, close-up head-and-shoulders shot. The black-and-white Alaskan malamute plush puppy (Soda) from <Picture 1> is centered in the frame, preserving his exact plush texture, brown backpack straps, and facial features. Natural real-time movement at normal human speed; no slow motion or time stretching.\n0.0–0.4s: Soda sits still with a gentle, attentive expression, eyes wide and focused on the lens. Camera remains fixed in a tight close-up.\n0.4–2.1s: <d>[EN] I'm so excited to meet you all.</d> His mouth moves in sync with the dialogue, ears perk up slightly higher, and his head tilts forward with an eager, happy energy. A small paw may enter the lower edge naturally without zooming out.\n2.1–4.0s: He finishes speaking with a soft, contented smile, eyes bright and warm. The camera holds the tight framing as he settles into a calm, friendly gaze. No extra characters, no text or watermarks.\noverall_soundscape: Soft ambient room tone, subtle fabric rustling from the plush texture, and clear, high-fidelity dialogue.\nnon_diegetic_music: None, to keep focus on the character's expression and speech.\nRULES: No extra people, no reflections of other people, no zooming out, no panning, no new body parts revealed, no text or watermarks, no fast spins, no hand blurring.",
+      "review": "candidate",
+      "source_asset_id": "a_33d125757c0e4ee4",
+      "source_board_version": "v_a5053563ef83402d",
+      "source_master_id": "a_5893ef082e5346d8",
+      "reuse_reason": "V2表演逐字节保留",
+      "id": "a_ceed7b0065e34ad5",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792153655.061598,
+      "sha256": "b4aa04e6ce7dda3f19b243823792cd354fd6f01d146a8595af87f73d3982a063",
+      "url": "api/media/a_ceed7b0065e34ad5"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v3/S05-unchanged.mp4",
+    "selected": false,
+    "file": "assets/takes/a_c8d268c4bb8446b6.mp4",
+    "generation": {
+      "graph": "generation/a_ceed7b0065e34ad5/graph.json",
+      "input_map": "generation/a_ceed7b0065e34ad5/input-map.json",
+      "seed": "689137274",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 96,
+      "seconds": 4.0,
+      "wave": "assets/audio/a_c8d268c4bb8446b6.wav",
+      "turns": [
+        {
+          "id": "d4",
+          "speaker_id": "xiaosuda",
+          "text": "I'm so excited to meet you all.",
+          "translation": "见到大家，我特别开心。",
+          "emotion": "Happy and eager",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.06025
+        }
+      ]
+    }
+  },
+  "a_33d125757c0e4ee4": {
+    "metadata": {
+      "name": "S05 · 保留原表演",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S05",
+      "scene_id": "home-close",
+      "master_id": "a_3abde136fa5a4a7b",
+      "board_version": "v_fd55ce4c0e854ec6",
+      "keep_frames": 96,
+      "seed": "689137274",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 96,
+        "seconds": 4.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/original-audio.wav",
+        "turns": [
+          {
+            "id": "d4",
+            "speaker_id": "xiaosuda",
+            "text": "I'm so excited to meet you all.",
+            "translation": "见到大家，我特别开心。",
+            "emotion": "Happy and eager",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 2.06025
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic 3D plush toy aesthetic, close-up head-and-shoulders shot. The black-and-white Alaskan malamute plush puppy (Soda) from <Picture 1> is centered in the frame, preserving his exact plush texture, brown backpack straps, and facial features. Natural real-time movement at normal human speed; no slow motion or time stretching.\n0.0–0.4s: Soda sits still with a gentle, attentive expression, eyes wide and focused on the lens. Camera remains fixed in a tight close-up.\n0.4–2.1s: <d>[EN] I'm so excited to meet you all.</d> His mouth moves in sync with the dialogue, ears perk up slightly higher, and his head tilts forward with an eager, happy energy. A small paw may enter the lower edge naturally without zooming out.\n2.1–4.0s: He finishes speaking with a soft, contented smile, eyes bright and warm. The camera holds the tight framing as he settles into a calm, friendly gaze. No extra characters, no text or watermarks.\noverall_soundscape: Soft ambient room tone, subtle fabric rustling from the plush texture, and clear, high-fidelity dialogue.\nnon_diegetic_music: None, to keep focus on the character's expression and speech.\nRULES: No extra people, no reflections of other people, no zooming out, no panning, no new body parts revealed, no text or watermarks, no fast spins, no hand blurring.",
+      "review": "candidate",
+      "source_asset_id": "a_efdc7cdd65474dea",
+      "source_board_version": "v_a5053563ef83402d",
+      "source_master_id": "a_5893ef082e5346d8",
+      "reuse_reason": "未修改视频或原配音，仅适配新剪辑版本",
+      "id": "a_33d125757c0e4ee4",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792149156.561838,
+      "sha256": "b4aa04e6ce7dda3f19b243823792cd354fd6f01d146a8595af87f73d3982a063",
+      "url": "api/media/a_33d125757c0e4ee4"
+    },
+    "original_path": "/data/app/huanghaibin/soda/imports/s1e01-review-v2-v_02e37967f70f4e41/S05-unchanged.mp4",
+    "selected": false,
+    "file": "assets/takes/a_c8d268c4bb8446b6.mp4",
+    "generation": {
+      "graph": "generation/a_33d125757c0e4ee4/graph.json",
+      "input_map": "generation/a_33d125757c0e4ee4/input-map.json",
+      "seed": "689137274",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 96,
+      "seconds": 4.0,
+      "wave": "assets/audio/a_c8d268c4bb8446b6.wav",
+      "turns": [
+        {
+          "id": "d4",
+          "speaker_id": "xiaosuda",
+          "text": "I'm so excited to meet you all.",
+          "translation": "见到大家，我特别开心。",
+          "emotion": "Happy and eager",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.06025
+        }
+      ]
+    }
+  },
+  "a_efdc7cdd65474dea": {
+    "metadata": {
+      "name": "S05",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S05",
+      "scene_id": "home-close",
+      "master_id": "a_5893ef082e5346d8",
+      "board_version": "v_a5053563ef83402d",
+      "keep_frames": 96,
+      "seed": "689137274",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 96,
+        "seconds": 4.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/original-audio.wav",
+        "turns": [
+          {
+            "id": "d4",
+            "speaker_id": "xiaosuda",
+            "text": "I'm so excited to meet you all.",
+            "translation": "见到大家，我特别开心。",
+            "emotion": "Happy and eager",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 2.06025
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic 3D plush toy aesthetic, close-up head-and-shoulders shot. The black-and-white Alaskan malamute plush puppy (Soda) from <Picture 1> is centered in the frame, preserving his exact plush texture, brown backpack straps, and facial features. Natural real-time movement at normal human speed; no slow motion or time stretching.\n0.0–0.4s: Soda sits still with a gentle, attentive expression, eyes wide and focused on the lens. Camera remains fixed in a tight close-up.\n0.4–2.1s: <d>[EN] I'm so excited to meet you all.</d> His mouth moves in sync with the dialogue, ears perk up slightly higher, and his head tilts forward with an eager, happy energy. A small paw may enter the lower edge naturally without zooming out.\n2.1–4.0s: He finishes speaking with a soft, contented smile, eyes bright and warm. The camera holds the tight framing as he settles into a calm, friendly gaze. No extra characters, no text or watermarks.\noverall_soundscape: Soft ambient room tone, subtle fabric rustling from the plush texture, and clear, high-fidelity dialogue.\nnon_diegetic_music: None, to keep focus on the character's expression and speech.\nRULES: No extra people, no reflections of other people, no zooming out, no panning, no new body parts revealed, no text or watermarks, no fast spins, no hand blurring.",
+      "review": "candidate",
+      "id": "a_efdc7cdd65474dea",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792138339.351673,
+      "sha256": "b4aa04e6ce7dda3f19b243823792cd354fd6f01d146a8595af87f73d3982a063",
+      "url": "api/media/a_efdc7cdd65474dea"
+    },
+    "original_path": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S05/take.mp4",
+    "selected": false,
+    "file": "assets/takes/a_c8d268c4bb8446b6.mp4",
+    "generation": {
+      "graph": "generation/a_efdc7cdd65474dea/graph.json",
+      "input_map": "generation/a_efdc7cdd65474dea/input-map.json",
+      "seed": "689137274",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 96,
+      "seconds": 4.0,
+      "wave": "assets/audio/a_c8d268c4bb8446b6.wav",
+      "turns": [
+        {
+          "id": "d4",
+          "speaker_id": "xiaosuda",
+          "text": "I'm so excited to meet you all.",
+          "translation": "见到大家，我特别开心。",
+          "emotion": "Happy and eager",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.06025
+        }
+      ]
+    }
+  },
+  "a_39e4cbd9ab2f41c7": {
+    "metadata": {
+      "name": "S06 · V5原样保留",
+      "job_id": "j_6b6fda5d12a0487d",
+      "shot_id": "S06",
+      "scene_id": "jacky-corner",
+      "master_id": "a_17c04ae5b9ec4c8a",
+      "board_version": "v_925deeb376374984",
+      "keep_frames": 168,
+      "seed": "899244243",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 168,
+        "seconds": 7.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/original-audio.wav",
+        "turns": [
+          {
+            "id": "d5",
+            "speaker_id": "xiaosuda",
+            "text": "This is my big brother, Jacky. He's a cheerful little chick.",
+            "translation": "这是我的哥哥奇奇，他是一只开朗的小鸡。",
+            "emotion": "Warm and affectionate",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 3.975875
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "Use <Picture 1> as the SOLE visual authority for the adult lead and the environment. Preserve exactly: the warm sunlit children's playroom, the low wooden table with colorful building blocks, the black-and-white Alaskan malamute plush puppy on the right, the round warm-yellow plush chick in a blue hoodie on the left, the soft carpet, the background shelves, and the fixed medium camera framing. Do not redesign, restyle, add or remove anything.\n\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a static medium vertical shot of two plush mascots at a low table in a warm room. The chick Jacky is on the left, visibly taller with his orange comb; the puppy Soda is on the right, slightly shorter, wearing a small brown backpack. Both stand on the same floor plane at the same camera distance. Natural real-time movement at normal human speed; no slow motion or time stretching.\n\n0.0–0.4: The scene is stable. Jacky’s beak is closed as he focuses on the blocks. Soda stands naturally, facing slightly toward Jacky, with a warm, affectionate expression.\n\n0.4–3.98: Soda speaks with clear mouth movement and expressive eyes: <d>[EN] This is my big brother, Jacky. He's a cheerful little chick.</d> While speaking, Soda’s head tilts gently toward Jacky, and his fluffy tail gives one soft, natural wag. Jacky remains focused on the table, his beak closed, as he carefully picks up a yellow block with his small wing.\n\n3.98–5.2: Jacky places the yellow block onto the stack on the low table. As he completes the placement, he naturally lifts his head to look at Soda, acknowledging him with a gentle nod and a brief, subtle wing gesture. His beak remains closed throughout.\n\n5.2–7.0: Jacky lowers his gaze back to the blocks and continues building, reaching for another piece. Soda holds his warm, affectionate gaze on Jacky, his expression soft and content. The camera remains fixed, maintaining the exact depth of field and character scale from the reference image.\n\noverall_soundscape: Soft ambient room tone with faint, warm sunlight atmosphere. Subtle fabric rustling as the plush characters move. Gentle, tactile sounds of plastic building blocks clicking together on the wooden table. Soft carpet footfalls if any weight shift occurs.\n\nnon_diegetic_music: None. No background music, only diegetic sounds and dialogue.\n\nRULES: No extra people, no reflections of other people, no giant foreground puppy, no shrinking chick, no duplicated actors, no humans, no new costumes, no text, no watermarks, no cuts, no held or looped tails.",
+      "review": "candidate",
+      "source_asset_id": "a_7989e9dd05c44195",
+      "reuse_reason": "保留原速快跑及其余既有视频",
+      "id": "a_39e4cbd9ab2f41c7",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792160141.917843,
+      "sha256": "f6d9d54822641f5ff6c90230202af8d6f895fdb11a95a722b6d771f5ecc2797a",
+      "url": "api/media/a_39e4cbd9ab2f41c7"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v5/imports/S06-unchanged.mp4",
+    "selected": true,
+    "file": "assets/takes/a_39e4cbd9ab2f41c7.mp4",
+    "generation": {
+      "graph": "generation/a_39e4cbd9ab2f41c7/graph.json",
+      "input_map": "generation/a_39e4cbd9ab2f41c7/input-map.json",
+      "seed": "899244243",
+      "source_job_id": "j_6b6fda5d12a0487d",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 168,
+      "seconds": 7.0,
+      "wave": "assets/audio/a_39e4cbd9ab2f41c7.wav",
+      "turns": [
+        {
+          "id": "d5",
+          "speaker_id": "xiaosuda",
+          "text": "This is my big brother, Jacky. He's a cheerful little chick.",
+          "translation": "这是我的哥哥奇奇，他是一只开朗的小鸡。",
+          "emotion": "Warm and affectionate",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 3.975875
+        }
+      ]
+    }
+  },
+  "a_7989e9dd05c44195": {
+    "metadata": {
+      "name": "S06 · V4保留原表演",
+      "job_id": "j_6b6fda5d12a0487d",
+      "shot_id": "S06",
+      "scene_id": "jacky-corner",
+      "master_id": "a_e2b9c59e88e04a91",
+      "board_version": "v_7aa53222506c487f",
+      "keep_frames": 168,
+      "seed": "899244243",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 168,
+        "seconds": 7.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/original-audio.wav",
+        "turns": [
+          {
+            "id": "d5",
+            "speaker_id": "xiaosuda",
+            "text": "This is my big brother, Jacky. He's a cheerful little chick.",
+            "translation": "这是我的哥哥奇奇，他是一只开朗的小鸡。",
+            "emotion": "Warm and affectionate",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 3.975875
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "Use <Picture 1> as the SOLE visual authority for the adult lead and the environment. Preserve exactly: the warm sunlit children's playroom, the low wooden table with colorful building blocks, the black-and-white Alaskan malamute plush puppy on the right, the round warm-yellow plush chick in a blue hoodie on the left, the soft carpet, the background shelves, and the fixed medium camera framing. Do not redesign, restyle, add or remove anything.\n\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a static medium vertical shot of two plush mascots at a low table in a warm room. The chick Jacky is on the left, visibly taller with his orange comb; the puppy Soda is on the right, slightly shorter, wearing a small brown backpack. Both stand on the same floor plane at the same camera distance. Natural real-time movement at normal human speed; no slow motion or time stretching.\n\n0.0–0.4: The scene is stable. Jacky’s beak is closed as he focuses on the blocks. Soda stands naturally, facing slightly toward Jacky, with a warm, affectionate expression.\n\n0.4–3.98: Soda speaks with clear mouth movement and expressive eyes: <d>[EN] This is my big brother, Jacky. He's a cheerful little chick.</d> While speaking, Soda’s head tilts gently toward Jacky, and his fluffy tail gives one soft, natural wag. Jacky remains focused on the table, his beak closed, as he carefully picks up a yellow block with his small wing.\n\n3.98–5.2: Jacky places the yellow block onto the stack on the low table. As he completes the placement, he naturally lifts his head to look at Soda, acknowledging him with a gentle nod and a brief, subtle wing gesture. His beak remains closed throughout.\n\n5.2–7.0: Jacky lowers his gaze back to the blocks and continues building, reaching for another piece. Soda holds his warm, affectionate gaze on Jacky, his expression soft and content. The camera remains fixed, maintaining the exact depth of field and character scale from the reference image.\n\noverall_soundscape: Soft ambient room tone with faint, warm sunlight atmosphere. Subtle fabric rustling as the plush characters move. Gentle, tactile sounds of plastic building blocks clicking together on the wooden table. Soft carpet footfalls if any weight shift occurs.\n\nnon_diegetic_music: None. No background music, only diegetic sounds and dialogue.\n\nRULES: No extra people, no reflections of other people, no giant foreground puppy, no shrinking chick, no duplicated actors, no humans, no new costumes, no text, no watermarks, no cuts, no held or looped tails.",
+      "review": "candidate",
+      "source_asset_id": "a_a711a7e5af8a4b35",
+      "reuse_reason": "V3表演原样复用",
+      "id": "a_7989e9dd05c44195",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792155693.2473853,
+      "sha256": "f6d9d54822641f5ff6c90230202af8d6f895fdb11a95a722b6d771f5ecc2797a",
+      "url": "api/media/a_7989e9dd05c44195"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v4/imports/S06-unchanged.mp4",
+    "selected": false,
+    "file": "assets/takes/a_39e4cbd9ab2f41c7.mp4",
+    "generation": {
+      "graph": "generation/a_7989e9dd05c44195/graph.json",
+      "input_map": "generation/a_7989e9dd05c44195/input-map.json",
+      "seed": "899244243",
+      "source_job_id": "j_6b6fda5d12a0487d",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 168,
+      "seconds": 7.0,
+      "wave": "assets/audio/a_39e4cbd9ab2f41c7.wav",
+      "turns": [
+        {
+          "id": "d5",
+          "speaker_id": "xiaosuda",
+          "text": "This is my big brother, Jacky. He's a cheerful little chick.",
+          "translation": "这是我的哥哥奇奇，他是一只开朗的小鸡。",
+          "emotion": "Warm and affectionate",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 3.975875
+        }
+      ]
+    }
+  },
+  "a_a711a7e5af8a4b35": {
+    "metadata": {
+      "name": "S06 · V3",
+      "job_id": "j_6b6fda5d12a0487d",
+      "shot_id": "S06",
+      "scene_id": "jacky-corner",
+      "master_id": "a_5459e1cb604b4381",
+      "board_version": "v_d950f063d6384a56",
+      "keep_frames": 168,
+      "seed": "899244243",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 168,
+        "seconds": 7.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/original-audio.wav",
+        "turns": [
+          {
+            "id": "d5",
+            "speaker_id": "xiaosuda",
+            "text": "This is my big brother, Jacky. He's a cheerful little chick.",
+            "translation": "这是我的哥哥奇奇，他是一只开朗的小鸡。",
+            "emotion": "Warm and affectionate",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 3.975875
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "Use <Picture 1> as the SOLE visual authority for the adult lead and the environment. Preserve exactly: the warm sunlit children's playroom, the low wooden table with colorful building blocks, the black-and-white Alaskan malamute plush puppy on the right, the round warm-yellow plush chick in a blue hoodie on the left, the soft carpet, the background shelves, and the fixed medium camera framing. Do not redesign, restyle, add or remove anything.\n\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a static medium vertical shot of two plush mascots at a low table in a warm room. The chick Jacky is on the left, visibly taller with his orange comb; the puppy Soda is on the right, slightly shorter, wearing a small brown backpack. Both stand on the same floor plane at the same camera distance. Natural real-time movement at normal human speed; no slow motion or time stretching.\n\n0.0–0.4: The scene is stable. Jacky’s beak is closed as he focuses on the blocks. Soda stands naturally, facing slightly toward Jacky, with a warm, affectionate expression.\n\n0.4–3.98: Soda speaks with clear mouth movement and expressive eyes: <d>[EN] This is my big brother, Jacky. He's a cheerful little chick.</d> While speaking, Soda’s head tilts gently toward Jacky, and his fluffy tail gives one soft, natural wag. Jacky remains focused on the table, his beak closed, as he carefully picks up a yellow block with his small wing.\n\n3.98–5.2: Jacky places the yellow block onto the stack on the low table. As he completes the placement, he naturally lifts his head to look at Soda, acknowledging him with a gentle nod and a brief, subtle wing gesture. His beak remains closed throughout.\n\n5.2–7.0: Jacky lowers his gaze back to the blocks and continues building, reaching for another piece. Soda holds his warm, affectionate gaze on Jacky, his expression soft and content. The camera remains fixed, maintaining the exact depth of field and character scale from the reference image.\n\noverall_soundscape: Soft ambient room tone with faint, warm sunlight atmosphere. Subtle fabric rustling as the plush characters move. Gentle, tactile sounds of plastic building blocks clicking together on the wooden table. Soft carpet footfalls if any weight shift occurs.\n\nnon_diegetic_music: None. No background music, only diegetic sounds and dialogue.\n\nRULES: No extra people, no reflections of other people, no giant foreground puppy, no shrinking chick, no duplicated actors, no humans, no new costumes, no text, no watermarks, no cuts, no held or looped tails.",
+      "review": "candidate",
+      "source_asset_id": "a_0ad59782fa4847e9",
+      "reuse_reason": "V2表演逐字节保留",
+      "id": "a_a711a7e5af8a4b35",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792153655.0716746,
+      "sha256": "f6d9d54822641f5ff6c90230202af8d6f895fdb11a95a722b6d771f5ecc2797a",
+      "url": "api/media/a_a711a7e5af8a4b35"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v3/S06-unchanged.mp4",
+    "selected": false,
+    "file": "assets/takes/a_39e4cbd9ab2f41c7.mp4",
+    "generation": {
+      "graph": "generation/a_a711a7e5af8a4b35/graph.json",
+      "input_map": "generation/a_a711a7e5af8a4b35/input-map.json",
+      "seed": "899244243",
+      "source_job_id": "j_6b6fda5d12a0487d",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 168,
+      "seconds": 7.0,
+      "wave": "assets/audio/a_39e4cbd9ab2f41c7.wav",
+      "turns": [
+        {
+          "id": "d5",
+          "speaker_id": "xiaosuda",
+          "text": "This is my big brother, Jacky. He's a cheerful little chick.",
+          "translation": "这是我的哥哥奇奇，他是一只开朗的小鸡。",
+          "emotion": "Warm and affectionate",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 3.975875
+        }
+      ]
+    }
+  },
+  "a_0ad59782fa4847e9": {
+    "metadata": {
+      "name": "S06",
+      "job_id": "j_6b6fda5d12a0487d",
+      "shot_id": "S06",
+      "scene_id": "jacky-corner",
+      "master_id": "a_5459e1cb604b4381",
+      "board_version": "v_fd55ce4c0e854ec6",
+      "keep_frames": 168,
+      "seed": "899244243",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 168,
+        "seconds": 7.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/original-audio.wav",
+        "turns": [
+          {
+            "id": "d5",
+            "speaker_id": "xiaosuda",
+            "text": "This is my big brother, Jacky. He's a cheerful little chick.",
+            "translation": "这是我的哥哥奇奇，他是一只开朗的小鸡。",
+            "emotion": "Warm and affectionate",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 3.975875
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "Use <Picture 1> as the SOLE visual authority for the adult lead and the environment. Preserve exactly: the warm sunlit children's playroom, the low wooden table with colorful building blocks, the black-and-white Alaskan malamute plush puppy on the right, the round warm-yellow plush chick in a blue hoodie on the left, the soft carpet, the background shelves, and the fixed medium camera framing. Do not redesign, restyle, add or remove anything.\n\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a static medium vertical shot of two plush mascots at a low table in a warm room. The chick Jacky is on the left, visibly taller with his orange comb; the puppy Soda is on the right, slightly shorter, wearing a small brown backpack. Both stand on the same floor plane at the same camera distance. Natural real-time movement at normal human speed; no slow motion or time stretching.\n\n0.0–0.4: The scene is stable. Jacky’s beak is closed as he focuses on the blocks. Soda stands naturally, facing slightly toward Jacky, with a warm, affectionate expression.\n\n0.4–3.98: Soda speaks with clear mouth movement and expressive eyes: <d>[EN] This is my big brother, Jacky. He's a cheerful little chick.</d> While speaking, Soda’s head tilts gently toward Jacky, and his fluffy tail gives one soft, natural wag. Jacky remains focused on the table, his beak closed, as he carefully picks up a yellow block with his small wing.\n\n3.98–5.2: Jacky places the yellow block onto the stack on the low table. As he completes the placement, he naturally lifts his head to look at Soda, acknowledging him with a gentle nod and a brief, subtle wing gesture. His beak remains closed throughout.\n\n5.2–7.0: Jacky lowers his gaze back to the blocks and continues building, reaching for another piece. Soda holds his warm, affectionate gaze on Jacky, his expression soft and content. The camera remains fixed, maintaining the exact depth of field and character scale from the reference image.\n\noverall_soundscape: Soft ambient room tone with faint, warm sunlight atmosphere. Subtle fabric rustling as the plush characters move. Gentle, tactile sounds of plastic building blocks clicking together on the wooden table. Soft carpet footfalls if any weight shift occurs.\n\nnon_diegetic_music: None. No background music, only diegetic sounds and dialogue.\n\nRULES: No extra people, no reflections of other people, no giant foreground puppy, no shrinking chick, no duplicated actors, no humans, no new costumes, no text, no watermarks, no cuts, no held or looped tails.",
+      "review": "candidate",
+      "id": "a_0ad59782fa4847e9",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792149956.83278,
+      "sha256": "f6d9d54822641f5ff6c90230202af8d6f895fdb11a95a722b6d771f5ecc2797a",
+      "url": "api/media/a_0ad59782fa4847e9"
+    },
+    "original_path": "/data/app/huanghaibin/soda/jobs/j_6b6fda5d12a0487d/S06/take.mp4",
+    "selected": false,
+    "file": "assets/takes/a_39e4cbd9ab2f41c7.mp4",
+    "generation": {
+      "graph": "generation/a_0ad59782fa4847e9/graph.json",
+      "input_map": "generation/a_0ad59782fa4847e9/input-map.json",
+      "seed": "899244243",
+      "source_job_id": "j_6b6fda5d12a0487d",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 168,
+      "seconds": 7.0,
+      "wave": "assets/audio/a_39e4cbd9ab2f41c7.wav",
+      "turns": [
+        {
+          "id": "d5",
+          "speaker_id": "xiaosuda",
+          "text": "This is my big brother, Jacky. He's a cheerful little chick.",
+          "translation": "这是我的哥哥奇奇，他是一只开朗的小鸡。",
+          "emotion": "Warm and affectionate",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 3.975875
+        }
+      ]
+    }
+  },
+  "a_96a0d7c86d014c4a": {
+    "metadata": {
+      "name": "S07 · 干净首帧＋转身关键帧重拍",
+      "shot_id": "S07",
+      "scene_id": "angela-reading",
+      "master_id": "a_a80c4ec48a024ecd",
+      "board_version": "v_925deeb376374984",
+      "keep_frames": 168,
+      "seed": "281868798",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-00.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-01.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-02.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-03.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-04.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-05.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-06.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-07.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-08.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-09.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-10.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-11.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-12.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-13.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-14.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-15.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-16.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-17.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-18.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-19.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-20.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 168,
+        "seconds": 7.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/original-audio.wav",
+        "turns": [
+          {
+            "id": "d6",
+            "speaker_id": "xiaosuda",
+            "text": "And this is my big sister, Angela. She's a gentle sheep.",
+            "translation": "这位是我的姐姐露露，她是一只温柔的绵羊。",
+            "emotion": "Soft and loving",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 4.53315625
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description:\n[Shot 1] Warm plush 3D animation, fixed medium shot, soft domestic lighting, two plush characters in a cozy room. The black-and-white Alaskan malamute plush puppy Soda with brown backpack straps and the cream sheep plush Angela in her pink knitted dress remain exactly as shown, preserving their faces, outfits, body sizes, and the room.\n\n0.0–0.4: Both plush characters hold their original seated/standing relationship; Soda is in profile toward Angela, Angela holds a rigid hardcover book with both hands, mouth closed, calm and attentive.\n0.4–1.2: The husky initiates a natural turn from facing Angela toward the audience, weight shifting smoothly from one foot to the other, ears lifting slightly, eyes brightening; Angela remains still except for subtle attention.\n0.4–4.533: The husky speaks with soft loving timing: <d>[EN] And this is my big sister, Angela. She's a gentle sheep.</d> While speaking, Soda’s right foreleg makes one small, controlled presenting gesture toward Angela and then relaxes back to its side; the black plush fur remains continuous from shoulder to white paw, and the brown backpack straps remain brown.\n1.5–3.0 (Angela, simultaneous with Soda speech): The sheep hears her name, lifts her eyes gently, mouth still closed, and gives one small soft right-hand wave near the book before returning her hand to the supported open book.\n4.7–6.2: The sheep turns one page near the end of the book with a light, natural motion, left hand keeping the rigid hardcover steady; Soda settles into a relaxed but alive pose, ears and tail showing small natural movement.\n6.2–7.0: Angela continues reading with small natural page-hand movement; Soda gives her a warm brief glance and returns his eyes toward the audience, ears and tail continuing naturally.\n\nCamera: fixed medium framing matching the original scene, no camera movement, stable composition throughout.\n\noverall_soundscape: soft room ambience, subtle plush fabric rustle during the turn and page turn, light paw movement, warm quiet domestic atmosphere.\n\nnon_diegetic_music: none; preserve the supplied dialogue audio exactly.\n\n\nSoda dialogue is supplied exactly at 0.400–4.533156 seconds. His head turn begins as the line begins, then the introducing paw travels out and back naturally. His forelegs remain continuous dense black plush fur down to the white-fur paws, with brown leather backpack straps. Angela listens with her mouth closed throughout; her eyes, wave and page turn have full natural initiation and follow-through. The original warm plush animal identities and fixed camera remain exact.\n",
+      "review": "candidate",
+      "source_asset_id": "a_234de381fb284651",
+      "source_job_id": "j_9bb8fd3584c847cd",
+      "operator_batch": "s1e01-generation-review",
+      "prompt_id": "9125c0f9-ecaa-4281-a609-166660910ac1",
+      "graph_path": "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/graph.json",
+      "guide_images": [
+        {
+          "frame": 48,
+          "image": "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-gesture-f48.png",
+          "sha256": "244935a0a526f2485e33be2055920eb3c045fb9e3146eee668b6d6ff60344417",
+          "node": "27"
+        }
+      ],
+      "human_acceptance": "pending",
+      "pixel_postprocessing": false,
+      "source_audio_unchanged": true,
+      "id": "a_96a0d7c86d014c4a",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792171081.5291498,
+      "sha256": "0e0b3e878adb2cd2856c756acd5826699fa439bba29a8e50542d5ebff86526ed",
+      "url": "api/media/a_96a0d7c86d014c4a"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/take.mp4",
+    "selected": true,
+    "file": "assets/takes/a_96a0d7c86d014c4a.mp4",
+    "generation": {
+      "graph": "generation/a_96a0d7c86d014c4a/graph.json",
+      "input_map": "generation/a_96a0d7c86d014c4a/input-map.json",
+      "seed": "281868798",
+      "source_job_id": "j_9bb8fd3584c847cd",
+      "prompt_id": "9125c0f9-ecaa-4281-a609-166660910ac1"
+    },
+    "audio": {
+      "keep_frames": 168,
+      "seconds": 7.0,
+      "wave": "assets/audio/a_96a0d7c86d014c4a.wav",
+      "turns": [
+        {
+          "id": "d6",
+          "speaker_id": "xiaosuda",
+          "text": "And this is my big sister, Angela. She's a gentle sheep.",
+          "translation": "这位是我的姐姐露露，她是一只温柔的绵羊。",
+          "emotion": "Soft and loving",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 4.53315625
+        }
+      ]
+    }
+  },
+  "a_234de381fb284651": {
+    "metadata": {
+      "name": "S07",
+      "job_id": "j_9bb8fd3584c847cd",
+      "shot_id": "S07",
+      "scene_id": "angela-reading",
+      "master_id": "a_61ea7c6aa0ba462a",
+      "board_version": "v_925deeb376374984",
+      "keep_frames": 168,
+      "seed": "281868798",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 168,
+        "seconds": 7.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/original-audio.wav",
+        "turns": [
+          {
+            "id": "d6",
+            "speaker_id": "xiaosuda",
+            "text": "And this is my big sister, Angela. She's a gentle sheep.",
+            "translation": "这位是我的姐姐露露，她是一只温柔的绵羊。",
+            "emotion": "Soft and loving",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 4.53315625
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description:\n[Shot 1] Warm plush 3D animation, fixed medium shot, soft domestic lighting, two plush characters in a cozy room. The black-and-white Alaskan malamute plush puppy Soda with brown backpack straps and the cream sheep plush Angela in her pink knitted dress remain exactly as shown, preserving their faces, outfits, body sizes, and the room.\n\n0.0–0.4: Both plush characters hold their original seated/standing relationship; Soda is in profile toward Angela, Angela holds a rigid hardcover book with both hands, mouth closed, calm and attentive.\n0.4–1.2: The husky initiates a natural turn from facing Angela toward the audience, weight shifting smoothly from one foot to the other, ears lifting slightly, eyes brightening; Angela remains still except for subtle attention.\n0.4–4.533: The husky speaks with soft loving timing: <d>[EN] And this is my big sister, Angela. She's a gentle sheep.</d> While speaking, Soda’s right foreleg makes one small, controlled presenting gesture toward Angela and then relaxes back to its side; the black plush fur remains continuous from shoulder to white paw, and the brown backpack straps remain brown.\n1.5–3.0 (Angela, simultaneous with Soda speech): The sheep hears her name, lifts her eyes gently, mouth still closed, and gives one small soft right-hand wave near the book before returning her hand to the supported open book.\n4.7–6.2: The sheep turns one page near the end of the book with a light, natural motion, left hand keeping the rigid hardcover steady; Soda settles into a relaxed but alive pose, ears and tail showing small natural movement.\n6.2–7.0: Angela continues reading with small natural page-hand movement; Soda gives her a warm brief glance and returns his eyes toward the audience, ears and tail continuing naturally.\n\nCamera: fixed medium framing matching the original scene, no camera movement, stable composition throughout.\n\noverall_soundscape: soft room ambience, subtle plush fabric rustle during the turn and page turn, light paw movement, warm quiet domestic atmosphere.\n\nnon_diegetic_music: none; preserve the supplied dialogue audio exactly.\n\n\nSoda dialogue is supplied exactly at 0.400–4.533156 seconds. His head turn begins as the line begins, then the introducing paw travels out and back naturally. His forelegs remain continuous dense black plush fur down to the white-fur paws, with brown leather backpack straps. Angela listens with her mouth closed throughout; her eyes, wave and page turn have full natural initiation and follow-through. The original warm plush animal identities and fixed camera remain exact.\n",
+      "review": "candidate",
+      "id": "a_234de381fb284651",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792160732.621521,
+      "sha256": "ef65aee5ef54c71add5c86ebc53b8f83a8ffe40156d947bbee0df171e5ce9bfd",
+      "url": "api/media/a_234de381fb284651"
+    },
+    "original_path": "/data/app/huanghaibin/soda/jobs/j_9bb8fd3584c847cd/S07/take.mp4",
+    "selected": false,
+    "file": "assets/takes/a_234de381fb284651.mp4",
+    "generation": {
+      "graph": "generation/a_234de381fb284651/graph.json",
+      "input_map": "generation/a_234de381fb284651/input-map.json",
+      "seed": "281868798",
+      "source_job_id": "j_9bb8fd3584c847cd",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 168,
+      "seconds": 7.0,
+      "wave": "assets/audio/a_96a0d7c86d014c4a.wav",
+      "turns": [
+        {
+          "id": "d6",
+          "speaker_id": "xiaosuda",
+          "text": "And this is my big sister, Angela. She's a gentle sheep.",
+          "translation": "这位是我的姐姐露露，她是一只温柔的绵羊。",
+          "emotion": "Soft and loving",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 4.53315625
+        }
+      ]
+    }
+  },
+  "a_11d7ab46b4c84a1f": {
+    "metadata": {
+      "name": "S08 · 放书＋全身关键帧重拍",
+      "shot_id": "S08",
+      "scene_id": "home-wide",
+      "master_id": "a_ad75e494c24242cd",
+      "board_version": "v_925deeb376374984",
+      "keep_frames": 192,
+      "seed": "1682790540",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-00.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-01.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-02.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-03.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-04.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-05.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-06.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-07.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-08.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-09.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-10.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-11.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-12.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-13.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-14.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-15.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-16.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-17.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-18.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-19.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-20.png",
+        "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 192,
+        "seconds": 8.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/original-audio.wav",
+        "turns": [
+          {
+            "id": "d7",
+            "speaker_id": "xiaosuda",
+            "text": "We live together happily and love each other very much.",
+            "translation": "我们快乐地生活在一起，也非常爱彼此。",
+            "emotion": "Content and sincere",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 3.59275
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "Use the adopted original family-room picture for the exact three plush animal identities, furniture and starting poses. Preserve exactly: the warm living room, the black-and-white Alaskan malamute plush puppy Soda in the foreground, the pink sheep plush seated in the armchair on the right, the yellow chick plush at the low table on the left, and all original props. Do not redesign, restyle, add or remove anything.\n\nintegrated_multimodal_description:\n[Shot 1] Warm 3D plush toy animation, fixed wide master shot, natural real-time movement at normal human speed; no slow motion or time stretching. The scene begins with the sheep plush seated in the armchair holding an open book, the chick plush at the block table, and the Alaskan malamute plush puppy Soda standing in the foreground. From 0.0 to 1.2 seconds, the sheep plush closes the rigid book while remaining seated, keeping her eyes soft and focused on the pages. From 1.2 to 2.4 seconds, she places the complete closed book flat onto the broad adjacent chair armrest beside her, using both hands to support it until it is stable. From 2.4 to 2.8 seconds, she visibly releases both hands, allowing the book to rest motionless on the armrest. From 2.8 to 4.2 seconds, she lowers her feet onto the rug and rises with empty hands, maintaining a calm, natural posture. From 4.2 to 6.7 seconds, she walks two small natural steps toward the right side of the Alaskan malamute plush puppy Soda, keeping her movement smooth and connected. From 6.7 to 8.0 seconds, she settles affectionately near the family, gently approaching while looking toward the viewer with a sincere expression. Simultaneously, from 0.4 to 3.59275 seconds, the Alaskan malamute plush puppy Soda speaks: <d>[English] We live together happily and love each other very much.</d> His mouth moves only during this exact interval, with natural eye contact, subtle ear movement, and a relaxed tail. The chick plush puts down his last block, then follows a clearly visible curved walking path around the right outside edge of the solid table toward the room center before approaching the left side of the Alaskan malamute plush puppy Soda; his whole body clears the table edge before moving forward, with his hoodie and yellow plush belly remaining continuous unbroken surfaces. The chick's beak remains closed throughout. Angela's mouth remains closed throughout while she breathes gently through her nose. No extra people, no reflections of other people.\n\noverall_soundscape: Soft indoor ambience, gentle fabric rustling, light footstep sounds on the rug, subtle book placement sound, and warm room tone.\n\nnon_diegetic_music: None. Retain only supplied original Soda speech.\nJacky motion timing: 0.0–0.8 seconds set his last block down; 0.8–2.5 side-step toward and fully around the table right outside edge; 2.5–4.2 walk forward only after his hips and feet have cleared that edge; 4.2–6.7 approach Soda left; 6.7–8.0 settle with a warm head lean. The wooden tabletop and legs keep their exact solid shapes. His yellow plush abdomen and knitted hoodie stay intact smooth continuous surfaces. Angela FIRST places and releases the complete closed book, THEN lowers her feet and rises EMPTY-HANDED; the same closed book remains visibly on the chair armrest as she walks toward Soda. Both listeners keep closed mouths/beak while Soda speaks.\n",
+      "review": "candidate",
+      "source_asset_id": "a_793b8839a2a64b93",
+      "source_job_id": "j_406de4f10cbb4b8c",
+      "operator_batch": "s1e01-generation-review",
+      "prompt_id": "2c3a5d68-f961-48ec-8094-7c23e1fab82f",
+      "graph_path": "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/graph.json",
+      "guide_images": [
+        {
+          "frame": 67,
+          "image": "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-book-released-f67.png",
+          "sha256": "aeff1acc867aa1c5d4d061bf3d5a57c983d61155e51b5da74de59b1c648a374d",
+          "node": "27"
+        },
+        {
+          "frame": 144,
+          "image": "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-family-f144.png",
+          "sha256": "f33b15e3bad7009382be0e5122be311742f1d3df0dfab4528f245b444ab683c3",
+          "node": "29"
+        }
+      ],
+      "human_acceptance": "pending",
+      "pixel_postprocessing": false,
+      "source_audio_unchanged": true,
+      "id": "a_11d7ab46b4c84a1f",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792171081.5593143,
+      "sha256": "4eb74ed5a3dd7409cbeb9c97df7601e26020cff63124696352d94453578c6ee1",
+      "url": "api/media/a_11d7ab46b4c84a1f"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S08-guide-only/take.mp4",
+    "selected": true,
+    "file": "assets/takes/a_11d7ab46b4c84a1f.mp4",
+    "generation": {
+      "graph": "generation/a_11d7ab46b4c84a1f/graph.json",
+      "input_map": "generation/a_11d7ab46b4c84a1f/input-map.json",
+      "seed": "1682790540",
+      "source_job_id": "j_406de4f10cbb4b8c",
+      "prompt_id": "2c3a5d68-f961-48ec-8094-7c23e1fab82f"
+    },
+    "audio": {
+      "keep_frames": 192,
+      "seconds": 8.0,
+      "wave": "assets/audio/a_11d7ab46b4c84a1f.wav",
+      "turns": [
+        {
+          "id": "d7",
+          "speaker_id": "xiaosuda",
+          "text": "We live together happily and love each other very much.",
+          "translation": "我们快乐地生活在一起，也非常爱彼此。",
+          "emotion": "Content and sincere",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 3.59275
+        }
+      ]
+    }
+  },
+  "a_793b8839a2a64b93": {
+    "metadata": {
+      "name": "S08",
+      "job_id": "j_406de4f10cbb4b8c",
+      "shot_id": "S08",
+      "scene_id": "home-wide",
+      "master_id": "a_ad75e494c24242cd",
+      "board_version": "v_925deeb376374984",
+      "keep_frames": 192,
+      "seed": "1682790540",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 192,
+        "seconds": 8.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/original-audio.wav",
+        "turns": [
+          {
+            "id": "d7",
+            "speaker_id": "xiaosuda",
+            "text": "We live together happily and love each other very much.",
+            "translation": "我们快乐地生活在一起，也非常爱彼此。",
+            "emotion": "Content and sincere",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 3.59275
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "Use the adopted original family-room picture for the exact three plush animal identities, furniture and starting poses. Preserve exactly: the warm living room, the black-and-white Alaskan malamute plush puppy Soda in the foreground, the pink sheep plush seated in the armchair on the right, the yellow chick plush at the low table on the left, and all original props. Do not redesign, restyle, add or remove anything.\n\nintegrated_multimodal_description:\n[Shot 1] Warm 3D plush toy animation, fixed wide master shot, natural real-time movement at normal human speed; no slow motion or time stretching. The scene begins with the sheep plush seated in the armchair holding an open book, the chick plush at the block table, and the Alaskan malamute plush puppy Soda standing in the foreground. From 0.0 to 1.2 seconds, the sheep plush closes the rigid book while remaining seated, keeping her eyes soft and focused on the pages. From 1.2 to 2.4 seconds, she places the complete closed book flat onto the broad adjacent chair armrest beside her, using both hands to support it until it is stable. From 2.4 to 2.8 seconds, she visibly releases both hands, allowing the book to rest motionless on the armrest. From 2.8 to 4.2 seconds, she lowers her feet onto the rug and rises with empty hands, maintaining a calm, natural posture. From 4.2 to 6.7 seconds, she walks two small natural steps toward the right side of the Alaskan malamute plush puppy Soda, keeping her movement smooth and connected. From 6.7 to 8.0 seconds, she settles affectionately near the family, gently approaching while looking toward the viewer with a sincere expression. Simultaneously, from 0.4 to 3.59275 seconds, the Alaskan malamute plush puppy Soda speaks: <d>[English] We live together happily and love each other very much.</d> His mouth moves only during this exact interval, with natural eye contact, subtle ear movement, and a relaxed tail. The chick plush puts down his last block, then follows a clearly visible curved walking path around the right outside edge of the solid table toward the room center before approaching the left side of the Alaskan malamute plush puppy Soda; his whole body clears the table edge before moving forward, with his hoodie and yellow plush belly remaining continuous unbroken surfaces. The chick's beak remains closed throughout. Angela's mouth remains closed throughout while she breathes gently through her nose. No extra people, no reflections of other people.\n\noverall_soundscape: Soft indoor ambience, gentle fabric rustling, light footstep sounds on the rug, subtle book placement sound, and warm room tone.\n\nnon_diegetic_music: None. Retain only supplied original Soda speech.\nJacky motion timing: 0.0–0.8 seconds set his last block down; 0.8–2.5 side-step toward and fully around the table right outside edge; 2.5–4.2 walk forward only after his hips and feet have cleared that edge; 4.2–6.7 approach Soda left; 6.7–8.0 settle with a warm head lean. The wooden tabletop and legs keep their exact solid shapes. His yellow plush abdomen and knitted hoodie stay intact smooth continuous surfaces. Angela FIRST places and releases the complete closed book, THEN lowers her feet and rises EMPTY-HANDED; the same closed book remains visibly on the chair armrest as she walks toward Soda. Both listeners keep closed mouths/beak while Soda speaks.\n",
+      "review": "candidate",
+      "id": "a_793b8839a2a64b93",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792161155.498557,
+      "sha256": "9f65e36fbcb66925c2cd2b905bbabc30e71b0c509d98b044a138560546cd61e4",
+      "url": "api/media/a_793b8839a2a64b93"
+    },
+    "original_path": "/data/app/huanghaibin/soda/jobs/j_406de4f10cbb4b8c/S08/take.mp4",
+    "selected": false,
+    "file": "assets/takes/a_793b8839a2a64b93.mp4",
+    "generation": {
+      "graph": "generation/a_793b8839a2a64b93/graph.json",
+      "input_map": "generation/a_793b8839a2a64b93/input-map.json",
+      "seed": "1682790540",
+      "source_job_id": "j_406de4f10cbb4b8c",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 192,
+      "seconds": 8.0,
+      "wave": "assets/audio/a_11d7ab46b4c84a1f.wav",
+      "turns": [
+        {
+          "id": "d7",
+          "speaker_id": "xiaosuda",
+          "text": "We live together happily and love each other very much.",
+          "translation": "我们快乐地生活在一起，也非常爱彼此。",
+          "emotion": "Content and sincere",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 3.59275
+        }
+      ]
+    }
+  },
+  "a_233880fab04a4f84": {
+    "metadata": {
+      "name": "S09 · V5原样保留",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S09",
+      "scene_id": "home-close",
+      "master_id": "a_35988b39eca54fd6",
+      "board_version": "v_925deeb376374984",
+      "keep_frames": 120,
+      "seed": "1111829882",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 120,
+        "seconds": 5.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/original-audio.wav",
+        "turns": [
+          {
+            "id": "d8",
+            "speaker_id": "xiaosuda",
+            "text": "I hope you like me too!",
+            "translation": "希望你们也喜欢我！",
+            "emotion": "Friendly and hopeful",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 2.1415
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description:\n[Shot 1] Original cute chibi 3D plush toy mascot style, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory palette, soft warm window light, shallow depth of field. Close-up shot of the black-and-white Alaskan malamute plush puppy (Soda) from <Picture 1>, preserving his exact face, fluffy texture, brown backpack straps, and the room. The camera is fixed in a tight head-and-shoulders crop.\n\n0.0–0.4: Soda sits facing the camera directly, maintaining a neutral but friendly expression with warm brown eyes looking straight ahead. His body remains stable, with only subtle breathing-like movement in the chest area.\n0.4–2.14: <d>[EN] I hope you like me too!</d> As he speaks, his mouth moves naturally to match the dialogue. He gently lifts his right front paw in a small, friendly wave, keeping the motion controlled and soft. His expression remains warm and hopeful throughout the speech.\n2.14–3.5: After finishing the line, Soda holds the friendly gaze for a brief moment, allowing the warmth of the smile to settle. The right paw begins to lower slowly back toward his chest area.\n3.5–4.6: The right paw settles naturally back into its resting position against his body. His head tilts very slightly, reinforcing the gentle and approachable demeanor.\n4.6–5.0: Soda holds the final pose, looking directly at the viewer with a calm, satisfied expression, completing the interaction naturally without any abrupt movements.\n\noverall_soundscape: Soft ambient room tone with faint, gentle fabric rustling sounds as the plush toy moves slightly. The voice is clear and friendly, matching the character's warm personality.\n\nnon_diegetic_music: None, or very subtle, soft instrumental background if needed to support the warmth, but primarily focused on the dialogue and natural sounds.\n\nRULES: No extra characters, no text or watermarks, no reflections of other people, no fast spins or hair whips, no finger snaps or waving beyond the single paw gesture, no zoom out or pan, maintain the tight head-and-shoulders crop, preserve the character's exact plush texture and facial features.",
+      "review": "candidate",
+      "source_asset_id": "a_00d627fd1b064de1",
+      "source_board_version": "v_a5053563ef83402d",
+      "source_master_id": "a_5893ef082e5346d8",
+      "reuse_reason": "保留原速快跑及其余既有视频",
+      "id": "a_233880fab04a4f84",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792160141.9274342,
+      "sha256": "c34708b5004a9f405b4d4e28ad49013f058555867f7547c5fded87789d089776",
+      "url": "api/media/a_233880fab04a4f84"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v5/imports/S09-unchanged.mp4",
+    "selected": true,
+    "file": "assets/takes/a_233880fab04a4f84.mp4",
+    "generation": {
+      "graph": "generation/a_233880fab04a4f84/graph.json",
+      "input_map": "generation/a_233880fab04a4f84/input-map.json",
+      "seed": "1111829882",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 120,
+      "seconds": 5.0,
+      "wave": "assets/audio/a_233880fab04a4f84.wav",
+      "turns": [
+        {
+          "id": "d8",
+          "speaker_id": "xiaosuda",
+          "text": "I hope you like me too!",
+          "translation": "希望你们也喜欢我！",
+          "emotion": "Friendly and hopeful",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.1415
+        }
+      ]
+    }
+  },
+  "a_00d627fd1b064de1": {
+    "metadata": {
+      "name": "S09 · V4保留原表演",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S09",
+      "scene_id": "home-close",
+      "master_id": "a_4d6d8e73444349fe",
+      "board_version": "v_7aa53222506c487f",
+      "keep_frames": 120,
+      "seed": "1111829882",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 120,
+        "seconds": 5.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/original-audio.wav",
+        "turns": [
+          {
+            "id": "d8",
+            "speaker_id": "xiaosuda",
+            "text": "I hope you like me too!",
+            "translation": "希望你们也喜欢我！",
+            "emotion": "Friendly and hopeful",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 2.1415
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description:\n[Shot 1] Original cute chibi 3D plush toy mascot style, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory palette, soft warm window light, shallow depth of field. Close-up shot of the black-and-white Alaskan malamute plush puppy (Soda) from <Picture 1>, preserving his exact face, fluffy texture, brown backpack straps, and the room. The camera is fixed in a tight head-and-shoulders crop.\n\n0.0–0.4: Soda sits facing the camera directly, maintaining a neutral but friendly expression with warm brown eyes looking straight ahead. His body remains stable, with only subtle breathing-like movement in the chest area.\n0.4–2.14: <d>[EN] I hope you like me too!</d> As he speaks, his mouth moves naturally to match the dialogue. He gently lifts his right front paw in a small, friendly wave, keeping the motion controlled and soft. His expression remains warm and hopeful throughout the speech.\n2.14–3.5: After finishing the line, Soda holds the friendly gaze for a brief moment, allowing the warmth of the smile to settle. The right paw begins to lower slowly back toward his chest area.\n3.5–4.6: The right paw settles naturally back into its resting position against his body. His head tilts very slightly, reinforcing the gentle and approachable demeanor.\n4.6–5.0: Soda holds the final pose, looking directly at the viewer with a calm, satisfied expression, completing the interaction naturally without any abrupt movements.\n\noverall_soundscape: Soft ambient room tone with faint, gentle fabric rustling sounds as the plush toy moves slightly. The voice is clear and friendly, matching the character's warm personality.\n\nnon_diegetic_music: None, or very subtle, soft instrumental background if needed to support the warmth, but primarily focused on the dialogue and natural sounds.\n\nRULES: No extra characters, no text or watermarks, no reflections of other people, no fast spins or hair whips, no finger snaps or waving beyond the single paw gesture, no zoom out or pan, maintain the tight head-and-shoulders crop, preserve the character's exact plush texture and facial features.",
+      "review": "candidate",
+      "source_asset_id": "a_b1578cc7b371433e",
+      "source_board_version": "v_a5053563ef83402d",
+      "source_master_id": "a_5893ef082e5346d8",
+      "reuse_reason": "V3表演原样复用",
+      "id": "a_00d627fd1b064de1",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792155693.257169,
+      "sha256": "c34708b5004a9f405b4d4e28ad49013f058555867f7547c5fded87789d089776",
+      "url": "api/media/a_00d627fd1b064de1"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v4/imports/S09-unchanged.mp4",
+    "selected": false,
+    "file": "assets/takes/a_233880fab04a4f84.mp4",
+    "generation": {
+      "graph": "generation/a_00d627fd1b064de1/graph.json",
+      "input_map": "generation/a_00d627fd1b064de1/input-map.json",
+      "seed": "1111829882",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 120,
+      "seconds": 5.0,
+      "wave": "assets/audio/a_233880fab04a4f84.wav",
+      "turns": [
+        {
+          "id": "d8",
+          "speaker_id": "xiaosuda",
+          "text": "I hope you like me too!",
+          "translation": "希望你们也喜欢我！",
+          "emotion": "Friendly and hopeful",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.1415
+        }
+      ]
+    }
+  },
+  "a_b1578cc7b371433e": {
+    "metadata": {
+      "name": "S09 · V3",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S09",
+      "scene_id": "home-close",
+      "master_id": "a_3abde136fa5a4a7b",
+      "board_version": "v_d950f063d6384a56",
+      "keep_frames": 120,
+      "seed": "1111829882",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 120,
+        "seconds": 5.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/original-audio.wav",
+        "turns": [
+          {
+            "id": "d8",
+            "speaker_id": "xiaosuda",
+            "text": "I hope you like me too!",
+            "translation": "希望你们也喜欢我！",
+            "emotion": "Friendly and hopeful",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 2.1415
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description:\n[Shot 1] Original cute chibi 3D plush toy mascot style, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory palette, soft warm window light, shallow depth of field. Close-up shot of the black-and-white Alaskan malamute plush puppy (Soda) from <Picture 1>, preserving his exact face, fluffy texture, brown backpack straps, and the room. The camera is fixed in a tight head-and-shoulders crop.\n\n0.0–0.4: Soda sits facing the camera directly, maintaining a neutral but friendly expression with warm brown eyes looking straight ahead. His body remains stable, with only subtle breathing-like movement in the chest area.\n0.4–2.14: <d>[EN] I hope you like me too!</d> As he speaks, his mouth moves naturally to match the dialogue. He gently lifts his right front paw in a small, friendly wave, keeping the motion controlled and soft. His expression remains warm and hopeful throughout the speech.\n2.14–3.5: After finishing the line, Soda holds the friendly gaze for a brief moment, allowing the warmth of the smile to settle. The right paw begins to lower slowly back toward his chest area.\n3.5–4.6: The right paw settles naturally back into its resting position against his body. His head tilts very slightly, reinforcing the gentle and approachable demeanor.\n4.6–5.0: Soda holds the final pose, looking directly at the viewer with a calm, satisfied expression, completing the interaction naturally without any abrupt movements.\n\noverall_soundscape: Soft ambient room tone with faint, gentle fabric rustling sounds as the plush toy moves slightly. The voice is clear and friendly, matching the character's warm personality.\n\nnon_diegetic_music: None, or very subtle, soft instrumental background if needed to support the warmth, but primarily focused on the dialogue and natural sounds.\n\nRULES: No extra characters, no text or watermarks, no reflections of other people, no fast spins or hair whips, no finger snaps or waving beyond the single paw gesture, no zoom out or pan, maintain the tight head-and-shoulders crop, preserve the character's exact plush texture and facial features.",
+      "review": "candidate",
+      "source_asset_id": "a_7e2d17496ad440ef",
+      "source_board_version": "v_a5053563ef83402d",
+      "source_master_id": "a_5893ef082e5346d8",
+      "reuse_reason": "V2表演逐字节保留",
+      "id": "a_b1578cc7b371433e",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792153655.0992372,
+      "sha256": "c34708b5004a9f405b4d4e28ad49013f058555867f7547c5fded87789d089776",
+      "url": "api/media/a_b1578cc7b371433e"
+    },
+    "original_path": "/data/app/huanghaibin/soda/batches/s1e01-review-v3/S09-unchanged.mp4",
+    "selected": false,
+    "file": "assets/takes/a_233880fab04a4f84.mp4",
+    "generation": {
+      "graph": "generation/a_b1578cc7b371433e/graph.json",
+      "input_map": "generation/a_b1578cc7b371433e/input-map.json",
+      "seed": "1111829882",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 120,
+      "seconds": 5.0,
+      "wave": "assets/audio/a_233880fab04a4f84.wav",
+      "turns": [
+        {
+          "id": "d8",
+          "speaker_id": "xiaosuda",
+          "text": "I hope you like me too!",
+          "translation": "希望你们也喜欢我！",
+          "emotion": "Friendly and hopeful",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.1415
+        }
+      ]
+    }
+  },
+  "a_7e2d17496ad440ef": {
+    "metadata": {
+      "name": "S09 · 保留原表演",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S09",
+      "scene_id": "home-close",
+      "master_id": "a_3abde136fa5a4a7b",
+      "board_version": "v_fd55ce4c0e854ec6",
+      "keep_frames": 120,
+      "seed": "1111829882",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 120,
+        "seconds": 5.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/original-audio.wav",
+        "turns": [
+          {
+            "id": "d8",
+            "speaker_id": "xiaosuda",
+            "text": "I hope you like me too!",
+            "translation": "希望你们也喜欢我！",
+            "emotion": "Friendly and hopeful",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 2.1415
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description:\n[Shot 1] Original cute chibi 3D plush toy mascot style, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory palette, soft warm window light, shallow depth of field. Close-up shot of the black-and-white Alaskan malamute plush puppy (Soda) from <Picture 1>, preserving his exact face, fluffy texture, brown backpack straps, and the room. The camera is fixed in a tight head-and-shoulders crop.\n\n0.0–0.4: Soda sits facing the camera directly, maintaining a neutral but friendly expression with warm brown eyes looking straight ahead. His body remains stable, with only subtle breathing-like movement in the chest area.\n0.4–2.14: <d>[EN] I hope you like me too!</d> As he speaks, his mouth moves naturally to match the dialogue. He gently lifts his right front paw in a small, friendly wave, keeping the motion controlled and soft. His expression remains warm and hopeful throughout the speech.\n2.14–3.5: After finishing the line, Soda holds the friendly gaze for a brief moment, allowing the warmth of the smile to settle. The right paw begins to lower slowly back toward his chest area.\n3.5–4.6: The right paw settles naturally back into its resting position against his body. His head tilts very slightly, reinforcing the gentle and approachable demeanor.\n4.6–5.0: Soda holds the final pose, looking directly at the viewer with a calm, satisfied expression, completing the interaction naturally without any abrupt movements.\n\noverall_soundscape: Soft ambient room tone with faint, gentle fabric rustling sounds as the plush toy moves slightly. The voice is clear and friendly, matching the character's warm personality.\n\nnon_diegetic_music: None, or very subtle, soft instrumental background if needed to support the warmth, but primarily focused on the dialogue and natural sounds.\n\nRULES: No extra characters, no text or watermarks, no reflections of other people, no fast spins or hair whips, no finger snaps or waving beyond the single paw gesture, no zoom out or pan, maintain the tight head-and-shoulders crop, preserve the character's exact plush texture and facial features.",
+      "review": "candidate",
+      "source_asset_id": "a_e86e37339f824a31",
+      "source_board_version": "v_a5053563ef83402d",
+      "source_master_id": "a_5893ef082e5346d8",
+      "reuse_reason": "未修改视频或原配音，仅适配新剪辑版本",
+      "id": "a_7e2d17496ad440ef",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792149156.588304,
+      "sha256": "c34708b5004a9f405b4d4e28ad49013f058555867f7547c5fded87789d089776",
+      "url": "api/media/a_7e2d17496ad440ef"
+    },
+    "original_path": "/data/app/huanghaibin/soda/imports/s1e01-review-v2-v_02e37967f70f4e41/S09-unchanged.mp4",
+    "selected": false,
+    "file": "assets/takes/a_233880fab04a4f84.mp4",
+    "generation": {
+      "graph": "generation/a_7e2d17496ad440ef/graph.json",
+      "input_map": "generation/a_7e2d17496ad440ef/input-map.json",
+      "seed": "1111829882",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 120,
+      "seconds": 5.0,
+      "wave": "assets/audio/a_233880fab04a4f84.wav",
+      "turns": [
+        {
+          "id": "d8",
+          "speaker_id": "xiaosuda",
+          "text": "I hope you like me too!",
+          "translation": "希望你们也喜欢我！",
+          "emotion": "Friendly and hopeful",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.1415
+        }
+      ]
+    }
+  },
+  "a_e86e37339f824a31": {
+    "metadata": {
+      "name": "S09",
+      "job_id": "j_5bb2c6045ec44148",
+      "shot_id": "S09",
+      "scene_id": "home-close",
+      "master_id": "a_5893ef082e5346d8",
+      "board_version": "v_a5053563ef83402d",
+      "keep_frames": 120,
+      "seed": "1111829882",
+      "tail_frames": [
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-00.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-01.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-02.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-03.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-04.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-05.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-06.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-07.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-08.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-09.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-10.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-11.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-12.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-13.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-14.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-15.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-16.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-17.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-18.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-19.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-20.png",
+        "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/tail-21.png"
+      ],
+      "audio": {
+        "keep_frames": 120,
+        "seconds": 5.0,
+        "wave": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/original-audio.wav",
+        "turns": [
+          {
+            "id": "d8",
+            "speaker_id": "xiaosuda",
+            "text": "I hope you like me too!",
+            "translation": "希望你们也喜欢我！",
+            "emotion": "Friendly and hopeful",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 2.1415
+          }
+        ]
+      },
+      "context_dependency": null,
+      "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description:\n[Shot 1] Original cute chibi 3D plush toy mascot style, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory palette, soft warm window light, shallow depth of field. Close-up shot of the black-and-white Alaskan malamute plush puppy (Soda) from <Picture 1>, preserving his exact face, fluffy texture, brown backpack straps, and the room. The camera is fixed in a tight head-and-shoulders crop.\n\n0.0–0.4: Soda sits facing the camera directly, maintaining a neutral but friendly expression with warm brown eyes looking straight ahead. His body remains stable, with only subtle breathing-like movement in the chest area.\n0.4–2.14: <d>[EN] I hope you like me too!</d> As he speaks, his mouth moves naturally to match the dialogue. He gently lifts his right front paw in a small, friendly wave, keeping the motion controlled and soft. His expression remains warm and hopeful throughout the speech.\n2.14–3.5: After finishing the line, Soda holds the friendly gaze for a brief moment, allowing the warmth of the smile to settle. The right paw begins to lower slowly back toward his chest area.\n3.5–4.6: The right paw settles naturally back into its resting position against his body. His head tilts very slightly, reinforcing the gentle and approachable demeanor.\n4.6–5.0: Soda holds the final pose, looking directly at the viewer with a calm, satisfied expression, completing the interaction naturally without any abrupt movements.\n\noverall_soundscape: Soft ambient room tone with faint, gentle fabric rustling sounds as the plush toy moves slightly. The voice is clear and friendly, matching the character's warm personality.\n\nnon_diegetic_music: None, or very subtle, soft instrumental background if needed to support the warmth, but primarily focused on the dialogue and natural sounds.\n\nRULES: No extra characters, no text or watermarks, no reflections of other people, no fast spins or hair whips, no finger snaps or waving beyond the single paw gesture, no zoom out or pan, maintain the tight head-and-shoulders crop, preserve the character's exact plush texture and facial features.",
+      "review": "candidate",
+      "id": "a_e86e37339f824a31",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "take",
+      "created": 1792138345.870129,
+      "sha256": "c34708b5004a9f405b4d4e28ad49013f058555867f7547c5fded87789d089776",
+      "url": "api/media/a_e86e37339f824a31"
+    },
+    "original_path": "/data/app/huanghaibin/soda/jobs/j_5bb2c6045ec44148/S09/take.mp4",
+    "selected": false,
+    "file": "assets/takes/a_233880fab04a4f84.mp4",
+    "generation": {
+      "graph": "generation/a_e86e37339f824a31/graph.json",
+      "input_map": "generation/a_e86e37339f824a31/input-map.json",
+      "seed": "1111829882",
+      "source_job_id": "j_5bb2c6045ec44148",
+      "prompt_id": null
+    },
+    "audio": {
+      "keep_frames": 120,
+      "seconds": 5.0,
+      "wave": "assets/audio/a_233880fab04a4f84.wav",
+      "turns": [
+        {
+          "id": "d8",
+          "speaker_id": "xiaosuda",
+          "text": "I hope you like me too!",
+          "translation": "希望你们也喜欢我！",
+          "emotion": "Friendly and hopeful",
+          "speed": 1.0,
+          "start": 0.4,
+          "end": 2.1415
+        }
+      ]
+    }
+  }
+}

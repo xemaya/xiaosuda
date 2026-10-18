@@ -1,0 +1,14 @@
+The image <Picture 1> is the visual authority for both characters and the room. The video <Video 1> is the voice authority: both characters speak with exactly the same voices, emotion, pacing and timing as its audio, and lip movements follow its speech.
+integrated_multimodal_description:
+[Shot 1] 3D plush-toy animation, dense soft plush fur texture on every surface including clothes, warm morning living room, vertical two-shot on a beige rug, gentle backlight fur halo. A taller yellow chick in a blue plush hoodie (white letter C, red-orange comb) quizzes a shorter black-and-white husky puppy with a small dark plush backpack; they stand face to face, full bodies visible. Real-time speed. Camera completely static for the whole shot, constant framing.
+
+0.0-0.5 | Both settle from the reference pose into a face-to-face dialogue stance, mouths closed smiling; camera stays fixed.
+0.5-2.4 | Chick asks a quiz question warmly, one wing rises in a small inviting gesture, head tilting with curiosity; puppy listens, tail wagging.
+2.4-2.9 | Chick keeps asking, wing opens palm-up as if presenting the question; puppy's ears perk up.
+2.9-4.4 | Chick leans in slightly, finishing the question with an encouraging nod; puppy's eyes widen, thinking.
+4.4-5.2 | Chick holds the pose with a playful closed-beak smile, waiting; tiny wing shrug at the end of the question.
+5.2-5.8 | Mouths closed; puppy brightens, ears up, chest lifts, tail wag speeds up.
+5.8-8.3 | Puppy answers in a proud by-the-book schoolboy manner, head formal, small precise nods, tail wagging in small beats; chick listens with an amused closed-beak smile.
+8.3-9.0 | The chick raises one wing tip to his chin, eyes narrowing into a thoughtful judging pose; the puppy watches him, waiting; mouths closed, camera static.
+
+RULES: visuals follow <Picture 1>; voices, timing and lip sync follow <Video 1> audio. Camera static, no push-in, no zoom, constant framing. No text, no subtitles, no logos. Both fully visible. Adult plush mascots. No added limbs, no morphing, no camera shake, no cuts.

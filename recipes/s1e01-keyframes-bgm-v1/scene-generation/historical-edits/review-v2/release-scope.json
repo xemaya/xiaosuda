@@ -1,0 +1,14 @@
+{
+  "base": "20261016T035048Z-9a99b3a9e09e",
+  "release": "20261016T105114Z-359af93031f4",
+  "changed_files": [
+    "workbench/app.py",
+    "workbench/deploy/install.py",
+    "workbench/domain.py",
+    "workbench/finishing.py",
+    "workbench/providers.py",
+    "workbench/tests/test_workbench.py"
+  ],
+  "tests": "20 passed",
+  "parallel_workspace_changes_excluded": true
+}

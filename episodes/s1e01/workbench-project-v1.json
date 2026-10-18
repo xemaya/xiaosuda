@@ -1,0 +1,174 @@
+{
+  "id": "p_5e6ea50dd70a4026",
+  "title": "S1E01 · 自我介绍 · Hi, I'm Soda!",
+  "script": "S1E01 自我介绍 Hi, I'm Soda!\n基于编辑《少儿英语大纲》S1E01，采用已冻结的系列口径。\n\n【本集设定】\n出镜只有小苏打 Soda、哥哥奇奇 Jacky、姐姐露露 Angela。本集只有 Soda 说话，另外两人闭嘴，以温柔表情和小动作回应。不增加角色或台词。Mimi 留到公园初遇集登场。\n地点为暖光家庭客厅，窗边地毯与沙发，干净背景。三人保持35/42/48cm身高比例及原有服饰：Soda小棕背包，Jacky蓝外套胸前白色C，Angela粉色毛衣裙、粉蝴蝶结与小书包。\n先由Soda面对观众打招呼；提到跑得快时表现跃跃欲试的小动作，无需雪地回忆或新场景；介绍哥哥时Jacky轻挥翅膀，介绍姐姐时Angela温柔挥手；最后三人轻轻靠近，Soda看回观众摇尾挥爪。\n含2秒OP预计40–60秒，最终以实测配音为准；不插入Practice time!，不刻意拉长。\n\n【逐句对白；全部由Soda说】\nSoda: Hi everyone! I'm Soda, an Alaskan Malamute.\n大家好！我是小苏打，一只阿拉斯加犬。\n\nSoda: I come from a very cold place, and I can run super fast!\n我来自一个非常寒冷的地方，而且我跑得可快啦！\n\nSoda: I'm so excited to meet you all.\n见到大家，我特别开心。\n\nSoda: This is my big brother, Jacky. He's a cheerful little chick.\n这是我的哥哥奇奇，他是一只开朗的小鸡。\n\nSoda: And this is my big sister, Angela. She's a gentle sheep.\n这位是我的姐姐露露，她是一只温柔的绵羊。\n\nSoda: We live together happily and love each other very much.\n我们快乐地生活在一起，也非常爱彼此。\n\nSoda: I hope you like me too!\n希望你们也喜欢我！",
+  "script_hash": "5e546db5574d8ce3aaa73337965458c2ee8e90e5ff4cd6cd5d8581f9a5cc8c8d",
+  "cast_ids": [
+    "xiaosuda",
+    "mengji-gege",
+    "mianyang-jiejie"
+  ],
+  "style_id": "soda-plush-v14",
+  "revision": 3,
+  "created": 1792114918.3237062,
+  "updated": 1792115024.5960906,
+  "setting": {
+    "title": "Hi, I'm Soda!",
+    "logline": "Soda 在暖光客厅向观众介绍自己，再介绍哥哥 Jacky 和姐姐 Angela，三人一起温暖收尾。",
+    "premise": "第一季第一集采用面向观众的家庭自我介绍。Soda 是唯一说话者，介绍自己的名字、阿拉斯加犬身份、寒冷地区的来处和跑得快的特点，再介绍开朗的哥哥 Jacky、温柔的姐姐 Angela。哥哥姐姐闭嘴，以挥手、轻挥翅膀和表情回应；最后三人轻轻靠近，Soda 看回观众摇尾挥爪。全片只在同一暖光家庭客厅展开，不增加雪地回忆、新角色或练习幕间。",
+    "style_id": "soda-plush-v14",
+    "cast": [
+      {
+        "character_id": "xiaosuda",
+        "story_role": "Protagonist introducing himself and his family"
+      },
+      {
+        "character_id": "mengji-gege",
+        "story_role": "Soda's brother, reacting with gentle gestures"
+      },
+      {
+        "character_id": "mianyang-jiejie",
+        "story_role": "Soda's sister, reacting with gentle gestures"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "scene-1",
+        "name": "暖光客厅 · 三兄妹自我介绍",
+        "setting": "暖色窗光下的家庭客厅，窗边地毯、沙发，背景干净。Soda 在前景中心，Jacky 与 Angela 在两侧稍后；三人自然站立至头顶的身高分别35、42、48cm，保持原服装和书包。采用新的三角色主图，旧两角色客厅只供背景参考。只有Soda说话，另外两人闭嘴回应。",
+        "lighting": "Soft warm window light, gentle depth of field.",
+        "props": [
+          "Small brown backpack (Soda)",
+          "Blue hoodie with white C (Jacky)",
+          "Pink sweater dress and bow (Angela)"
+        ],
+        "cast_ids": [
+          "xiaosuda",
+          "mengji-gege",
+          "mianyang-jiejie"
+        ],
+        "reference_scene_id": null
+      }
+    ],
+    "beats": [
+      {
+        "summary": "Soda greets the audience and introduces himself as an Alaskan Malamute from a cold place who runs fast.",
+        "scene_id": "scene-1"
+      },
+      {
+        "summary": "Soda expresses excitement about meeting everyone and introduces his brother Jacky, who waves his wings gently.",
+        "scene_id": "scene-1"
+      },
+      {
+        "summary": "Soda introduces his sister Angela, who waves gently. The three siblings move closer together, and Soda looks back at the audience to wave goodbye.",
+        "scene_id": "scene-1"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "d1",
+        "speaker_id": "xiaosuda",
+        "text": "Hi everyone! I'm Soda, an Alaskan Malamute.",
+        "translation": "大家好！我是小苏打，一只阿拉斯加犬。",
+        "emotion": "Cheerful and welcoming",
+        "speed": 1.0
+      },
+      {
+        "id": "d2",
+        "speaker_id": "xiaosuda",
+        "text": "I come from a very cold place, and I can run super fast!",
+        "translation": "我来自一个非常寒冷的地方，而且我跑得可快啦！",
+        "emotion": "Energetic and proud",
+        "speed": 1.0
+      },
+      {
+        "id": "d3",
+        "speaker_id": "xiaosuda",
+        "text": "I'm so excited to meet you all.",
+        "translation": "见到大家，我特别开心。",
+        "emotion": "Happy and eager",
+        "speed": 1.0
+      },
+      {
+        "id": "d4",
+        "speaker_id": "xiaosuda",
+        "text": "This is my big brother, Jacky. He's a cheerful little chick.",
+        "translation": "这是我的哥哥奇奇，他是一只开朗的小鸡。",
+        "emotion": "Warm and affectionate",
+        "speed": 1.0
+      },
+      {
+        "id": "d5",
+        "speaker_id": "xiaosuda",
+        "text": "And this is my big sister, Angela. She's a gentle sheep.",
+        "translation": "这位是我的姐姐露露，她是一只温柔的绵羊。",
+        "emotion": "Soft and loving",
+        "speed": 1.0
+      },
+      {
+        "id": "d6",
+        "speaker_id": "xiaosuda",
+        "text": "We live together happily and love each other very much.",
+        "translation": "我们快乐地生活在一起，也非常爱彼此。",
+        "emotion": "Content and sincere",
+        "speed": 1.0
+      },
+      {
+        "id": "d7",
+        "speaker_id": "xiaosuda",
+        "text": "I hope you like me too!",
+        "translation": "希望你们也喜欢我！",
+        "emotion": "Friendly and hopeful",
+        "speed": 1.0
+      }
+    ],
+    "notes": [
+      "Jacky and Angela do not speak; they respond with gentle expressions and small movements (wing wave, hand wave).",
+      "Soda performs a small eager movement when mentioning running fast.",
+      "The scene ends with the three characters moving closer together, and Soda looking back to the audience to wag his tail and wave."
+    ],
+    "unresolved_characters": []
+  },
+  "setting_version": "v_967dea824f2544dc",
+  "setting_accepted": false,
+  "board": null,
+  "board_version": null,
+  "board_accepted": false,
+  "scene_masters": {},
+  "adopted_takes": {},
+  "final_asset": null,
+  "status": "setting",
+  "packaging": {
+    "op": true
+  },
+  "history": [],
+  "setting_source_hash": "5e546db5574d8ce3aaa73337965458c2ee8e90e5ff4cd6cd5d8581f9a5cc8c8d",
+  "jobs": [
+    {
+      "id": "j_55c03049ad164003",
+      "project_id": "p_5e6ea50dd70a4026",
+      "kind": "setting",
+      "status": "succeeded",
+      "progress": "已生成，请检查后确认",
+      "created": 1792114920.9310992,
+      "updated": 1792114953.28677,
+      "cancel_requested": false,
+      "error": null,
+      "extra": {},
+      "result_version": "v_461f1221b5964918"
+    }
+  ],
+  "assets": [],
+  "versions": [
+    {
+      "id": "v_967dea824f2544dc",
+      "stage": "setting",
+      "created": 1792115024.59599
+    },
+    {
+      "id": "v_461f1221b5964918",
+      "stage": "setting",
+      "created": 1792114953.2845404
+    }
+  ]
+}

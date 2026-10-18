@@ -1,0 +1,15 @@
+{
+  "name": "哥哥的积木角 · 中景",
+  "scene_id": "jacky-corner",
+  "setting_version": "v_fdf88139dea74536",
+  "seed": "1138982876",
+  "job_id": "j_978241ce4071418b",
+  "prompt": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory and cornflower-blue/golden-yellow palette, soft warm window light, gentle depth of field, physical grounded poses. Preserve the supplied character-sheet identity and outfit exactly; never render a sheet, chart, labels, text, watermark, extra actors or extra limbs inside a scene. One clean full-frame cinematic portrait composition, 768x1376, fixed camera for dialogue.\nMake ONE clean portrait cinematic scene frame, NOT a character sheet. Reference pictures establish identity, outfits and scale only. EXACTLY these visible actors, no other animals: xiaosuda: Black-and-white Alaskan malamute plush puppy, dark gray-black back/head/ears, white face mask/muzzle/chest/belly/paws, pink inner ears and rosy cheeks, black nose, warm brown round eyes, large fluffy curled white-tipped tail, small brown backpack. Warm playful personality.\nmengji-gege: Round warm-yellow plush chick, pale cream belly, orange-yellow beak and feet, orange-red comb, rosy cheeks, dark-brown bright eyes, blue hoodie with a WHITE C on the chest, soft small wings and fluffy tail. Slightly taller than Soda, about 1.2 times his height.\nScene: 回到同一家庭活动区左侧积木角，Soda在前侧介绍哥哥，Jacky坐在矮积木桌边搭乐高积木，蓝外套胸前白色C保持不变；Soda说到Jacky时，他停下手中的一块积木、抬头微笑、轻挥小翅膀，然后接着搭。Jacky不张嘴说话。. Framing: medium. Quiet background activities: {\"mengji-gege\": \"安静搭积木；名字被叫到时短暂停手、抬头回应。\"}. Lighting: 与家庭全景同一暖色窗光. Props: 矮积木桌, 乐高积木. Preserve plush style and relative sizes. No text, no grid, no chart, no labels; only the C on the chick hoodie if chick is in cast. Portrait 768x1376.",
+  "review": "candidate",
+  "id": "a_6969a07b78464fc6",
+  "project_id": "p_5e6ea50dd70a4026",
+  "kind": "scene",
+  "created": 1792125673.229475,
+  "sha256": "b8354905883cae5fa43a3b867dd96d965f5b6b13e6d7cab2427cca9408357a53",
+  "url": "api/media/a_6969a07b78464fc6"
+}

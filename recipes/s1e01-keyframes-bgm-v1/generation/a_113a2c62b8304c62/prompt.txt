@@ -1,0 +1,11 @@
+[Shot 1] Original cute chibi 3D plush toy mascot style, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth. A wide, static full-body shot of a vast snowy landscape in the far north. The scene features fluffy snow-covered pine trees and distant snow mountains under a clear blue sky, with cold blue environmental light and warm facial highlights on the character.
+
+The black-and-white Alaskan malamute plush puppy (Soda) stands in the center of the flat snowfield, facing the camera. He wears his small brown backpack. His body leans slightly forward, expression excited and proud, mouth moving to speak.
+
+0.0–0.4s: Soda stands still, looking at the camera with a bright, eager expression, paws planted firmly in the snow.
+0.4–2.95s: <d>[EN] I come from a very cold place,</d> His mouth moves clearly and energetically to match the dialogue. His head tilts slightly forward, ears perked up, tail giving a small, happy wag. The camera remains fixed in a wide shot.
+2.95–5.0s: He finishes speaking, holding his excited pose with a proud smile, tongue slightly out. The background remains static with the snowy mountains and trees.
+
+overall_soundscape: Ambient cold wind, soft crunching of snow under paws, clear high-pitched vocal delivery.
+non_diegetic_music: Upbeat, playful orchestral chiptune, 120 BPM, light percussion and bright synth leads, no vocals.
+RULES: No extra characters, no text or watermarks, no reflections, preserve the character's exact plush texture and outfit, no fast spinning, natural real-time movement.

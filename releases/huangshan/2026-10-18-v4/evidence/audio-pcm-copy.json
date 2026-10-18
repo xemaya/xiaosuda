@@ -1,0 +1,7 @@
+{
+  "source_prefix_samples": 4230667,
+  "prefix_sha256": "e2a525a9032625a5c4924ca00dfbf48375ff4cc044702518552c73286a6dfe78",
+  "method": "byte copy decoded original PCM prefix; time-stretch tail alone",
+  "tail_samples": 288000,
+  "total_samples": 4518667
+}

@@ -1,0 +1,20 @@
+For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.
+
+integrated_multimodal_description:
+[Shot 1] Warm plush 3D animation, fixed medium shot, soft domestic lighting, two plush characters in a cozy room. The black-and-white Alaskan malamute plush puppy Soda with brown backpack straps and the cream sheep plush Angela in her pink knitted dress remain exactly as shown, preserving their faces, outfits, body sizes, and the room.
+
+0.0–0.4: Both plush characters hold their original seated/standing relationship; Soda is in profile toward Angela, Angela holds a rigid hardcover book with both hands, mouth closed, calm and attentive.
+0.4–1.2: The husky initiates a natural turn from facing Angela toward the audience, weight shifting smoothly from one foot to the other, ears lifting slightly, eyes brightening; Angela remains still except for subtle attention.
+0.4–4.533: The husky speaks with soft loving timing: <d>[EN] And this is my big sister, Angela. She's a gentle sheep.</d> While speaking, Soda’s right foreleg makes one small, controlled presenting gesture toward Angela and then relaxes back to its side; the black plush fur remains continuous from shoulder to white paw, and the brown backpack straps remain brown.
+1.5–3.0 (Angela, simultaneous with Soda speech): The sheep hears her name, lifts her eyes gently, mouth still closed, and gives one small soft right-hand wave near the book before returning her hand to the supported open book.
+4.7–6.2: The sheep turns one page near the end of the book with a light, natural motion, left hand keeping the rigid hardcover steady; Soda settles into a relaxed but alive pose, ears and tail showing small natural movement.
+6.2–7.0: Angela continues reading with small natural page-hand movement; Soda gives her a warm brief glance and returns his eyes toward the audience, ears and tail continuing naturally.
+
+Camera: fixed medium framing matching the original scene, no camera movement, stable composition throughout.
+
+overall_soundscape: soft room ambience, subtle plush fabric rustle during the turn and page turn, light paw movement, warm quiet domestic atmosphere.
+
+non_diegetic_music: none; preserve the supplied dialogue audio exactly.
+
+
+Soda dialogue is supplied exactly at 0.400–4.533156 seconds. His head turn begins as the line begins, then the introducing paw travels out and back naturally. His forelegs remain continuous dense black plush fur down to the white-fur paws, with brown leather backpack straps. Angela listens with her mouth closed throughout; her eyes, wave and page turn have full natural initiation and follow-through. The original warm plush animal identities and fixed camera remain exact.

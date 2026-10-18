@@ -1,0 +1,1274 @@
+{
+  "kind": "huangshan_final_handoff_index",
+  "date": "2026-10-18",
+  "series": "Hi, Soda!",
+  "branch": "环游世界 / independent travel films",
+  "final_current": "releases/huangshan/current.json",
+  "final_video": "releases/huangshan/2026-10-18-v4/Hi-Soda_Huangshan_Final.mp4",
+  "final_sha256": "dd1455e21dcc13003171c3eb8b3bb304b8af792f928774614319da853f4f8b4b",
+  "frames": 3389,
+  "fps": 24,
+  "op_frames": 48,
+  "dialogue_language": "Chinese; this pilot does not freeze future episode language",
+  "shots": [
+    {
+      "id": "S01",
+      "source_scene_id": "departure",
+      "final_visual_kind": "dialogue",
+      "start_frame": 48,
+      "end_frame_exclusive": 267,
+      "start_seconds": 2.0,
+      "end_seconds": 11.125,
+      "timecode": [
+        "00:02.000",
+        "00:11.125"
+      ],
+      "native_frames": 219,
+      "native_continuation": false,
+      "native_context_dependency": null,
+      "final_onscreen_character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [
+        "d01",
+        "d02"
+      ],
+      "source_native_asset_id": "a_31a4af5f0cc74b97",
+      "source_native_sha256": "9e220dfdac35b8b87402c68a2c8bf2dcb03c2f3898ee31822ca915d8c808d870",
+      "remote_native_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S01/take.mp4",
+      "master_id": "a_f268438a0c7b4d16",
+      "job_id": "j_2863625fa92042c2",
+      "seed": "1316492138",
+      "prompt_id": "b2c4c0c8-6145-4150-9181-90d5f5e053d5",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_2863625fa92042c2/S01/original-audio.wav",
+      "voice_wave_sha256": "4aa6deffc9d2309cb45be8b64b8e981b56c9eaeb253aff34286273ed2e55b1bf",
+      "final_postproduction": null
+    },
+    {
+      "id": "S03",
+      "source_scene_id": "pine-medium",
+      "final_visual_kind": "dialogue_with_repaired_pine",
+      "start_frame": 267,
+      "end_frame_exclusive": 464,
+      "start_seconds": 11.125,
+      "end_seconds": 19.333333333333332,
+      "timecode": [
+        "00:11.125",
+        "00:19.333"
+      ],
+      "native_frames": 197,
+      "native_continuation": false,
+      "native_context_dependency": null,
+      "final_onscreen_character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [
+        "d03",
+        "d04"
+      ],
+      "source_native_asset_id": "a_136ce29587b64f1f",
+      "source_native_sha256": "6d9361c2f96ab312b3462bcb4c25981b00e8e5aef0ef5a5c0dd71a915dd3d642",
+      "remote_native_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S03/take.mp4",
+      "master_id": "a_75192a9a661f4a3a",
+      "job_id": "j_ac22a8c53dc54a77",
+      "seed": "773881393",
+      "prompt_id": "c125fdd1-c9ee-4d3d-9da6-ee0b864836b2",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_ac22a8c53dc54a77/S03/original-audio.wav",
+      "voice_wave_sha256": "3e40afcccd5412ac3f672ed226fcb446c1acd9a62ca276836d23b3074899317b",
+      "final_postproduction": {
+        "source": "jobs/1018-huangshan-pine-village-v4/delivery.json",
+        "method": "own H3 canopy + controlled lowest-needle wind + spatial composite excluding actors",
+        "native_canopy_source": {
+          "name": "canopy",
+          "job_id": "j_252f5185a7f4408c",
+          "keep_frames": 197,
+          "master_sha256": "9d3dcde402f0b25606d023cf90d6831ee110743eef74e7e53d3af0d32306be9a",
+          "seed": 1018202611,
+          "prompt_en": "<Picture 1> displays the Huangshan welcoming pine canopy in a locked-tripod detail for 8.2083 seconds. The granite peaks, trunk, large branches, and entire canopy geometry remain in exactly the reference coordinates and scale. Only tiny needle clusters and the very outermost twigs sway gently by a few pixels in a light mountain breeze, creating smooth slow continuous natural wind with no sudden gust, no branch contraction or expanding canopy. Very light distant atmospheric vapor moves slowly around fixed rocks. The top and bottom framing stay identical, with no camera move, cut, dissolve, zoom, rotation, new branches, bird, or animal. The tree is living, with a rigid main structure and small soft leaf motion. No object is added. There is no speech, music, or text. The crop will be layered over the upper background of the original locked shot; its lower edge must stay at exactly the same scene coordinates. Describe restrained motion throughout, not a frozen hold.",
+          "human_acceptance": "pending",
+          "no_tts": true,
+          "id": "a_9e9f90b74e7d43e5",
+          "project_id": "p_07511601f9624a48",
+          "kind": "take",
+          "created": 1792283336.756211,
+          "sha256": "c1bab9b21d4908b73471d740f446e825efca5c9f27b35d081ceae128d3829c69",
+          "url": "api/media/a_9e9f90b74e7d43e5",
+          "path": "/data/app/huanghaibin/soda/preproduction/1018-huangshan-pine-village-v4/canopy-native.mp4",
+          "prompt_id": "867ce6a4-9451-4a5a-a160-849eadf8d3dd",
+          "port": 8188,
+          "dimensions": [
+            768,
+            512
+          ],
+          "model": "minimax_h3_ref2va_pruned_fp8_scaled.safetensors",
+          "raw_frames": 209
+        },
+        "layered_wind": {
+          "native_canopy": "canopy-native.mp4",
+          "lowest_needles_source": "source-01.mp4 actual first retained frame",
+          "frames": 197,
+          "fps": 24,
+          "native_region_y": [
+            0,
+            720
+          ],
+          "lowest_needles_displacement_px_max": [
+            1.85,
+            3.05
+          ],
+          "rigid_trunk_and_mountains": "reference geometry",
+          "spatial_layer_feather_y": [
+            680,
+            720
+          ],
+          "temporal_crossfade": false,
+          "repeated_or_padded_frames": 0,
+          "retimed_actor_frames": 0,
+          "large_crop_rejected": "canopy-tall-native.mp4 reinterpreted tree/camera; never selected"
+        },
+        "actor_performance": "original S03 retained; no new mouth/body animation",
+        "new_fullframe_native_take": false
+      },
+      "final_frames": 197
+    },
+    {
+      "id": "S05",
+      "source_scene_id": "pine-bough-insert",
+      "final_visual_kind": "offscreen_voiceover_insert",
+      "start_frame": 464,
+      "end_frame_exclusive": 657,
+      "start_seconds": 19.333333333333332,
+      "end_seconds": 27.375,
+      "timecode": [
+        "00:19.333",
+        "00:27.375"
+      ],
+      "native_frames": 193,
+      "native_continuation": false,
+      "native_context_dependency": null,
+      "final_onscreen_character_ids": [],
+      "offscreen_speaker_ids": [
+        "mianyang-jiejie"
+      ],
+      "dialogue_ids": [
+        "d05"
+      ],
+      "source_native_asset_id": "a_482f7297721a498c",
+      "source_native_sha256": "01f6e15a693c2d0a66842cb75ccefffb30f5699d68bb121881632e9c05c705c5",
+      "remote_native_path": "/data/app/huanghaibin/soda/jobs/j_3a4d41e1339b49db/S05/take.mp4",
+      "master_id": "a_eeb314f1a454437a",
+      "job_id": "j_3a4d41e1339b49db",
+      "seed": "785511715",
+      "prompt_id": "969bbc14-7256-4b37-90a2-09f3c6f8ab01",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_3a4d41e1339b49db/S05/original-audio.wav",
+      "voice_wave_sha256": "f07ff7701a26231f38c89029ab2a3343f2b818c3bcb9c26f8e0df4a127a95255",
+      "final_postproduction": null
+    },
+    {
+      "id": "S06",
+      "source_scene_id": "pine-medium",
+      "final_visual_kind": "dialogue",
+      "start_frame": 657,
+      "end_frame_exclusive": 750,
+      "start_seconds": 27.375,
+      "end_seconds": 31.25,
+      "timecode": [
+        "00:27.375",
+        "00:31.250"
+      ],
+      "native_frames": 93,
+      "native_continuation": false,
+      "native_context_dependency": null,
+      "final_onscreen_character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [
+        "d06"
+      ],
+      "source_native_asset_id": "a_52b11630b44049d9",
+      "source_native_sha256": "6bdf3dfffb587a66b83d7383f5fb050ad3d69329d8955816cb41c2222d39c40a",
+      "remote_native_path": "/data/app/huanghaibin/soda/jobs/j_4dffc4aa863b4235/S06/take.mp4",
+      "master_id": "a_75192a9a661f4a3a",
+      "job_id": "j_4dffc4aa863b4235",
+      "seed": "468294049",
+      "prompt_id": "1e88cb9e-bdaf-4528-b6c0-c340f002c549",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_4dffc4aa863b4235/S06/original-audio.wav",
+      "voice_wave_sha256": "b5816d45e21ae96b13d7601c9bebbb26fcbd61c110b0fbf1e747ff691e385aaf",
+      "final_postproduction": null
+    },
+    {
+      "id": "S07",
+      "source_scene_id": "monkey-gazing-sea",
+      "final_visual_kind": "dialogue",
+      "start_frame": 750,
+      "end_frame_exclusive": 877,
+      "start_seconds": 31.25,
+      "end_seconds": 36.541666666666664,
+      "timecode": [
+        "00:31.250",
+        "00:36.542"
+      ],
+      "native_frames": 127,
+      "native_continuation": false,
+      "native_context_dependency": null,
+      "final_onscreen_character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [
+        "d07",
+        "d08"
+      ],
+      "source_native_asset_id": "a_b4c91848aca142df",
+      "source_native_sha256": "3e6e0cb2857a66e8c5c4fe28d3e8361f508da9d0b467066c4f19d64ca1c50bab",
+      "remote_native_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S07/take.mp4",
+      "master_id": "a_e3ec41bc67e74102",
+      "job_id": "j_b140781fccc3461b",
+      "seed": "1749730514",
+      "prompt_id": "2eaba69b-2af9-4ee3-805f-5568460f7d0a",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_b140781fccc3461b/S07/original-audio.wav",
+      "voice_wave_sha256": "53410a060768e7e257cccfa054a8e9053f11db1c2e0e0e5d2e072a9338dad526",
+      "final_postproduction": null
+    },
+    {
+      "id": "S08",
+      "source_scene_id": "monkey-close",
+      "final_visual_kind": "dialogue",
+      "start_frame": 877,
+      "end_frame_exclusive": 1044,
+      "start_seconds": 36.541666666666664,
+      "end_seconds": 43.5,
+      "timecode": [
+        "00:36.542",
+        "00:43.500"
+      ],
+      "native_frames": 167,
+      "native_continuation": false,
+      "native_context_dependency": null,
+      "final_onscreen_character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [
+        "d09",
+        "d10"
+      ],
+      "source_native_asset_id": "a_85110ae2a70e4a7d",
+      "source_native_sha256": "e61efe848363de334671a017c408b493be95db4931e44e08b4a532d73aacb740",
+      "remote_native_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S08/take.mp4",
+      "master_id": "a_8714b05aae5d45e8",
+      "job_id": "j_acd56dd1efe44d0c",
+      "seed": "998438091",
+      "prompt_id": "54bdb497-ce54-4c40-ab40-0a5626516268",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_acd56dd1efe44d0c/S08/original-audio.wav",
+      "voice_wave_sha256": "0125d49b4622bda736079d34592992df444975c80c3afca06a89f13a79f20c9a",
+      "final_postproduction": null
+    },
+    {
+      "id": "S09",
+      "source_scene_id": "monkey-close",
+      "final_visual_kind": "dialogue",
+      "start_frame": 1044,
+      "end_frame_exclusive": 1276,
+      "start_seconds": 43.5,
+      "end_seconds": 53.166666666666664,
+      "timecode": [
+        "00:43.500",
+        "00:53.167"
+      ],
+      "native_frames": 232,
+      "native_continuation": true,
+      "native_context_dependency": "a_85110ae2a70e4a7d",
+      "final_onscreen_character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [
+        "d11",
+        "d12"
+      ],
+      "source_native_asset_id": "a_b69659ff6d6644fe",
+      "source_native_sha256": "e1a42e7c5c98fde2a14ed4048410fbf7b96f4ef5819ce02e98a5b65de16762fd",
+      "remote_native_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S09/take.mp4",
+      "master_id": "a_8714b05aae5d45e8",
+      "job_id": "j_13acb48303df4524",
+      "seed": "1445243320",
+      "prompt_id": "b7780d47-34d4-4257-bd99-43de1a6152a9",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_13acb48303df4524/S09/original-audio.wav",
+      "voice_wave_sha256": "64e8bf33eb7c7d36938c60b4d252057f612114e15a3d5abab3d5d2fa30f227b0",
+      "final_postproduction": null
+    },
+    {
+      "id": "S10",
+      "source_scene_id": "sea-of-clouds",
+      "final_visual_kind": "dialogue",
+      "start_frame": 1276,
+      "end_frame_exclusive": 1472,
+      "start_seconds": 53.166666666666664,
+      "end_seconds": 61.333333333333336,
+      "timecode": [
+        "00:53.167",
+        "01:01.333"
+      ],
+      "native_frames": 196,
+      "native_continuation": false,
+      "native_context_dependency": null,
+      "final_onscreen_character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [
+        "d13",
+        "d14"
+      ],
+      "source_native_asset_id": "a_93cc8e24e5ea44ff",
+      "source_native_sha256": "895399d4599002d7f9a597c385c731f203cfda2220f4edd54096db4a6110de60",
+      "remote_native_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S10/take.mp4",
+      "master_id": "a_07f29c00826a4dd4",
+      "job_id": "j_e9e1b99deb574524",
+      "seed": "340003264",
+      "prompt_id": "49ccbee0-bf46-406f-b306-45a6ce9981e1",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_e9e1b99deb574524/S10/original-audio.wav",
+      "voice_wave_sha256": "302ee9404d393032f40eeea28515943a76bf3ed50503c353a908b3c3fe99ce8c",
+      "final_postproduction": null
+    },
+    {
+      "id": "S11",
+      "source_scene_id": "sea-of-clouds",
+      "final_visual_kind": "silent_cloud_cutaway",
+      "start_frame": 1472,
+      "end_frame_exclusive": 1624,
+      "start_seconds": 61.333333333333336,
+      "end_seconds": 67.66666666666667,
+      "timecode": [
+        "01:01.333",
+        "01:07.667"
+      ],
+      "native_frames": 152,
+      "native_continuation": true,
+      "native_context_dependency": "a_93cc8e24e5ea44ff",
+      "final_onscreen_character_ids": [],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [],
+      "source_native_asset_id": "a_4055c245324143b2",
+      "source_native_sha256": "f966142d81dc8c789f966d3b2b69e9ff845e8d5a7cff7ce0a079f045713a7e72",
+      "remote_native_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S11/take.mp4",
+      "master_id": "a_07f29c00826a4dd4",
+      "job_id": "j_bdd7a76470e54d58",
+      "seed": "596307132",
+      "prompt_id": "d4736ff1-75d2-45db-a215-d9929cfbd774",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_bdd7a76470e54d58/S11/original-audio.wav",
+      "voice_wave_sha256": "256dd31873fcdb5523df8edc77912e36cd0ef341b309e747fb259dd327f0bfac",
+      "final_postproduction": {
+        "source": "jobs/1018-huangshan-silent-cloud-v3/delivery.json",
+        "crop_source_pixels": [
+          260,
+          200,
+          560,
+          1002
+        ],
+        "coordinate_space": [
+          1080,
+          1932
+        ],
+        "crop_format": "x,y,width,height",
+        "nature_motion": "existing native cloud motion; no new model call",
+        "raw_uncropped_take_rejected_for": "silent mouth motion at62-66s",
+        "final_entry_is_cut": true
+      }
+    },
+    {
+      "id": "S12",
+      "source_scene_id": "cloud-medium",
+      "final_visual_kind": "dialogue",
+      "start_frame": 1624,
+      "end_frame_exclusive": 1841,
+      "start_seconds": 67.66666666666667,
+      "end_seconds": 76.70833333333333,
+      "timecode": [
+        "01:07.667",
+        "01:16.708"
+      ],
+      "native_frames": 217,
+      "native_continuation": false,
+      "native_context_dependency": null,
+      "final_onscreen_character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [
+        "d15"
+      ],
+      "source_native_asset_id": "a_864d8f02e88c4598",
+      "source_native_sha256": "4dda96d8045ce8ebfe1d26816e1501eb87e77a68134fa66ad04367db38efa562",
+      "remote_native_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S12/take.mp4",
+      "master_id": "a_dc3923c72b56446a",
+      "job_id": "j_6b027c8af71641e6",
+      "seed": "610095903",
+      "prompt_id": "7fe38f8b-62c0-440c-9681-c63780186d25",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_6b027c8af71641e6/S12/original-audio.wav",
+      "voice_wave_sha256": "e1ee29331fae6dd869f7614de1715782ab1efef4393da8e19b8a86840e79d7b4",
+      "final_postproduction": null
+    },
+    {
+      "id": "S13",
+      "source_scene_id": "cloud-medium",
+      "final_visual_kind": "dialogue",
+      "start_frame": 1841,
+      "end_frame_exclusive": 2028,
+      "start_seconds": 76.70833333333333,
+      "end_seconds": 84.5,
+      "timecode": [
+        "01:16.708",
+        "01:24.500"
+      ],
+      "native_frames": 187,
+      "native_continuation": true,
+      "native_context_dependency": "a_864d8f02e88c4598",
+      "final_onscreen_character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [
+        "d16",
+        "d17"
+      ],
+      "source_native_asset_id": "a_eac18be796d04e14",
+      "source_native_sha256": "ee0b5263a1d0254752732a253336831f5535d733da5523738fbb1c9c9e0cd587",
+      "remote_native_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S13/take.mp4",
+      "master_id": "a_dc3923c72b56446a",
+      "job_id": "j_823b68d1756b4871",
+      "seed": "597950952",
+      "prompt_id": "0a1e32e4-0c2d-478b-a4b9-e1e57b8d6fb2",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_823b68d1756b4871/S13/original-audio.wav",
+      "voice_wave_sha256": "176001459db9500124dc4e5622ece20b6257b4e461f338adafd4d46b9e51b2ea",
+      "final_postproduction": null
+    },
+    {
+      "id": "S14",
+      "source_scene_id": "reading-rest",
+      "final_visual_kind": "silent_reaction",
+      "start_frame": 2028,
+      "end_frame_exclusive": 2108,
+      "start_seconds": 84.5,
+      "end_seconds": 87.83333333333333,
+      "timecode": [
+        "01:24.500",
+        "01:27.833"
+      ],
+      "native_frames": 80,
+      "native_continuation": false,
+      "native_context_dependency": null,
+      "final_onscreen_character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [],
+      "source_native_asset_id": "a_551227dd5a7b4d05",
+      "source_native_sha256": "aa05b9dc0bef52a20188f9829e3ea875bc22b782f94345f5bca0e7125a4c78dd",
+      "remote_native_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S14/take.mp4",
+      "master_id": "a_e7e2a0cc13f14bed",
+      "job_id": "j_2d16f73a81c54f19",
+      "seed": "25046867",
+      "prompt_id": "5643f279-2bea-4e4b-9099-82c833798ccd",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_2d16f73a81c54f19/S14/original-audio.wav",
+      "voice_wave_sha256": "f6447e6ee449cf3b84c8365c50330747287677c1f4995431da9aede0e22e6db8",
+      "final_postproduction": null
+    },
+    {
+      "id": "S15",
+      "source_scene_id": "reading-rest",
+      "final_visual_kind": "dialogue",
+      "start_frame": 2108,
+      "end_frame_exclusive": 2329,
+      "start_seconds": 87.83333333333333,
+      "end_seconds": 97.04166666666667,
+      "timecode": [
+        "01:27.833",
+        "01:37.042"
+      ],
+      "native_frames": 221,
+      "native_continuation": true,
+      "native_context_dependency": "a_551227dd5a7b4d05",
+      "final_onscreen_character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [
+        "d18"
+      ],
+      "source_native_asset_id": "a_42a7db0e1daf4712",
+      "source_native_sha256": "8b1f4d98a0833a05d54dec7530a2b9f3c30e8198835b9335f9e841a153553397",
+      "remote_native_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S15/take.mp4",
+      "master_id": "a_e7e2a0cc13f14bed",
+      "job_id": "j_a87f2013e96741ff",
+      "seed": "1346068702",
+      "prompt_id": "bcf624a9-fbee-44af-bd61-6fd1c4019ca1",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_a87f2013e96741ff/S15/original-audio.wav",
+      "voice_wave_sha256": "2aafcb513c90cad5cd4012953e92493dcf66e57d696ad4c018eb25df0a99a895",
+      "final_postproduction": null
+    },
+    {
+      "id": "S16",
+      "source_scene_id": "reading-rest",
+      "final_visual_kind": "dialogue",
+      "start_frame": 2329,
+      "end_frame_exclusive": 2396,
+      "start_seconds": 97.04166666666667,
+      "end_seconds": 99.83333333333333,
+      "timecode": [
+        "01:37.042",
+        "01:39.833"
+      ],
+      "native_frames": 67,
+      "native_continuation": true,
+      "native_context_dependency": "a_42a7db0e1daf4712",
+      "final_onscreen_character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [
+        "d19"
+      ],
+      "source_native_asset_id": "a_df99a750928349cc",
+      "source_native_sha256": "d834bdae1c61beb4893e0026bd0d3c13415335d686c0374e85686033801c4386",
+      "remote_native_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S16/take.mp4",
+      "master_id": "a_e7e2a0cc13f14bed",
+      "job_id": "j_d74eca724b5e455e",
+      "seed": "403861681",
+      "prompt_id": "89586c8b-44ba-4315-908d-82ed67e5a645",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_d74eca724b5e455e/S16/original-audio.wav",
+      "voice_wave_sha256": "017fbca8174addd499f90fe2e9579d45f4050dd379a7972c5492fea4f1de81b2",
+      "final_postproduction": null
+    },
+    {
+      "id": "S17",
+      "source_scene_id": "reading-rest",
+      "final_visual_kind": "dialogue",
+      "start_frame": 2396,
+      "end_frame_exclusive": 2610,
+      "start_seconds": 99.83333333333333,
+      "end_seconds": 108.75,
+      "timecode": [
+        "01:39.833",
+        "01:48.750"
+      ],
+      "native_frames": 214,
+      "native_continuation": true,
+      "native_context_dependency": "a_df99a750928349cc",
+      "final_onscreen_character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [
+        "d20"
+      ],
+      "source_native_asset_id": "a_08cf1da8cf7148be",
+      "source_native_sha256": "553d744980f54d1da717322a8a57d918e70a2592330bc7a9f50749c986a2258a",
+      "remote_native_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S17/take.mp4",
+      "master_id": "a_e7e2a0cc13f14bed",
+      "job_id": "j_8d99555a54a542c8",
+      "seed": "749434937",
+      "prompt_id": "e77c11bb-7b8d-41f0-9d01-9db3e9e2e957",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_8d99555a54a542c8/S17/original-audio.wav",
+      "voice_wave_sha256": "805afec673e23351d4c40264637250ef4259c8b793a522088ee72c2e925de496",
+      "final_postproduction": null
+    },
+    {
+      "id": "S18",
+      "source_scene_id": "travel-journal",
+      "final_visual_kind": "prop_detail",
+      "start_frame": 2610,
+      "end_frame_exclusive": 2738,
+      "start_seconds": 108.75,
+      "end_seconds": 114.08333333333333,
+      "timecode": [
+        "01:48.750",
+        "01:54.083"
+      ],
+      "native_frames": 128,
+      "native_continuation": false,
+      "native_context_dependency": null,
+      "final_onscreen_character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [],
+      "source_native_asset_id": "a_cc4e8d933e244bf9",
+      "source_native_sha256": "a26f7ea1f373273e6ec1caf39946ee3c0ec8da38e14d6172b7281b8eaf5784d4",
+      "remote_native_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S18/take.mp4",
+      "master_id": "a_9067fb82aecf42f7",
+      "job_id": "j_918426e9074f4d46",
+      "seed": "1663148011",
+      "prompt_id": "b5b8ab76-ac04-4f67-8a36-786455e656d2",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_918426e9074f4d46/S18/original-audio.wav",
+      "voice_wave_sha256": "2c869574ffc3a58eeefeb737788aed8e83580c01546fd3b87ca9d2df7ba77f8e",
+      "final_postproduction": null
+    },
+    {
+      "id": "S19",
+      "source_scene_id": "waterfall-journal-medium",
+      "final_visual_kind": "dialogue",
+      "start_frame": 2738,
+      "end_frame_exclusive": 2917,
+      "start_seconds": 114.08333333333333,
+      "end_seconds": 121.54166666666667,
+      "timecode": [
+        "01:54.083",
+        "02:01.542"
+      ],
+      "native_frames": 179,
+      "native_continuation": false,
+      "native_context_dependency": null,
+      "final_onscreen_character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [
+        "d21"
+      ],
+      "source_native_asset_id": "a_91ccc2331a5c4a22",
+      "source_native_sha256": "2c9d7afb340c60438b5f4febafd879bd5578f4107f1da934709c823f75ab77ff",
+      "remote_native_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S19/take.mp4",
+      "master_id": "a_7e29cf480d0e4b24",
+      "job_id": "j_d6bbcf63ad514f6b",
+      "seed": "105106518",
+      "prompt_id": "675b1ab0-a851-483e-b7ab-5b093c3ded4d",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_d6bbcf63ad514f6b/S19/original-audio.wav",
+      "voice_wave_sha256": "02e6e9a97f79d8632600ad68a645514e8c1c30ad365ad04962040306b0357bf4",
+      "final_postproduction": null
+    },
+    {
+      "id": "S20",
+      "source_scene_id": "waterfall-journal-medium",
+      "final_visual_kind": "dialogue",
+      "start_frame": 2917,
+      "end_frame_exclusive": 3093,
+      "start_seconds": 121.54166666666667,
+      "end_seconds": 128.875,
+      "timecode": [
+        "02:01.542",
+        "02:08.875"
+      ],
+      "native_frames": 176,
+      "native_continuation": true,
+      "native_context_dependency": "a_91ccc2331a5c4a22",
+      "final_onscreen_character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [
+        "d22",
+        "d23"
+      ],
+      "source_native_asset_id": "a_acee0ee64c6a4856",
+      "source_native_sha256": "53c8edb78ad0540852853ab2949cde9e3b730178eda178e3ce860af66269743b",
+      "remote_native_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S20/take.mp4",
+      "master_id": "a_7e29cf480d0e4b24",
+      "job_id": "j_b0ebbcabce534798",
+      "seed": "1010120927",
+      "prompt_id": "83fa8df1-e025-47cd-b3cc-f9b01b03dfdd",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_b0ebbcabce534798/S20/original-audio.wav",
+      "voice_wave_sha256": "8134e62e9cb7a452f451de6c59c71ae236eb070680fa9493fecb2bf85d148fb4",
+      "final_postproduction": null
+    },
+    {
+      "id": "S21",
+      "source_scene_id": "travel-journal",
+      "final_visual_kind": "prop_detail",
+      "start_frame": 3093,
+      "end_frame_exclusive": 3173,
+      "start_seconds": 128.875,
+      "end_seconds": 132.20833333333334,
+      "timecode": [
+        "02:08.875",
+        "02:12.208"
+      ],
+      "native_frames": 80,
+      "native_continuation": false,
+      "native_context_dependency": null,
+      "final_onscreen_character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [],
+      "source_native_asset_id": "a_d8260e3418014239",
+      "source_native_sha256": "788288c819b353a6ecec58c5da7803fa45060564301bffc489afd2feebebe2f9",
+      "remote_native_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S21/take.mp4",
+      "master_id": "a_9067fb82aecf42f7",
+      "job_id": "j_0ee5c72b2aa5470b",
+      "seed": "1023228596",
+      "prompt_id": "d13c01d3-6325-4913-8642-44f2771cf893",
+      "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_0ee5c72b2aa5470b/S21/original-audio.wav",
+      "voice_wave_sha256": "f6447e6ee449cf3b84c8365c50330747287677c1f4995431da9aede0e22e6db8",
+      "final_postproduction": null
+    },
+    {
+      "id": "S22",
+      "source_scene_id": "village-walk-ending",
+      "final_visual_kind": "silent_village_walk",
+      "start_frame": 3173,
+      "end_frame_exclusive": 3389,
+      "start_seconds": 132.20833333333334,
+      "end_seconds": 141.20833333333334,
+      "timecode": [
+        "02:12.208",
+        "02:21.208"
+      ],
+      "native_frames": 240,
+      "native_continuation": false,
+      "native_context_dependency": null,
+      "final_onscreen_character_ids": [
+        "xiaosuda",
+        "mianyang-jiejie"
+      ],
+      "offscreen_speaker_ids": [],
+      "dialogue_ids": [],
+      "source_native_asset_id": "a_062a8f4840044810",
+      "source_native_sha256": "1013af6cc87284f06e5b3c73485e54c60ccb6bf401d0f484bc1fb0eef16af36f",
+      "remote_native_path": "/data/app/huanghaibin/soda/preproduction/1018-huangshan-pine-village-v4/ending-native.mp4",
+      "master_id": "a_ea20dfee56d44b77",
+      "job_id": "j_2687ecbebce5416b",
+      "seed": 1018202612,
+      "prompt_id": "a33e5efd-4feb-45c9-84a6-6ccd9110823f",
+      "voice_wave_path": null,
+      "voice_wave_sha256": null,
+      "final_postproduction": {
+        "source": "jobs/1018-huangshan-pine-village-v4/delivery.json",
+        "trim_native_head_frames": 24,
+        "reason": "discard first1s with silent mouth articulation; retain grounded turn and walk",
+        "audio": "copy original full prefix through frame3173; stretch only existing silent music/ambience tail to9s",
+        "new_tts_requests": 0
+      },
+      "previous_shot": {
+        "id": "S22",
+        "source_scene_id": "hot-spring-ending",
+        "final_visual_kind": "silent_scenic_with_back_views",
+        "start_frame": 3173,
+        "end_frame_exclusive": 3325,
+        "start_seconds": 132.20833333333334,
+        "end_seconds": 138.54166666666666,
+        "timecode": [
+          "02:12.208",
+          "02:18.542"
+        ],
+        "native_frames": 152,
+        "native_continuation": false,
+        "native_context_dependency": null,
+        "final_onscreen_character_ids": [
+          "xiaosuda",
+          "mianyang-jiejie"
+        ],
+        "offscreen_speaker_ids": [],
+        "dialogue_ids": [],
+        "source_native_asset_id": "a_c90408fa1df84acf",
+        "source_native_sha256": "66567553654c328dda550b61e9849eae0b0c86c14b0ae978763828cbb4a86fb9",
+        "remote_native_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/preserved/S22/take.mp4",
+        "master_id": "a_9595012cf7144b4a",
+        "job_id": "j_5e4bba871efb4688",
+        "seed": "941593924",
+        "prompt_id": "41bac24a-e667-4af6-9f0c-7fad0fb28b42",
+        "voice_wave_path": "/data/app/huanghaibin/soda/jobs/j_5e4bba871efb4688/S22/original-audio.wav",
+        "voice_wave_sha256": "256dd31873fcdb5523df8edc77912e36cd0ef341b309e747fb259dd327f0bfac",
+        "final_postproduction": null
+      },
+      "final_frames": 216,
+      "native_selected_frames": [
+        24,
+        240
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "d01",
+      "shot_id": "S01",
+      "speaker_id": "xiaosuda",
+      "speaker_name": "Soda / 小苏打",
+      "text": "姐姐，这只猴子坐得好高呀！它在看什么？",
+      "start_seconds": 2.4,
+      "end_seconds": 6.533156,
+      "offscreen": false
+    },
+    {
+      "id": "d02",
+      "shot_id": "S01",
+      "speaker_id": "mianyang-jiejie",
+      "speaker_name": "Angela / 露露姐姐",
+      "text": "我们去黄山，找找答案。",
+      "start_seconds": 6.883156,
+      "end_seconds": 9.739219,
+      "offscreen": false
+    },
+    {
+      "id": "d03",
+      "shot_id": "S03",
+      "speaker_id": "xiaosuda",
+      "speaker_name": "Soda / 小苏打",
+      "text": "咦？它好像在跟我打招呼！",
+      "start_seconds": 13.025,
+      "end_seconds": 15.834625,
+      "offscreen": false
+    },
+    {
+      "id": "d04",
+      "shot_id": "S03",
+      "speaker_id": "xiaosuda",
+      "speaker_name": "Soda / 小苏打",
+      "text": "你好呀！我是小苏打！",
+      "start_seconds": 16.184625,
+      "end_seconds": 18.657563,
+      "offscreen": false
+    },
+    {
+      "id": "d05",
+      "shot_id": "S05",
+      "speaker_id": "mianyang-jiejie",
+      "speaker_name": "Angela / 露露姐姐",
+      "text": "这是迎客松。你看，它伸出的枝条，像不像欢迎我们的手臂？",
+      "start_seconds": 19.733333,
+      "end_seconds": 26.68774,
+      "offscreen": true
+    },
+    {
+      "id": "d06",
+      "shot_id": "S06",
+      "speaker_id": "xiaosuda",
+      "speaker_name": "Soda / 小苏打",
+      "text": "欢迎姐姐！也欢迎我！",
+      "start_seconds": 27.775,
+      "end_seconds": 30.584625,
+      "offscreen": false
+    },
+    {
+      "id": "d07",
+      "shot_id": "S07",
+      "speaker_id": "xiaosuda",
+      "speaker_name": "Soda / 小苏打",
+      "text": "找到了！它真的一直坐在那里。",
+      "start_seconds": 31.65,
+      "end_seconds": 34.540906,
+      "offscreen": false
+    },
+    {
+      "id": "d08",
+      "shot_id": "S07",
+      "speaker_id": "xiaosuda",
+      "speaker_name": "Soda / 小苏打",
+      "text": "它怎么不理我？",
+      "start_seconds": 34.890906,
+      "end_seconds": 35.866156,
+      "offscreen": false
+    },
+    {
+      "id": "d09",
+      "shot_id": "S08",
+      "speaker_id": "mianyang-jiejie",
+      "speaker_name": "Angela / 露露姐姐",
+      "text": "再仔细看看。",
+      "start_seconds": 36.941667,
+      "end_seconds": 38.509042,
+      "offscreen": false
+    },
+    {
+      "id": "d10",
+      "shot_id": "S08",
+      "speaker_id": "xiaosuda",
+      "speaker_name": "Soda / 小苏打",
+      "text": "啊！原来是一块像猴子的石头！",
+      "start_seconds": 38.859042,
+      "end_seconds": 42.818073,
+      "offscreen": false
+    },
+    {
+      "id": "d11",
+      "shot_id": "S09",
+      "speaker_id": "mianyang-jiejie",
+      "speaker_name": "Angela / 露露姐姐",
+      "text": "人们给它起了个名字，叫“猴子观海”。",
+      "start_seconds": 43.9,
+      "end_seconds": 48.079594,
+      "offscreen": false
+    },
+    {
+      "id": "d12",
+      "shot_id": "S09",
+      "speaker_id": "xiaosuda",
+      "speaker_name": "Soda / 小苏打",
+      "text": "海？可是，这里明明是山呀。",
+      "start_seconds": 48.429594,
+      "end_seconds": 52.4815,
+      "offscreen": false
+    },
+    {
+      "id": "d13",
+      "shot_id": "S10",
+      "speaker_id": "mianyang-jiejie",
+      "speaker_name": "Angela / 露露姐姐",
+      "text": "看它面前。",
+      "start_seconds": 53.566667,
+      "end_seconds": 54.925042,
+      "offscreen": false
+    },
+    {
+      "id": "d14",
+      "shot_id": "S10",
+      "speaker_id": "xiaosuda",
+      "speaker_name": "Soda / 小苏打",
+      "text": "哇——白色的海！山尖像一座座小岛！",
+      "start_seconds": 55.275042,
+      "end_seconds": 60.650479,
+      "offscreen": false
+    },
+    {
+      "id": "d15",
+      "shot_id": "S12",
+      "speaker_id": "mianyang-jiejie",
+      "speaker_name": "Angela / 露露姐姐",
+      "text": "这些是云。云铺在山谷里，看起来像海，人们就叫它“云海”。",
+      "start_seconds": 68.066667,
+      "end_seconds": 76.042729,
+      "offscreen": false
+    },
+    {
+      "id": "d16",
+      "shot_id": "S13",
+      "speaker_id": "xiaosuda",
+      "speaker_name": "Soda / 小苏打",
+      "text": "原来，这只石猴是在看云海。",
+      "start_seconds": 77.108333,
+      "end_seconds": 79.871521,
+      "offscreen": false
+    },
+    {
+      "id": "d17",
+      "shot_id": "S13",
+      "speaker_id": "xiaosuda",
+      "speaker_name": "Soda / 小苏打",
+      "text": "还像……好多好多棉花糖。",
+      "start_seconds": 80.221521,
+      "end_seconds": 83.843865,
+      "offscreen": false
+    },
+    {
+      "id": "d18",
+      "shot_id": "S15",
+      "speaker_id": "mianyang-jiejie",
+      "speaker_name": "Angela / 露露姐姐",
+      "text": "四百多年前，有位旅行家叫徐霞客。他来过黄山两次，还把看到的景色写进游记。",
+      "start_seconds": 88.233333,
+      "end_seconds": 96.371958,
+      "offscreen": false
+    },
+    {
+      "id": "d19",
+      "shot_id": "S16",
+      "speaker_id": "xiaosuda",
+      "speaker_name": "Soda / 小苏打",
+      "text": "他也会看到这些山和云吗？",
+      "start_seconds": 97.441667,
+      "end_seconds": 99.183167,
+      "offscreen": false
+    },
+    {
+      "id": "d20",
+      "shot_id": "S17",
+      "speaker_id": "mianyang-jiejie",
+      "speaker_name": "Angela / 露露姐姐",
+      "text": "山一直在这里，云却总在变化。今天我们看到的景色，也值得记下来。",
+      "start_seconds": 100.233333,
+      "end_seconds": 108.082802,
+      "offscreen": false
+    },
+    {
+      "id": "d21",
+      "shot_id": "S19",
+      "speaker_id": "xiaosuda",
+      "speaker_name": "Soda / 小苏打",
+      "text": "一棵会欢迎朋友的松树，一只看海的石猴，还有一片飘在山里的白云。",
+      "start_seconds": 114.483333,
+      "end_seconds": 120.880458,
+      "offscreen": false
+    },
+    {
+      "id": "d22",
+      "shot_id": "S20",
+      "speaker_id": "mianyang-jiejie",
+      "speaker_name": "Angela / 露露姐姐",
+      "text": "你最想记住哪一个？",
+      "start_seconds": 121.941667,
+      "end_seconds": 124.286885,
+      "offscreen": false
+    },
+    {
+      "id": "d23",
+      "shot_id": "S20",
+      "speaker_id": "xiaosuda",
+      "speaker_name": "Soda / 小苏打",
+      "text": "先都画下来。回家以后，我要讲给哥哥听！",
+      "start_seconds": 124.636885,
+      "end_seconds": 128.21276,
+      "offscreen": false
+    }
+  ],
+  "masters": [
+    {
+      "scene_id": "sea-of-clouds",
+      "id": "a_07f29c00826a4dd4",
+      "sha256": "aa82c01ae52685da59f0ce639cb628ee758337162fe75884e0903645be997e3c",
+      "remote_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-v1/sea-of-clouds-two-ears.png",
+      "local_matching_paths": [],
+      "job_id": "j_1c6247ec632c479e",
+      "seed": 101718923,
+      "source_seed": null,
+      "prompt_id": "b5a6fec2-ab7f-4607-b052-d63870772c17",
+      "generator_or_derivation": "own 4090 Qwen-Image-2.1",
+      "source_master": "a_cbdd23c0f5dc4fdb",
+      "note": "Empty local_matching_paths means fetch this exact remote asset; do not substitute an older similarly named image."
+    },
+    {
+      "scene_id": "pine-medium",
+      "id": "a_75192a9a661f4a3a",
+      "sha256": "a6bd7d03e8de3dbe0b7000315976dfcd391f0c560cac8da90545cb4f45f91ac3",
+      "remote_path": "/data/app/huanghaibin/soda/jobs/j_869e1c555a2e496a/pine-medium-quadruped.png",
+      "local_matching_paths": [
+        "jobs/1017-huangshan-quadruped-v1/masters/pine-medium.png",
+        "jobs/1017-huangshan-quadruped-v1/pine-medium-local-v2.png"
+      ],
+      "job_id": "j_869e1c555a2e496a",
+      "seed": 101717235,
+      "source_seed": null,
+      "prompt_id": "de0a9f65-5902-4956-96ca-6d2f702da36a",
+      "generator_or_derivation": "own 4090 Qwen-Image-2.1",
+      "source_master": "a_a7d573b9d7974d73",
+      "note": "Empty local_matching_paths means fetch this exact remote asset; do not substitute an older similarly named image."
+    },
+    {
+      "scene_id": "waterfall-journal-medium",
+      "id": "a_7e29cf480d0e4b24",
+      "sha256": "727fb6c455cfa64b9ff70c3c14e1af892acfa3010e7966ffeb294f790f95c6c3",
+      "remote_path": "/data/app/huanghaibin/soda/preproduction/1017-huangshan-fur-batch-v1/registered/v_09d34c31bede4f93/masters/waterfall-journal-medium.png",
+      "local_matching_paths": [
+        "jobs/1017-huangshan-fur-batch-v1/masters/waterfall-journal-medium.png"
+      ],
+      "job_id": "j_37d7ef225dc74b31",
+      "seed": null,
+      "source_seed": null,
+      "prompt_id": "4f31d500-8879-4bac-a553-9747cecb3c78",
+      "generator_or_derivation": "own_4090_Qwen-Image-2.1",
+      "source_master": null,
+      "note": "Empty local_matching_paths means fetch this exact remote asset; do not substitute an older similarly named image."
+    },
+    {
+      "scene_id": "monkey-close",
+      "id": "a_8714b05aae5d45e8",
+      "sha256": "958b63ece8108188396c10a148f5bcafab45547e7329aa5517fc8597c592c9df",
+      "remote_path": "/data/app/huanghaibin/soda/jobs/j_73e0a505ecc04797/monkey-close-quadruped.png",
+      "local_matching_paths": [
+        "jobs/1017-huangshan-quadruped-v1/masters/monkey-close.png"
+      ],
+      "job_id": "j_73e0a505ecc04797",
+      "seed": 101717235,
+      "source_seed": null,
+      "prompt_id": "52c11f92-049f-429c-8661-8dfd3ee95d07",
+      "generator_or_derivation": "own 4090 Qwen-Image-2.1",
+      "source_master": "a_430310a53bdb4a14",
+      "note": "Empty local_matching_paths means fetch this exact remote asset; do not substitute an older similarly named image."
+    },
+    {
+      "scene_id": "travel-journal",
+      "id": "a_9067fb82aecf42f7",
+      "sha256": "b04e7470de459000a4e2cdb479fc7aa8469be9475775df8710b767e7a36d3109",
+      "remote_path": "/data/app/huanghaibin/soda/preproduction/1017-huangshan-fur-batch-v1/registered/v_09d34c31bede4f93/masters/travel-journal.png",
+      "local_matching_paths": [
+        "jobs/1017-huangshan-fur-batch-v1/masters/travel-journal.png"
+      ],
+      "job_id": "j_8282b1ef88594e52",
+      "seed": null,
+      "source_seed": null,
+      "prompt_id": "995679e8-2605-4f6d-9f22-b8407212a06f",
+      "generator_or_derivation": "own_4090_Qwen-Image-2.1",
+      "source_master": null,
+      "note": "Empty local_matching_paths means fetch this exact remote asset; do not substitute an older similarly named image."
+    },
+    {
+      "scene_id": "cloud-medium",
+      "id": "a_dc3923c72b56446a",
+      "sha256": "9c98ec4c61350a56e0b5dce4c50c0799b4dd97fb65bf255033a946a07ab123df",
+      "remote_path": "/data/app/huanghaibin/soda/jobs/j_bcd5b1ec71e14921/cloud-medium-quadruped.png",
+      "local_matching_paths": [
+        "jobs/1017-huangshan-quadruped-v1/masters/cloud-medium.png"
+      ],
+      "job_id": "j_bcd5b1ec71e14921",
+      "seed": 101717235,
+      "source_seed": null,
+      "prompt_id": "d6cceaeb-fa9e-4319-b13b-8e8005d810a3",
+      "generator_or_derivation": "own 4090 Qwen-Image-2.1",
+      "source_master": "a_45eab2c7ff424c6b",
+      "note": "Empty local_matching_paths means fetch this exact remote asset; do not substitute an older similarly named image."
+    },
+    {
+      "scene_id": "monkey-gazing-sea",
+      "id": "a_e3ec41bc67e74102",
+      "sha256": "36e8723485e5b99b9fd806ed78a9cfd6e04a91989da5d43ac52216d121081018",
+      "remote_path": "/data/app/huanghaibin/soda/jobs/j_51d9dc8754744c8e/monkey-gazing-sea-quadruped.png",
+      "local_matching_paths": [
+        "jobs/1017-huangshan-quadruped-v1/masters/monkey-gazing-sea.png"
+      ],
+      "job_id": "j_51d9dc8754744c8e",
+      "seed": 101717235,
+      "source_seed": null,
+      "prompt_id": "826e0628-dc63-4a1c-a5e2-bad2021db2f4",
+      "generator_or_derivation": "own 4090 Qwen-Image-2.1",
+      "source_master": "a_2b01cf7588fe4eb0",
+      "note": "Empty local_matching_paths means fetch this exact remote asset; do not substitute an older similarly named image."
+    },
+    {
+      "scene_id": "reading-rest",
+      "id": "a_e7e2a0cc13f14bed",
+      "sha256": "5b9bbc061d490e85434241cc7e486f9ad2f81ef995aa9ab3fe8d4a2386d0433a",
+      "remote_path": "/data/app/huanghaibin/soda/preproduction/1017-huangshan-fur-batch-v1/registered/v_09d34c31bede4f93/masters/reading-rest.png",
+      "local_matching_paths": [
+        "jobs/1017-huangshan-fur-batch-v1/masters/reading-rest.png"
+      ],
+      "job_id": "j_e5ce7720015141d1",
+      "seed": null,
+      "source_seed": null,
+      "prompt_id": "d821382c-e7ea-4921-a2c6-fb7f4b57e2ed",
+      "generator_or_derivation": "own_4090_Qwen-Image-2.1",
+      "source_master": null,
+      "note": "Empty local_matching_paths means fetch this exact remote asset; do not substitute an older similarly named image."
+    },
+    {
+      "scene_id": "pine-bough-insert",
+      "id": "a_eeb314f1a454437a",
+      "sha256": "1e2129db61b8062f4fc97be6c1d702a04bf5b32f5a0364ebc41742f30e09bd7d",
+      "remote_path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-bough-v2/pine-bough-master.png",
+      "local_matching_paths": [],
+      "job_id": "j_ab7667b45d534bd8",
+      "seed": null,
+      "source_seed": 101717235,
+      "prompt_id": "2ff274cf-5ba4-4d21-b9df-ab6fa8107fa8",
+      "generator_or_derivation": "Own 4090 Comfy ImageCrop and lanczos ImageScale; no new image model inference",
+      "source_master": "a_75192a9a661f4a3a",
+      "note": "Empty local_matching_paths means fetch this exact remote asset; do not substitute an older similarly named image."
+    },
+    {
+      "scene_id": "departure",
+      "id": "a_f268438a0c7b4d16",
+      "sha256": "77d714981a5eb8e4e67dac74c29dea669f7a8b2c0d3d274b0f0f97bec7827232",
+      "remote_path": "/data/app/huanghaibin/soda/preproduction/1017-huangshan-fur-batch-v1/registered/v_09d34c31bede4f93/masters/departure.png",
+      "local_matching_paths": [
+        "jobs/1017-huangshan-fur-batch-v1/masters/departure.png"
+      ],
+      "job_id": "j_d25b1854e6de4d62",
+      "seed": null,
+      "source_seed": null,
+      "prompt_id": "12618d35-b0d2-4314-b89f-c7ec3e06822c",
+      "generator_or_derivation": "own_4090_Qwen-Image-2.1",
+      "source_master": null,
+      "note": "Empty local_matching_paths means fetch this exact remote asset; do not substitute an older similarly named image."
+    },
+    {
+      "scene_id": "village-walk-ending",
+      "id": "a_ea20dfee56d44b77",
+      "sha256": "4bd2000d1516a5b6087a08421eab06459eb1c6a903061599b858b7a3b6feb275",
+      "remote_path": "/data/app/huanghaibin/soda/preproduction/1018-huangshan-pine-village-v4/village-master-v2.png",
+      "local_matching_paths": [
+        "jobs/1018-huangshan-pine-village-v4/village-master-v2.png"
+      ],
+      "job_id": "j_684c2ded27c34b3b",
+      "seed": 1018202602,
+      "prompt_id": "29348dbf-550d-40d6-a8ce-94c9558dae89",
+      "generator_or_derivation": "own_4090_Qwen-Image-2.1",
+      "references": [
+        {
+          "path": "/data/app/huanghaibin/soda/preproduction/1017-huangshan-fur-batch-v1/registered/v_09d34c31bede4f93/masters/hot-spring-ending.png",
+          "sha256": "42f54075fcb215a4f89355bc92ffc7c630e0b12e1f88a08427633c3e53f159cc"
+        },
+        {
+          "path": "/data/app/huanghaibin/soda/preproduction/huangshan-quadruped-v1/references/soda-four-paws-accepted.png",
+          "sha256": "569f588c92d2446dc058abe9f29902643ef6557bfd9fe8ede29034e110840fec"
+        },
+        {
+          "path": "/data/app/huanghaibin/soda/jobs/j_869e1c555a2e496a/pine-medium-quadruped.png",
+          "sha256": "a6bd7d03e8de3dbe0b7000315976dfcd391f0c560cac8da90545cb4f45f91ac3"
+        }
+      ],
+      "note": "new V4 Qwen reference image; historical pending overridden by full-film acceptance"
+    }
+  ],
+  "sources_sha256": {
+    "jobs/1017-huangshan-quadruped-v2/snapshot.json": "739b2d563d76ee249344924619c016767bc91e080f545778f25c1927986c0dc8",
+    "jobs/1017-huangshan-quadruped-v2/selection-audit.json": "b9d6a70651caf0d29470bd1642bad3fb287c55d7616704e60c359b682d19bd85",
+    "jobs/1018-huangshan-silent-cloud-v3/delivery.json": "b6f1ff05a764837fc24e32b40db5bbb9281f8d22d41875f8689e19d2ea7335d3",
+    "episodes/travel/huangshan/server-source-index.json": "536cf97081931ec28538eb0e284198bdab9f63b83954e7aa24a2ecd16771bfb9",
+    "episodes/travel/huangshan/server-integrity.json": "dfbf75b2cc95ef4a393781934910e13f12ed94cef1a92de6b34f63bfcf8b396d",
+    "episodes/travel/huangshan/references-index.json": "fd181d861095bce0a012715f9716dcf93f439b3e9086a810b3e9bcb0a2662d74",
+    "episodes/travel/huangshan/production-index-v3.json": "0278983cc742d29bb7daaa222c078fd3ca3c78940c4fd89e9fb44ec7cb2d1642",
+    "jobs/1018-huangshan-pine-village-v4/delivery.json": "c1bc427011dc56c2a2040e49fb752153b4511e6f7ffb90bb16e4f623607e6339",
+    "jobs/1018-huangshan-pine-village-v4/user-confirmation.json": "f4abd80def0eed9f4ed2a196422bdd15ea613569f8db9f7538324a70d5b349d3",
+    "jobs/1018-huangshan-pine-village-v4/ending-result.json": "fbf22fabb48023b1b4b1fa0dc58393008d710df59327899ec67dd40f23f7828c",
+    "jobs/1018-huangshan-pine-village-v4/canopy-result.json": "75e978812df34bc6a7c0d7f967dd3c0b6b46f9dd2e22653b576fa4a8a551eb4a",
+    "jobs/1018-huangshan-pine-village-v4/evidence/village-master-v2-result.json": "1f95755f0e473c0b58695b0ded92e7fac1e665414160511a7ad651fdc3f1ebdd",
+    "jobs/1018-huangshan-pine-village-v4/layered-wind.json": "11392079e71c50c99c5cde5fffbe6d469774f4cdf597adf056a3530877c11a2b",
+    "jobs/1018-huangshan-pine-village-v4/evidence/native-job-evidence.tar.gz": "ea4e5e895eefbfa31be62adcb9c46abfdce3f5b055d4bc74c293ea58a35b4c82"
+  },
+  "live_project_snapshot": {
+    "id": "p_07511601f9624a48",
+    "revision": 20,
+    "setting_version": "v_09d34c31bede4f93",
+    "board_version": "v_c4991e8b7e5f400b",
+    "status": "ready_to_shoot",
+    "adopted_takes": {},
+    "final_asset": null,
+    "note": "Readback at export time only; do not replay this revision for a new write. Final local V3 is determined by releases/huangshan/current.json, not this trial's last remote final asset."
+  },
+  "warnings": [
+    "Do not use old story drafts or raw S11 as the final edit.",
+    "Sea-of-clouds current master is a_07f29c00826a4dd4; a_cbdd23c0f5dc4fdb has an extra crown ear.",
+    "Historical jobs contain fixed IDs; this index is not a GPU launch plan.",
+    "Final V4 release is local; live workbench readback has no adopted_takes or final_asset.",
+    "Remote media evidence was exported and31 asset files rehashed read-only; most raw clips, WAVs and tail PNGs remain remote.",
+    "server-source-index.json/server-integrity.json cover the V3 baseline only; V4 sources are explicitly added in S03/S22 and sources_sha256. No new live workbench readback performed."
+  ],
+  "revision": "v4",
+  "baseline_index": "episodes/travel/huangshan/production-index-v3.json",
+  "acceptance": "jobs/1018-huangshan-pine-village-v4/user-confirmation.json",
+  "historical_master_replaced": {
+    "scene_id": "hot-spring-ending",
+    "id": "a_9595012cf7144b4a",
+    "sha256": "42f54075fcb215a4f89355bc92ffc7c630e0b12e1f88a08427633c3e53f159cc",
+    "remote_path": "/data/app/huanghaibin/soda/preproduction/1017-huangshan-fur-batch-v1/registered/v_09d34c31bede4f93/masters/hot-spring-ending.png",
+    "local_matching_paths": [
+      "jobs/1017-huangshan-fur-batch-v1/masters/hot-spring-ending.png"
+    ],
+    "job_id": "j_9c17ca15e01f4af7",
+    "seed": null,
+    "source_seed": null,
+    "prompt_id": "10332ab2-0345-4ace-9b51-faf8cc793a74",
+    "generator_or_derivation": "own_4090_Qwen-Image-2.1",
+    "source_master": null,
+    "note": "Empty local_matching_paths means fetch this exact remote asset; do not substitute an older similarly named image."
+  }
+}

@@ -1,0 +1,22 @@
+[Shot 1] Original cute chibi 3D plush toy mascot style, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth. A wide, static full-body shot of a vast snowy landscape in the far north. The scene features fluffy snow-covered pine trees and distant snow mountains under a clear blue sky, with cold blue environmental light and warm facial highlights on the character.
+
+The black-and-white Alaskan malamute plush puppy (Soda) stands in the center of the flat snowfield, facing the camera. He wears his small brown backpack. His body leans slightly forward, expression excited and proud, mouth moving to speak.
+
+0.0–0.4s: Soda stands still, looking at the camera with a bright, eager expression, paws planted firmly in the snow.
+0.4–2.95s: <d>[EN] I come from a very cold place,</d> His mouth moves clearly and energetically to match the dialogue. His head tilts slightly forward, ears perked up, tail giving a small, happy wag. The camera remains fixed in a wide shot.
+2.95–5.0s: He finishes speaking, holding his excited pose with a proud smile, tongue slightly out. The background remains static with the snowy mountains and trees.
+
+overall_soundscape: Ambient cold wind, soft crunching of snow under paws, clear high-pitched vocal delivery.
+non_diegetic_music: Upbeat, playful orchestral chiptune, 120 BPM, light percussion and bright synth leads, no vocals.
+RULES: No extra characters, no text or watermarks, no reflections, preserve the character's exact plush texture and outfit, no fast spinning, natural real-time movement.
+
+For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.
+integrated_multimodal_description:
+[Shot 1] Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, cold blue snowy environment light with warm facial highlights. Wide shot of the same snowy landscape. The black-and-white Alaskan malamute plush puppy (Soda) in <Picture 1>, preserving her face, hair, outfit and the room, starts from the exact inherited final pose and position of the previous take.
+0.0–0.8: Soda initiates a cheerful run toward screen right, limbs moving in coordination, tail lifted high, leaving clear paw prints in the snow.
+0.8–2.7: He continues running at a natural real-time speed, fully inside the frame, with an energetic expression and mouth moving to speak. <d>[EN] and I can run super fast!</d>
+2.7–4.2: He naturally decelerates and stops, facing the camera with a proud expression.
+4.2–5.0: Brief finishing pause, maintaining the final pose.
+overall_soundscape: Ambient winter wind, soft crunching of snow under paws, and clear dialogue.
+non_diegetic_music: Upbeat, playful chiptune or light orchestral, 100-120 BPM, no vocals.
+RULES: No extra characters, no text or watermarks, no position reset, no teleport, no static-pose reset, no held frame, no reintroduced first frame.

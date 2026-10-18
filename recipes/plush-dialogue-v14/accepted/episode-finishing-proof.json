@@ -1,0 +1,24 @@
+{
+  "output": "xiaosuda-how-are-you-v14-nosub.mp4",
+  "duration": "34.924000",
+  "frames": 836,
+  "fps": 24,
+  "native_segment_frames_used": [
+    184,
+    243,
+    178
+  ],
+  "teaching_frames": 605,
+  "teaching_seconds": 25.208333333333332,
+  "opening_boundary_seconds": 7.666666666666667,
+  "picture_context_boundary_seconds": 17.791666666666668,
+  "act_transition": {
+    "type": "original slideup",
+    "start": 24.7084,
+    "duration": 0.5
+  },
+  "freeze_padding": false,
+  "audio_packets_equal_to_v12": true,
+  "subtitles": "reuse v12.srt without text or timing changes",
+  "sha256": "82aa146d195ed7c6182a1159925e36c9c2df8ddf16d54b4eb9097b766951aa95"
+}

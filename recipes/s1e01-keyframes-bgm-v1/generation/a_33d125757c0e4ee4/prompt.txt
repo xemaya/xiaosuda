@@ -1,0 +1,9 @@
+For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.
+integrated_multimodal_description:
+[Shot 1] Live-action, cinematic 3D plush toy aesthetic, close-up head-and-shoulders shot. The black-and-white Alaskan malamute plush puppy (Soda) from <Picture 1> is centered in the frame, preserving his exact plush texture, brown backpack straps, and facial features. Natural real-time movement at normal human speed; no slow motion or time stretching.
+0.0–0.4s: Soda sits still with a gentle, attentive expression, eyes wide and focused on the lens. Camera remains fixed in a tight close-up.
+0.4–2.1s: <d>[EN] I'm so excited to meet you all.</d> His mouth moves in sync with the dialogue, ears perk up slightly higher, and his head tilts forward with an eager, happy energy. A small paw may enter the lower edge naturally without zooming out.
+2.1–4.0s: He finishes speaking with a soft, contented smile, eyes bright and warm. The camera holds the tight framing as he settles into a calm, friendly gaze. No extra characters, no text or watermarks.
+overall_soundscape: Soft ambient room tone, subtle fabric rustling from the plush texture, and clear, high-fidelity dialogue.
+non_diegetic_music: None, to keep focus on the character's expression and speech.
+RULES: No extra people, no reflections of other people, no zooming out, no panning, no new body parts revealed, no text or watermarks, no fast spins, no hand blurring.

@@ -1,0 +1,24 @@
+{
+  "series": "Hi, Soda!",
+  "title": "黄山篇",
+  "kind": "independent_travel_film",
+  "status": "user_accepted",
+  "revision": "v4",
+  "date": "2026-10-18",
+  "sha256": "dd1455e21dcc13003171c3eb8b3bb304b8af792f928774614319da853f4f8b4b",
+  "frames": 3389,
+  "duration_seconds": 141.20833333333334,
+  "resolution": [
+    1080,
+    1932
+  ],
+  "fps": 24,
+  "sample_aspect_ratio": "644:645",
+  "publication_requested": false,
+  "user_instruction": "非常不错，总结经验落盘",
+  "video": "2026-10-18-v4/Hi-Soda_Huangshan_Final.mp4",
+  "subtitles": "2026-10-18-v4/Hi-Soda_Huangshan_Final.srt",
+  "manifest": "2026-10-18-v4/manifest.json",
+  "previous_manifest": "2026-10-18/manifest.json",
+  "recipe": "recipes/huangshan-pine-village-v1/README.md"
+}

@@ -1,0 +1,369 @@
+{
+  "id": "s1e01-keyframes-bgm-v1",
+  "status": "user_accepted",
+  "accepted_date": "2026-10-17",
+  "acceptance_quote": "这个定稿，配方全部落盘",
+  "series": "Hi, Soda!",
+  "episode": "S1E01",
+  "title": "Self Introduction",
+  "base_generation_recipe": "plush-dialogue-v14",
+  "models": {
+    "unet": "minimax_h3_ref2va_pruned_fp8_scaled.safetensors",
+    "lora": "minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+    "lora_strength": 1.0,
+    "clip": "qwen3-vl-32b-ultra-heretic-minimax-h3-q6_k.gguf",
+    "vision": "qwen3vl_32b_minimax_h3_visual_bf16.safetensors",
+    "video_vae": "minimax_h3_video_vae_fp16.safetensors",
+    "audio_vae": "minimax_h3_audio_vae_fp32.safetensors"
+  },
+  "render": {
+    "width": 768,
+    "height": 1376,
+    "fps": 24,
+    "steps": 4,
+    "sampler": "euler",
+    "scheduler": "beta",
+    "frame_grid": "17k+5",
+    "carrier": [
+      384,
+      688
+    ]
+  },
+  "delivery": {
+    "width": 1080,
+    "height": 1932,
+    "fps": 24,
+    "frames": 1112,
+    "seconds": 46.333333,
+    "crf": 17,
+    "preset": "fast"
+  },
+  "shots": {
+    "S02": {
+      "id": "a_c3d7ad7591b743b0",
+      "file": "assets/takes/a_c3d7ad7591b743b0.mp4",
+      "audio": {
+        "keep_frames": 144,
+        "seconds": 6.0,
+        "wave": "assets/audio/a_c3d7ad7591b743b0.wav",
+        "turns": [
+          {
+            "id": "d1",
+            "speaker_id": "xiaosuda",
+            "text": "Hi everyone! I'm Soda, an Alaskan Malamute.",
+            "translation": "大家好！我是小苏打，一只阿拉斯加犬。",
+            "emotion": "Cheerful and welcoming",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 3.81334375
+          }
+        ]
+      },
+      "keep_frames": 144,
+      "seed": "89082843",
+      "scene_id": "home-close",
+      "master_id": "a_35988b39eca54fd6",
+      "transition": "cut",
+      "continuation": false,
+      "generation": {
+        "graph": "generation/a_c3d7ad7591b743b0/graph.json",
+        "input_map": "generation/a_c3d7ad7591b743b0/input-map.json",
+        "seed": "89082843",
+        "source_job_id": "j_5bb2c6045ec44148",
+        "prompt_id": null
+      },
+      "edit": null
+    },
+    "S03": {
+      "id": "a_b090ab2f70994727",
+      "file": "assets/takes/a_b090ab2f70994727.mp4",
+      "audio": {
+        "keep_frames": 192,
+        "seconds": 8,
+        "wave": "assets/audio/a_b090ab2f70994727.wav",
+        "turns": [
+          {
+            "id": "d2",
+            "speaker_id": "xiaosuda",
+            "text": "I come from a very cold place,",
+            "translation": "我来自一个非常寒冷的地方，",
+            "emotion": "Energetic and proud",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 2.95421875
+          },
+          {
+            "id": "d3",
+            "speaker_id": "xiaosuda",
+            "text": "and I can run super fast!",
+            "translation": "而且我跑得可快啦！",
+            "emotion": "Energetic and proud",
+            "speed": 1.0,
+            "start": 3.4,
+            "end": 5.745218749999999
+          }
+        ]
+      },
+      "keep_frames": 192,
+      "seed": "233744548",
+      "scene_id": "north-wide",
+      "master_id": "a_40ff0f3228674d74",
+      "transition": "pull_down",
+      "continuation": false,
+      "generation": {
+        "graph": "generation/a_b090ab2f70994727/graph.json",
+        "input_map": "generation/a_b090ab2f70994727/input-map.json",
+        "seed": "233744548",
+        "source_job_id": "j_5bb2c6045ec44148",
+        "prompt_id": null
+      },
+      "edit": {
+        "source_ranges": [
+          {
+            "id": "a_5e2f2806475f4a3e",
+            "start_frame": 0,
+            "end_frame_exclusive": 72
+          },
+          {
+            "id": "a_402a53e21ece40f4",
+            "start_frame": 0,
+            "end_frame_exclusive": 120
+          }
+        ],
+        "speed": 1,
+        "removed_silent_frames": 48
+      }
+    },
+    "S05": {
+      "id": "a_c8d268c4bb8446b6",
+      "file": "assets/takes/a_c8d268c4bb8446b6.mp4",
+      "audio": {
+        "keep_frames": 96,
+        "seconds": 4.0,
+        "wave": "assets/audio/a_c8d268c4bb8446b6.wav",
+        "turns": [
+          {
+            "id": "d4",
+            "speaker_id": "xiaosuda",
+            "text": "I'm so excited to meet you all.",
+            "translation": "见到大家，我特别开心。",
+            "emotion": "Happy and eager",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 2.06025
+          }
+        ]
+      },
+      "keep_frames": 96,
+      "seed": "689137274",
+      "scene_id": "home-close",
+      "master_id": "a_35988b39eca54fd6",
+      "transition": "pull_down",
+      "continuation": false,
+      "generation": {
+        "graph": "generation/a_c8d268c4bb8446b6/graph.json",
+        "input_map": "generation/a_c8d268c4bb8446b6/input-map.json",
+        "seed": "689137274",
+        "source_job_id": "j_5bb2c6045ec44148",
+        "prompt_id": null
+      },
+      "edit": null
+    },
+    "S06": {
+      "id": "a_39e4cbd9ab2f41c7",
+      "file": "assets/takes/a_39e4cbd9ab2f41c7.mp4",
+      "audio": {
+        "keep_frames": 168,
+        "seconds": 7.0,
+        "wave": "assets/audio/a_39e4cbd9ab2f41c7.wav",
+        "turns": [
+          {
+            "id": "d5",
+            "speaker_id": "xiaosuda",
+            "text": "This is my big brother, Jacky. He's a cheerful little chick.",
+            "translation": "这是我的哥哥奇奇，他是一只开朗的小鸡。",
+            "emotion": "Warm and affectionate",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 3.975875
+          }
+        ]
+      },
+      "keep_frames": 168,
+      "seed": "899244243",
+      "scene_id": "jacky-corner",
+      "master_id": "a_17c04ae5b9ec4c8a",
+      "transition": "cut",
+      "continuation": false,
+      "generation": {
+        "graph": "generation/a_39e4cbd9ab2f41c7/graph.json",
+        "input_map": "generation/a_39e4cbd9ab2f41c7/input-map.json",
+        "seed": "899244243",
+        "source_job_id": "j_6b6fda5d12a0487d",
+        "prompt_id": null
+      },
+      "edit": null
+    },
+    "S07": {
+      "id": "a_96a0d7c86d014c4a",
+      "file": "assets/takes/a_96a0d7c86d014c4a.mp4",
+      "audio": {
+        "keep_frames": 168,
+        "seconds": 7.0,
+        "wave": "assets/audio/a_96a0d7c86d014c4a.wav",
+        "turns": [
+          {
+            "id": "d6",
+            "speaker_id": "xiaosuda",
+            "text": "And this is my big sister, Angela. She's a gentle sheep.",
+            "translation": "这位是我的姐姐露露，她是一只温柔的绵羊。",
+            "emotion": "Soft and loving",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 4.53315625
+          }
+        ]
+      },
+      "keep_frames": 168,
+      "seed": "281868798",
+      "scene_id": "angela-reading",
+      "master_id": "a_a80c4ec48a024ecd",
+      "transition": "cut",
+      "continuation": false,
+      "generation": {
+        "graph": "generation/a_96a0d7c86d014c4a/graph.json",
+        "input_map": "generation/a_96a0d7c86d014c4a/input-map.json",
+        "seed": "281868798",
+        "source_job_id": "j_9bb8fd3584c847cd",
+        "prompt_id": "9125c0f9-ecaa-4281-a609-166660910ac1"
+      },
+      "edit": null
+    },
+    "S08": {
+      "id": "a_11d7ab46b4c84a1f",
+      "file": "assets/takes/a_11d7ab46b4c84a1f.mp4",
+      "audio": {
+        "keep_frames": 192,
+        "seconds": 8.0,
+        "wave": "assets/audio/a_11d7ab46b4c84a1f.wav",
+        "turns": [
+          {
+            "id": "d7",
+            "speaker_id": "xiaosuda",
+            "text": "We live together happily and love each other very much.",
+            "translation": "我们快乐地生活在一起，也非常爱彼此。",
+            "emotion": "Content and sincere",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 3.59275
+          }
+        ]
+      },
+      "keep_frames": 192,
+      "seed": "1682790540",
+      "scene_id": "home-wide",
+      "master_id": "a_ad75e494c24242cd",
+      "transition": "cut",
+      "continuation": false,
+      "generation": {
+        "graph": "generation/a_11d7ab46b4c84a1f/graph.json",
+        "input_map": "generation/a_11d7ab46b4c84a1f/input-map.json",
+        "seed": "1682790540",
+        "source_job_id": "j_406de4f10cbb4b8c",
+        "prompt_id": "2c3a5d68-f961-48ec-8094-7c23e1fab82f"
+      },
+      "edit": null
+    },
+    "S09": {
+      "id": "a_233880fab04a4f84",
+      "file": "assets/takes/a_233880fab04a4f84.mp4",
+      "audio": {
+        "keep_frames": 120,
+        "seconds": 5.0,
+        "wave": "assets/audio/a_233880fab04a4f84.wav",
+        "turns": [
+          {
+            "id": "d8",
+            "speaker_id": "xiaosuda",
+            "text": "I hope you like me too!",
+            "translation": "希望你们也喜欢我！",
+            "emotion": "Friendly and hopeful",
+            "speed": 1.0,
+            "start": 0.4,
+            "end": 2.1415
+          }
+        ]
+      },
+      "keep_frames": 120,
+      "seed": "1111829882",
+      "scene_id": "home-close",
+      "master_id": "a_35988b39eca54fd6",
+      "transition": "cut",
+      "continuation": false,
+      "generation": {
+        "graph": "generation/a_233880fab04a4f84/graph.json",
+        "input_map": "generation/a_233880fab04a4f84/input-map.json",
+        "seed": "1111829882",
+        "source_job_id": "j_5bb2c6045ec44148",
+        "prompt_id": null
+      },
+      "edit": null
+    }
+  },
+  "shot_order": [
+    "S02",
+    "S03",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09"
+  ],
+  "packaging": {
+    "op": true
+  },
+  "captions": {
+    "ass": "accepted/captions.ass",
+    "srt": "accepted/captions.srt",
+    "font": "assets/Alibaba-PuHuiTi-Regular.ttf",
+    "english_size": 46,
+    "chinese_size": 42,
+    "safe_width": 620
+  },
+  "music": {
+    "file": "music/bgm-soft-v2.wav",
+    "score": "music/score.json",
+    "raw": "music/bgm-raw.wav",
+    "title": "Soda Sunny Steps",
+    "bpm": 90,
+    "key": "C major",
+    "base_lufs_approx": -39,
+    "fade_in_seconds": 0.8,
+    "fade_out_seconds": 2.733333,
+    "duck": {
+      "threshold": 0.04,
+      "ratio": 2,
+      "attack_ms": 50,
+      "release_ms": 700,
+      "knee": 4
+    },
+    "voice_gain": 1,
+    "measured_voice_relative_db": -14.65,
+    "mix_peak_dbfs": -13.61,
+    "clipped_samples": 0
+  },
+  "accepted_video": {
+    "path": "../../releases/s1e01/2026-10-17/Hi-Soda_S1E01_Self-Introduction.mp4",
+    "sha256": "37a9f1403bdc7918d60bac7787ccccbec80ac02d0e835ce321c758687b06c6d0"
+  },
+  "future_image_policy": "Use existing self-hosted Qwen-Image-2.1 first; archived builtin-image edits are historical accepted inputs, not the future default.",
+  "limitations": [
+    "Video model sampling is not guaranteed bit-identical on another runtime.",
+    "Exact approved output is archived and SHA256-verified.",
+    "No blanket freeze of new fur or Huangshan project candidates."
+  ],
+  "environment": {
+    "python": "3.11.16",
+    "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers"
+  }
+}

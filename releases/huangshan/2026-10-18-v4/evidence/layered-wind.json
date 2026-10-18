@@ -1,0 +1,23 @@
+{
+  "native_canopy": "canopy-native.mp4",
+  "lowest_needles_source": "source-01.mp4 actual first retained frame",
+  "frames": 197,
+  "fps": 24,
+  "native_region_y": [
+    0,
+    720
+  ],
+  "lowest_needles_displacement_px_max": [
+    1.85,
+    3.05
+  ],
+  "rigid_trunk_and_mountains": "reference geometry",
+  "spatial_layer_feather_y": [
+    680,
+    720
+  ],
+  "temporal_crossfade": false,
+  "repeated_or_padded_frames": 0,
+  "retimed_actor_frames": 0,
+  "large_crop_rejected": "canopy-tall-native.mp4 reinterpreted tree/camera; never selected"
+}

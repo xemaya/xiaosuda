@@ -1,0 +1,529 @@
+{
+  "selected": 20,
+  "total": 20,
+  "new_tts_requests": 0,
+  "all_selected_voice_wave_exact": true,
+  "rows": [
+    {
+      "shot": "S01",
+      "asset": "a_31a4af5f0cc74b97",
+      "frames": 219,
+      "video_sha256": "9e220dfdac35b8b87402c68a2c8bf2dcb03c2f3898ee31822ca915d8c808d870",
+      "voice_wave_sha256": "4aa6deffc9d2309cb45be8b64b8e981b56c9eaeb253aff34286273ed2e55b1bf",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": true,
+      "dependency": null,
+      "master_id": "a_f268438a0c7b4d16",
+      "seed": "1316492138",
+      "prompt_id": "b2c4c0c8-6145-4150-9181-90d5f5e053d5",
+      "port": 8190,
+      "review": {
+        "shot": "S01",
+        "asset": "a_31a4af5f0cc74b97",
+        "decision": "technical_select",
+        "reason": "Outside requested interval; original picture bytes and audio unchanged",
+        "human_acceptance": "pending",
+        "source_selection_asset": "a_8aad0b2ceb9440f3"
+      }
+    },
+    {
+      "shot": "S03",
+      "asset": "a_136ce29587b64f1f",
+      "frames": 197,
+      "video_sha256": "6d9361c2f96ab312b3462bcb4c25981b00e8e5aef0ef5a5c0dd71a915dd3d642",
+      "voice_wave_sha256": "3e40afcccd5412ac3f672ed226fcb446c1acd9a62ca276836d23b3074899317b",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": false,
+      "dependency": null,
+      "master_id": "a_75192a9a661f4a3a",
+      "seed": "773881393",
+      "prompt_id": "c125fdd1-c9ee-4d3d-9da6-ee0b864836b2",
+      "port": 8188,
+      "review": {
+        "shot": "S03",
+        "asset": "a_136ce29587b64f1f",
+        "decision": "technical_select",
+        "human_acceptance": "pending",
+        "checks": [
+          "4fps body and face review for entire take",
+          "low horizontal canine body, natural four-leg support; no humanoid wave or rearing",
+          "exactly two ears; canonical markings retained",
+          "speaker windows and closed listener checked",
+          "no duplicate frames",
+          "pine main trunk/canopy retained; fine outer foliage moves"
+        ],
+        "source_selection_asset": "a_0e7f1dd8dc9941c2"
+      }
+    },
+    {
+      "shot": "S05",
+      "asset": "a_482f7297721a498c",
+      "frames": 193,
+      "video_sha256": "01f6e15a693c2d0a66842cb75ccefffb30f5699d68bb121881632e9c05c705c5",
+      "voice_wave_sha256": "f07ff7701a26231f38c89029ab2a3343f2b818c3bcb9c26f8e0df4a127a95255",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": false,
+      "dependency": null,
+      "master_id": "a_eeb314f1a454437a",
+      "seed": "785511715",
+      "prompt_id": "969bbc14-7256-4b37-90a2-09f3c6f8ab01",
+      "port": 8189,
+      "review": {
+        "shot": "S05",
+        "asset": "a_482f7297721a498c",
+        "decision": "technical_select",
+        "human_acceptance": "pending",
+        "checks": [
+          "character-free branch closeup, no face/hand/animal appears",
+          "same Huangshan pine source crop; mountain background stable",
+          "visible moving pine branch/needle foreground, not a held still",
+          "Angela original line remains an explicit offscreen voice, no wrong onscreen lip ownership",
+          "duration193frames and no literal duplicates"
+        ]
+      }
+    },
+    {
+      "shot": "S06",
+      "asset": "a_52b11630b44049d9",
+      "frames": 93,
+      "video_sha256": "6bdf3dfffb587a66b83d7383f5fb050ad3d69329d8955816cb41c2222d39c40a",
+      "voice_wave_sha256": "b5816d45e21ae96b13d7601c9bebbb26fcbd61c110b0fbf1e747ff691e385aaf",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": false,
+      "dependency": null,
+      "master_id": "a_75192a9a661f4a3a",
+      "seed": "468294049",
+      "prompt_id": "1e88cb9e-bdaf-4528-b6c0-c340f002c549",
+      "port": 8188,
+      "review": {
+        "shot": "S06",
+        "asset": "a_52b11630b44049d9",
+        "decision": "technical_select",
+        "human_acceptance": "pending",
+        "checks": [
+          "4fps review: horizontal quadruped with natural weight shifts, no rearing, waving or double hop",
+          "two ears, canonical round face and markings, groomed fur",
+          "Soda speaks sole d06 and sheep remains closed-mouth listener",
+          "fixed camera and stable main pine",
+          "five distinct grounded guide states, entire delivered motion generated natively",
+          "93frames and no literal duplicates"
+        ]
+      }
+    },
+    {
+      "shot": "S07",
+      "asset": "a_b4c91848aca142df",
+      "frames": 127,
+      "video_sha256": "3e6e0cb2857a66e8c5c4fe28d3e8361f508da9d0b467066c4f19d64ca1c50bab",
+      "voice_wave_sha256": "53410a060768e7e257cccfa054a8e9053f11db1c2e0e0e5d2e072a9338dad526",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": false,
+      "dependency": null,
+      "master_id": "a_e3ec41bc67e74102",
+      "seed": "1749730514",
+      "prompt_id": "2eaba69b-2af9-4ee3-805f-5568460f7d0a",
+      "port": 8188,
+      "review": {
+        "shot": "S07",
+        "asset": "a_b4c91848aca142df",
+        "decision": "technical_select",
+        "human_acceptance": "pending",
+        "checks": [
+          "4fps body/ear/face review throughout5.29s",
+          "all dog feet supporting horizontal torso",
+          "both audio windows belong to Soda; sheep closed mouth",
+          "no duplicate frames"
+        ],
+        "source_selection_asset": "a_5240a06ddb24490f"
+      }
+    },
+    {
+      "shot": "S08",
+      "asset": "a_85110ae2a70e4a7d",
+      "frames": 167,
+      "video_sha256": "e61efe848363de334671a017c408b493be95db4931e44e08b4a532d73aacb740",
+      "voice_wave_sha256": "0125d49b4622bda736079d34592992df444975c80c3afca06a89f13a79f20c9a",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": false,
+      "dependency": null,
+      "master_id": "a_8714b05aae5d45e8",
+      "seed": "998438091",
+      "prompt_id": "54bdb497-ce54-4c40-ab40-0a5626516268",
+      "port": 8188,
+      "review": {
+        "shot": "S08",
+        "asset": "a_85110ae2a70e4a7d",
+        "decision": "technical_select",
+        "human_acceptance": "pending",
+        "checks": [
+          "4fps anatomy throughout 6.958s: low horizontal quadruped, two ears, no humanoid arm or rearing",
+          "one brief natural forward paw adjustment returns to weight-bearing support, not a wave",
+          "listener lips closed and speaker assignment checked against both original turns",
+          "camera and stone scenery stable",
+          "no literal duplicate frames"
+        ],
+        "source_selection_asset": "a_010aec03ce214f50"
+      }
+    },
+    {
+      "shot": "S09",
+      "asset": "a_b69659ff6d6644fe",
+      "frames": 232,
+      "video_sha256": "e1a42e7c5c98fde2a14ed4048410fbf7b96f4ef5819ce02e98a5b65de16762fd",
+      "voice_wave_sha256": "64e8bf33eb7c7d36938c60b4d252057f612114e15a3d5abab3d5d2fa30f227b0",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": false,
+      "dependency": "a_85110ae2a70e4a7d",
+      "master_id": "a_8714b05aae5d45e8",
+      "seed": "1445243320",
+      "prompt_id": "b7780d47-34d4-4257-bd99-43de1a6152a9",
+      "port": 8189,
+      "review": {
+        "shot": "S09",
+        "asset": "a_b69659ff6d6644fe",
+        "decision": "technical_select",
+        "human_acceptance": "pending",
+        "checks": [
+          "speaker handoff corrected: puppy owns full second turn, sheep rests closed",
+          "4fps anatomy throughout: horizontal quadruped and two ears, no humanoid arm",
+          "natural canine weight shifts, all legs in frame",
+          "same monkey rock and continuous actual incoming framing",
+          "no literal duplicate frames"
+        ],
+        "source_selection_asset": "a_a3250e5fa5984fea"
+      }
+    },
+    {
+      "shot": "S10",
+      "asset": "a_93cc8e24e5ea44ff",
+      "frames": 196,
+      "video_sha256": "895399d4599002d7f9a597c385c731f203cfda2220f4edd54096db4a6110de60",
+      "voice_wave_sha256": "302ee9404d393032f40eeea28515943a76bf3ed50503c353a908b3c3fe99ce8c",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": false,
+      "dependency": null,
+      "master_id": "a_07f29c00826a4dd4",
+      "seed": "340003264",
+      "prompt_id": "49ccbee0-bf46-406f-b306-45a6ce9981e1",
+      "port": 8190,
+      "review": {
+        "shot": "S10",
+        "asset": "a_93cc8e24e5ea44ff",
+        "decision": "technical_select",
+        "human_acceptance": "pending",
+        "checks": [
+          "4fps body and face review for entire take",
+          "low horizontal canine body, natural four-leg support; no humanoid wave or rearing",
+          "exactly two ears; canonical markings retained",
+          "speaker windows and closed listener checked",
+          "no duplicate frames",
+          "visible cloud billowing/merging over fixed peaks",
+          "corrected two-ear master and two-ear guide",
+          "no new tree enters panorama"
+        ],
+        "source_selection_asset": "a_5db2549dc09741e5"
+      }
+    },
+    {
+      "shot": "S11",
+      "asset": "a_4055c245324143b2",
+      "frames": 152,
+      "video_sha256": "f966142d81dc8c789f966d3b2b69e9ff845e8d5a7cff7ce0a079f045713a7e72",
+      "voice_wave_sha256": "256dd31873fcdb5523df8edc77912e36cd0ef341b309e747fb259dd327f0bfac",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": false,
+      "dependency": "a_93cc8e24e5ea44ff",
+      "master_id": "a_07f29c00826a4dd4",
+      "seed": "596307132",
+      "prompt_id": "d4736ff1-75d2-45db-a215-d9929cfbd774",
+      "port": 8190,
+      "review": {
+        "shot": "S11",
+        "asset": "a_4055c245324143b2",
+        "decision": "technical_select",
+        "human_acceptance": "pending",
+        "checks": [
+          "throughout body remains a horizontal quadruped, two ears, no human gesture",
+          "continuous cloud crests flow around fixed peaks from actual incoming cloud motion",
+          "quiet reaction smiles/blinks/tail movements; original silent audio preserved",
+          "no inserted hold, duplicate frame or new vegetation"
+        ],
+        "source_selection_asset": "a_08053f28cf334633"
+      }
+    },
+    {
+      "shot": "S12",
+      "asset": "a_864d8f02e88c4598",
+      "frames": 217,
+      "video_sha256": "4dda96d8045ce8ebfe1d26816e1501eb87e77a68134fa66ad04367db38efa562",
+      "voice_wave_sha256": "e1ee29331fae6dd869f7614de1715782ab1efef4393da8e19b8a86840e79d7b4",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": false,
+      "dependency": null,
+      "master_id": "a_dc3923c72b56446a",
+      "seed": "610095903",
+      "prompt_id": "7fe38f8b-62c0-440c-9681-c63780186d25",
+      "port": 8189,
+      "review": {
+        "shot": "S12",
+        "asset": "a_864d8f02e88c4598",
+        "decision": "technical_select",
+        "human_acceptance": "pending",
+        "checks": [
+          "four-leg canine stance throughout; no humanoid arm/rearing",
+          "two ears and canonical face",
+          "sheep alone says d15, puppy lips closed",
+          "cloud billows flow at different depths around fixed peaks",
+          "no new foliage or scene change; no duplicates"
+        ],
+        "source_selection_asset": "a_c8d641f7c2d44ef5"
+      }
+    },
+    {
+      "shot": "S13",
+      "asset": "a_eac18be796d04e14",
+      "frames": 187,
+      "video_sha256": "ee0b5263a1d0254752732a253336831f5535d733da5523738fbb1c9c9e0cd587",
+      "voice_wave_sha256": "176001459db9500124dc4e5622ece20b6257b4e461f338adafd4d46b9e51b2ea",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": false,
+      "dependency": "a_864d8f02e88c4598",
+      "master_id": "a_dc3923c72b56446a",
+      "seed": "597950952",
+      "prompt_id": "0a1e32e4-0c2d-478b-a4b9-e1e57b8d6fb2",
+      "port": 8190,
+      "review": {
+        "shot": "S13",
+        "asset": "a_eac18be796d04e14",
+        "decision": "technical_select",
+        "human_acceptance": "pending",
+        "checks": [
+          "both d16 and d17 belong to Soda; sheep lips remain closed",
+          "4fps natural quadruped posture throughout, no humanoid gesture, two ears",
+          "clouds continue rolling, rigid peaks and unobstructed panorama retained",
+          "all dog paws remain visible; no literal duplicate frames"
+        ],
+        "source_selection_asset": "a_892580f120744595"
+      }
+    },
+    {
+      "shot": "S14",
+      "asset": "a_551227dd5a7b4d05",
+      "frames": 80,
+      "video_sha256": "aa05b9dc0bef52a20188f9829e3ea875bc22b782f94345f5bca0e7125a4c78dd",
+      "voice_wave_sha256": "f6447e6ee449cf3b84c8365c50330747287677c1f4995431da9aede0e22e6db8",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": true,
+      "dependency": null,
+      "master_id": "a_e7e2a0cc13f14bed",
+      "seed": "25046867",
+      "prompt_id": "5643f279-2bea-4e4b-9099-82c833798ccd",
+      "port": 8192,
+      "review": {
+        "shot": "S14",
+        "asset": "a_551227dd5a7b4d05",
+        "decision": "technical_select",
+        "reason": "Outside requested interval; original picture bytes and audio unchanged",
+        "human_acceptance": "pending",
+        "source_selection_asset": "a_4dc83c10f7e5475d"
+      }
+    },
+    {
+      "shot": "S15",
+      "asset": "a_42a7db0e1daf4712",
+      "frames": 221,
+      "video_sha256": "8b1f4d98a0833a05d54dec7530a2b9f3c30e8198835b9335f9e841a153553397",
+      "voice_wave_sha256": "2aafcb513c90cad5cd4012953e92493dcf66e57d696ad4c018eb25df0a99a895",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": true,
+      "dependency": "a_551227dd5a7b4d05",
+      "master_id": "a_e7e2a0cc13f14bed",
+      "seed": "1346068702",
+      "prompt_id": "bcf624a9-fbee-44af-bd61-6fd1c4019ca1",
+      "port": 8191,
+      "review": {
+        "shot": "S15",
+        "asset": "a_42a7db0e1daf4712",
+        "decision": "technical_select",
+        "reason": "Outside requested interval; original picture bytes and audio unchanged",
+        "human_acceptance": "pending",
+        "source_selection_asset": "a_d8d17388e7f24da9"
+      }
+    },
+    {
+      "shot": "S16",
+      "asset": "a_df99a750928349cc",
+      "frames": 67,
+      "video_sha256": "d834bdae1c61beb4893e0026bd0d3c13415335d686c0374e85686033801c4386",
+      "voice_wave_sha256": "017fbca8174addd499f90fe2e9579d45f4050dd379a7972c5492fea4f1de81b2",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": true,
+      "dependency": "a_42a7db0e1daf4712",
+      "master_id": "a_e7e2a0cc13f14bed",
+      "seed": "403861681",
+      "prompt_id": "89586c8b-44ba-4315-908d-82ed67e5a645",
+      "port": 8191,
+      "review": {
+        "shot": "S16",
+        "asset": "a_df99a750928349cc",
+        "decision": "technical_select",
+        "reason": "Outside requested interval; original picture bytes and audio unchanged",
+        "human_acceptance": "pending",
+        "source_selection_asset": "a_773bcda3eb834ab3"
+      }
+    },
+    {
+      "shot": "S17",
+      "asset": "a_08cf1da8cf7148be",
+      "frames": 214,
+      "video_sha256": "553d744980f54d1da717322a8a57d918e70a2592330bc7a9f50749c986a2258a",
+      "voice_wave_sha256": "805afec673e23351d4c40264637250ef4259c8b793a522088ee72c2e925de496",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": true,
+      "dependency": "a_df99a750928349cc",
+      "master_id": "a_e7e2a0cc13f14bed",
+      "seed": "749434937",
+      "prompt_id": "e77c11bb-7b8d-41f0-9d01-9db3e9e2e957",
+      "port": 8188,
+      "review": {
+        "shot": "S17",
+        "asset": "a_08cf1da8cf7148be",
+        "decision": "technical_select",
+        "reason": "Outside requested interval; original picture bytes and audio unchanged",
+        "human_acceptance": "pending",
+        "source_selection_asset": "a_9dd24e3cd25f4021"
+      }
+    },
+    {
+      "shot": "S18",
+      "asset": "a_cc4e8d933e244bf9",
+      "frames": 128,
+      "video_sha256": "a26f7ea1f373273e6ec1caf39946ee3c0ec8da38e14d6172b7281b8eaf5784d4",
+      "voice_wave_sha256": "2c869574ffc3a58eeefeb737788aed8e83580c01546fd3b87ca9d2df7ba77f8e",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": true,
+      "dependency": null,
+      "master_id": "a_9067fb82aecf42f7",
+      "seed": "1663148011",
+      "prompt_id": "b5b8ab76-ac04-4f67-8a36-786455e656d2",
+      "port": 8189,
+      "review": {
+        "shot": "S18",
+        "asset": "a_cc4e8d933e244bf9",
+        "decision": "technical_select",
+        "reason": "Outside requested interval; original picture bytes and audio unchanged",
+        "human_acceptance": "pending",
+        "source_selection_asset": "a_a4f3df64ff29444a"
+      }
+    },
+    {
+      "shot": "S19",
+      "asset": "a_91ccc2331a5c4a22",
+      "frames": 179,
+      "video_sha256": "2c9d7afb340c60438b5f4febafd879bd5578f4107f1da934709c823f75ab77ff",
+      "voice_wave_sha256": "02e6e9a97f79d8632600ad68a645514e8c1c30ad365ad04962040306b0357bf4",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": true,
+      "dependency": null,
+      "master_id": "a_7e29cf480d0e4b24",
+      "seed": "105106518",
+      "prompt_id": "675b1ab0-a851-483e-b7ab-5b093c3ded4d",
+      "port": 8190,
+      "review": {
+        "shot": "S19",
+        "asset": "a_91ccc2331a5c4a22",
+        "decision": "technical_select",
+        "reason": "Outside requested interval; original picture bytes and audio unchanged",
+        "human_acceptance": "pending",
+        "source_selection_asset": "a_a473d2670dff441c"
+      }
+    },
+    {
+      "shot": "S20",
+      "asset": "a_acee0ee64c6a4856",
+      "frames": 176,
+      "video_sha256": "53c8edb78ad0540852853ab2949cde9e3b730178eda178e3ce860af66269743b",
+      "voice_wave_sha256": "8134e62e9cb7a452f451de6c59c71ae236eb070680fa9493fecb2bf85d148fb4",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": true,
+      "dependency": "a_91ccc2331a5c4a22",
+      "master_id": "a_7e29cf480d0e4b24",
+      "seed": "1010120927",
+      "prompt_id": "83fa8df1-e025-47cd-b3cc-f9b01b03dfdd",
+      "port": 8189,
+      "review": {
+        "shot": "S20",
+        "asset": "a_acee0ee64c6a4856",
+        "decision": "technical_select",
+        "reason": "Outside requested interval; original picture bytes and audio unchanged",
+        "human_acceptance": "pending",
+        "source_selection_asset": "a_9b7a8e13fb1b4bbd"
+      }
+    },
+    {
+      "shot": "S21",
+      "asset": "a_d8260e3418014239",
+      "frames": 80,
+      "video_sha256": "788288c819b353a6ecec58c5da7803fa45060564301bffc489afd2feebebe2f9",
+      "voice_wave_sha256": "f6447e6ee449cf3b84c8365c50330747287677c1f4995431da9aede0e22e6db8",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": true,
+      "dependency": null,
+      "master_id": "a_9067fb82aecf42f7",
+      "seed": "1023228596",
+      "prompt_id": "d13c01d3-6325-4913-8642-44f2771cf893",
+      "port": 8190,
+      "review": {
+        "shot": "S21",
+        "asset": "a_d8260e3418014239",
+        "decision": "technical_select",
+        "reason": "Outside requested interval; original picture bytes and audio unchanged",
+        "human_acceptance": "pending",
+        "source_selection_asset": "a_ed5fa6e47c5f4ad5"
+      }
+    },
+    {
+      "shot": "S22",
+      "asset": "a_c90408fa1df84acf",
+      "frames": 152,
+      "video_sha256": "66567553654c328dda550b61e9849eae0b0c86c14b0ae978763828cbb4a86fb9",
+      "voice_wave_sha256": "256dd31873fcdb5523df8edc77912e36cd0ef341b309e747fb259dd327f0bfac",
+      "original_voice_exact": true,
+      "turns_exact": true,
+      "carried_forward_byte_exact": true,
+      "dependency": null,
+      "master_id": "a_9595012cf7144b4a",
+      "seed": "941593924",
+      "prompt_id": "41bac24a-e667-4af6-9f0c-7fad0fb28b42",
+      "port": 8190,
+      "review": {
+        "shot": "S22",
+        "asset": "a_c90408fa1df84acf",
+        "decision": "technical_select",
+        "reason": "Outside requested interval; original picture bytes and audio unchanged",
+        "human_acceptance": "pending",
+        "source_selection_asset": "a_cd91f3e81e9d41a2"
+      }
+    }
+  ],
+  "human_acceptance": "pending"
+}

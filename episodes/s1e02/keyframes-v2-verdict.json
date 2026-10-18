@@ -1,0 +1,14 @@
+{
+  "human_keyframe_approval": "revoked",
+  "allow_video": false,
+  "allow_tts": false,
+  "allow_assembly": false,
+  "allow_batch_images": false,
+  "reason": "User withdrew confirmation: both actors insufficiently fluffy. Only one material-calibration candidate before user confirmation.",
+  "rejected_keyframes": [
+    "a_7c0c9a0eebcb44eb",
+    "a_0042eaf7e3844090",
+    "a_61beca8893d14b02",
+    "a_8f45930cf8ce44a5"
+  ]
+}

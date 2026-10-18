@@ -1,0 +1,16 @@
+{
+  "additional_guides": [
+    {
+      "asset_id": "a_5d80fa619529405e",
+      "path": "/data/app/huanghaibin/soda/jobs/j_81a046d0ee4f4bca/park-run-stride-candidate.png",
+      "sha256": "db1ad49e1e23a556ced0d44ceec5592d1d3aa9cc3f57bf5ba43d1bcb3a836ed8",
+      "frame_idx": 64,
+      "purpose": "native middle keyframe; same camera; horizontal quadrupedal gallop after go",
+      "shot_id": "S04",
+      "node": "46"
+    }
+  ],
+  "pure_picture_continuation": true,
+  "shared_runtime_unchanged": true,
+  "new_tts_requests": false
+}

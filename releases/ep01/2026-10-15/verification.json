@@ -1,0 +1,14 @@
+{
+  "all_917_decoded_frames_equal_to_approved_sources": true,
+  "first_48_frames_exact_op": true,
+  "remaining_869_frames_exact_selected_a_episode": true,
+  "cfr24_timestamp_max_error_seconds": 3.333333342681044e-07,
+  "all_dialogue_subtitle_cues_shifted_exactly_2000ms": true,
+  "all_subtitle_text_unchanged": true,
+  "full_av_decode_without_errors": true,
+  "contact": "final-review-contact.jpg",
+  "high_five_source_frames_preserved": true,
+  "op_to_episode_boundary_seconds": 2,
+  "practice_title_animation_start_seconds": 27,
+  "human_visual_review": "Checked actual OP/body join, A intertitle and ending contacts. Title and subtitles readable, original high-five/closing shot intact."
+}

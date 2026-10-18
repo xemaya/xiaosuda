@@ -1,0 +1,121 @@
+{
+  "name": "S1E01 · 自我介绍 · 轻声BGM定稿候选",
+  "job_id": "j_26edc1e0ddc840ab",
+  "board_version": "v_925deeb376374984",
+  "setting_version": "v_96146bd510574500",
+  "frames": 1112,
+  "seconds": 46.333333,
+  "manifest": {
+    "takes": [
+      {
+        "id": "a_c3d7ad7591b743b0",
+        "sha256": "91b27d26330918ee3977aa73bfa6112abddef791c5ed2bc32f1d3ec6aed02dd1",
+        "shot_id": "S02",
+        "keep_frames": 144
+      },
+      {
+        "id": "a_b090ab2f70994727",
+        "sha256": "e38322fb0aea138e2a15abf93d92cd28ed6f30b69038e3da1a1ad48bada34df0",
+        "shot_id": "S03",
+        "keep_frames": 192
+      },
+      {
+        "id": "a_c8d268c4bb8446b6",
+        "sha256": "b4aa04e6ce7dda3f19b243823792cd354fd6f01d146a8595af87f73d3982a063",
+        "shot_id": "S05",
+        "keep_frames": 96
+      },
+      {
+        "id": "a_39e4cbd9ab2f41c7",
+        "sha256": "f6d9d54822641f5ff6c90230202af8d6f895fdb11a95a722b6d771f5ecc2797a",
+        "shot_id": "S06",
+        "keep_frames": 168
+      },
+      {
+        "id": "a_96a0d7c86d014c4a",
+        "sha256": "0e0b3e878adb2cd2856c756acd5826699fa439bba29a8e50542d5ebff86526ed",
+        "shot_id": "S07",
+        "keep_frames": 168
+      },
+      {
+        "id": "a_11d7ab46b4c84a1f",
+        "sha256": "4eb74ed5a3dd7409cbeb9c97df7601e26020cff63124696352d94453578c6ee1",
+        "shot_id": "S08",
+        "keep_frames": 192
+      },
+      {
+        "id": "a_233880fab04a4f84",
+        "sha256": "c34708b5004a9f405b4d4e28ad49013f058555867f7547c5fded87789d089776",
+        "shot_id": "S09",
+        "keep_frames": 120
+      }
+    ],
+    "frames": 1112,
+    "fps": 24,
+    "op": true,
+    "op_after_shot": null,
+    "intertitle": null,
+    "board_version": "v_925deeb376374984",
+    "subtitles": "/data/app/huanghaibin/soda/jobs/j_26edc1e0ddc840ab/captions.srt",
+    "transitions": [
+      {
+        "shot_id": "S03",
+        "kind": "pull_down"
+      },
+      {
+        "shot_id": "S05",
+        "kind": "pull_down"
+      }
+    ],
+    "native_voices_preserved": true,
+    "human_acceptance": "accepted",
+    "bgm": {
+      "title": "Soda Sunny Steps",
+      "source": "Original note arrangement, local Apple GM instrument rendering",
+      "score": "/data/app/huanghaibin/soda/batches/s1e01-soft-bgm/score.json",
+      "raw_sha256": "2f99340f7e3f207a9916085bd2e430dac5d6fb76007c99f15307e782aa8f6e34",
+      "soft_sha256": "0a2e7e8598583bf834cefcb97baf07e0d247762717c2fbc160b3a766a310cae0",
+      "base_loudness_lufs_approx": -39,
+      "voice_ducking": "ratio2,50ms attack,700ms release",
+      "fade_in_seconds": 0.8,
+      "fade_out_seconds": 2.733333,
+      "voice_gain": 1,
+      "lyrics": false,
+      "soft_path": "/data/app/huanghaibin/soda/batches/s1e01-soft-bgm/bgm-soft-v2.wav",
+      "qa": {
+        "music_under_active_voice_db_relative": -14.65,
+        "mixed_peak_dbfs": -13.61,
+        "source_voice_gain": 1,
+        "clipped_samples": 0,
+        "additional_music_gain_db": -7
+      }
+    },
+    "caption_profile": {
+      "english": 46,
+      "chinese": 42,
+      "safe_width": 620
+    },
+    "original_voice_sfx_pcm_identical_before_music": true,
+    "picture_bitstream_unchanged_when_mixing": true,
+    "source_candidate": "a_d1654d3634414489",
+    "acceptance": {
+      "status": "user_accepted",
+      "date": "2026-10-17",
+      "quote": "这个定稿，配方全部落盘",
+      "asset_id": "a_f9326941a16b4c4d",
+      "sha256": "37a9f1403bdc7918d60bac7787ccccbec80ac02d0e835ce321c758687b06c6d0",
+      "project_id": "p_5e6ea50dd70a4026",
+      "revision": 89
+    }
+  },
+  "review": "user_accepted",
+  "source_asset_id": "a_d1654d3634414489",
+  "id": "a_f9326941a16b4c4d",
+  "project_id": "p_5e6ea50dd70a4026",
+  "kind": "final",
+  "created": 1792195621.796389,
+  "sha256": "37a9f1403bdc7918d60bac7787ccccbec80ac02d0e835ce321c758687b06c6d0",
+  "url": "api/media/a_f9326941a16b4c4d",
+  "human_acceptance": "accepted",
+  "accepted_date": "2026-10-17"
+}

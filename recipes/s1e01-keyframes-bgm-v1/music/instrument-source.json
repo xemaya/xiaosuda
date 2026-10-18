@@ -1,0 +1,15 @@
+{
+  "method": "AVAudioUnitSampler offline rendering",
+  "sound_bank_path": "/System/Library/Components/CoreAudio.component/Contents/Resources/gs_instruments.dls",
+  "sound_bank_sha256": "739d277474bddeb120372625b70c83c653faaee44de26c3191848cc6c64bfb74",
+  "bank_redistributed": false,
+  "platform": "macOS-26.2-arm64-arm-64bit",
+  "programs_zero_based": {
+    "nylon_guitar": 24,
+    "marimba": 12,
+    "acoustic_bass": 32
+  },
+  "render_script": "render.swift",
+  "score": "score.json",
+  "rebuild_uses_frozen_audio_master": true
+}

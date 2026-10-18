@@ -1,0 +1,103 @@
+{
+  "source_original_path": "scripts/editorial/s1e03-original.txt",
+  "source_docx": "scripts/editorial/少儿英语大纲.docx",
+  "source_docx_sha256": "affdafb3b7cd8e62371a00d90616274a8a99cd139298f497a816d32fa42ef27a",
+  "section_sha256": "93b015b5b21b386687daf6d6066e75f9b6e7fb0e41321b32415016b4c89226d8",
+  "paragraph_range_1based_inclusive": [
+    36,
+    80
+  ],
+  "source_verbatim": true,
+  "canonical_episode": "S1E03",
+  "title_zh": "荡秋千",
+  "title_en": "Let’s Play on the Swings!",
+  "normalizations": [
+    "Baking Soda -> Soda (英文对白称呼)",
+    "Chick -> Jacky (英文对白称呼)",
+    "中文译文“小鸡” -> “奇奇”",
+    "英文句式、句数、剧情与译文含义不变",
+    "Yay! Thank you, my friend! -> Yay! Thank you, Soda!（人设是兄弟，且点名道谢；用户2026-10-18指示）",
+    "Yes! Best friends forever! -> 删除；结尾不念台词，两兄弟一起开心大笑收尾"
+  ],
+  "cast_ids": [
+    "xiaosuda",
+    "mengji-gege"
+  ],
+  "locations": 1,
+  "camera_masters": 3,
+  "scene_budget_user_limit": [
+    2,
+    4
+  ],
+  "base_recipe": "recipes/s1e02-fluffy-quadruped-v1",
+  "status": "voices_prepared_pending_review",
+  "gpu_calls": 6,
+  "tts_calls": 11,
+  "editor_dialogue_count": 11,
+  "estimated_frames": 780,
+  "estimated_seconds": 32.5,
+  "user_choice": {
+    "date": "2026-10-18",
+    "quotes": [
+      "剧本，我们看这个目录吧 /Users/huanghaibin/Workspace/games/4090/xiaosuda/scripts/editorial，第三集 s1e03-original.txt 已经在了，你看在这个剧本基础上修改",
+      "旧原创《谢谢啦》 删掉。这个剧本要改的，因为我们人设里面，soda 和jacky是兄弟，不是friend。所以需要对个别语句进行调整的",
+      "D10 Yay! Thank you,Soda  D12 删掉，场面上两兄弟一起开心大笑就行"
+    ],
+    "decisions": [
+      "本集按编辑原稿 S1E03《荡秋千》制作",
+      "旧原创《谢谢啦》及其餐厅样图证据全部删除",
+      "d10 改为点名道谢 Yay! Thank you, Soda!；d12 删除，结尾改为两兄弟一起开心大笑（无台词）"
+    ]
+  },
+  "deleted_previous_draft": {
+    "date": "2026-10-18",
+    "user_instruction": "旧原创《谢谢啦》 删掉。",
+    "removed_local": [
+      "episodes/s1e03/archive-thanks-a-lot/",
+      "jobs/1018-s1e03-keyframes-v1/"
+    ],
+    "removed_server": [
+      "project p_d2233503b3264ac9（含2个候选资产、2个任务、1个设定版本）",
+      "preproduction/s1e03-keyframes-v1/",
+      "jobs/j_be0ae6e86eec44e7/",
+      "jobs/j_f8abc3e2ccda4e1a/"
+    ],
+    "server_backup": "/tmp/s1e03-thanks-deleted-1792283283.json（临时备份，非工程文件）"
+  },
+  "workbench_project_id": "p_a2e9b0ffaded4757",
+  "setting_version": "v_9d21aaab0c7d4565",
+  "setting_accepted": true,
+  "sample_candidate": {
+    "asset_id": "a_6b8a3959739b4a0c",
+    "job_id": "j_145166e82d00425e",
+    "scene_id": "swing-medium",
+    "sha256": "fb2db078de48ce4655b3a92b99d2f2411185b21b6b84464b05f44a53eee84e2c",
+    "prompt_id": "d133fea9-0a1c-4906-8501-0a16ba436fea",
+    "seed": 10180312,
+    "port": 8190,
+    "accepted": false
+  },
+  "superseded_sample": {
+    "asset_id": "a_620e00b2d7c5446a",
+    "job_id": "j_c0825cb3826b4ba7",
+    "reason": "Soda 体量偏大、没坐实座板；返修后缩小并坐上座板"
+  },
+  "evidence_dir": "jobs/1018-s1e03-swing-sample-v1",
+  "masters": {
+    "swing-medium": {
+      "asset_id": "a_6b8a3959739b4a0c",
+      "approved": true
+    },
+    "playground-wide": {
+      "asset_id": "a_d149424bd04446c7",
+      "approved": true
+    },
+    "swing-close": {
+      "asset_id": "a_e5180d6f361941dd",
+      "approved": true
+    }
+  },
+  "keyframes_manifest": "episodes/s1e03/keyframes-v1.json",
+  "voices_manifest": "episodes/s1e03/voices-v1.json",
+  "timeline": "episodes/s1e03/board-v2.json"
+}

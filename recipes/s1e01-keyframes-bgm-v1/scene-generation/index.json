@@ -1,0 +1,42 @@
+[
+  {
+    "scene_id": "home-wide",
+    "job_id": "j_4f820f5f7e8247a7",
+    "asset_id": "a_dafbd9dcef5a483e",
+    "seed": "1994014565",
+    "source_only_not_automatically_accepted": true,
+    "directory": "scene-generation/home-wide"
+  },
+  {
+    "scene_id": "home-close",
+    "job_id": "j_7a2eee9a50824875",
+    "asset_id": "a_67ef4245662b452a",
+    "seed": "650779912",
+    "source_only_not_automatically_accepted": true,
+    "directory": "scene-generation/home-close"
+  },
+  {
+    "scene_id": "north-wide",
+    "job_id": "j_0688361724dc4493",
+    "asset_id": "a_397deaebc1de4184",
+    "seed": "1708801650",
+    "source_only_not_automatically_accepted": true,
+    "directory": "scene-generation/north-wide"
+  },
+  {
+    "scene_id": "jacky-corner",
+    "job_id": "j_978241ce4071418b",
+    "asset_id": "a_6969a07b78464fc6",
+    "seed": "1138982876",
+    "source_only_not_automatically_accepted": true,
+    "directory": "scene-generation/jacky-corner"
+  },
+  {
+    "scene_id": "angela-reading",
+    "job_id": "j_af753764db2447fe",
+    "asset_id": "a_755dfa8010934ee6",
+    "seed": "493801285",
+    "source_only_not_automatically_accepted": true,
+    "directory": "scene-generation/angela-reading"
+  }
+]

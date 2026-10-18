@@ -1,0 +1,33 @@
+# 代码仓只放代码、文档、角色卡与配方脚本；成片、截图、证据包留在 4090 上
+jobs/
+workbench/evidence/
+assets/
+references/
+
+# 媒体与字体（体积大，也不适合公开仓）
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+*.ttf
+*.otf
+*.tar.gz
+*.tgz
+*.zip
+
+# 但角色卡与首帧属于工程身份基线，保留
+!sheets/**
+!firstframes/**
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# 系统
+.DS_Store

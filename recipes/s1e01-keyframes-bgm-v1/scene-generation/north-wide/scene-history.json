@@ -1,0 +1,178 @@
+{
+  "prompt": [
+    807,
+    "ec094cb8-ccd3-4825-a36a-e614dd908ea9",
+    {
+      "1": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "qwen_image_2.1_bf16.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "2": {
+        "class_type": "QwenImage21Cache",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "device": "auto",
+          "dtype": "default"
+        }
+      },
+      "3": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen3vl_8b_bf16.safetensors",
+          "type": "qwen_image",
+          "device": "default"
+        }
+      },
+      "4": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+        }
+      },
+      "5": {
+        "class_type": "LoadImage",
+        "inputs": {
+          "image": "soda-1e9f49fe25537e10c0ebc10a.png"
+        }
+      },
+      "6": {
+        "class_type": "TextEncodeQwenImage21",
+        "inputs": {
+          "clip": [
+            "3",
+            0
+          ],
+          "vae": [
+            "4",
+            0
+          ],
+          "prompt": "Original cute chibi 3D plush toy mascots, dense fine soft fibers, rounded big-head short-limb proportions, tactile fleece and knitted cloth, warm ivory and cornflower-blue/golden-yellow palette, soft warm window light, gentle depth of field, physical grounded poses. Preserve the supplied character-sheet identity and outfit exactly; never render a sheet, chart, labels, text, watermark, extra actors or extra limbs inside a scene. One clean full-frame cinematic portrait composition, 768x1376, fixed camera for dialogue.\nMake ONE clean portrait cinematic scene frame, NOT a character sheet. Reference pictures establish identity, outfits and scale only. EXACTLY these visible actors, no other animals: xiaosuda: Black-and-white Alaskan malamute plush puppy, dark gray-black back/head/ears, white face mask/muzzle/chest/belly/paws, pink inner ears and rosy cheeks, black nose, warm brown round eyes, large fluffy curled white-tipped tail, small brown backpack. Warm playful personality.\nScene: 遥远北方冰天雪地的全景，蓬松积雪、覆雪松树与远处雪山。Soda全身在安全平坦雪地上，环境辽阔，毛绒角色与原有小棕背包保持完全一致，不擅自换冬装。寒冷来处属于自我介绍的想象布景；说来自寒冷地方时自然介绍，下一镜在同一雪地轻快跑几步、留下脚印。. Framing: wide. Quiet background activities: {}. Lighting: 清透冷蓝雪地环境光，角色保留柔软暖色面部高光. Props: 积雪, 覆雪松树, 远处雪山. Preserve plush style and relative sizes. No text, no grid, no chart, no labels; only the C on the chick hoodie if chick is in cast. Portrait 768x1376.",
+          "negative_prompt": "",
+          "resolution": 1024,
+          "images.image_1": [
+            "5",
+            0
+          ]
+        }
+      },
+      "7": {
+        "class_type": "KSampler",
+        "inputs": {
+          "model": [
+            "2",
+            0
+          ],
+          "positive": [
+            "6",
+            0
+          ],
+          "negative": [
+            "6",
+            1
+          ],
+          "latent_image": [
+            "6",
+            2
+          ],
+          "seed": 1708801650,
+          "steps": 25,
+          "cfg": 1.0,
+          "sampler_name": "euler",
+          "scheduler": "simple",
+          "denoise": 1.0
+        }
+      },
+      "8": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "7",
+            0
+          ],
+          "vae": [
+            "4",
+            0
+          ]
+        }
+      },
+      "9": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "8",
+            0
+          ],
+          "filename_prefix": "soda/j_0688361724dc4493/north-wide"
+        }
+      }
+    },
+    {
+      "soda_job": "j_0688361724dc4493",
+      "soda_tag": "scene",
+      "client_id": "ec094cb8-ccd3-4825-a36a-e614dd908ea9",
+      "create_time": 1792125615851
+    },
+    [
+      "9"
+    ]
+  ],
+  "outputs": {
+    "9": {
+      "images": [
+        {
+          "filename": "north-wide_00001_.png",
+          "subfolder": "soda/j_0688361724dc4493",
+          "type": "output"
+        }
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "ec094cb8-ccd3-4825-a36a-e614dd908ea9",
+          "timestamp": 1792125615852
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "prompt_id": "ec094cb8-ccd3-4825-a36a-e614dd908ea9",
+          "timestamp": 1792125615870
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "ec094cb8-ccd3-4825-a36a-e614dd908ea9",
+          "timestamp": 1792125637570
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "9": {
+      "node_id": "9",
+      "display_node": "9",
+      "parent_node": null,
+      "real_node_id": "9"
+    }
+  }
+}

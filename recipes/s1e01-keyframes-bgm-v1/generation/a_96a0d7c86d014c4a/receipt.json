@@ -1,0 +1,11 @@
+{
+  "phase": "completed",
+  "port": 8188,
+  "prompt_id": "9125c0f9-ecaa-4281-a609-166660910ac1",
+  "graph_sha256": "35c8797f985bc6958f4c8af021fbdf265ffc38d027dab3bf739f01a86a771287",
+  "created": 1792170409.9757373,
+  "output": "/data/app/huanghaibin/soda/batches/s1e01-generation-review/S07-clean-start-guide/take.mp4",
+  "sha256": "0e0b3e878adb2cd2856c756acd5826699fa439bba29a8e50542d5ebff86526ed",
+  "keep_frames": 168,
+  "seconds": 7.0
+}

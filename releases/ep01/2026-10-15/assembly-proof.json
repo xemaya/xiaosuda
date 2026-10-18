@@ -1,0 +1,55 @@
+{
+  "episode": 1,
+  "series": "Hi, Soda!",
+  "topic": "How are you?",
+  "date": "2026-10-15",
+  "file": "releases/ep01/2026-10-15/Hi-Soda_EP01_How-Are-You.mp4",
+  "sha256": "09986cbb4c5eb179b178baffbefa792b4f3263eb5f9c5b51cad04d0f2d8a9444",
+  "duration_seconds": 38.299,
+  "resolution": [
+    1080,
+    1932
+  ],
+  "fps": 24,
+  "frames": 917,
+  "component_frames": [
+    48,
+    869
+  ],
+  "op_seconds": 2,
+  "intertitle": "User-selected A paw pop",
+  "video_processing": "H.264 stream copy; no picture re-encoding or frame removal",
+  "original_performance_and_high_five_retained": true,
+  "new_animal_video_generation": false,
+  "audio_pcm_sources": [
+    {
+      "path": "assets/op/hi-soda-motion/hi-soda-op.wav",
+      "samples": 64000,
+      "sha256": "c96b5cdcab8c5cde0263166e58ce2093a511f38b8a5e4afc478156973e3ddcf7"
+    },
+    {
+      "path": "jobs/1015-v18-intertitle-motion/a-paw-pop-audio.wav",
+      "samples": 1161568,
+      "sha256": "27b5a271d8fa7d5952c8d173b6ff6fcdd20ea6e70627c0379c598436e16d394d"
+    }
+  ],
+  "audio_pcm_exact_concatenation": true,
+  "audio_encoding": "one AAC encode from original PCM; no voice/speed/level change",
+  "subtitle_offset_from_selected_episode_seconds": 2,
+  "subtitles_already_burned_in": true,
+  "sources": [
+    {
+      "path": "assets/op/hi-soda-motion/hi-soda-op-2s.mp4",
+      "sha256": "b939a144e3603c84ee903f7145eb56b122cc64d315afff1ba987ee90d261bcca"
+    },
+    {
+      "path": "jobs/1015-v18-intertitle-motion/v18-a-paw-pop-review.mp4",
+      "sha256": "ebc90bf810f5bf137a8144dcff5a62fe6bf72ccb8117e1ee25fcfd50ffb0a042"
+    }
+  ],
+  "publication_status": "not_requested; user explicitly requested only the finished video",
+  "validation": "passed: exact decoded equality for all 917 frames, CFR24 starting at zero, full A/V decode, sidecar subtitle offset/text and visual join review",
+  "release_status": "final_delivery",
+  "user_instruction": "好，完整拼接，第一集正式出街",
+  "user_clarification": "仅成片"
+}

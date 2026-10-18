@@ -1,0 +1,46 @@
+{
+  "tool": "built-in image_gen",
+  "purpose": "generation conditioning keyframes, not video overlays",
+  "inputs": [
+    "jobs/1016-s1e01-scene-masters/angela-reading-v2.png",
+    "jobs/1016-s1e01-scene-masters/home-wide-v2.png",
+    "sheets/mengji-gege.png"
+  ],
+  "candidates": [
+    {
+      "file": "S07-gesture-f48.png",
+      "sha256": "244935a0a526f2485e33be2055920eb3c045fb9e3146eee668b6d6ff60344417",
+      "size": [
+        937,
+        1678
+      ]
+    },
+    {
+      "file": "S08-book-released-f67.png",
+      "sha256": "aeff1acc867aa1c5d4d061bf3d5a57c983d61155e51b5da74de59b1c648a374d",
+      "size": [
+        937,
+        1678
+      ]
+    },
+    {
+      "file": "S07-clean-start.png",
+      "sha256": "f3567ba147b667ec489600ee7bc0126d736ea71a5c6774cdc2110d1293d71725",
+      "size": [
+        937,
+        1678
+      ]
+    },
+    {
+      "file": "S08-family-f144.png",
+      "sha256": "f33b15e3bad7009382be0e5122be311742f1d3df0dfab4528f245b444ab683c3",
+      "size": [
+        937,
+        1678
+      ]
+    }
+  ],
+  "status": "testing; not adopted",
+  "character_belly_clarification": "Keep the character-sheet soft cream fur highlight if present, but continuous fur; never an outlined white U-shaped insert or garment.",
+  "root_cause_update": "S07 original master already contains blue upper foreleg. Its full SHA256 matches the actual input filename. Clean BOTH picture ref and carrier before regeneration."
+}

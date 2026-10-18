@@ -1,0 +1,91 @@
+{
+  "series": "Hi, Soda!",
+  "title": "黄山篇",
+  "kind": "independent_travel_film",
+  "status": "user_accepted",
+  "revision": "v4",
+  "date": "2026-10-18",
+  "video": "Hi-Soda_Huangshan_Final.mp4",
+  "subtitles": "Hi-Soda_Huangshan_Final.srt",
+  "sha256": "dd1455e21dcc13003171c3eb8b3bb304b8af792f928774614319da853f4f8b4b",
+  "frames": 3389,
+  "duration_seconds": 141.20833333333334,
+  "resolution": [
+    1080,
+    1932
+  ],
+  "fps": 24,
+  "sample_aspect_ratio": "644:645",
+  "op": "Hi, Soda! / 2 seconds",
+  "source_reviewed_version": "jobs/1018-huangshan-pine-village-v4/Hi-Soda_Huangshan_pine-village-v4.mp4",
+  "source_release": "releases/huangshan/2026-10-18/manifest.json",
+  "source_release_sha256": "648e89862a3123329050cd6c7b5cd3956a2fada674356af0fe8db3624117191a",
+  "user_instruction": "非常不错，总结经验落盘",
+  "publication_requested": false,
+  "workbench_adoption_performed": false,
+  "generation_baseline": "recipes/plush-dialogue-v14/README.md",
+  "recipe": "recipes/huangshan-pine-village-v1/README.md",
+  "edits": {
+    "source": "/Users/huanghaibin/Workspace/games/4090/xiaosuda/releases/huangshan/2026-10-18/Hi-Soda_Huangshan_Final.mp4",
+    "source_sha256": "f93c763d99de10762a646e9da632af04cc51141342b3e44b229db40eeef2cd15",
+    "path": "/Users/huanghaibin/Workspace/games/4090/xiaosuda/jobs/1018-huangshan-pine-village-v4/Hi-Soda_Huangshan_pine-village-v4.mp4",
+    "sha256": "dd1455e21dcc13003171c3eb8b3bb304b8af792f928774614319da853f4f8b4b",
+    "frames": 3389,
+    "fps": 24,
+    "seconds": 141.20833333333334,
+    "pine_frames": [
+      267,
+      464
+    ],
+    "pine_background_layer": {
+      "maximum_y": 990,
+      "head_exclusion_ellipse": [
+        800,
+        1060,
+        280,
+        270
+      ],
+      "spatial_feather_only": true
+    },
+    "pine_actor_performance_preserved": true,
+    "unchanged_stream_copy_frames": [
+      [
+        0,
+        267
+      ],
+      [
+        464,
+        3173
+      ]
+    ],
+    "ending_frames": [
+      3173,
+      3389
+    ],
+    "ending_native_selected_frames": [
+      24,
+      240
+    ],
+    "new_ending_seconds": 9,
+    "original_ending_seconds": 6.333333333333333,
+    "original_speech_and_subtitle_times_preserved": true,
+    "original_audio_prefix_samples": 4230667,
+    "music_ambience_only_tail_atempo": 0.7037037037037037,
+    "new_tts_requests": 0,
+    "new_candidate_only": true,
+    "human_acceptance": "pending",
+    "current_release_unchanged": true
+  },
+  "evidence_sha256": {
+    "evidence/assemble.py": "5e56b5791963dee052270597cf1d51ac10830e088950ba1286c68098239eb9a1",
+    "evidence/audio-pcm-copy.json": "66d38f6c9bece86d2b479968db3f65ceebfae340e321b146f04bba04f0b13fbe",
+    "evidence/delivery.json": "c1bc427011dc56c2a2040e49fb752153b4511e6f7ffb90bb16e4f623607e6339",
+    "evidence/layer_wind.py": "0ff285e91ba302593e54bd8f6c2ac74363db28c7738d3230a7e529fd13adbdd0",
+    "evidence/layered-wind.json": "11392079e71c50c99c5cde5fffbe6d469774f4cdf597adf056a3530877c11a2b",
+    "evidence/native-job-evidence.tar.gz": "ea4e5e895eefbfa31be62adcb9c46abfdce3f5b055d4bc74c293ea58a35b4c82",
+    "evidence/review-decisions.json": "c595adcb2eb12a58ad96a85591829cb6bd6c2e2cd333e14c4530220bfbd7da36",
+    "evidence/user-confirmation.json": "f4abd80def0eed9f4ed2a196422bdd15ea613569f8db9f7538324a70d5b349d3",
+    "evidence/verification.json": "11d56e34e5b17cc373f0c6fba48920f83278086f95b3bd547ea5bdcb192f8ed9",
+    "evidence/verify.py": "282227daf3a5c0a0f81c825221c7d5069bc6184f4c8feefe87f3da58484e1abd"
+  }
+}

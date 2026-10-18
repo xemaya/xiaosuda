@@ -1,0 +1,264 @@
+{
+  "title": "大山上的路",
+  "poem": "蜀道难",
+  "date": "2026-10-18",
+  "status": "keyframes_user_accepted",
+  "human_acceptance": "accepted",
+  "source_script": "episodes/travel/shudao/story-v2.md",
+  "source_script_sha256": "46b2e41e137c106c9b273e4d64b196fc7358659e43e91ae5d5643704ab1f1db5",
+  "user_instruction": "好，往后做，出大节点的关键帧我们看看感觉",
+  "job_directory": "jobs/1018-shudao-keyframes-v2",
+  "review_page": "jobs/1018-shudao-keyframes-v2/index.html",
+  "overview": "jobs/1018-shudao-keyframes-v2/keyframes-overview.jpg",
+  "manifest": "jobs/1018-shudao-keyframes-v2/manifest.json",
+  "project_id": "p_4e4b3cad79b04446",
+  "cast_concepts": "jobs/1018-shudao-keyframes-v1/cast-concepts.json",
+  "references": "jobs/1018-shudao-keyframes-v2/references/manifest.json",
+  "frames": [
+    {
+      "number": 1,
+      "id": "K01",
+      "attempt": "v2",
+      "title": "今天有人来旅行",
+      "era": "现代",
+      "description": "帮同行的小游客调好背包肩带",
+      "image": "candidates/K01-v2.png",
+      "sha256": "84209add2c979f0106cf5b1bcef43d9f5842c1c76e234e757c327fbf16852f6e",
+      "asset_id": "a_78b2686a29e049fa",
+      "job_id": "j_32807c897c2c4bd3",
+      "prompt_id": "a3d96a59-87f9-45d0-b3ef-57d1876d8a53",
+      "seed": 1018135011,
+      "model": "qwen_image_2.1_bf16.safetensors",
+      "native_dimensions": [
+        768,
+        1376
+      ],
+      "output_dimensions": [
+        768,
+        1376
+      ],
+      "references": [
+        {
+          "path": "/data/app/huanghaibin/soda/preproduction/1018-shudao-keyframes-v1/candidates/K01-v1.png",
+          "sha256": "e42751fe0c61de4caf1f124e2c68bb18158554ce6d3be88767d370da145d1bf5"
+        },
+        {
+          "path": "/data/app/huanghaibin/soda/preproduction/1018-shudao-keyframes-v1/references/accepted-soda-angela.png",
+          "sha256": "a6bd7d03e8de3dbe0b7000315976dfcd391f0c560cac8da90545cb4f45f91ac3"
+        }
+      ],
+      "human_acceptance": "accepted"
+    },
+    {
+      "number": 2,
+      "id": "K02",
+      "attempt": "v1",
+      "title": "古时负重赶路",
+      "era": "古代",
+      "description": "背着行李，沿山腰的木路往前走",
+      "image": "candidates/K02-v1.png",
+      "sha256": "9206084fdf20e2a18d36bb5a385da40097ca39396eb7223c3e8425b490bc538f",
+      "asset_id": "a_152a6d4cd5974857",
+      "job_id": "j_bb951394a8d044c5",
+      "prompt_id": "83ca51ae-61a7-41bb-bdea-3d2a919168f3",
+      "seed": 1018142002,
+      "model": "qwen_image_2.1_bf16.safetensors",
+      "native_dimensions": [
+        768,
+        1376
+      ],
+      "output_dimensions": [
+        768,
+        1376
+      ],
+      "references": [
+        {
+          "path": "/data/app/huanghaibin/soda/preproduction/1018-shudao-keyframes-v2/references/source-K02.png",
+          "sha256": "2392921c56c1be10fb7ae7d247ac8e38700627e6e9c385422b96682f1087f387"
+        }
+      ],
+      "human_acceptance": "accepted"
+    },
+    {
+      "number": 3,
+      "id": "K03",
+      "attempt": "v2",
+      "title": "今天在路边歇脚",
+      "era": "现代",
+      "description": "姐弟歇一歇，游人一起喝口水",
+      "image": "candidates/K03-v2.png",
+      "sha256": "d25135c3db08441c72f679fbb793f2a43cd4d56fc4b2ec11ec12434739c028e3",
+      "asset_id": "a_2a8972fd67ae466c",
+      "job_id": "j_f462d360bfd34a10",
+      "prompt_id": "ea8e51d1-0515-4ab6-95da-62c454b37e40",
+      "seed": 1018135013,
+      "model": "qwen_image_2.1_bf16.safetensors",
+      "native_dimensions": [
+        768,
+        1376
+      ],
+      "output_dimensions": [
+        768,
+        1376
+      ],
+      "references": [
+        {
+          "path": "/data/app/huanghaibin/soda/preproduction/1018-shudao-keyframes-v1/candidates/K01-v2.png",
+          "sha256": "84209add2c979f0106cf5b1bcef43d9f5842c1c76e234e757c327fbf16852f6e"
+        }
+      ],
+      "human_acceptance": "accepted"
+    },
+    {
+      "number": 4,
+      "id": "K04A",
+      "attempt": "v2",
+      "title": "一锤一凿开路",
+      "era": "古代",
+      "description": "工匠落凿，帮工准备待架的木料",
+      "image": "candidates/K04A-v2.png",
+      "sha256": "053761b15c04a6ee6f8135afe9c3f1f072f540a5ca57a7b4c44d06338c4cb406",
+      "asset_id": "a_2af3a7fb775a4e81",
+      "job_id": "j_bfee71978e5840ad",
+      "prompt_id": "418ea9ec-a294-4d18-bcd4-a3af78d142ef",
+      "seed": 1018142104,
+      "model": "qwen_image_2.1_bf16.safetensors",
+      "native_dimensions": [
+        768,
+        1376
+      ],
+      "output_dimensions": [
+        768,
+        1376
+      ],
+      "references": [
+        {
+          "path": "/data/app/huanghaibin/soda/preproduction/1018-shudao-keyframes-v2/candidates/K04A-v1.png",
+          "sha256": "b55def7e262aabcee162677127df25669edf243dea434f17ca5b95954ad8eded"
+        },
+        {
+          "path": "/data/app/huanghaibin/soda/preproduction/1018-shudao-keyframes-v2/references/point-chisel.jpg",
+          "sha256": "b6b570a2cfc9a09b4525de5b74587be7af27ab383b4718ed8d4643a8a133a734"
+        }
+      ],
+      "human_acceptance": "accepted"
+    },
+    {
+      "number": 5,
+      "id": "K04",
+      "attempt": "v2",
+      "title": "合力把路接起来",
+      "era": "古代",
+      "description": "卸下行李，和工匠一起稳住横梁",
+      "image": "candidates/K04-v2.png",
+      "sha256": "ac02785536f9ec9a19524b6383aba1f99a653c80fd7b00f9ffac54d15776dd75",
+      "asset_id": "a_e9cb84b6adcc43ea",
+      "job_id": "j_f94c6d253a014394",
+      "prompt_id": "8a3df1a0-6867-41e6-836d-bb5a05d92c74",
+      "seed": 1018135014,
+      "model": "qwen_image_2.1_bf16.safetensors",
+      "native_dimensions": [
+        768,
+        1376
+      ],
+      "output_dimensions": [
+        768,
+        1376
+      ],
+      "references": [
+        {
+          "path": "/data/app/huanghaibin/soda/preproduction/1018-shudao-keyframes-v1/candidates/K04-v1.png",
+          "sha256": "ff02cc045c9515b8c2b543a901d007c75c7c555c71883a8ee90b4d241c3b666d"
+        }
+      ],
+      "human_acceptance": "accepted"
+    },
+    {
+      "number": 6,
+      "id": "K05",
+      "attempt": "v2",
+      "title": "高铁穿山而过",
+      "era": "现代",
+      "description": "现代交通意象，流线高铁穿过大山",
+      "image": "candidates/K05-v2.png",
+      "sha256": "65f5c47fa6969d4285271f4d8bf7cdaabe70263a94815045afcad364298989db",
+      "asset_id": "a_e4e5627f6b56475f",
+      "job_id": "j_af5ae6b5cfe24839",
+      "prompt_id": "9129347d-9002-48c2-ab14-17bc67f6d422",
+      "seed": 1018142106,
+      "model": "qwen_image_2.1_bf16.safetensors",
+      "native_dimensions": [
+        768,
+        1376
+      ],
+      "output_dimensions": [
+        768,
+        1376
+      ],
+      "references": [
+        {
+          "path": "/data/app/huanghaibin/soda/preproduction/1018-shudao-keyframes-v2/candidates/K05-v1.png",
+          "sha256": "2e399df8e979bbc34e4699f081b3446e1e9ea603dcc3b9e40a9f9ba505df9d49"
+        }
+      ],
+      "human_acceptance": "accepted"
+    },
+    {
+      "number": 7,
+      "id": "K06",
+      "attempt": "v2",
+      "title": "让过游人 一起向前",
+      "era": "现代",
+      "description": "路上还有其他旅人，大家继续同行",
+      "image": "candidates/K06-v2.png",
+      "sha256": "52a545fa15980ea0b2f4d53ed97b197c411e85d326192ae2a625b7456e7cfe15",
+      "asset_id": "a_3b71edc70c1d430e",
+      "job_id": "j_ecae45e9167a40f2",
+      "prompt_id": "5e3075ba-3a68-4c10-a84e-225fbfd14724",
+      "seed": 1018135016,
+      "model": "qwen_image_2.1_bf16.safetensors",
+      "native_dimensions": [
+        768,
+        1376
+      ],
+      "output_dimensions": [
+        768,
+        1376
+      ],
+      "references": [
+        {
+          "path": "/data/app/huanghaibin/soda/preproduction/1018-shudao-keyframes-v1/candidates/K01-v2.png",
+          "sha256": "84209add2c979f0106cf5b1bcef43d9f5842c1c76e234e757c327fbf16852f6e"
+        },
+        {
+          "path": "/data/app/huanghaibin/soda/preproduction/1018-shudao-keyframes-v1/references/accepted-rear-quadruped-pose.png",
+          "sha256": "15678dba43b29e7ca6eff5e78dc76872eb34c3228abcd93bc7c4c8e48a4dafdd"
+        }
+      ],
+      "human_acceptance": "accepted"
+    }
+  ],
+  "video_generated": false,
+  "tts_called": false,
+  "project_adoption": "Local keyframe acceptance recorded; remote project adoption unchanged",
+  "revision": "v2",
+  "source_index": "episodes/travel/shudao/keyframes-v1.json",
+  "user_feedback": [
+    "02 负重前行，熊不应该拿锤子砸木头",
+    "04 凿子画的不对",
+    "06 列车，要做的更像高铁的样子"
+  ],
+  "changed_frame_numbers": [
+    2,
+    4,
+    6
+  ],
+  "preserved_frame_numbers": [
+    1,
+    3,
+    5,
+    7
+  ],
+  "confirmed_date": "2026-10-18",
+  "confirmation": "jobs/1018-shudao-keyframes-v2/user-confirmation.json"
+}
