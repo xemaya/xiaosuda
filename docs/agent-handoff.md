@@ -40,9 +40,9 @@ python3 recipes/s1e01-keyframes-bgm-v1/verify.py
 python3 recipes/s1e02-fluffy-quadruped-v1/verify.py
 ```
 
-当前认可成片入口为 `releases/s1e01/current.json`、`releases/s1e02/current.json`、`releases/s1e03/current.json`、`releases/s1e04/current.json`；旧 `releases/ep01/current.json` 是 How are you? 技术样片，不能当新剧集编号或叙事模板。
+当前认可成片入口为 `releases/s1e01/current.json`、`releases/s1e02/current.json`、`releases/s1e04/current.json`；旧 `releases/ep01/current.json` 是 How are you? 技术样片，不能当新剧集编号或叙事模板。
 
-**S1E04《认识新朋友》2026-10-18 已定稿**（用户“通过，归档”）：Mimi 首次登场，声线 `lovely_girl` +2 / speed 1.05 已入库；11 句/一处三机位/1026 帧/42.75 秒。三人同框的配方经验（新角色只喂单角色面板、三档身高写法、重复角色修法）与已知偏差见 `recipes/s1e04-new-friend-v1/README.md`。下一集是 S1E05《学会分享》，先在 `scripts/editorial/s1e05-original.txt` 基础上做制作稿，不要沿用本集脚本里的固定 ID。
+**S1E04《认识新朋友》2026-10-18 已定稿**（用户“通过，归档”）：Mimi 首次登场，声线 `lovely_girl` +2 / speed 1.05 已入库；11 句/一处三机位/1026 帧/42.75 秒。三人同框的配方经验（新角色只喂单角色面板、三档身高写法、重复角色修法）与已知偏差见 `recipes/s1e04-new-friend-v1/README.md`。S1E03《荡秋千》成片 `jobs/1018-s1e03-swing-sample-v1/final/hi-soda-s1e03-soft-bgm-v3.mp4` 尚在待验收状态，**没有** `releases/s1e03/`，不要当已定稿引用。下一集是 S1E05《学会分享》，先在 `scripts/editorial/s1e05-original.txt` 基础上做制作稿，不要沿用本集脚本里的固定 ID。
 
 ## 每集执行顺序
 
