@@ -1,0 +1,111 @@
+{
+ "id": "s1e04-new-friend-v1",
+ "status": "user_accepted",
+ "accepted_date": "2026-10-18",
+ "episode": "S1E04",
+ "base_generation_recipe": "plush-dialogue-v14",
+ "accepted_video": {
+  "path": "../../releases/s1e04/2026-10-18/Hi-Soda_S1E04_Lets-Make-a-New-Friend.mp4",
+  "sha256": "b76f9220f641c90d93bd76b5a11fcc734c2803a1ca826bca35f3c572a09d482b"
+ },
+ "delivery": {
+  "width": 1080,
+  "height": 1932,
+  "frames": 1026,
+  "fps": 24,
+  "seconds": 42.75,
+  "op_frames": 48
+ },
+ "take_frames": [
+  153,
+  200,
+  201,
+  190,
+  126,
+  108
+ ],
+ "scene_masters": [
+  {
+   "scene_id": "park-path-wide",
+   "asset_id": "a_fe3237c5ccc442ac",
+   "path": "../../jobs/1018-s1e04-new-friend-v1/park-path-wide-candidate-v3.png",
+   "sha256": "617376b1355044f55a4cb2af654e7765709c5489b9a930b6d5fca8317add38b1"
+  },
+  {
+   "scene_id": "park-meet-medium",
+   "asset_id": "a_36b8a79e6bb24343",
+   "path": "../../jobs/1018-s1e04-new-friend-v1/park-meet-medium-candidate-v2.png",
+   "sha256": "5e2a375f25d2f85822729db4a952e2003d4d8c2a27dd16ed99ab32d9d8090201"
+  },
+  {
+   "scene_id": "park-friends-close",
+   "asset_id": "a_a7d293d68b194762",
+   "path": "../../jobs/1018-s1e04-new-friend-v1/park-friends-close-candidate.png",
+   "sha256": "c0b80e2e130a5d633224c55b0c3844de9e11d3bbadae9bf444b780ccb4aaa5a1"
+  }
+ ],
+ "voices": {
+  "model": "speech-02-hd",
+  "map": {
+   "xiaosuda": "Cute_Elf/0",
+   "mengji-gege": "chunzhen_xuedi/+1",
+   "xiaomi-mimi": "lovely_girl/+2/speed1.05"
+  },
+  "lines": 11,
+  "spoken_seconds": 33.658,
+  "job_id": "j_f2c5f0a421414760"
+ },
+ "takes": {
+  "S01": {
+   "job_id": "j_c5170a447cfe4e29",
+   "asset": "a_3e736e30f1764b16",
+   "frames": 153
+  },
+  "S02": {
+   "job_id": "j_2706bb358ce046aa",
+   "asset": "a_cb87926ec4ac4745",
+   "frames": 200
+  },
+  "S03": {
+   "job_id": "j_81a98c1f8b154f7f",
+   "asset": "a_f16284a8add0424f",
+   "frames": 201,
+   "continuation_22f": true
+  },
+  "S04": {
+   "job_id": "j_7c5a99f9a06b48f0",
+   "asset": "a_9af20375f76f4628",
+   "frames": 190
+  },
+  "S05": {
+   "job_id": "j_1450fec80b184883",
+   "asset": "a_dbf80a4fca4a48df",
+   "frames": 126
+  },
+  "S06": {
+   "job_id": "j_edd1e37fdc9445cd",
+   "asset": "a_bff91c3d16c343cc",
+   "frames": 108
+  }
+ },
+ "assembly": {
+  "job_id": "j_44c0d5c3dd8945fc",
+  "clean_asset": "a_d9210d0a1d304963",
+  "bgm_asset": "a_580f2214fe5a49f4",
+  "bgm_track": "Soda Sunny Steps",
+  "bgm_relative_to_voice_db": -20.21,
+  "peak_dbfs": -9.22,
+  "ffmpeg": "/home/huanghaibin/envs/web/bin/ffmpeg (9.x, 进程内显式指定；服务默认 PATH 是 4.4，缺 -fps_mode)"
+ },
+ "project": {
+  "id": "p_07d1973c0e0e41fe",
+  "board_version": "v_ad6415f1a22143cc",
+  "setting_version": "v_acde0d6e300249a3"
+ },
+ "workspace": "../../jobs/1018-s1e04-new-friend-v1",
+ "deviations": [
+  "S06 结尾三人一起转身走开",
+  "S05 Mimi 未起身",
+  "全景下方空地偏多"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "method": "对已验收成片做只读核验，不重跑生成；不声明离线重建",
+ "gpu_calls": false,
+ "tts_calls": false,
+ "network_calls": false,
+ "video": {
+  "width": 1080,
+  "height": 1932,
+  "frames": 1026,
+  "r_frame_rate": "24/1",
+  "avg_frame_rate": "24/1",
+  "duration": 42.75,
+  "audio_codec": "aac",
+  "audio_sample_rate": 32000,
+  "audio_channels": 2,
+  "size_bytes": 31963982,
+  "sha256": "b76f9220f641c90d93bd76b5a11fcc734c2803a1ca826bca35f3c572a09d482b"
+ },
+ "picture_bitstream_unchanged_when_adding_bgm": true,
+ "captions_burned": true,
+ "captions_file": "Hi-Soda_S1E04_Lets-Make-a-New-Friend.srt",
+ "captions_charset": "UTF-8",
+ "peak_dbfs": -9.22,
+ "clipped_samples": 0,
+ "music_relative_to_voice_db": -20.21,
+ "shot_frames": {
+  "S01": 153,
+  "S02": 200,
+  "S03": 201,
+  "S04": 190,
+  "S05": 126,
+  "S06": 108
+ },
+ "op_frames": 48,
+ "sum_check": {
+  "take_frames_plus_op": 1026,
+  "matches_frames": true
+ },
+ "accepted_master_untouched": true,
+ "workbench_final_asset": "a_580f2214fe5a49f4"
+}

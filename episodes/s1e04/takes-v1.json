@@ -1,0 +1,98 @@
+{
+  "project_id": "p_07d1973c0e0e41fe",
+  "board_version": "v_ad6415f1a22143cc",
+  "setting_version": "v_acde0d6e300249a3",
+  "recipe": "recipes/plush-dialogue-v14 (H3 Ref2VA, 4 steps, euler/beta, 768x1376, CFR24)",
+  "status": "user_accepted",
+  "note": "逐镜拍摄、逐镜审核采用；S02→S03 续接要求上一镜已采用且有 22 帧无损尾帧。",
+  "shots": {
+    "S01": {
+      "job_id": "j_c5170a447cfe4e29",
+      "take_asset": "a_3e736e30f1764b16",
+      "frames": 153,
+      "dialogue_ids": [
+        "d1",
+        "d2"
+      ],
+      "continuity": "cut",
+      "review": "pass",
+      "review_notes": "Soda 0.4–3.29s 开口、3.2s 已闭；Jacky 3.64–5.99s 开口、3.2s 前闭嘴、末帧闭。三人全身、身高 Jacky>Soda>Mimi；无第四角色、无重复角色。已知：下方空地偏多（主图如此）。"
+    },
+    "S02": {
+      "job_id": "j_2706bb358ce046aa",
+      "take_asset": "a_cb87926ec4ac4745",
+      "frames": 200,
+      "dialogue_ids": [
+        "d3",
+        "d4"
+      ],
+      "continuity": "cut",
+      "review": "pass",
+      "review_notes": "首帧与主图逐像素级一致；Soda 0.5–3.3s 口型开合；Mimi 4.1–7.9s 口型开合（自 3.7s 起可见）；Jacky 全程闭嘴。"
+    },
+    "S03": {
+      "job_id": "j_81a98c1f8b154f7f",
+      "take_asset": "a_f16284a8add0424f",
+      "frames": 201,
+      "dialogue_ids": [
+        "d5",
+        "d6"
+      ],
+      "continuity": "continuation_22f",
+      "review": "pass",
+      "review_notes": "与 S02 末帧比对 mean diff 3.74（仅噪点/抗锯齿级），位置、光向、机位连续；Jacky 1.2s 喙开、2.8s 已闭；Mimi 3.5–7.9s 口型开合；Soda 闭嘴。"
+    },
+    "S04": {
+      "job_id": "j_7c5a99f9a06b48f0",
+      "take_asset": "a_9af20375f76f4628",
+      "frames": 190,
+      "dialogue_ids": [
+        "d7",
+        "d8"
+      ],
+      "continuity": "cut",
+      "review": "pass",
+      "review_notes": "近景固定机位，Soda 2.0s 开口、4.0s 已闭；Mimi 4.0–7.0s 口型开合；Jacky 半身虚焦入画、嘴闭合。"
+    },
+    "S05": {
+      "job_id": "j_1450fec80b184883",
+      "take_asset": "a_dbf80a4fca4a48df",
+      "frames": 126,
+      "dialogue_ids": [
+        "d9",
+        "d10"
+      ],
+      "continuity": "cut",
+      "review": "pass_with_note",
+      "review_notes": "Jacky 1.5–2.0s 举翅开口、3.0s 已闭；Soda 3.0–5.0s 开口；Mimi 全程坐着未按分镜起身（次要偏差，不影响叙事，未重拍）。"
+    },
+    "S06": {
+      "job_id": "j_edd1e37fdc9445cd",
+      "take_asset": "a_bff91c3d16c343cc",
+      "frames": 108,
+      "dialogue_ids": [
+        "d11"
+      ],
+      "continuity": "cut",
+      "review": "pass_with_note",
+      "review_notes": "Mimi 四足小跑靠向两人、铃铛随动；但结尾三人一起转身走开（Soda/Jacky 背对镜头），不是分镜写的“停住大笑收住”。作为“一起跑开去玩”可读，待用户定夺是否重拍。"
+    }
+  },
+  "assembly": {
+    "job_id": "j_44c0d5c3dd8945fc",
+    "clean_asset": "a_d9210d0a1d304963",
+    "bgm_asset": "a_580f2214fe5a49f4",
+    "frames": 1026,
+    "seconds": 42.75,
+    "sha256": "b76f9220f641c90d93bd76b5a11fcc734c2803a1ca826bca35f3c572a09d482b",
+    "peak_dbfs": -9.22,
+    "music_relative_db": -20.21,
+    "path": "jobs/1018-s1e04-new-friend-v1/final/hi-soda-s1e04-soft-bgm.mp4",
+    "human_acceptance": "approved",
+    "approval_quote": "通过，归档",
+    "release": "releases/s1e04/current.json",
+    "recipe": "recipes/s1e04-new-friend-v1/README.md",
+    "workbench_final_asset": "a_580f2214fe5a49f4",
+    "note": "服务 worker 首次抓取合成任务时因 PATH 是 FFmpeg 4.4（缺 -fps_mode）失败，随后在本进程显式用 FFmpeg 9 重跑成功；job error.txt 保留该次失败。"
+  }
+}

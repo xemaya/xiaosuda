@@ -1,0 +1,17 @@
+{
+ "files": {
+  "recipe.json": "d4fd55e694e79bdee5d5e0583f7b9b446edd253b50b098d7e67f468c4e4c8b1a",
+  "README.md": "65c2c0c8336f731092a83b999a505157e9fc4e38f4ef4daaa3f16c8978569698",
+  "verify.py": "7a9db190bf7895ab922e891cb9c8533eca489f0c9aecd02ad949fa2eb57f293b",
+  "evidence/captions/bgm-result.json": "08ef7e9a2d36bfbe1602bce1077742610239d5fd65ae97f9c95d976ab23886c6",
+  "evidence/captions/captions.ass": "faa95a8da948b292490399a85a616801e99e65f89fd1ecfdbcd0c71ff8701079",
+  "evidence/captions/captions.srt": "52a5d299455cc0650ff30c478f726c9f58cff3d17557c4a8e527db764f745e28",
+  "evidence/captions/final-manifest.json": "e7a90598daaa2ee2d467fa0bc458e7c0e51a48b41d2c09d3eee0653df7b99b36",
+  "evidence/episode-evidence.json": "5ab44c31373633b1de677eb4ee26f3e8c6c445e9a7c1309cf47f4b4452679a89",
+  "accepted/board-accepted.json": "07ba69fc07cee472fba83d06435f314e0516189d3f8404fcab25a391d31443ce",
+  "accepted/masters-approval.json": "0ed728b35f3b46bbb462aa98760e47163ffec28d05efefa0cabec2a4388a70f4",
+  "accepted/sample-approval.json": "42290c8071e27d1fb7237d07264428b9d74ff0e2cd303fb016de3ceb680b1f4a",
+  "accepted/voices-job.json": "2eb5e17ca42fec4d828fb0fc89ad196e154d46be021691b3c73b31e5f286e00d",
+  "accepted/acceptance.json": "8fad20bbcec440afe00eba561e694beaa6319ae78f120f223fd0135ae777b797"
+ }
+}

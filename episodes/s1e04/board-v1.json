@@ -1,0 +1,102 @@
+{
+  "summary": "S1E04 认识新朋友：公园花坛一处三机位六段，11 句各一次，Mimi 首次登场；结尾无额外台词，三人一起跑开收住。",
+  "notes": [
+    "窗口按工作台实测原声重算（11 句语音合计 33.66 秒；段首 0.4 秒、句间 0.35 秒）。",
+    "S02→S03 为同机位 22 帧纯画面续接；S03→S04 换景别、S04→S05 换回中景、S05→S06 换回全景，都是直接剪接。",
+    "身高三档逐镜验收：Jacky 42cm > Soda 35cm > Mimi 33cm；同一地面水平时 Mimi 不得高过 Soda。",
+    "Mimi 坐草地、不坐抬高处；她的声线为 2026-10-18 定稿的 lovely_girl +2 / speed 1.05。",
+    "无练习环节，不加 Practice time!；OP 2 秒，轻声 BGM 沿用已认可底轨。"
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "scene_id": "park-path-wide",
+      "framing": "wide",
+      "character_ids": ["xiaosuda", "mengji-gege", "xiaomi-mimi"],
+      "beat": "Soda 在步道上发现花坛边坐着一只小猫，回头叫哥哥；Jacky 提议去打招呼",
+      "action": "三人都在地面同一水平。Soda 四足站在步道上、身体朝向花坛，说 d1 时头转向右侧、一只前爪轻抬；听他说完，Jacky 双足站稳、抬一只翅膀指向小猫再收回，说 d2。Mimi 全程坐在花坛前的草地上不动，只好奇歪头、尾巴尖轻摆，嘴闭着。听者闭嘴，只做眼神和小幅重心变化，不抢嘴。",
+      "camera": "固定全景，略低于人物视线高度，交代步道、栅栏、花坛、树线；三人全身可见，Jacky 最高、Soda 次之、Mimi 最小",
+      "dialogue_ids": ["d1", "d2"],
+      "seconds": 6.34,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S02",
+      "scene_id": "park-meet-medium",
+      "framing": "medium",
+      "character_ids": ["xiaosuda", "mengji-gege", "xiaomi-mimi"],
+      "beat": "Soda 开口问好并自报名字，Mimi 喵一声报出名字，互相认识",
+      "action": "换景别直接剪接。Soda 四足站定、略抬头看向小猫，说 d3 时前爪并拢、尾巴慢慢摇；Jacky 站在他左后方半步安静看，不开口、嘴闭着。Mimi 坐在草地上，d4 先小小“喵”一声再抬眼自报名字，尾巴尖轻摆、耳朵朝前。只 Soda 与 Mimi 各自开口一次，另一人（及 Jacky）闭嘴。",
+      "camera": "固定中景，三人 3/4 身入画、同一地面水平，背景为花坛、栅栏与树影虚化",
+      "dialogue_ids": ["d3", "d4"],
+      "seconds": 8.30,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S03",
+      "scene_id": "park-meet-medium",
+      "framing": "medium",
+      "character_ids": ["xiaosuda", "mengji-gege", "xiaomi-mimi"],
+      "beat": "Jacky 夸小猫可爱，Mimi 反过来夸 Soda 毛茸茸，气氛变亲近",
+      "action": "续接 S02 实际保留末尾 22 帧纯画面（同场景同机位同组三人，只传画面，不传旧音频或 AV latent）。Jacky 说完 d5 时小跳一下、翅膀轻抬，随后收回站好；Mimi 说 d6 时身体略向 Soda 倾、抬一只前爪、尾巴绕在身侧；Soda 只在被夸到时轻轻转头对视，嘴闭着。不换背景、不切景别、不移动站位。",
+      "camera": "同一中景机位与光向，位置、景别、三人相对距离都不变",
+      "dialogue_ids": ["d5", "d6"],
+      "seconds": 8.37,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": true,
+      "prompt_en": ""
+    },
+    {
+      "id": "S04",
+      "scene_id": "park-friends-close",
+      "framing": "close_up",
+      "character_ids": ["xiaosuda", "mengji-gege", "xiaomi-mimi"],
+      "beat": "Soda 邀请 Mimi 一起玩，Mimi 惊喜答应",
+      "action": "切近景（换景别、新主图直接剪接）。Soda 与 Mimi 面对面、都在画面里：Soda 说 d7 时尾巴摇快、前爪并拢、耳朵朝前；Mimi 说 d8 时眼睛睁大、开心小弹一下，铃铛轻响、前爪仍落在草上。Jacky 只在左后景半个身体虚焦入画，嘴闭着、不出声。",
+      "camera": "固定近景，两张脸在画面中带、鼻尖相距一个爪子左右；背景只剩虚化的花坛与树影",
+      "dialogue_ids": ["d7", "d8"],
+      "seconds": 7.88,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S05",
+      "scene_id": "park-meet-medium",
+      "framing": "medium",
+      "character_ids": ["xiaosuda", "mengji-gege", "xiaomi-mimi"],
+      "beat": "Jacky 宣布三人成为朋友，Soda 招呼 Mimi 一起走",
+      "action": "回到中景同一张主图重拍（直接剪接，不做续接）。Jacky 说 d9 时举起双翅轻呼、小跳一下；说完收回、看向小猫。Soda 说 d10 时转身半步、朝右侧扬头做出“跟我来”的姿态，尾巴抬高；Mimi 从坐姿起身、四足站稳、头转向 Soda，嘴闭着等他说完。听者闭嘴。",
+      "camera": "与 S02 相同的中景机位与光向，三人 3/4 身、同一地面水平",
+      "dialogue_ids": ["d9", "d10"],
+      "seconds": 5.24,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    },
+    {
+      "id": "S06",
+      "scene_id": "park-path-wide",
+      "framing": "wide",
+      "character_ids": ["xiaosuda", "mengji-gege", "xiaomi-mimi"],
+      "beat": "Mimi 边跑边喊“等等我”，三人一起开心收尾（无额外台词）",
+      "action": "回到 S01 同一全景机位主图（直接剪接）。Mimi 四足小步跑向两人、铃铛轻响，说 d11；Soda 与 Jacky 回头迎她、Jacky 抬翅、Soda 摇尾。说完不追加台词，三人一起开心地小跳／转圈收住，停在画面里约 1.2 秒。固定相机，不追摇、不推近。",
+      "camera": "固定全景，与 S01 同一机位、同一光向；三人全程在画面内，身高关系与 S01 一致",
+      "dialogue_ids": ["d11"],
+      "seconds": 4.50,
+      "transition": "cut",
+      "dialogue_gap_seconds": 0.35,
+      "continuation": false,
+      "prompt_en": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+ "episode": "S1E04",
+ "date": "2026-10-18",
+ "user_quotes": [
+   "通过，先出一张样图",
+   "A · 萌萌女童 +2 / 1.05",
+   "图OK，克用",
+   "用 v3（推荐）",
+   "图OK，克用",
+   "声线OK",
+   "分镜OK，开拍",
+   "通过，归档"
+ ],
+ "decisions": [
+   "按编辑原稿 S1E04 制作，11 句台词原样保留、仅规范人名",
+   "Mimi 声线定稿 lovely_girl +2 / speed 1.05",
+   "主图：park-path-wide 用 v3、park-meet-medium 用样图 v2、park-friends-close 用首版",
+   "分镜六个镜头、42.75 秒，S02→S03 走 22 帧续接",
+   "成片获“通过，归档”；已知偏差 S06 收尾方式与 S05 Mimi 未起身被接受"
+ ],
+ "not_accepted_or_not_claimed": [
+   "未把 S06 的“转身走开”写成符合原分镜",
+   "未把粗检说成离线重建通过（verification.json 只记只读核验）",
+   "未上传第三方平台"
+ ]
+}

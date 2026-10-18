@@ -1,0 +1,54 @@
+1
+00:00:02,400 --> 00:00:05,291
+Hey, Jacky! Look! Who’s that?
+嘿，奇奇！快看！那是谁呀？
+
+2
+00:00:05,641 --> 00:00:07,986
+I think it’s a little kitty! Let’s say hello!
+我想那是一只小猫咪！我们去打个招呼吧！
+
+3
+00:00:08,775 --> 00:00:11,631
+Hi, Kitty! My name is Soda. What’s your name?
+嗨，小猫咪！我叫小苏打。你叫什么名字呀？
+
+4
+00:00:11,981 --> 00:00:16,323
+Meow! Hi! I’m Mimi. Nice to meet you!
+喵！你们好！我叫小咪。很高兴认识你！
+
+5
+00:00:17,108 --> 00:00:19,663
+Nice to meet you, too! You’re so cute!
+我们也很高兴认识你！你真可爱呀！
+
+6
+00:00:20,013 --> 00:00:24,726
+Thank you! I love your fluffy fur, Soda!
+谢谢你！小苏打，我好喜欢你毛茸茸的皮毛呀！
+
+7
+00:00:25,483 --> 00:00:28,165
+Thank you! Do you want to play with us?
+谢谢你！你想和我们一起玩吗？
+
+8
+00:00:28,515 --> 00:00:32,614
+Really? Yay! I’d love to!
+真的吗？耶！我好想和你们一起玩呀！
+
+9
+00:00:33,400 --> 00:00:35,316
+Hooray! Now we’re friends!
+太棒啦！现在我们是朋友啦！
+
+10
+00:00:35,666 --> 00:00:37,883
+Come on, Mimi! Let’s play together!
+来吧，小咪！我们一起玩吧！
+
+11
+00:00:38,650 --> 00:00:41,692
+Wait for me! Here I come!
+等等我！我来啦！

@@ -1,0 +1,448 @@
+{
+ "project": "p_07d1973c0e0e41fe",
+ "shots": {
+  "S01": {
+   "job_id": "j_c5170a447cfe4e29",
+   "asset_id": "a_3e736e30f1764b16",
+   "sha256": "1e5693cb8f1e53322b3dda7f619ff36414e382151e70cb5ea15eb6b73a0fa264",
+   "frames": 153,
+   "seed": "2142859061",
+   "master_id": "a_fe3237c5ccc442ac",
+   "board_version": "v_ad6415f1a22143cc",
+   "prompt_id": null,
+   "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a wide vertical shot of a sunny park path with a wooden fence and flower bed in the background. The scene features three plush mascots: a yellow chick in a blue hoodie (Jacky), a black-and-white malamute puppy (Soda), and a small calico kitten (Mimi) sitting on the grass to the right. Natural real-time movement at normal human speed; no slow motion or time stretching.\n\n0.0–0.4s: The scene is static. Jacky stands on the left, Soda in the center facing the flower bed, and Mimi sits on the grass. All characters have closed mouths and neutral expressions.\n\n0.4–3.29s: <d>[English] Hey, Jacky! Look! Who’s that?</d> Soda initiates the action by turning his head toward the right (toward Mimi) and lifting one front paw slightly off the ground. His mouth moves naturally to match the dialogue. Jacky stands still, listening with a gentle expression, his wings tucked at his sides. Mimi remains seated on the grass, her body still, only her head tilting slightly in curiosity while her tail tip sways gently.\n\n3.29–3.64s: A brief pause where all characters hold their positions. Soda’s paw remains lifted as he watches Mimi. Jacky shifts his weight slightly forward, preparing to speak.\n\n3.64–5.99s: <d>[English] I think it’s a little kitty! Let’s say hello!</d> Jacky leans slightly toward Soda and extends one wing to gesture toward the kitten, then retracts it. His mouth moves clearly for the dialogue. Soda lowers his paw back to the ground and watches Jacky. Mimi continues to sit on the grass, her amber eyes fixed on the two friends, her expression curious and alert.\n\n5.99–6.38s: The characters settle into a stable pose. Jacky stands upright, Soda faces the flower bed again, and Mimi remains seated. The camera holds the wide framing, capturing the full bodies of all three mascots against the park background.\n\ncamera: Fixed wide shot, slightly below eye level, showing the path, fence, and flower bed. All three characters are fully visible in the frame.\n\noverall_soundscape: Soft ambient park sounds, gentle breeze, subtle rustling of grass, and clear dialogue audio.\n\nnon_diegetic_music: Light, cheerful acoustic guitar and soft piano, 100 BPM, no vocals.\n\nRULES: No extra people, no reflections of other people, no text overlays, no watermarks, no cuts, no held or looped tails.",
+   "audio_turns": [
+    {
+     "id": "d1",
+     "speaker_id": "xiaosuda",
+     "text": "Hey, Jacky! Look! Who’s that?",
+     "translation": "嘿，奇奇！快看！那是谁呀？",
+     "emotion": "Curious and excited, head tilted toward the flower bed, one forepaw lifted",
+     "speed": 1.0,
+     "start": 0.4,
+     "end": 3.29090625
+    },
+    {
+     "id": "d2",
+     "speaker_id": "mengji-gege",
+     "text": "I think it’s a little kitty! Let’s say hello!",
+     "translation": "我想那是一只小猫咪！我们去打个招呼吧！",
+     "emotion": "Warm and encouraging, leaning slightly toward Soda, one wing gesturing forward",
+     "speed": 1.0,
+     "start": 3.64090625,
+     "end": 5.9861249999999995
+    }
+   ],
+   "tail_frames": 22
+  },
+  "S02": {
+   "job_id": "j_2706bb358ce046aa",
+   "asset_id": "a_cb87926ec4ac4745",
+   "sha256": "01c2ac343efb2eecd48701a27088b6e0ee8b42660b3cb078fe845c2efef07c43",
+   "frames": 200,
+   "seed": "571717154",
+   "master_id": "a_36b8a79e6bb24343",
+   "board_version": "v_ad6415f1a22143cc",
+   "prompt_id": null,
+   "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a medium vertical shot of three plush mascots in a sunlit park path. The scene features a black-and-white Alaskan malamute puppy (Soda) in the center, a yellow chick (Jacky) to his left, and a calico kitten (Mimi) to his right. The background consists of soft-focus greenery, a wooden fence, and flower beds. The camera is fixed at a medium distance, capturing all three characters from the mid-thigh up on the same ground level.\n0.0–0.4s: All three characters are in a static, attentive pose. Soda stands on four paws, facing slightly toward Mimi. Jacky stands quietly behind Soda's left shoulder, mouth closed, observing. Mimi sits on the grass to the right, ears forward, looking at Soda.\n0.4–3.256s: Soda begins to speak with a friendly, shy expression. His mouth moves naturally to match the dialogue. As he speaks, his front paws gently draw together in a polite gesture, and his fluffy tail begins a slow, rhythmic wag. Jacky remains perfectly still with a closed beak. Mimi listens attentively, her amber eyes focused on Soda, her ears perked forward.\n3.256–3.606s: A brief 0.35-second pause. Soda finishes his line and holds his gaze, front paws together. Mimi's tail tip gives a small, curious flick.\n3.606–7.948s: Mimi begins to speak with a bright, happy expression. Her mouth moves to match the dialogue, starting with a small meow sound before her greeting. As she speaks, her head lifts slightly, and her tail tip flicks gently in time with her excitement. Soda listens, his tail wag slowing but continuing softly. Jacky remains a silent observer in the background.\n7.948–8.333s: Mimi finishes her line with a warm smile. All three characters settle into a calm, friendly posture. The scene ends with a stable, balanced composition of the three friends.\noverall_soundscape: Soft park ambience with distant birdsong and a gentle breeze rustling leaves. Subtle fabric rustling sounds from the plush characters' movements. Clear, high-quality voice acting for Soda and Mimi.\nnon_diegetic_music: None.\nRULES: No extra people, no reflections of other people, no text overlays, no watermarks, no cuts, no fast spins, no blur on hands or tails, no changes to character identity or outfits.",
+   "audio_turns": [
+    {
+     "id": "d3",
+     "speaker_id": "xiaosuda",
+     "text": "Hi, Kitty! My name is Soda. What’s your name?",
+     "translation": "嗨，小猫咪！我叫小苏打。你叫什么名字呀？",
+     "emotion": "Friendly and a little shy, tail wagging slowly, ears forward",
+     "speed": 1.0,
+     "start": 0.4,
+     "end": 3.2560625
+    },
+    {
+     "id": "d4",
+     "speaker_id": "xiaomi-mimi",
+     "text": "Meow! Hi! I’m Mimi. Nice to meet you!",
+     "translation": "喵！你们好！我叫小咪。很高兴认识你！",
+     "emotion": "Bright and curious, one small meow first, then a happy greeting, tail tip flicking",
+     "speed": 1.05,
+     "start": 3.6060625,
+     "end": 7.9482187500000006
+    }
+   ],
+   "tail_frames": 22
+  },
+  "S03": {
+   "job_id": "j_81a98c1f8b154f7f",
+   "asset_id": "a_f16284a8add0424f",
+   "sha256": "8a977daa10d3f32e71cbb87889c08b9343f13521d22110084a66858eff501516",
+   "frames": 201,
+   "seed": "261378848",
+   "master_id": "a_36b8a79e6bb24343",
+   "board_version": "v_ad6415f1a22143cc",
+   "prompt_id": null,
+   "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a medium vertical shot of three plush mascots in a park. The woman in <Picture 1>, preserving her face, hair, outfit and the room. The scene features a yellow chick (Jacky), a black-and-white puppy (Soda), and a calico kitten (Mimi) standing on a paved path with a wooden fence and greenery in the background. The camera remains static at a medium distance, capturing all three characters from the knees up. Soft warm window light illuminates the scene with a gentle depth of field.\n\n0.0–0.4s: The three characters stand in their initial positions. Jacky (left) faces slightly right toward Soda and Mimi. Soda (center) faces forward-right. Mimi (right) sits facing left toward the others. All mouths are closed. The scene is quiet, anticipating dialogue.\n\n0.4–2.95s: <d>[English] Nice to meet you, too! You’re so cute!</d> Jacky speaks with a cheerful and welcoming emotion. As he says the line, his body performs a small happy hop in place around 1.5s, lifting slightly off the ground before landing softly. His wings lift lightly during the hop and then settle back to his sides by 2.9s. His eyes are bright and engaged with Mimi.\n\n3.0–3.3s: A brief pause of 0.35 seconds. Jacky stands still, smiling. Mimi prepares to speak, her posture shifting slightly toward Soda.\n\n3.3–8.02s: <d>[English] Thank you! I love your fluffy fur, Soda!</d> Mimi speaks with a happy and slightly proud emotion. As she begins speaking, her body leans a little closer toward Soda. Around 4.5s, she raises one front paw in a gentle, expressive gesture while speaking. Her tail wraps around her side in a relaxed manner. She maintains eye contact with Soda throughout the line.\n\n8.02–8.37s: Mimi finishes speaking and holds her pose briefly. As Mimi praises him, Soda turns his head slightly to look directly at Mimi, their eyes meeting. Soda's mouth remains closed. The group holds this warm, connected moment as the clip ends.\n\ncamera: Static medium shot throughout. No movement, no zoom, no pan. Framing remains consistent with the initial composition, keeping all three characters centered and clearly visible against the park background.\n\noverall_soundscape: Ambient park sounds (distant birds, soft wind) are present but low. Body sounds include a soft 'thud' for Jacky's hop landing and subtle fabric rustling as Mimi leans and moves her paw. No footstep sounds as they remain in place or shift weight minimally.\n\nnon_diegetic_music: None. The audio is driven by the dialogue and ambient sound.\n\nRULES: No extra people, no reflections of other people. No text, watermarks, or labels. Preserve character identities exactly from <Picture 1>. No cuts within the shot. No new actors. No held or looped tails. Natural real-time movement at normal human speed; no slow motion or time stretching.",
+   "audio_turns": [
+    {
+     "id": "d5",
+     "speaker_id": "mengji-gege",
+     "text": "Nice to meet you, too! You’re so cute!",
+     "translation": "我们也很高兴认识你！你真可爱呀！",
+     "emotion": "Cheerful and welcoming, a small happy hop in place",
+     "speed": 1.0,
+     "start": 0.4,
+     "end": 2.95421875
+    },
+    {
+     "id": "d6",
+     "speaker_id": "xiaomi-mimi",
+     "text": "Thank you! I love your fluffy fur, Soda!",
+     "translation": "谢谢你！小苏打，我好喜欢你毛茸茸的皮毛呀！",
+     "emotion": "Happy and a bit proud, leaning a little closer to look at Soda",
+     "speed": 1.05,
+     "start": 3.30421875,
+     "end": 8.017875
+    }
+   ],
+   "tail_frames": 22
+  },
+  "S04": {
+   "job_id": "j_7c5a99f9a06b48f0",
+   "asset_id": "a_9af20375f76f4628",
+   "sha256": "7588a7e8d6be3d3108785eafdc221e567abe7793a3b73f05e18c1797ee9d4f3b",
+   "frames": 190,
+   "seed": "1363116168",
+   "master_id": "a_a7d293d68b194762",
+   "board_version": "v_ad6415f1a22143cc",
+   "prompt_id": null,
+   "prompt_en": "Use <Picture 1> as the SOLE visual authority for the adult lead and the environment. Preserve exactly: the black-and-white Alaskan malamute plush puppy (Soda), the calico plush kitten (Mimi), and the yellow chick (Jacky) in the background, along with their specific textures, colors, and the park setting. Do not redesign, restyle, add or remove anything.\n\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a close-up vertical shot of two plush mascots facing each other in a park. Natural real-time movement at normal human speed; no slow motion or time stretching.\n\n0.0–0.4s: The camera is fixed on a tight close-up of Soda (left) and Mimi (right). Their noses are about one paw-width apart. Jacky is visible as a soft, out-of-focus shape in the far-left background with his beak closed. Both characters are still, looking at each other.\n\n0.4–3.08s: <d>[English] Thank you! Do you want to play with us?</d> Soda's mouth moves clearly and rhythmically to match the speech. His tail wags faster in the background, his front paws press together on the grass, and his ears perk forward attentively. Mimi listens with a closed mouth, her amber eyes focused on Soda.\n\n3.08–3.43s: A 0.35-second pause. Both characters hold their positions. Soda's tail continues a gentle wag; Mimi remains still.\n\n3.43–7.53s: <d>[English] Really? Yay! I’d love to!</d> Mimi's mouth moves clearly and rhythmically. Her eyes widen in surprise, then her body performs a small, joyful vertical bounce. The golden bell on her collar swings slightly with the movement, creating a visual cue for the sound. Soda watches her with a closed mouth, his expression soft and pleased.\n\n7.53–8.0s: Mimi settles back into her seated position on the grass. Both characters hold the final pose briefly as the clip ends.\n\noverall_soundscape: Soft park ambience with distant birds. The sound of plush fabric rustling slightly during movement. A distinct, light metallic 'tinkle' from Mimi's collar bell during her bounce at 3.43s.\n\nnon_diegetic_music: Gentle, upbeat acoustic guitar or ukulele, 100 BPM, no vocals, light and playful.\n\nRULES: No extra people, no reflections of other people, no text, no watermarks, no extra limbs, no cuts within the shot, no held/looped tails, no fast spins, no hair whips.",
+   "audio_turns": [
+    {
+     "id": "d7",
+     "speaker_id": "xiaosuda",
+     "text": "Thank you! Do you want to play with us?",
+     "translation": "谢谢你！你想和我们一起玩吗？",
+     "emotion": "Hopeful and inviting, tail wagging faster, front paws together",
+     "speed": 1.0,
+     "start": 0.4,
+     "end": 3.08190625
+    },
+    {
+     "id": "d8",
+     "speaker_id": "xiaomi-mimi",
+     "text": "Really? Yay! I’d love to!",
+     "translation": "真的吗？耶！我好想和你们一起玩呀！",
+     "emotion": "Surprised then delighted, eyes wide, little bounce",
+     "speed": 1.05,
+     "start": 3.43190625,
+     "end": 7.53025
+    }
+   ],
+   "tail_frames": 22
+  },
+  "S05": {
+   "job_id": "j_1450fec80b184883",
+   "asset_id": "a_dbf80a4fca4a48df",
+   "sha256": "b4375c435404d5ba7e7e48df2c4cfe17682c8a258bce4d65afc4a0063236fb98",
+   "frames": 126,
+   "seed": "1608529220",
+   "master_id": "a_36b8a79e6bb24343",
+   "board_version": "v_ad6415f1a22143cc",
+   "prompt_id": null,
+   "prompt_en": "Use <Picture 1> as the SOLE visual authority for the three plush mascots and the park environment. Preserve exactly: the round warm-yellow chick in a blue hoodie with a white C, the black-and-white Alaskan malamute puppy with a small brown backpack, the calico kitten with a golden bell collar, their specific plush textures, the wooden fence, and the soft warm window light. Do not redesign, restyle, add or remove anything.\n\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a medium vertical shot of three plush mascots standing on a park path. Natural real-time movement at normal human speed; no slow motion or time stretching.\n0.0–0.4s: The scene is static. All three characters are in their initial positions from <Picture 1>. The chick (Jacky) and the puppy (Soda) have closed mouths, while the kitten (Mimi) sits on the right with a closed mouth.\n0.4–2.31565625s: The chick (Jacky) initiates a joyful cheer. He lifts his small soft wings slightly upward and performs a tiny, grounded hop. His mouth is open and animated as he speaks. <d>[English] Hooray! Now we’re friends!</d> The puppy and kitten remain still with closed mouths, watching him.\n2.31565625–2.66565625s: The chick retracts his wings and settles back to a neutral standing pose. He turns his head toward the kitten on the right. All mouths are closed during this 0.35s dialogue gap.\n2.66565625–4.8831875s: The puppy (Soda) initiates a playful lead. He turns his body half a step to the right and lifts his head in a 'follow me' gesture, raising his fluffy tail high. His mouth is open and animated as he speaks. <d>[English] Come on, Mimi! Let’s play together!</d> Simultaneously, the kitten (Mimi) transitions from her seated position; she stands up on all four paws, steadies her weight, and turns her head toward the puppy with her mouth closed.\n4.8831875–5.24s: The puppy holds his 'lead' pose with his tail high. The kitten is fully standing and looking at him. The chick remains in the background, observing. All mouths are closed as the clip concludes.\n\noverall_soundscape: Soft park ambience, faint rustling of plush fibers during movement, a subtle 'thump' of the chick's small hop, and the gentle jingle of the kitten's golden bell as she stands up.\n\nnon_diegetic_music: Cheerful and light acoustic ukulele or soft marimba, 100 BPM, no vocals.\n\nRULES: No extra people, no reflections of other people, no text, no watermarks, no extra limbs, no cuts, no held or looped tails.",
+   "audio_turns": [
+    {
+     "id": "d9",
+     "speaker_id": "mengji-gege",
+     "text": "Hooray! Now we’re friends!",
+     "translation": "太棒啦！现在我们是朋友啦！",
+     "emotion": "Joyful and proud, wings up in a little cheer",
+     "speed": 1.0,
+     "start": 0.4,
+     "end": 2.31565625
+    },
+    {
+     "id": "d10",
+     "speaker_id": "xiaosuda",
+     "text": "Come on, Mimi! Let’s play together!",
+     "translation": "来吧，小咪！我们一起玩吧！",
+     "emotion": "Eager and playful, turning to lead the way, tail high",
+     "speed": 1.0,
+     "start": 2.66565625,
+     "end": 4.8831875
+    }
+   ],
+   "tail_frames": 22
+  },
+  "S06": {
+   "job_id": "j_edd1e37fdc9445cd",
+   "asset_id": "a_bff91c3d16c343cc",
+   "sha256": "771bf69d312a6266b813cb3f0677f56c161f95c389ce4653108e0f9e34bcc14b",
+   "frames": 108,
+   "seed": "2085107173",
+   "master_id": "a_fe3237c5ccc442ac",
+   "board_version": "v_ad6415f1a22143cc",
+   "prompt_id": null,
+   "prompt_en": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description:\n[Shot 1] Live-action, cinematic, a wide vertical shot of a park path with warm afternoon light and soft depth of field. The three plush mascots are positioned on the path: the yellow chick in a blue hoodie on the left, the black-and-white malamute puppy in the center, and the calico kitten on the right. Natural real-time movement at normal human speed; no slow motion or time stretching.\n\n0.0–0.4s: The scene is static. All three characters are in their initial poses from <Picture 1>. The camera remains fixed on the wide park path framing.\n\n0.4–3.44s: The calico kitten (Mimi) begins to run toward the other two with quick, small four-legged steps. Her fluffy tail streams behind her and the golden bell on her collar jingles rhythmically. As she runs, she looks back at the puppy and chick with an excited expression. <d>[Chinese] 等等我！我来啦！</d> The black-and-white puppy (Soda) and the yellow chick (Jacky) turn their heads to watch her approach. Jacky lifts his small wings slightly in a welcoming gesture, while Soda wags his large fluffy tail.\n\n3.44–4.0s: Mimi reaches the other two. All three characters perform a synchronized, happy little jump and a quick spin to celebrate. Their movements are energetic but controlled.\n\n4.0–4.5s: The characters land softly and hold their final joyful poses for 1.2 seconds. The camera remains fixed, capturing the group together in the wide shot.\n\noverall_soundscape: Ambient park sounds with distant birds. Rhythmic jingling of a small golden bell during the run. Soft thuds of plush feet on the path. A cheerful, light musical sting at the end of the jump.\n\nnon_diegetic_music: Upbeat, playful chiptune or orchestral pop, 120 BPM, no vocals, bright and energetic.\n\nRULES: No extra people, no reflections of other people, no text, no watermarks, no cuts, no held/looped tails. Preserve the exact identity, material, and outfit of the characters from <Picture 1>. Match the timed dialogue turn exactly.",
+   "audio_turns": [
+    {
+     "id": "d11",
+     "speaker_id": "xiaomi-mimi",
+     "text": "Wait for me! Here I come!",
+     "translation": "等等我！我来啦！",
+     "emotion": "Excited and running, bell jingling, tail streaming behind",
+     "speed": 1.05,
+     "start": 0.4,
+     "end": 3.44184375
+    }
+   ],
+   "tail_frames": 22
+  }
+ },
+ "scene_assets": {
+  "a_c1e2e2aafd114c4a": {
+   "scene_id": "park-meet-medium",
+   "sha256": "eeb0835a4dd02d7c8c92b3bc53712a7fa3f9c61107d65af8ba18af0855470f7f",
+   "seed": "10190401",
+   "name": "S1E04 S02 中景代表样图（三人同框问好） · 待用户确认",
+   "user_accepted": false,
+   "derived_from_asset": null,
+   "prompt_id": null
+  },
+  "a_c1ad15d4572e4d00": {
+   "scene_id": "park-meet-medium",
+   "sha256": "5e2a375f25d2f85822729db4a952e2003d4d8c2a27dd16ed99ab32d9d8090201",
+   "seed": "10190402",
+   "name": "S1E04 S02 中景样图 v2（重构图） · 待用户确认",
+   "user_accepted": true,
+   "derived_from_asset": null,
+   "prompt_id": null
+  },
+  "a_36b8a79e6bb24343": {
+   "scene_id": "park-meet-medium",
+   "sha256": "5e2a375f25d2f85822729db4a952e2003d4d8c2a27dd16ed99ab32d9d8090201",
+   "seed": "10190402",
+   "name": "S1E04 park-meet-medium 主图（用户认可 S02 样图，同字节重新登记）",
+   "user_accepted": true,
+   "derived_from_asset": "a_c1ad15d4572e4d00",
+   "prompt_id": null
+  },
+  "a_71b1ec8a43e44be3": {
+   "scene_id": "park-path-wide",
+   "sha256": "4174f0cfff8403b10ec3702cc5b30c17e9b406c87669cc9fa80c78dada13a0ad",
+   "seed": "10190411",
+   "name": "S1E04 主图 park-path-wide · 待用户确认",
+   "user_accepted": false,
+   "derived_from_asset": null,
+   "prompt_id": null
+  },
+  "a_a030ec3d67bd40aa": {
+   "scene_id": "park-path-wide",
+   "sha256": "55c623a9cf8d1f6228363bbd1465f8b93af86eb1eb33e9783f17335ebfa4f1ee",
+   "seed": "10190421",
+   "name": "S1E04 主图 park-path-wide v2 · 待用户确认",
+   "user_accepted": false,
+   "derived_from_asset": null,
+   "prompt_id": null
+  },
+  "a_fe3237c5ccc442ac": {
+   "scene_id": "park-path-wide",
+   "sha256": "617376b1355044f55a4cb2af654e7765709c5489b9a930b6d5fca8317add38b1",
+   "seed": "10190431",
+   "name": "S1E04 主图 park-path-wide v3 · 待用户确认",
+   "user_accepted": true,
+   "derived_from_asset": null,
+   "prompt_id": null
+  },
+  "a_a7d293d68b194762": {
+   "scene_id": "park-friends-close",
+   "sha256": "c0b80e2e130a5d633224c55b0c3844de9e11d3bbadae9bf444b780ccb4aaa5a1",
+   "seed": "10190412",
+   "name": "S1E04 主图 park-friends-close · 待用户确认",
+   "user_accepted": true,
+   "derived_from_asset": null,
+   "prompt_id": null
+  }
+ },
+ "voices": {
+  "d1": {
+   "asset_id": "a_41fe1c2ab3694952",
+   "speaker_id": "xiaosuda",
+   "seconds": 2.89090625,
+   "voice_id": "Cute_Elf",
+   "pitch": 0,
+   "text": "Hey, Jacky! Look! Who’s that?",
+   "sha256": "6b195d270addc894f24b763959472e249f086edf171d0b7bc69b34198d567422"
+  },
+  "d2": {
+   "asset_id": "a_a929458d80e3495c",
+   "speaker_id": "mengji-gege",
+   "seconds": 2.34521875,
+   "voice_id": "chunzhen_xuedi",
+   "pitch": 1,
+   "text": "I think it’s a little kitty! Let’s say hello!",
+   "sha256": "6c6ebb5e7eccb23606ae2d94c1db32853d6d29b3b68697b9193f0cd7b9475795"
+  },
+  "d3": {
+   "asset_id": "a_7645cd8538ee4edb",
+   "speaker_id": "xiaosuda",
+   "seconds": 2.8560625,
+   "voice_id": "Cute_Elf",
+   "pitch": 0,
+   "text": "Hi, Kitty! My name is Soda. What’s your name?",
+   "sha256": "f7eac405233880d75fbaa31a0ebe1728d778814a8fb030087b799b17c843d582"
+  },
+  "d4": {
+   "asset_id": "a_710c28e2a29d4701",
+   "speaker_id": "xiaomi-mimi",
+   "seconds": 4.34215625,
+   "voice_id": "lovely_girl",
+   "pitch": 2,
+   "text": "Meow! Hi! I’m Mimi. Nice to meet you!",
+   "sha256": "28eb7edf0d2fa5d0eb7414adb11b76ad782d8ee19d2ea241a50d8a7d7d9e14a3"
+  },
+  "d5": {
+   "asset_id": "a_ff7d2ccd8cb84b98",
+   "speaker_id": "mengji-gege",
+   "seconds": 2.55421875,
+   "voice_id": "chunzhen_xuedi",
+   "pitch": 1,
+   "text": "Nice to meet you, too! You’re so cute!",
+   "sha256": "bf4b5d748fca1991d6680e2b5d585775e0ca87156cc8d929dc436af87247d42f"
+  },
+  "d6": {
+   "asset_id": "a_26bc9a890cf243a6",
+   "speaker_id": "xiaomi-mimi",
+   "seconds": 4.71365625,
+   "voice_id": "lovely_girl",
+   "pitch": 2,
+   "text": "Thank you! I love your fluffy fur, Soda!",
+   "sha256": "8885ad109277831e6a240df0297de84f0bc2628dd2e39d0fbae5f4c6b98bf20a"
+  },
+  "d7": {
+   "asset_id": "a_bbc068b7367b49f3",
+   "speaker_id": "xiaosuda",
+   "seconds": 2.68190625,
+   "voice_id": "Cute_Elf",
+   "pitch": 0,
+   "text": "Thank you! Do you want to play with us?",
+   "sha256": "1784f87d2bd907dd517591300d7acb767f793155a001e3c4882f04d3eeed0b29"
+  },
+  "d8": {
+   "asset_id": "a_838d7cb36cc94606",
+   "speaker_id": "xiaomi-mimi",
+   "seconds": 4.09834375,
+   "voice_id": "lovely_girl",
+   "pitch": 2,
+   "text": "Really? Yay! I’d love to!",
+   "sha256": "f44f153c96c458980339a261f0f8b848165a624cf54a0f69fe62533fdaccec40"
+  },
+  "d9": {
+   "asset_id": "a_1fd556d820314a18",
+   "speaker_id": "mengji-gege",
+   "seconds": 1.91565625,
+   "voice_id": "chunzhen_xuedi",
+   "pitch": 1,
+   "text": "Hooray! Now we’re friends!",
+   "sha256": "f77fc539a7c834439a52c322db35dc7492b44762a2961329b728b6efae70ed4a"
+  },
+  "d10": {
+   "asset_id": "a_73d71381c2474acf",
+   "speaker_id": "xiaosuda",
+   "seconds": 2.21753125,
+   "voice_id": "Cute_Elf",
+   "pitch": 0,
+   "text": "Come on, Mimi! Let’s play together!",
+   "sha256": "f04e94215f5a8e344e5b574fae722365f49ffa24bbc91ddb27ae290f18b9ad66"
+  },
+  "d11": {
+   "asset_id": "a_94dea66f2b50498e",
+   "speaker_id": "xiaomi-mimi",
+   "seconds": 3.04184375,
+   "voice_id": "lovely_girl",
+   "pitch": 2,
+   "text": "Wait for me! Here I come!",
+   "sha256": "04e0009592750235e86ed4cd4b2ea740334a2b8722185c77a89123011d537387"
+  }
+ },
+ "finals": {
+  "a_d9210d0a1d304963": {
+   "sha256": "5af48f00debc6bc09b38323dc7846fd0cf7e5ee1310591888f031dd006be3acb",
+   "frames": 1026,
+   "seconds": 42.75,
+   "name": "S1E04 · 认识新朋友 · Let’s Make a New Friend!",
+   "manifest": {
+    "takes": [
+     {
+      "id": "a_3e736e30f1764b16",
+      "sha256": "1e5693cb8f1e53322b3dda7f619ff36414e382151e70cb5ea15eb6b73a0fa264",
+      "shot_id": "S01",
+      "keep_frames": 153
+     },
+     {
+      "id": "a_cb87926ec4ac4745",
+      "sha256": "01c2ac343efb2eecd48701a27088b6e0ee8b42660b3cb078fe845c2efef07c43",
+      "shot_id": "S02",
+      "keep_frames": 200
+     },
+     {
+      "id": "a_f16284a8add0424f",
+      "sha256": "8a977daa10d3f32e71cbb87889c08b9343f13521d22110084a66858eff501516",
+      "shot_id": "S03",
+      "keep_frames": 201
+     },
+     {
+      "id": "a_9af20375f76f4628",
+      "sha256": "7588a7e8d6be3d3108785eafdc221e567abe7793a3b73f05e18c1797ee9d4f3b",
+      "shot_id": "S04",
+      "keep_frames": 190
+     },
+     {
+      "id": "a_dbf80a4fca4a48df",
+      "sha256": "b4375c435404d5ba7e7e48df2c4cfe17682c8a258bce4d65afc4a0063236fb98",
+      "shot_id": "S05",
+      "keep_frames": 126
+     },
+     {
+      "id": "a_bff91c3d16c343cc",
+      "sha256": "771bf69d312a6266b813cb3f0677f56c161f95c389ce4653108e0f9e34bcc14b",
+      "shot_id": "S06",
+      "keep_frames": 108
+     }
+    ],
+    "frames": 1026,
+    "fps": 24,
+    "op": true,
+    "op_after_shot": null,
+    "intertitle": null,
+    "board_version": "v_ad6415f1a22143cc",
+    "subtitles": "/data/app/huanghaibin/soda/jobs/j_44c0d5c3dd8945fc/captions.srt",
+    "transitions": [],
+    "native_voices_preserved": true,
+    "human_acceptance": "pending"
+   }
+  },
+  "a_580f2214fe5a49f4": {
+   "sha256": "b76f9220f641c90d93bd76b5a11fcc734c2803a1ca826bca35f3c572a09d482b",
+   "frames": 1026,
+   "seconds": 42.75,
+   "name": "S1E04 · 认识新朋友 · 轻声BGM版",
+   "manifest": {
+    "music": {
+     "title": "Soda Sunny Steps",
+     "source_sha256": "0a2e7e8598583bf834cefcb97baf07e0d247762717c2fbc160b3a766a310cae0",
+     "fade_in_seconds": 0.8,
+     "fade_out_seconds": 2.7,
+     "gain_db_applied": -1.45,
+     "relative_to_voice_db": -20.21,
+     "ducking": "sidechain threshold .04 ratio 2 attack 50ms release 700ms knee 4"
+    },
+    "voice_gain": 1,
+    "peak_dbfs": -9.22,
+    "clipped_samples": 0,
+    "frames": 1026,
+    "fps": 24,
+    "picture_bitstream_unchanged": true,
+    "subtitles_burned": true,
+    "human_acceptance": "pending"
+   }
+  }
+ }
+}

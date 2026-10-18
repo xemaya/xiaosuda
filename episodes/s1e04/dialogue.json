@@ -1,0 +1,90 @@
+[
+  {
+    "id": "d1",
+    "speaker_id": "xiaosuda",
+    "text": "Hey, Jacky! Look! Who’s that?",
+    "translation": "嘿，奇奇！快看！那是谁呀？",
+    "emotion": "Curious and excited, head tilted toward the flower bed, one forepaw lifted",
+    "speed": 1.0
+  },
+  {
+    "id": "d2",
+    "speaker_id": "mengji-gege",
+    "text": "I think it’s a little kitty! Let’s say hello!",
+    "translation": "我想那是一只小猫咪！我们去打个招呼吧！",
+    "emotion": "Warm and encouraging, leaning slightly toward Soda, one wing gesturing forward",
+    "speed": 1.0
+  },
+  {
+    "id": "d3",
+    "speaker_id": "xiaosuda",
+    "text": "Hi, Kitty! My name is Soda. What’s your name?",
+    "translation": "嗨，小猫咪！我叫小苏打。你叫什么名字呀？",
+    "emotion": "Friendly and a little shy, tail wagging slowly, ears forward",
+    "speed": 1.0
+  },
+  {
+    "id": "d4",
+    "speaker_id": "xiaomi-mimi",
+    "text": "Meow! Hi! I’m Mimi. Nice to meet you!",
+    "translation": "喵！你们好！我叫小咪。很高兴认识你！",
+    "emotion": "Bright and curious, one small meow first, then a happy greeting, tail tip flicking",
+    "speed": 1.05
+  },
+  {
+    "id": "d5",
+    "speaker_id": "mengji-gege",
+    "text": "Nice to meet you, too! You’re so cute!",
+    "translation": "我们也很高兴认识你！你真可爱呀！",
+    "emotion": "Cheerful and welcoming, a small happy hop in place",
+    "speed": 1.0
+  },
+  {
+    "id": "d6",
+    "speaker_id": "xiaomi-mimi",
+    "text": "Thank you! I love your fluffy fur, Soda!",
+    "translation": "谢谢你！小苏打，我好喜欢你毛茸茸的皮毛呀！",
+    "emotion": "Happy and a bit proud, leaning a little closer to look at Soda",
+    "speed": 1.05
+  },
+  {
+    "id": "d7",
+    "speaker_id": "xiaosuda",
+    "text": "Thank you! Do you want to play with us?",
+    "translation": "谢谢你！你想和我们一起玩吗？",
+    "emotion": "Hopeful and inviting, tail wagging faster, front paws together",
+    "speed": 1.0
+  },
+  {
+    "id": "d8",
+    "speaker_id": "xiaomi-mimi",
+    "text": "Really? Yay! I’d love to!",
+    "translation": "真的吗？耶！我好想和你们一起玩呀！",
+    "emotion": "Surprised then delighted, eyes wide, little bounce",
+    "speed": 1.05
+  },
+  {
+    "id": "d9",
+    "speaker_id": "mengji-gege",
+    "text": "Hooray! Now we’re friends!",
+    "translation": "太棒啦！现在我们是朋友啦！",
+    "emotion": "Joyful and proud, wings up in a little cheer",
+    "speed": 1.0
+  },
+  {
+    "id": "d10",
+    "speaker_id": "xiaosuda",
+    "text": "Come on, Mimi! Let’s play together!",
+    "translation": "来吧，小咪！我们一起玩吧！",
+    "emotion": "Eager and playful, turning to lead the way, tail high",
+    "speed": 1.0
+  },
+  {
+    "id": "d11",
+    "speaker_id": "xiaomi-mimi",
+    "text": "Wait for me! Here I come!",
+    "translation": "等等我！我来啦！",
+    "emotion": "Excited and running, bell jingling, tail streaming behind",
+    "speed": 1.05
+  }
+]

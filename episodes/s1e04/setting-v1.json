@@ -1,0 +1,214 @@
+{
+  "style_id": "soda-plush-v14",
+  "title": "S1E04 · 认识新朋友 · Let’s Make a New Friend!",
+  "logline": "公园花坛边，Soda 和哥哥 Jacky 遇见一只三花小猫 Mimi；他们主动问好、交换名字、邀请一起玩，小猫成了新朋友。",
+  "premise": "按编辑原稿 S1E04 制作：Soda 与 Jacky 在公园步道上发现花坛边坐着一只小猫。哥哥提议去打招呼，Soda 先开口问好并自报名字，小猫回以“Meow! I’m Mimi”，三人高兴地互相夸赞；Soda 邀请她一起玩，Mimi 惊喜答应，Jacky 宣布“现在我们是朋友啦”；最后 Soda 招呼 Mimi 一起玩，Mimi 边跑边喊“Wait for me!”，三人开心收尾（无额外台词）。全片只教一个重点：初次见面问好、交换名字、发出邀请的说法。",
+  "cast": [
+    {
+      "character_id": "xiaosuda",
+      "story_role": "弟弟，先发现花坛边的小猫；主动开口问好、自报名字，被夸毛茸茸后道谢并邀请一起玩"
+    },
+    {
+      "character_id": "mengji-gege",
+      "story_role": "哥哥，鼓励弟弟去打招呼；热情回应相识，被说“可爱”也开心；最后宣布三人成为朋友"
+    },
+    {
+      "character_id": "xiaomi-mimi",
+      "story_role": "本集首次登场的新朋友：公园里独自坐着的小三花猫，好奇但保持一点距离；被问好时亮出名字，被邀请一起玩时惊喜答应"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "park-path-wide",
+      "name": "公园步道与花坛 · 全景",
+      "setting": "同一座公园的全景机位，白天午后暖光：前景是浅色石板步道，中景是低矮的木栅栏与一丛开着小白花的花坛，花坛边有一道低矮石沿（只作背景，不坐人）；后方成排绿树、灌木和一张公园长椅，远处步道延伸虚化。地面同一水平、三人全身可见。画面左侧：Soda（黑白阿拉斯加幼犬，35cm，四足站在步道上，短圆小狗躯干、蓬松卷尾、背小棕背包）与 Jacky（黄色小鸡，42cm，双足站在 Soda 右侧半步，蓝卫衣白 C、橙嘴橙脚、红橙鸡冠）并排，Jacky 明显比 Soda 高。画面右侧三四步外：Mimi（三花短毛小猫，33cm，奶白底配暖橘与深灰棕花纹，棕金眼、粉鼻、棕项圈金铃铛）自然坐在花坛**前的草地**上（矮石沿在她身后半步，不是坐上去），四爪并拢、后腿收起，尾巴绕到身前，身体略侧、朝两人好奇张望，与两人之间留出空地；她是最小的一只，头顶（不含耳尖）低于 Soda。固定相机、略低于人物视线高度，竖幅 9:16，背景柔和虚化。",
+      "framing": "wide",
+      "cast_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "idle_actions": {
+        "xiaomi-mimi": "坐在花坛前的草地上安静观察，尾巴尖轻轻摆，不主动靠近"
+      },
+      "lighting": "晴朗午后自然光自右后方斜照，步道与花坛有柔和阴影，不过曝",
+      "props": [
+        "石板步道",
+        "木栅栏",
+        "白色小花花坛",
+        "花坛矮石沿",
+        "公园长椅"
+      ],
+      "reference_scene_id": null
+    },
+    {
+      "id": "park-meet-medium",
+      "name": "花坛前互相问好 · 中景",
+      "setting": "花坛前中景机位（与全景同一地点、同一光向，只换景别）：三人 3/4 身入画、同一地面水平。画面左前 Soda 四足站定、身体侧向右侧、头抬高一点看向小猫，前爪并拢，卷尾在身后；左侧后方半步 Jacky 双足站着，蓝卫衣袖口露出圆黄翅手。画面右侧 Mimi 坐在花坛前的草地上、后腿自然收起，前爪并拢落在草上，尾巴绕在身侧，矮石沿与小白花在她身后，身体略朝 Soda 但还留半臂距离，好奇又有点小傲娇。身高必须固定：Jacky 最高、Soda 次之、Mimi 最矮且明显比 Soda 小一号；三只都保持各自的四足犬／双足鸡／四足猫结构，不拟人化。背景为花坛、木栅栏与树影的柔和虚化。",
+      "framing": "medium",
+      "cast_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "idle_actions": {
+        "mengji-gege": "说话间隙站在弟弟侧后方，翅膀轻轻搭在身侧，安静看小猫"
+      },
+      "lighting": "同一暖色午后光，三人面部柔亮、眼内有自然高光，铃铛只有克制反光",
+      "props": [
+        "草地",
+        "花坛低矮石沿",
+        "白色小花",
+        "木栅栏"
+      ],
+      "reference_scene_id": null
+    },
+    {
+      "id": "park-friends-close",
+      "name": "小猫与小苏打面对面 · 近景",
+      "setting": "花坛边近景机位（同一地点、同一光向，景别推近）：画面中央偏左是 Soda 的头与前胸，黑白毛、白脸罩、棕眼，身体侧向右侧、耳朵朝前；中央偏右是 Mimi 的头与肩背，奶白底配橘与深灰棕花纹、棕金眼、粉鼻、棕项圈金铃铛，身体略向 Soda 倾，两人相距一个爪子的距离、视线齐平——Mimi 的头顶（不含耳尖）仍略低于 Soda。左后方是 Jacky 的半个身体，虚焦、安静看向这边。两只小猫狗都保持四足动物结构，不拟人、不穿衣服（Mimi 仅项圈与铃铛）。背景高度虚化只剩暖色花坛与树影。",
+      "framing": "close_up",
+      "cast_ids": [
+        "xiaosuda",
+        "mengji-gege",
+        "xiaomi-mimi"
+      ],
+      "idle_actions": {},
+      "lighting": "同一暖色午后光，Soda 面部为主光，Mimi 略带侧逆光，眼神光清晰",
+      "props": [
+        "棕项圈",
+        "金色铃铛",
+        "白色小花"
+      ],
+      "reference_scene_id": null
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "d1",
+      "speaker_id": "xiaosuda",
+      "text": "Hey, Jacky! Look! Who’s that?",
+      "translation": "嘿，奇奇！快看！那是谁呀？",
+      "emotion": "Curious and excited, head tilted toward the flower bed, one forepaw lifted",
+      "speed": 1.0
+    },
+    {
+      "id": "d2",
+      "speaker_id": "mengji-gege",
+      "text": "I think it’s a little kitty! Let’s say hello!",
+      "translation": "我想那是一只小猫咪！我们去打个招呼吧！",
+      "emotion": "Warm and encouraging, leaning slightly toward Soda, one wing gesturing forward",
+      "speed": 1.0
+    },
+    {
+      "id": "d3",
+      "speaker_id": "xiaosuda",
+      "text": "Hi, Kitty! My name is Soda. What’s your name?",
+      "translation": "嗨，小猫咪！我叫小苏打。你叫什么名字呀？",
+      "emotion": "Friendly and a little shy, tail wagging slowly, ears forward",
+      "speed": 1.0
+    },
+    {
+      "id": "d4",
+      "speaker_id": "xiaomi-mimi",
+      "text": "Meow! Hi! I’m Mimi. Nice to meet you!",
+      "translation": "喵！你们好！我叫小咪。很高兴认识你！",
+      "emotion": "Bright and curious, one small meow first, then a happy greeting, tail tip flicking",
+      "speed": 1.05
+    },
+    {
+      "id": "d5",
+      "speaker_id": "mengji-gege",
+      "text": "Nice to meet you, too! You’re so cute!",
+      "translation": "我们也很高兴认识你！你真可爱呀！",
+      "emotion": "Cheerful and welcoming, a small happy hop in place",
+      "speed": 1.0
+    },
+    {
+      "id": "d6",
+      "speaker_id": "xiaomi-mimi",
+      "text": "Thank you! I love your fluffy fur, Soda!",
+      "translation": "谢谢你！小苏打，我好喜欢你毛茸茸的皮毛呀！",
+      "emotion": "Happy and a bit proud, leaning a little closer to look at Soda",
+      "speed": 1.05
+    },
+    {
+      "id": "d7",
+      "speaker_id": "xiaosuda",
+      "text": "Thank you! Do you want to play with us?",
+      "translation": "谢谢你！你想和我们一起玩吗？",
+      "emotion": "Hopeful and inviting, tail wagging faster, front paws together",
+      "speed": 1.0
+    },
+    {
+      "id": "d8",
+      "speaker_id": "xiaomi-mimi",
+      "text": "Really? Yay! I’d love to!",
+      "translation": "真的吗？耶！我好想和你们一起玩呀！",
+      "emotion": "Surprised then delighted, eyes wide, little bounce",
+      "speed": 1.05
+    },
+    {
+      "id": "d9",
+      "speaker_id": "mengji-gege",
+      "text": "Hooray! Now we’re friends!",
+      "translation": "太棒啦！现在我们是朋友啦！",
+      "emotion": "Joyful and proud, wings up in a little cheer",
+      "speed": 1.0
+    },
+    {
+      "id": "d10",
+      "speaker_id": "xiaosuda",
+      "text": "Come on, Mimi! Let’s play together!",
+      "translation": "来吧，小咪！我们一起玩吧！",
+      "emotion": "Eager and playful, turning to lead the way, tail high",
+      "speed": 1.0
+    },
+    {
+      "id": "d11",
+      "speaker_id": "xiaomi-mimi",
+      "text": "Wait for me! Here I come!",
+      "translation": "等等我！我来啦！",
+      "emotion": "Excited and running, bell jingling, tail streaming behind",
+      "speed": 1.05
+    }
+  ],
+  "beats": [
+    {
+      "summary": "Soda 在步道上发现花坛边坐着一只小猫，回头叫哥哥；Jacky 提议去打招呼",
+      "scene_id": "park-path-wide"
+    },
+    {
+      "summary": "两人走近，Soda 开口问好并自报名字，Mimi 喵一声报出名字，互相认识",
+      "scene_id": "park-meet-medium"
+    },
+    {
+      "summary": "Jacky 夸小猫可爱，Mimi 反过来夸 Soda 毛茸茸，气氛变亲近",
+      "scene_id": "park-meet-medium"
+    },
+    {
+      "summary": "Soda 邀请 Mimi 一起玩，Mimi 惊喜答应",
+      "scene_id": "park-friends-close"
+    },
+    {
+      "summary": "Jacky 宣布三人成为朋友，Soda 招呼 Mimi 一起走",
+      "scene_id": "park-meet-medium"
+    },
+    {
+      "summary": "Mimi 边跑边喊“等等我”，三人一起开心收尾（无额外台词）",
+      "scene_id": "park-path-wide"
+    }
+  ],
+  "notes": [
+    "来源：编辑原稿 scripts/editorial/s1e04-original.txt（docx SHA-256 affdafb3…）。剧情与英语逐句保留，仅按 series-bible 把 Baking Soda 规范为 Soda、Chick 规范为 Jacky、Kitty 规范为 Mimi；中文“小鸡”改为“奇奇”，“小猫咪”在自我介绍后改“小咪”。",
+    "Mimi 本集首次登场（series-bible：33cm 三花短毛家猫、she/her、棕金眼、棕项圈金铃铛、初遇保持一点距离）。不提前写成家人，也不冒用其他角色声线。",
+    "身高三档硬约束：Jacky 42cm > Soda 35cm > Mimi 33cm。同一地面水平时 Jacky 最高、Soda 次之、Mimi 最小；Mimi 头顶（不含耳尖）不得高过 Soda。逐张主图单独比对。",
+    "姿态：Soda 自然犬类（四足站立／犬坐／摇尾），Jacky 双足小鸡，Mimi 自然猫科（四足站立／坐在草地上／前爪并拢）；三者都不拟人直立、不拉长躯干。",
+    "一个地点（公园花坛与步道）、三个机位（全景／中景／近景）；环境沿用 S1E02／S1E03 已认可的同一座公园，但机位在花坛一带，不出现秋千架。",
+    "d9 的 “Now we’re friends!” 指三人成为朋友（Mimi 是新朋友），不是把 Soda 与 Jacky 写成朋友；兄弟关系不变，台词按原稿保留。",
+    "每句只有一位角色开口，其余两人闭嘴；说话者全程在画面内，便于逐句口型验收。三人同框时尤其要核对是谁在动嘴。",
+    "本集无练习环节，不加 Practice time! 幕间；OP 2 秒、大字幕、轻声 BGM 沿用已认可底轨。",
+    "Mimi 的正式声线（voice_id/pitch/speed）必须在配音前试听定稿，定稿后同步 characters.md、workbench/catalog.py 与工作台人物库；未定稿前不得调用 Mimi 的 TTS。"
+  ],
+  "unresolved_characters": []
+}

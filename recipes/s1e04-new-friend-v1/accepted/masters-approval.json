@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-19",
+  "quote": "用 v3 / 图OK，克用",
+  "masters": {
+    "park-path-wide": "a_fe3237c5ccc442ac",
+    "park-friends-close": "a_a7d293d68b194762"
+  },
+  "scene_masters": {
+    "park-meet-medium": "a_36b8a79e6bb24343",
+    "park-path-wide": "a_fe3237c5ccc442ac",
+    "park-friends-close": "a_a7d293d68b194762"
+  },
+  "setting_accepted": true,
+  "setting_version": "v_acde0d6e300249a3",
+  "revision": 7,
+  "status": "setting"
+}

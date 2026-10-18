@@ -1,0 +1,38 @@
+{
+ "series": "Hi, Soda!",
+ "episode": "S1E04",
+ "title": "认识新朋友 / Let’s Make a New Friend!",
+ "status": "user_accepted",
+ "date": "2026-10-18",
+ "video": "2026-10-18/Hi-Soda_S1E04_Lets-Make-a-New-Friend.mp4",
+ "sha256": "b76f9220f641c90d93bd76b5a11fcc734c2803a1ca826bca35f3c572a09d482b",
+ "frames": 1026,
+ "duration_seconds": 42.75,
+ "resolution": [
+  1080,
+  1932
+ ],
+ "fps": 24,
+ "workbench_asset_id": "a_580f2214fe5a49f4",
+ "workbench_url": "https://soda.buplayground.cn/api/media/a_580f2214fe5a49f4",
+ "recipe": "../../recipes/s1e04-new-friend-v1/README.md",
+ "acceptance_quote": "通过，归档",
+ "upload_requested": false,
+ "content": {
+  "dialogue_lines": 11,
+  "camera_masters": 3,
+  "shots": 6,
+  "debut": "xiaomi-mimi (Mimi 声线 lovely_girl +2 / speed 1.05)",
+  "op_seconds": 2,
+  "bgm": {
+   "title": "Soda Sunny Steps",
+   "relative_to_voice_db": -20.21,
+   "peak_dbfs": -9.22
+  }
+ },
+ "known_deviations": [
+  "S06 结尾三人一起转身走开，不是分镜写的停住大笑收住",
+  "S05 里 Mimi 没有从坐姿起身",
+  "全景主图下方空地偏多（主图构图如此）"
+ ]
+}

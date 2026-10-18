@@ -1,0 +1,82 @@
+{
+  "project_id": "p_07d1973c0e0e41fe",
+  "setting_version": "v_acde0d6e300249a3",
+  "job_id": "j_f2c5f0a421414760",
+  "date": "2026-10-18",
+  "model": "speech-02-hd (api.minimaxi.com /v1/t2a_v2)",
+  "voice_map": {
+    "xiaosuda": {
+      "voice_id": "Cute_Elf",
+      "pitch": 0
+    },
+    "mengji-gege": {
+      "voice_id": "chunzhen_xuedi",
+      "pitch": 1
+    },
+    "xiaomi-mimi": {
+      "voice_id": "lovely_girl",
+      "pitch": 2,
+      "speed": 1.05
+    }
+  },
+  "total_seconds": 33.658,
+  "note": "Mimi 声线为 2026-10-18 试听定稿（jobs/1018-s1e04-new-friend-v1/voice-audition A 方案）；其余十句沿用已认可声线重新配音。",
+  "lines": {
+    "d1": {
+      "asset_id": "a_41fe1c2ab3694952",
+      "speaker_id": "xiaosuda",
+      "seconds": 2.891
+    },
+    "d2": {
+      "asset_id": "a_a929458d80e3495c",
+      "speaker_id": "mengji-gege",
+      "seconds": 2.345
+    },
+    "d3": {
+      "asset_id": "a_7645cd8538ee4edb",
+      "speaker_id": "xiaosuda",
+      "seconds": 2.856
+    },
+    "d4": {
+      "asset_id": "a_710c28e2a29d4701",
+      "speaker_id": "xiaomi-mimi",
+      "seconds": 4.342
+    },
+    "d5": {
+      "asset_id": "a_ff7d2ccd8cb84b98",
+      "speaker_id": "mengji-gege",
+      "seconds": 2.554
+    },
+    "d6": {
+      "asset_id": "a_26bc9a890cf243a6",
+      "speaker_id": "xiaomi-mimi",
+      "seconds": 4.714
+    },
+    "d7": {
+      "asset_id": "a_bbc068b7367b49f3",
+      "speaker_id": "xiaosuda",
+      "seconds": 2.682
+    },
+    "d8": {
+      "asset_id": "a_838d7cb36cc94606",
+      "speaker_id": "xiaomi-mimi",
+      "seconds": 4.098
+    },
+    "d9": {
+      "asset_id": "a_1fd556d820314a18",
+      "speaker_id": "mengji-gege",
+      "seconds": 1.916
+    },
+    "d10": {
+      "asset_id": "a_73d71381c2474acf",
+      "speaker_id": "xiaosuda",
+      "seconds": 2.218
+    },
+    "d11": {
+      "asset_id": "a_94dea66f2b50498e",
+      "speaker_id": "xiaomi-mimi",
+      "seconds": 3.042
+    }
+  },
+  "preview": "jobs/1018-s1e04-new-friend-v1/preview-all-11.mp3 (37.16s, 0.35s 句间)"
+}

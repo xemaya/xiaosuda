@@ -9,7 +9,7 @@
 | 露露 Angela（绵羊姐姐） | `sheets/mianyang-jiejie.png` | 48cm（1.37×） | 温柔姐姐，爱照顾大家 |
 | 妈妈 Mom（龙妈妈，东方龙） | `sheets/long-mama.png` | 65cm（1.86×） | 妈妈，温柔守护 |
 | 爸爸 Dad（牛爸爸，黄牛） | `sheets/niu-baba.png` | 70cm（2.0×） | 爸爸，稳重可靠 |
-| 小咪 Mimi（三花短毛家猫） | `sheets/xiaomi-mimi.png` | 33cm（约0.94×） | 公园初遇后逐渐熟悉的新朋友；女孩，she/her；声线待定 |
+| 小咪 Mimi（三花短毛家猫） | `sheets/xiaomi-mimi.png` | 33cm（约0.94×） | 公园初遇后逐渐熟悉的新朋友；女孩，she/her；声线已定稿 |
 | 栗子（花栗鼠同学） | `sheets/hualishu-tongxue.png` | 30cm（0.86×） | 小苏打的同学、好奇的冒险搭子；配音待定 |
 
 ## 小苏打 · Soda（xiaosuda）
@@ -58,7 +58,7 @@
 - 奶白主毛色，暖橘与深灰棕花纹；棕金色大眼（不允许绿色），粉色鼻尖、内耳及肉垫；毛绒 3D 玩偶质感。
 - 默认棕色项圈与金色铃铛；围巾、小背包、雨衣和花朵装饰只在剧情需要时使用。
 - 好奇、灵动、独立，略有小傲娇；熟悉后温柔亲近，喜欢探索新事物。公园偶遇小苏打后，通过一起玩逐渐成为好友，不默认初登场前就认识。
-- 声线方向为清亮、活泼、语速稍快的童声；具体 voice_id/pitch 尚待试听定稿，不冒用现有角色声线。
+- 声线：清亮、活泼、语速稍快的童声。**2026-10-18 已试听定稿**：`lovely_girl`（萌萌女童），pitch `+2`，Mimi 的对白 speed `1.05`；样音存 `jobs/1018-s1e04-new-friend-v1/voice-audition/`（A/B/C/D 四选一，用户选 A）。定稿后不冒用其他角色声线。
 
 ## 栗子 · hualishu-tongxue
 - 角色卡已存在：`sheets/hualishu-tongxue.png`；东北花栗鼠原创，同学与冒险搭子。

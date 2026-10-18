@@ -1,0 +1,24 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 768
+PlayResY: 1376
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Alibaba PuHuiTi,38,&H00FFFFFF,&H00FFFFFF,&H50000000,&H90000000,0,0,0,0,100,100,0,0,1,1.6,0.5,2,64,64,121,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.40,0:00:03.29,Default,,0,0,0,,Hey, Jacky! Look! Who’s that?\N{\fs34}嘿，奇奇！快看！那是谁呀？
+Dialogue: 0,0:00:03.64,0:00:05.99,Default,,0,0,0,,I think it’s a little kitty!\NLet’s say hello!\N{\fs34}我想那是一只小猫咪！我们去打个招呼吧！
+Dialogue: 0,0:00:06.78,0:00:09.63,Default,,0,0,0,,Hi, Kitty! My name is Soda.\NWhat’s your name?\N{\fs34}嗨，小猫咪！我叫小苏打。你叫什么名字呀？
+Dialogue: 0,0:00:09.98,0:00:14.32,Default,,0,0,0,,Meow! Hi! I’m Mimi.\NNice to meet you!\N{\fs34}喵！你们好！我叫小咪。很高兴认识你！
+Dialogue: 0,0:00:15.11,0:00:17.66,Default,,0,0,0,,Nice to meet you, too!\NYou’re so cute!\N{\fs34}我们也很高兴认识你！你真可爱呀！
+Dialogue: 0,0:00:18.01,0:00:22.73,Default,,0,0,0,,Thank you! I love your fluffy fur,\NSoda!\N{\fs34}谢谢你！小苏打，我好喜欢你毛茸茸的皮毛\N呀！
+Dialogue: 0,0:00:23.48,0:00:26.17,Default,,0,0,0,,Thank you! Do you want to play\Nwith us?\N{\fs34}谢谢你！你想和我们一起玩吗？
+Dialogue: 0,0:00:26.52,0:00:30.61,Default,,0,0,0,,Really? Yay! I’d love to!\N{\fs34}真的吗？耶！我好想和你们一起玩呀！
+Dialogue: 0,0:00:31.40,0:00:33.32,Default,,0,0,0,,Hooray! Now we’re friends!\N{\fs34}太棒啦！现在我们是朋友啦！
+Dialogue: 0,0:00:33.67,0:00:35.88,Default,,0,0,0,,Come on, Mimi!\NLet’s play together!\N{\fs34}来吧，小咪！我们一起玩吧！
+Dialogue: 0,0:00:36.65,0:00:39.69,Default,,0,0,0,,Wait for me! Here I come!\N{\fs34}等等我！我来啦！

@@ -1,0 +1,44 @@
+{
+  "source_original_path": "scripts/editorial/s1e04-original.txt",
+  "source_docx": "scripts/editorial/少儿英语大纲.docx",
+  "source_docx_sha256": "affdafb3b7cd8e62371a00d90616274a8a99cd139298f497a816d32fa42ef27a",
+  "source_verbatim": true,
+  "canonical_episode": "S1E04",
+  "title_zh": "认识新朋友",
+  "title_en": "Let’s Make a New Friend!",
+  "normalizations": [
+    "Baking Soda -> Soda（英文对白与自报名字）",
+    "Chick -> Jacky（英文对白称呼；d1 Hey, Chick! -> Hey, Jacky!）",
+    "Kitty -> Mimi（d1-d3 尚未自报名字，可作物种称呼；d4 起一律用 Mimi）",
+    "中文译文“小鸡” -> “奇奇”；“小猫咪”在 d4 自报名字后 -> “小咪”",
+    "英文句式、句数（11）、剧情与译文含义不变"
+  ],
+  "cast_ids": [
+    "xiaosuda",
+    "mengji-gege",
+    "xiaomi-mimi"
+  ],
+  "debuts": [
+    "xiaomi-mimi"
+  ],
+  "locations": 1,
+  "camera_masters": 3,
+  "scene_budget_user_limit": [
+    2,
+    4
+  ],
+  "base_recipe": "recipes/s1e03-swing-v1",
+  "status": "user_accepted",
+  "gpu_calls": 6,
+  "tts_calls": 11,
+  "editor_dialogue_count": 11,
+  "estimated_frames": 1026,
+  "estimated_seconds": 42.75,
+  "open_questions": [
+    "结尾 S06 是三人一起转身跑开，不是分镜写的停住大笑；用户看片后可要求重拍该镜（只需重拍 S06）。",
+    "S05 里 Mimi 没有按分镜从坐姿起身（次要偏差）。",
+    "轻声 BGM 实测比人声低 20.21 dB（S1E03 同法为 20.07 dB；S1E02 规格 17.5 dB），如需更明显可整体 +2.5 dB。"
+  ],
+  "release": "releases/s1e04/current.json",
+  "recipe": "recipes/s1e04-new-friend-v1/README.md"
+}

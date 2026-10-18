@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-18",
+  "board_version": "v_ad6415f1a22143cc",
+  "setting_version": "v_acde0d6e300249a3",
+  "status": "ready_to_shoot",
+  "shots": [
+    {
+      "id": "S01",
+      "seconds": 6.34,
+      "dialogue_ids": [
+        "d1",
+        "d2"
+      ]
+    },
+    {
+      "id": "S02",
+      "seconds": 8.3,
+      "dialogue_ids": [
+        "d3",
+        "d4"
+      ]
+    },
+    {
+      "id": "S03",
+      "seconds": 8.37,
+      "dialogue_ids": [
+        "d5",
+        "d6"
+      ]
+    },
+    {
+      "id": "S04",
+      "seconds": 7.88,
+      "dialogue_ids": [
+        "d7",
+        "d8"
+      ]
+    },
+    {
+      "id": "S05",
+      "seconds": 5.24,
+      "dialogue_ids": [
+        "d9",
+        "d10"
+      ]
+    },
+    {
+      "id": "S06",
+      "seconds": 4.5,
+      "dialogue_ids": [
+        "d11"
+      ]
+    }
+  ]
+}
