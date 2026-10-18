@@ -40,7 +40,9 @@ python3 recipes/s1e01-keyframes-bgm-v1/verify.py
 python3 recipes/s1e02-fluffy-quadruped-v1/verify.py
 ```
 
-当前认可成片入口为 `releases/s1e01/current.json`、`releases/s1e02/current.json`、`releases/s1e04/current.json`；旧 `releases/ep01/current.json` 是 How are you? 技术样片，不能当新剧集编号或叙事模板。
+当前认可成片入口为 `releases/s1e01/current.json`、`releases/s1e02/current.json`、`releases/s1e04/current.json`、`releases/s1e05/current.json`；旧 `releases/ep01/current.json` 是 How are you? 技术样片，不能当新剧集编号或叙事模板。
+
+**S1E05《学会分享》2026-10-18 已定稿**（用户“通过，归档”）：四部分 40 句、五机位、20 段，3495 帧 / 145.625 秒，入口 `releases/s1e05/current.json`。**关键结论：本工程 22 帧续接不可用**——续接段开头放的是上一段的 22 帧尾帧而不是成片末尾，实测接缝像素差 42–51（S1E04 同期 3.7），且截掉段末约 0.9 秒语音；S1E05 因此把 20 段全改成直接剪接，并在分镜 v2/v3 之间按同一份字节重新登记已采用素材。修 `workbench/providers.py` 的尾帧取样与 keep_frames 口径之前，新集不要用续接。另外 TTS 连发 40 句会在第 33 句被 RPM 限流，正确处置是保留回执、按 4 秒间隔补完，不重录。
 
 **S1E04《认识新朋友》2026-10-18 已定稿**（用户“通过，归档”）：Mimi 首次登场，声线 `lovely_girl` +2 / speed 1.05 已入库；11 句/一处三机位/1026 帧/42.75 秒。三人同框的配方经验（新角色只喂单角色面板、三档身高写法、重复角色修法）与已知偏差见 `recipes/s1e04-new-friend-v1/README.md`。S1E03《荡秋千》成片 `jobs/1018-s1e03-swing-sample-v1/final/hi-soda-s1e03-soft-bgm-v3.mp4` 尚在待验收状态，**没有** `releases/s1e03/`，不要当已定稿引用。下一集是 S1E05《学会分享》，先在 `scripts/editorial/s1e05-original.txt` 基础上做制作稿，不要沿用本集脚本里的固定 ID。
 
